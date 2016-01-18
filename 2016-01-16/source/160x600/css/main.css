@@ -184,6 +184,40 @@
   }
 }
 
+/*-- slide out back animation--*/
+@-webkit-keyframes slideOutBack {
+  0%   {
+    -webkit-transform: translate(160px,0);
+  }
+  100% { 
+    -webkit-transform: translate(0,0);
+  }
+}
+@-moz-keyframes slideOutBack {
+  0%   {
+    -moz-transform: translate(160px,0);
+  }
+  100% { 
+    -moz-transform: translate(0,0);
+  }
+}
+@-o-keyframes slideOutBack {
+  0%   {
+    -o-transform: translate(160px,0);
+  }
+  100% { 
+    -o-transform: translate(0,0);
+  }
+}
+@keyframes slideOutBack {
+  0%   {
+    transform: translate(160px,0);
+  }
+  100% { 
+    transform: translate(0,0);
+  }
+}
+
 /*-- slide in and fade in animation--*/
 @-webkit-keyframes slideInFadeIn {
   0%   {
@@ -227,29 +261,107 @@
 }
 
 /*-------------------------------------------*/
-
+.container{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 160px;
+  height: 600px;
+  display: block;
+}
 
 .banner-container{
-	width: 160px;
-	height: 600px;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	overflow: hidden;
-	background: url('../img/bg.jpg') no-repeat center center;
+  background: url('../img/background.jpg') no-repeat center center;
+  overflow: hidden;
 }
-.text1-container{
-	width: 160px;
-	height: 600px;
-	position: absolute;
-	top: 0px;
-	left: 160px;
+.cup-container{
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0);
 
-	-webkit-animation: slideOut 0s ease-in-out 0s forwards;
-	-moz-animation: slideOut 0s ease-in-out 0s forwards;
-	-ms-animation: slideOut 0s ease-in-out 0s forwards;
-	-o-animation: slideOut 0s ease-in-out 0s forwards;
-	animation: slideOut 0s ease-in-out 0s forwards;
+  -webkit-animation: slideOutBack 0s ease-in-out 0s forwards;
+  -moz-animation: slideOutBack 0s ease-in-out 0s forwards;
+  -ms-animation: slideOutBack 0s ease-in-out 0s forwards;
+  -o-animation: slideOutBack 0s ease-in-out 0s forwards;
+  animation: slideOutBack 0s ease-in-out 0s forwards;
+}
+
+.cup{
+  width: 196px;
+  height: 275px;
+  position: absolute; 
+  top: 250px;
+  left: -40px;
+  background: url('../img/cup.png') no-repeat center center;
+
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
+
+  -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 1s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 1s forwards;
+  -o-animation: fadeIn 1s ease-in-out 1s forwards;
+  animation: fadeIn 1s ease-in-out 1s forwards;
+}
+.thousand-text-container{
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0);
+
+  -webkit-animation: slideOutBack 0s ease-in-out 0s forwards;
+  -moz-animation: slideOutBack 0s ease-in-out 0s forwards;
+  -ms-animation: slideOutBack 0s ease-in-out 0s forwards;
+  -o-animation: slideOutBack 0s ease-in-out 0s forwards;
+  animation: slideOutBack 0s ease-in-out 0s forwards;
+}
+.thousand-text{
+  position: absolute;
+  width: 140px;
+  height: 38px;
+  background: url('../img/thousand_cool.png') no-repeat center center;
+  top: 196px;
+  left: 50%;
+  margin-left: -70px;
+
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
+
+  -webkit-animation: fadeIn 1s ease-in-out 2s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 2s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 2s forwards;
+  -o-animation: fadeIn 1s ease-in-out 2s forwards;
+  animation: fadeIn 1s ease-in-out 2s forwards;
+}
+
+.logo{
+  position: absolute;
+  width: 160px;
+  height: 161px;
+  left: 0px;
+  bottom: 0px;
+  background: url('../img/logo.png') no-repeat center center;
+}
+
+.text1-container{
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  z-index: 0;
+
+  -webkit-animation: fadeIn 1s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 3s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 3s forwards;
+  -o-animation: fadeIn 1s ease-in-out 3s forwards;
+  animation: fadeIn 1s ease-in-out 3s forwards;
 }
 .text1{
 	width: 142px;
@@ -260,18 +372,13 @@
 	left: 50%;
 	margin-left: -71px;
 	
-	-webkit-animation: fadeOut 1s ease-in-out 2s forwards;
-	-moz-animation: fadeOut 1s ease-in-out 2s forwards;
-	-ms-animation: fadeOut 1s ease-in-out 2s forwards;
-	-o-animation: fadeOut 1s ease-in-out 2s forwards;
-	animation: fadeOut 1s ease-in-out 2s forwards;
+	-webkit-animation: fadeOut 1s ease-in-out 5s forwards;
+	-moz-animation: fadeOut 1s ease-in-out 5s forwards;
+	-ms-animation: fadeOut 1s ease-in-out 5s forwards;
+	-o-animation: fadeOut 1s ease-in-out 5s forwards;
+	animation: fadeOut 1s ease-in-out 5s forwards;
 }
 .text2-container{
-	width: 160px;
-	height: 600px;
-	position: absolute;
-	top: 0px;
-
 	-webkit-transform: translate(-160px,0);
 	-moz-transform: translate(-160px,0);
 	-ms-transform: translate(-160px,0);
@@ -300,10 +407,43 @@
 	transform: translate(160px,0);
 
 	
-	-webkit-animation: slideInFadeIn 1s ease-in-out 3s forwards;
-	-moz-animation: slideInFadeIn 1s ease-in-out 3s forwards;
-	-ms-animation: slideInFadeIn 1s ease-in-out 3s forwards;
-	-o-animation: slideInFadeIn 1s ease-in-out 3s forwards;
-	animation: slideInFadeIn 1s ease-in-out 3s forwards;
+	-webkit-animation: fadeIn 1s ease-in-out 6s forwards;
+	-moz-animation: fadeIn 1s ease-in-out 6s forwards;
+	-ms-animation: fadeIn 1s ease-in-out 6s forwards;
+	-o-animation: fadeIn 1s ease-in-out 6s forwards;
+	animation: fadeIn 1s ease-in-out 6s forwards;
 	
+}
+.rollover-text-container{
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
+
+  -webkit-animation: slideInBack 0s ease-in-out 0s forwards;
+  -moz-animation: slideInBack 0s ease-in-out 0s forwards;
+  -ms-animation: slideInBack 0s ease-in-out 0s forwards;
+  -o-animation: slideInBack 0s ease-in-out 0s forwards;
+  animation: slideInBack 0s ease-in-out 0s forwards;
+}
+.rollover-text{
+  position: absolute;
+  width: 144px;
+  height: 10px;
+  background: url('../img/rollover_text.png') no-repeat center center;
+  left: 7px;
+  bottom: 12px;
+
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0);
+
+  -webkit-animation: slideOutBack 0.5s ease-in-out 7s forwards;
+  -moz-animation: slideOutBack 0.5s ease-in-out 7s forwards;
+  -ms-animation: slideOutBack 0.5s ease-in-out 7s forwards;
+  -o-animation: slideOutBack 0.5s ease-in-out 7s forwards;
+  animation: slideOutBack 0.5s ease-in-out 7s forwards;
 }
