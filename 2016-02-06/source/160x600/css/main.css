@@ -409,11 +409,11 @@
 
 /*--- text frame ---*/
 .frame-text-wrapper{
-  -webkit-animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
-  -moz-animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
-  -ms-animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
-  -o-animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
-  animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
+  -webkit-animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
+  -moz-animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
+  -ms-animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
+  -o-animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
+  animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
 }
 .frame-text-container{
   background-color: #b2cc1a;
@@ -448,11 +448,11 @@
   -o-transform: translate(-160px,30px);
   transform: translate(-160px,30px);
 
-  -webkit-animation: slideInBack 0.3s ease-in-out 1.5s forwards;
-  -moz-animation: slideInBack 0.3s ease-in-out 1.5s forwards;
-  -ms-animation: slideInBack 0.3s ease-in-out 1.5s forwards;
-  -o-animation: slideInBack 0.3s ease-in-out 1.5s forwards;
-  animation: slideInBack 0.3s ease-in-out 1.5s forwards;
+  -webkit-animation: slideInBack 0.5s ease-in-out 1.5s forwards;
+  -moz-animation: slideInBack 0.5s ease-in-out 1.5s forwards;
+  -ms-animation: slideInBack 0.5s ease-in-out 1.5s forwards;
+  -o-animation: slideInBack 0.5s ease-in-out 1.5s forwards;
+  animation: slideInBack 0.5s ease-in-out 1.5s forwards;
 }
 .frame-text1-1{
   position: absolute;
@@ -462,11 +462,11 @@
   height: 40px;
   background: url('../img/160x600_text1_1.png') no-repeat center center;
 
-  -webkit-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 3s forwards;
-  animation: slideRight 0.5s ease-in-out 3s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 4s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 4s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 4s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 4s forwards;
+  animation: slideRight 0.5s ease-in-out 4s forwards;
 }
 
 .frame-text1-2-wrapper{
@@ -489,11 +489,11 @@
   -o-transform: translate(160px,-30px);
   transform: translate(160px,-30px);
 
-  -webkit-animation: slideOutBack 0.3s ease-in-out 1.8s forwards;
-  -moz-animation: slideOutBack 0.3s ease-in-out 1.8s forwards;
-  -ms-animation: slideOutBack 0.3s ease-in-out 1.8s forwards;
-  -o-animation: slideOutBack 0.3s ease-in-out 1.8s forwards;
-  animation: slideOutBack 0.3s ease-in-out 1.8s forwards;
+  -webkit-animation: slideOutBack 0.5s ease-in-out 2s forwards;
+  -moz-animation: slideOutBack 0.5s ease-in-out 2s forwards;
+  -ms-animation: slideOutBack 0.5s ease-in-out 2s forwards;
+  -o-animation: slideOutBack 0.5s ease-in-out 2s forwards;
+  animation: slideOutBack 0.5s ease-in-out 2s forwards;
 }
 .frame-text1-2{
   position: absolute;
@@ -503,11 +503,11 @@
   height: 40px;
   background: url('../img/160x600_text1_2.png') no-repeat center center;
 
-  -webkit-animation: slideLeft 0.5s ease-in-out 3s forwards;
-  -moz-animation: slideLeft 0.5s ease-in-out 3s forwards;
-  -ms-animation: slideLeft 0.5s ease-in-out 3s forwards;
-  -o-animation: slideLeft 0.5s ease-in-out 3s forwards;
-  animation: slideLeft 0.5s ease-in-out 3s forwards;
+  -webkit-animation: slideLeft 0.5s ease-in-out 4s forwards;
+  -moz-animation: slideLeft 0.5s ease-in-out 4s forwards;
+  -ms-animation: slideLeft 0.5s ease-in-out 4s forwards;
+  -o-animation: slideLeft 0.5s ease-in-out 4s forwards;
+  animation: slideLeft 0.5s ease-in-out 4s forwards;
 }
 
 .frame-text1-3-wrapper{
@@ -530,11 +530,11 @@
   -o-transform: translate(-160px,30px);
   transform: translate(-160px,30px);
 
-  -webkit-animation: slideInBack 0.3s ease-in-out 2.1s forwards;
-  -moz-animation: slideInBack 0.3s ease-in-out 2.1s forwards;
-  -ms-animation: slideInBack 0.3s ease-in-out 2.1s forwards;
-  -o-animation: slideInBack 0.3s ease-in-out 2.1s forwards;
-  animation: slideInBack 0.3s ease-in-out 2.1s forwards;
+  -webkit-animation: slideInBack 0.5s ease-in-out 2.5s forwards;
+  -moz-animation: slideInBack 0.5s ease-in-out 2.5s forwards;
+  -ms-animation: slideInBack 0.5s ease-in-out 2.5s forwards;
+  -o-animation: slideInBack 0.5s ease-in-out 2.5s forwards;
+  animation: slideInBack 0.5s ease-in-out 2.5s forwards;
 }
 .frame-text1-3{
   position: absolute;
@@ -544,11 +544,11 @@
   height: 37px;
   background: url('../img/160x600_text1_3.png') no-repeat center center;
 
-  -webkit-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 3s forwards;
-  animation: slideRight 0.5s ease-in-out 3s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 4s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 4s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 4s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 4s forwards;
+  animation: slideRight 0.5s ease-in-out 4s forwards;
 }
 
 .frame-text2-1-wrapper{
@@ -571,11 +571,11 @@
   -o-transform: translate(-160px,30px);
   transform: translate(-160px,30px);
 
-  -webkit-animation: slideInBack 0.3s ease-in-out 3.5s forwards;
-  -moz-animation: slideInBack 0.3s ease-in-out 3.5s forwards;
-  -ms-animation: slideInBack 0.3s ease-in-out 3.5s forwards;
-  -o-animation: slideInBack 0.3s ease-in-out 3.5s forwards;
-  animation: slideInBack 0.3s ease-in-out 3.5s forwards;
+  -webkit-animation: slideInBack 0.5s ease-in-out 4.5s forwards;
+  -moz-animation: slideInBack 0.5s ease-in-out 4.5s forwards;
+  -ms-animation: slideInBack 0.5s ease-in-out 4.5s forwards;
+  -o-animation: slideInBack 0.5s ease-in-out 4.5s forwards;
+  animation: slideInBack 0.5s ease-in-out 4.5s forwards;
 }
 .frame-text2-1{
   position: absolute;
@@ -585,11 +585,11 @@
   height: 33px;
   background: url('../img/160x600_text2_1.png') no-repeat center center;
 
-  -webkit-animation: slideRight 0.5s ease-in-out 5s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 5s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 5s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 5s forwards;
-  animation: slideRight 0.5s ease-in-out 5s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 7s forwards;
+  animation: slideRight 0.5s ease-in-out 7s forwards;
 }
 
 .frame-text2-2-wrapper{
@@ -612,11 +612,11 @@
   -o-transform: translate(160px,-30px);
   transform: translate(160px,-30px);
 
-  -webkit-animation: slideOutBack 0.3s ease-in-out 3.8s forwards;
-  -moz-animation: slideOutBack 0.3s ease-in-out 3.8s forwards;
-  -ms-animation: slideOutBack 0.3s ease-in-out 3.8s forwards;
-  -o-animation: slideOutBack 0.3s ease-in-out 3.8s forwards;
-  animation: slideOutBack 0.3s ease-in-out 3.8s forwards;
+  -webkit-animation: slideOutBack 0.5s ease-in-out 5s forwards;
+  -moz-animation: slideOutBack 0.5s ease-in-out 5s forwards;
+  -ms-animation: slideOutBack 0.5s ease-in-out 5s forwards;
+  -o-animation: slideOutBack 0.5s ease-in-out 5s forwards;
+  animation: slideOutBack 0.5s ease-in-out 5s forwards;
 }
 .frame-text2-2{
   position: absolute;
@@ -626,11 +626,11 @@
   height: 30px;
   background: url('../img/160x600_text2_2.png') no-repeat center center;
 
-  -webkit-animation: slideLeft 0.5s ease-in-out 5s forwards;
-  -moz-animation: slideLeft 0.5s ease-in-out 5s forwards;
-  -ms-animation: slideLeft 0.5s ease-in-out 5s forwards;
-  -o-animation: slideLeft 0.5s ease-in-out 5s forwards;
-  animation: slideLeft 0.5s ease-in-out 5s forwards;
+  -webkit-animation: slideLeft 0.5s ease-in-out 7s forwards;
+  -moz-animation: slideLeft 0.5s ease-in-out 7s forwards;
+  -ms-animation: slideLeft 0.5s ease-in-out 7s forwards;
+  -o-animation: slideLeft 0.5s ease-in-out 7s forwards;
+  animation: slideLeft 0.5s ease-in-out 7s forwards;
 }
 
 .frame-text2-3-wrapper{
@@ -653,11 +653,11 @@
   -o-transform: translate(-160px,30px);
   transform: translate(-160px,30px);
 
-  -webkit-animation: slideInBack 0.3s ease-in-out 4.1s forwards;
-  -moz-animation: slideInBack 0.3s ease-in-out 4.1s forwards;
-  -ms-animation: slideInBack 0.3s ease-in-out 4.1s forwards;
-  -o-animation: slideInBack 0.3s ease-in-out 4.1s forwards;
-  animation: slideInBack 0.3s ease-in-out 4.1s forwards;
+  -webkit-animation: slideInBack 0.5s ease-in-out 5.5s forwards;
+  -moz-animation: slideInBack 0.5s ease-in-out 5.5s forwards;
+  -ms-animation: slideInBack 0.5s ease-in-out 5.5s forwards;
+  -o-animation: slideInBack 0.5s ease-in-out 5.5s forwards;
+  animation: slideInBack 0.5s ease-in-out 5.5s forwards;
 }
 .frame-text2-3{
   position: absolute;
@@ -667,11 +667,11 @@
   height: 31px;
   background: url('../img/160x600_text2_3.png') no-repeat center center;
 
-  -webkit-animation: slideRight 0.5s ease-in-out 5s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 5s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 5s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 5s forwards;
-  animation: slideRight 0.5s ease-in-out 5s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 7s forwards;
+  animation: slideRight 0.5s ease-in-out 7s forwards;
 }
 
 .frame-triangle{
@@ -683,11 +683,11 @@
   border-bottom: solid 600px #b2cc1a;
   border-left: solid 80px transparent;
 
-  -webkit-animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
-  -moz-animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
-  -ms-animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
-  -o-animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
-  animation: slideRightHorizontal 0.5s ease-in-out 5.5s forwards;
+  -webkit-animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
+  -moz-animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
+  -ms-animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
+  -o-animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
+  animation: slideRightHorizontal 0.5s ease-in-out 7.5s forwards;
 }
 
 .frame-final-wrapper{
@@ -713,11 +713,11 @@
   -o-transform: translate(-300px,0px);
   transform: translate(-300px,0px);
 
-  -webkit-animation: slideBackRight 0.5s ease-in-out 5.5s forwards;
-  -moz-animation: slideBackRight 0.5s ease-in-out 5.5s forwards;
-  -ms-animation: slideBackRight 0.5s ease-in-out 5.5s forwards;
-  -o-animation: slideBackRight 0.5s ease-in-out 5.5s forwards;
-  animation: slideBackRight 0.5s ease-in-out 5.5s forwards;
+  -webkit-animation: slideBackRight 0.5s ease-in-out 7.5s forwards;
+  -moz-animation: slideBackRight 0.5s ease-in-out 7.5s forwards;
+  -ms-animation: slideBackRight 0.5s ease-in-out 7.5s forwards;
+  -o-animation: slideBackRight 0.5s ease-in-out 7.5s forwards;
+  animation: slideBackRight 0.5s ease-in-out 7.5s forwards;
 }
 .leg-container{
   position: absolute;
@@ -755,11 +755,11 @@
   -o-transform: translate(-160px,30px);
   transform: translate(-160px,30px);
 
-  -webkit-animation: slideInBack 0.5s ease-in-out 6s forwards;
-  -moz-animation: slideInBack 0.5s ease-in-out 6s forwards;
-  -ms-animation: slideInBack 0.5s ease-in-out 6s forwards;
-  -o-animation: slideInBack 0.5s ease-in-out 6s forwards;
-  animation: slideInBack 0.5s ease-in-out 6s forwards;
+  -webkit-animation: slideInBack 0.5s ease-in-out 8s forwards;
+  -moz-animation: slideInBack 0.5s ease-in-out 8s forwards;
+  -ms-animation: slideInBack 0.5s ease-in-out 8s forwards;
+  -o-animation: slideInBack 0.5s ease-in-out 8s forwards;
+  animation: slideInBack 0.5s ease-in-out 8s forwards;
 }
 .frame-button-container{
   -webkit-transform: translate(160px,0);
@@ -788,11 +788,11 @@
   -o-transform: translate(-160px,0);
   transform: translate(-160px,0);
 
-  -webkit-animation: slideBackRight160 0.5s ease-in-out 6.5s forwards;
-  -moz-animation: slideBackRight160 0.5s ease-in-out 6.5s forwards;
-  -ms-animation: slideBackRight160 0.5s ease-in-out 6.5s forwards;
-  -o-animation: slideBackRight160 0.5s ease-in-out 6.5s forwards;
-  animation: slideBackRight160 0.5s ease-in-out 6.5s forwards;
+  -webkit-animation: slideBackRight160 0.5s ease-in-out 8.5s forwards;
+  -moz-animation: slideBackRight160 0.5s ease-in-out 8.5s forwards;
+  -ms-animation: slideBackRight160 0.5s ease-in-out 8.5s forwards;
+  -o-animation: slideBackRight160 0.5s ease-in-out 8.5s forwards;
+  animation: slideBackRight160 0.5s ease-in-out 8.5s forwards;
 }
 
 .frame-logo{
