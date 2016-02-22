@@ -214,7 +214,7 @@
   animation: slideLeft2 10ms ease-in-out 0s forwards;
 }
 .bg{
-  background: url('../img/728x90_bg_en.jpg') no-repeat center center;
+  background: url('../img/728x90_bg_fr.jpg') no-repeat center center;
   -webkit-transform: translate(-728px,0);
   -moz-transform: translate(-728px,0);
   -ms-transform: translate(-728px,0);
@@ -242,11 +242,11 @@
 }
 .exclusive-text{
   position: absolute;
-  width: 77px;
-  height: 9px;
-  background: url('../img/728x90_exclusive_en.png') no-repeat center center;
+  width: 90px;
+  height: 11px;
+  background: url('../img/728x90_exclusive_fr.png') no-repeat center center;
   top: 7px;
-  left: 255px;
+  left: 238px;
 
   -webkit-transform: translate(-728px,0);
   -moz-transform: translate(-728px,0);
@@ -259,6 +259,40 @@
   -ms-animation: fadeIn 1s ease-in-out 2s forwards;
   -o-animation: fadeIn 1s ease-in-out 2s forwards;
   animation: fadeIn 1s ease-in-out 2s forwards;
+}
+
+.cocktail-container{
+  -webkit-transform: translate(728px,0);
+  -moz-transform: translate(728px,0);
+  -ms-transform: translate(728px,0);
+  -o-transform: translate(728px,0);
+  transform: translate(728px,0);
+
+  -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
+  -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
+  -ms-animation: slideLeft2 10ms ease-in-out 0s forwards;
+  -o-animation: slideLeft2 10ms ease-in-out 0s forwards;
+  animation: slideLeft2 10ms ease-in-out 0s forwards;
+}
+.cocktail-text{
+  position: absolute;
+  width: 167px;
+  height: 9px;
+  background: url('../img/728x90_coctail_fr.png') no-repeat center center;
+  top: 23px;
+  left: 197px;
+
+  -webkit-transform: translate(-728px,0);
+  -moz-transform: translate(-728px,0);
+  -ms-transform: translate(-728px,0);
+  -o-transform: translate(-728px,0);
+  transform: translate(-728px,0);
+
+  -webkit-animation: fadeIn 1s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 3s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 3s forwards;
+  -o-animation: fadeIn 1s ease-in-out 3s forwards;
+  animation: fadeIn 1s ease-in-out 3s forwards;
 }
 
 .nicolette-container{
@@ -278,43 +312,9 @@
   position: absolute;
   width: 178px;
   height: 45px;
-  background: url('../img/728x90_nicolette_mason_en.png') no-repeat center center;
-  top: 22px;
-  left: 201px;
-
-  -webkit-transform: translate(-728px,0);
-  -moz-transform: translate(-728px,0);
-  -ms-transform: translate(-728px,0);
-  -o-transform: translate(-728px,0);
-  transform: translate(-728px,0);
-
-  -webkit-animation: fadeIn 1s ease-in-out 3s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 3s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 3s forwards;
-  -o-animation: fadeIn 1s ease-in-out 3s forwards;
-  animation: fadeIn 1s ease-in-out 3s forwards;
-}
-
-.cocktail-container{
-  -webkit-transform: translate(728px,0);
-  -moz-transform: translate(728px,0);
-  -ms-transform: translate(728px,0);
-  -o-transform: translate(728px,0);
-  transform: translate(728px,0);
-
-  -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
-  -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
-  -ms-animation: slideLeft2 10ms ease-in-out 0s forwards;
-  -o-animation: slideLeft2 10ms ease-in-out 0s forwards;
-  animation: slideLeft2 10ms ease-in-out 0s forwards;
-}
-.cocktail-text{
-  position: absolute;
-  width: 221px;
-  height: 9px;
-  background: url('../img/728x90_coctail_en.png') no-repeat center center;
-  top: 71px;
-  left: 183px;
+  background: url('../img/728x90_nicolette_mason_fr.png') no-repeat center center;
+  top: 37px;
+  left: 191px;
 
   -webkit-transform: translate(-728px,0);
   -moz-transform: translate(-728px,0);
@@ -344,11 +344,11 @@
 }
 .now-available-text{
   position: absolute;
-  width: 138px;
-  height: 11px;
-  background: url('../img/728x90_now_available_en.png') no-repeat center center;
-  top: 19px;
-  right: 24px;
+  width: 109px;
+  height: 27px;
+  background: url('../img/728x90_now_available_fr.png') no-repeat center center;
+  top: 11px;
+  right: 55px;
 
   -webkit-transform: translate(-728px,0);
   -moz-transform: translate(-728px,0);
@@ -378,11 +378,11 @@
 }
 .hover-text{
   position: absolute;
-  width: 157px;
-  height: 36px;
-  background: url('../img/728x90_cta_en.png') no-repeat center center;
-  top: 41px;
-  right: 13px;
+  width: 175px;
+  height: 34px;
+  background: url('../img/728x90_cta_fr.png') no-repeat center center;
+  top: 45px;
+  right: 20px;
 
   -webkit-transform: translate(-728px,0);
   -moz-transform: translate(-728px,0);
