@@ -88,7 +88,7 @@
   	-webkit-transform: translate(0,0);
   }
   100% { 
-  	-webkit-transform: translate(-300px,0);
+  	-webkit-transform: translate(-160px,0);
   }
 }
 @-moz-keyframes slideLeft {
@@ -96,7 +96,7 @@
   	-moz-transform: translate(0,0);
   }
   100% { 
-  	-moz-transform: translate(-300px,0);
+  	-moz-transform: translate(-160px,0);
   }
 }
 @-o-keyframes slideLeft {
@@ -104,7 +104,7 @@
   	-o-transform: translate(0,0);
   }
   100% { 
-  	-o-transform: translate(-300px,0);
+  	-o-transform: translate(-160px,0);
   }
 }
 @keyframes slideLeft {
@@ -112,14 +112,14 @@
   	transform: translate(0,0);
   }
   100% { 
-  	transform: translate(-300px,0);
+  	transform: translate(-160px,0);
   }
 }
 
 /*-- slide in animation--*/
 @-webkit-keyframes slideLeft2 {
   0%   {
-  	-webkit-transform: translate(300px,0);
+  	-webkit-transform: translate(160px,0);
   }
   100% { 
   	-webkit-transform: translate(0,0);
@@ -127,7 +127,7 @@
 }
 @-moz-keyframes slideLeft2 {
   0%   {
-  	-moz-transform: translate(300px,0);
+  	-moz-transform: translate(160px,0);
   }
   100% { 
   	-moz-transform: translate(0,0);
@@ -135,7 +135,7 @@
 }
 @-o-keyframes slideLeft2 {
   0%   {
-  	-o-transform: translate(300px,0);
+  	-o-transform: translate(160px,0);
   }
   100% { 
   	-o-transform: translate(0,0);
@@ -143,7 +143,7 @@
 }
 @keyframes slideLeft2 {
   0%   {
-  	transform: translate(300px,0);
+  	transform: translate(160px,0);
   }
   100% { 
   	transform: translate(0,0);
@@ -153,7 +153,7 @@
 /*-- slide in back animation--*/
 @-webkit-keyframes slideRight {
   0%   {
-  	-webkit-transform: translate(-300px,0);
+  	-webkit-transform: translate(-160px,0);
   }
   100% { 
   	-webkit-transform: translate(0,0);
@@ -161,7 +161,7 @@
 }
 @-moz-keyframes slideRight {
   0%   {
-  	-moz-transform: translate(-300px,0);
+  	-moz-transform: translate(-160px,0);
   }
   100% { 
   	-moz-transform: translate(0,0);
@@ -169,7 +169,7 @@
 }
 @-o-keyframes slideRight {
   0%   {
-  	-o-transform: translate(-300px,0);
+  	-o-transform: translate(-160px,0);
   }
   100% { 
   	-o-transform: translate(0,0);
@@ -177,7 +177,7 @@
 }
 @keyframes slideRight {
   0%   {
-  	transform: translate(-300px,0);
+  	transform: translate(-160px,0);
   }
   100% { 
   	transform: translate(0,0);
@@ -189,8 +189,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 250px;
+  width: 160px;
+  height: 600px;
   display: block;  
 }
 
@@ -201,11 +201,11 @@
 .banner-content{
 }
 .bg-container{
-  -webkit-transform: translate(300px,0);
-  -moz-transform: translate(300px,0);
-  -ms-transform: translate(300px,0);
-  -o-transform: translate(300px,0);
-  transform: translate(300px,0); 
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0); 
 
   -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
   -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
@@ -214,12 +214,12 @@
   animation: slideLeft2 10ms ease-in-out 0s forwards;
 }
 .bg{
-  background: url('../img/300x250_bg.jpg') no-repeat center center;
-  -webkit-transform: translate(-300px,0);
-  -moz-transform: translate(-300px,0);
-  -ms-transform: translate(-300px,0);
-  -o-transform: translate(-300px,0);
-  transform: translate(-300px,0);
+  background: url('../img/160x600_bg.jpg') no-repeat center center;
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
 
   -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
   -moz-animation: fadeIn 1s ease-in-out 1s forwards;
@@ -228,11 +228,11 @@
   animation: fadeIn 1s ease-in-out 1s forwards;
 }
 .exclusive-container{
-  -webkit-transform: translate(300px,0);
-  -moz-transform: translate(300px,0);
-  -ms-transform: translate(300px,0);
-  -o-transform: translate(300px,0);
-  transform: translate(300px,0);
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0);
 
   -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
   -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
@@ -242,17 +242,18 @@
 }
 .exclusive-text{
   position: absolute;
-  width: 84px;
-  height: 10px;
-  background: url('../img/300x250_exclusive_en.png') no-repeat center center;
-  top: 48px;
-  left: 44px;
+  width: 102px;
+  height: 13px;
+  background: url('../img/160x600_exclusive_fr.png') no-repeat center center;
+  top: 81px;
+  left: 50%;
+  margin-left: -51px;
 
-  -webkit-transform: translate(-300px,0);
-  -moz-transform: translate(-300px,0);
-  -ms-transform: translate(-300px,0);
-  -o-transform: translate(-300px,0);
-  transform: translate(-300px,0);
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
 
   -webkit-animation: fadeIn 1s ease-in-out 2s forwards;
   -moz-animation: fadeIn 1s ease-in-out 2s forwards;
@@ -261,46 +262,12 @@
   animation: fadeIn 1s ease-in-out 2s forwards;
 }
 
-.nicolette-container{
-  -webkit-transform: translate(300px,0);
-  -moz-transform: translate(300px,0);
-  -ms-transform: translate(300px,0);
-  -o-transform: translate(300px,0);
-  transform: translate(300px,0);
-
-  -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
-  -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
-  -ms-animation: slideLeft2 10ms ease-in-out 0s forwards;
-  -o-animation: slideLeft2 10ms ease-in-out 0s forwards;
-  animation: slideLeft2 10ms ease-in-out 0s forwards;
-}
-.nicolette-text{
-  position: absolute;
-  width: 193px;
-  height: 99px;
-  background: url('../img/300x250_nicolette_mason_en.png') no-repeat center center;
-  top: 33px;
-  left: 0px;
-
-  -webkit-transform: translate(-300px,0);
-  -moz-transform: translate(-300px,0);
-  -ms-transform: translate(-300px,0);
-  -o-transform: translate(-300px,0);
-  transform: translate(-300px,0);
-
-  -webkit-animation: fadeIn 1s ease-in-out 3s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 3s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 3s forwards;
-  -o-animation: fadeIn 1s ease-in-out 3s forwards;
-  animation: fadeIn 1s ease-in-out 3s forwards;
-}
-
 .cocktail-container{
-  -webkit-transform: translate(300px,0);
-  -moz-transform: translate(300px,0);
-  -ms-transform: translate(300px,0);
-  -o-transform: translate(300px,0);
-  transform: translate(300px,0);
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0);
 
   -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
   -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
@@ -310,17 +277,52 @@
 }
 .cocktail-text{
   position: absolute;
-  width: 159px;
-  height: 7px;
-  background: url('../img/300x250_coctail_en.png') no-repeat center center;
-  top: 106px;
-  left: 8px;
+  width: 144px;
+  height: 8px;
+  background: url('../img/160x600_coctail_fr.png') no-repeat center center;
+  top: 103px;
+  left: 50%;
+  margin-left: -72px;
 
-  -webkit-transform: translate(-300px,0);
-  -moz-transform: translate(-300px,0);
-  -ms-transform: translate(-300px,0);
-  -o-transform: translate(-300px,0);
-  transform: translate(-300px,0);
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
+
+  -webkit-animation: fadeIn 1s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 3s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 3s forwards;
+  -o-animation: fadeIn 1s ease-in-out 3s forwards;
+  animation: fadeIn 1s ease-in-out 3s forwards;
+}
+
+.nicolette-container{
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0);
+
+  -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
+  -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
+  -ms-animation: slideLeft2 10ms ease-in-out 0s forwards;
+  -o-animation: slideLeft2 10ms ease-in-out 0s forwards;
+  animation: slideLeft2 10ms ease-in-out 0s forwards;
+}
+.nicolette-text{
+  position: absolute;
+  width: 145px;
+  height: 37px;
+  background: url('../img/160x600_nicolette_mason_fr.png') no-repeat center center;
+  top: 117px;
+  left: 7px;
+
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
 
   -webkit-animation: fadeIn 1s ease-in-out 4s forwards;
   -moz-animation: fadeIn 1s ease-in-out 4s forwards;
@@ -330,11 +332,11 @@
 }
 
 .now-available-container{
-  -webkit-transform: translate(300px,0);
-  -moz-transform: translate(300px,0);
-  -ms-transform: translate(300px,0);
-  -o-transform: translate(300px,0);
-  transform: translate(300px,0);
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0);
 
   -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
   -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
@@ -344,17 +346,18 @@
 }
 .now-available-text{
   position: absolute;
-  width: 90px;
-  height: 8px;
-  background: url('../img/300x250_now_available_en.png') no-repeat center center;
-  top: 126px;
-  left: 43px;
+  width: 96px;
+  height: 25px;
+  background: url('../img/160x600_now_available_fr.png') no-repeat center center;
+  top: 172px;
+  left: 50%;
+  margin-left: -48px;
 
-  -webkit-transform: translate(-300px,0);
-  -moz-transform: translate(-300px,0);
-  -ms-transform: translate(-300px,0);
-  -o-transform: translate(-300px,0);
-  transform: translate(-300px,0);
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
 
   -webkit-animation: fadeIn 1s ease-in-out 5s forwards;
   -moz-animation: fadeIn 1s ease-in-out 5s forwards;
@@ -364,11 +367,11 @@
 }
 
 .hover-container{
-  -webkit-transform: translate(300px,0);
-  -moz-transform: translate(300px,0);
-  -ms-transform: translate(300px,0);
-  -o-transform: translate(300px,0);
-  transform: translate(300px,0);
+  -webkit-transform: translate(160px,0);
+  -moz-transform: translate(160px,0);
+  -ms-transform: translate(160px,0);
+  -o-transform: translate(160px,0);
+  transform: translate(160px,0);
 
   -webkit-animation: slideLeft2 10ms ease-in-out 0s forwards;
   -moz-animation: slideLeft2 10ms ease-in-out 0s forwards;
@@ -378,17 +381,18 @@
 }
 .hover-text{
   position: absolute;
-  width: 124px;
-  height: 30px;
-  background: url('../img/300x250_cta_en.png') no-repeat center center;
-  top: 139px;
-  left: 26px;
+  width: 147px;
+  height: 34px;
+  background: url('../img/160x600_cta_fr.png') no-repeat center center;
+  top: 207px;
+  left: 50%;
+  margin-left: -73px;
 
-  -webkit-transform: translate(-300px,0);
-  -moz-transform: translate(-300px,0);
-  -ms-transform: translate(-300px,0);
-  -o-transform: translate(-300px,0);
-  transform: translate(-300px,0);
+  -webkit-transform: translate(-160px,0);
+  -moz-transform: translate(-160px,0);
+  -ms-transform: translate(-160px,0);
+  -o-transform: translate(-160px,0);
+  transform: translate(-160px,0);
 
   -webkit-animation: fadeIn 1s ease-in-out 6s forwards;
   -moz-animation: fadeIn 1s ease-in-out 6s forwards;
