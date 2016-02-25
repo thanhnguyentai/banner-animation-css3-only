@@ -346,11 +346,11 @@
 }
 .footer{
   position: absolute;
-  width: 66px;
-  height: 2px;
+  width: 59px;
+  height: 11px;
   background: url('images/320x50_footer.png') no-repeat center center;
-  bottom: 24px;
-  right: 9px;
+  top: 16px;
+  right: 15px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
