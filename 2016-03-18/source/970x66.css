@@ -88,7 +88,7 @@
     -webkit-transform: translate(0,0);
   }
   100% { 
-    -webkit-transform: translate(-320px,0);
+    -webkit-transform: translate(-970px,0);
   }
 }
 @-moz-keyframes slideLeft {
@@ -96,7 +96,7 @@
     -moz-transform: translate(0,0);
   }
   100% { 
-    -moz-transform: translate(-320px,0);
+    -moz-transform: translate(-970px,0);
   }
 }
 @-o-keyframes slideLeft {
@@ -104,7 +104,7 @@
     -o-transform: translate(0,0);
   }
   100% { 
-    -o-transform: translate(-320px,0);
+    -o-transform: translate(-970px,0);
   }
 }
 @keyframes slideLeft {
@@ -112,14 +112,14 @@
     transform: translate(0,0);
   }
   100% { 
-    transform: translate(-320px,0);
+    transform: translate(-970px,0);
   }
 }
 
 /*-- slide in animation--*/
 @-webkit-keyframes slideLeft2 {
   0%   {
-    -webkit-transform: translate(320px,0);
+    -webkit-transform: translate(970px,0);
   }
   100% { 
     -webkit-transform: translate(0,0);
@@ -127,7 +127,7 @@
 }
 @-moz-keyframes slideLeft2 {
   0%   {
-    -moz-transform: translate(320px,0);
+    -moz-transform: translate(970px,0);
   }
   100% { 
     -moz-transform: translate(0,0);
@@ -135,7 +135,7 @@
 }
 @-o-keyframes slideLeft2 {
   0%   {
-    -o-transform: translate(320px,0);
+    -o-transform: translate(970px,0);
   }
   100% { 
     -o-transform: translate(0,0);
@@ -143,7 +143,7 @@
 }
 @keyframes slideLeft2 {
   0%   {
-    transform: translate(320px,0);
+    transform: translate(970px,0);
   }
   100% { 
     transform: translate(0,0);
@@ -153,7 +153,7 @@
 /*-- slide in back animation--*/
 @-webkit-keyframes slideRight {
   0%   {
-    -webkit-transform: translate(-320px,0);
+    -webkit-transform: translate(-970px,0);
   }
   100% { 
     -webkit-transform: translate(0,0);
@@ -161,7 +161,7 @@
 }
 @-moz-keyframes slideRight {
   0%   {
-    -moz-transform: translate(-320px,0);
+    -moz-transform: translate(-970px,0);
   }
   100% { 
     -moz-transform: translate(0,0);
@@ -169,7 +169,7 @@
 }
 @-o-keyframes slideRight {
   0%   {
-    -o-transform: translate(-320px,0);
+    -o-transform: translate(-970px,0);
   }
   100% { 
     -o-transform: translate(0,0);
@@ -177,13 +177,96 @@
 }
 @keyframes slideRight {
   0%   {
-    transform: translate(-320px,0);
+    transform: translate(-970px,0);
   }
   100% { 
     transform: translate(0,0);
   }
 }
 
+/*-- slide up animation--*/
+@-webkit-keyframes slideUp {
+  0%   {
+    -webkit-transform: translate(0,66px);
+    opacity: 0;
+  }
+  100% { 
+    -webkit-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes slideUp {
+  0%   {
+    -moz-transform: translate(0,66px);
+    opacity: 0;
+  }
+  100% { 
+    -moz-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@-o-keyframes slideUp {
+  0%   {
+    -o-transform: translate(0,66px);
+    opacity: 0;
+  }
+  100% { 
+    -o-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  0%   {
+    transform: translate(0,66px);
+    opacity: 0;
+  }
+  100% { 
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+/*-- slide down animation--*/
+@-webkit-keyframes slideDown {
+  0%   {
+    -webkit-transform: translate(0,-66px);
+    opacity: 0;
+  }
+  100% { 
+    -webkit-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes slideDown {
+  0%   {
+    -moz-transform: translate(0,-66px);
+    opacity: 0;
+  }
+  100% { 
+    -moz-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@-o-keyframes slideDown {
+  0%   {
+    -o-transform: translate(0,-66px);
+    opacity: 0;
+  }
+  100% { 
+    -o-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@keyframes slideDown {
+  0%   {
+    transform: translate(0,-66px);
+    opacity: 0;
+  }
+  100% { 
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
 /*-- roll back animation--*/
 @-webkit-keyframes rollBack {
   0%   {
@@ -223,8 +306,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 320px;
-  height: 50px;
+  width: 970px;
+  height: 66px;
   display: block;  
 }
 
@@ -234,11 +317,11 @@
 }
 
 .content-container{
-  -webkit-transform: translate(320px,0);
-  -moz-transform: translate(320px,0);
-  -ms-transform: translate(320px,0);
-  -o-transform: translate(320px,0);
-  transform: translate(320px,0);
+  -webkit-transform: translate(970px,0);
+  -moz-transform: translate(970px,0);
+  -ms-transform: translate(970px,0);
+  -o-transform: translate(970px,0);
+  transform: translate(970px,0);
 
   -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
   -moz-animation: rollBack 10ms ease-in-out 0s forwards;
@@ -247,14 +330,13 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .content{
-  background: url('images/320x50_bg.png') no-repeat center center;
-  background-size: 100% auto;
+  background: url('images/970x66_bg.jpg') no-repeat center center;
 
-  -webkit-transform: translate(-320px,0);
-  -moz-transform: translate(-320px,0);
-  -ms-transform: translate(-320px,0);
-  -o-transform: translate(-320px,0);
-  transform: translate(-320px,0);
+  -webkit-transform: translate(-970px,0);
+  -moz-transform: translate(-970px,0);
+  -ms-transform: translate(-970px,0);
+  -o-transform: translate(-970px,0);
+  transform: translate(-970px,0);
 
   -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
   -moz-animation: fadeIn 1s ease-in-out 1s forwards;
@@ -262,12 +344,12 @@
   -o-animation: fadeIn 1s ease-in-out 1s forwards;
   animation: fadeIn 1s ease-in-out 1s forwards;
 }
-.dell-logo-container {
-  -webkit-transform: translate(320px,0);
-  -moz-transform: translate(320px,0);
-  -ms-transform: translate(320px,0);
-  -o-transform: translate(320px,0);
-  transform: translate(320px,0);
+.man-container{
+  -webkit-transform: translate(0,-66px);
+  -moz-transform: translate(0,-66px);
+  -ms-transform: translate(0,-66px);
+  -o-transform: translate(0,-66px);
+  transform: translate(0,-66px);
 
   -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
   -moz-animation: rollBack 10ms ease-in-out 0s forwards;
@@ -275,33 +357,33 @@
   -o-animation: rollBack 10ms ease-in-out 0s forwards;
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.dell-logo {
+.man{
+  background: url('images/970x66_man.png') no-repeat center center;
+  width: 230px;
+  height: 63px;
   position: absolute;
-  width: 20px;
-  height: 20px;
-  background: url('images/320x50_icon_dell.png') no-repeat center center;
-  background-size: 100% auto;
-  top: 15px;
-  left: 15px;
+  left: 38px;
+  bottom: 0px;
 
-  -webkit-transform: translate(-320px,0);
-  -moz-transform: translate(-320px,0);
-  -ms-transform: translate(-320px,0);
-  -o-transform: translate(-320px,0);
-  transform: translate(-320px,0);
+  -webkit-transform: translate(0,66px);
+  -moz-transform: translate(0,66px);
+  -ms-transform: translate(0,66px);
+  -o-transform: translate(0,66px);
+  transform: translate(0,66px);
 
-  -webkit-animation: fadeIn 1s ease-in-out 2s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 2s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 2s forwards;
-  -o-animation: fadeIn 1s ease-in-out 2s forwards;
-  animation: fadeIn 1s ease-in-out 2s forwards;
+  -webkit-animation: slideUp 0.5s ease-in-out 2s forwards;
+  -moz-animation: slideUp 0.5s ease-in-out 2s forwards;
+  -ms-animation: slideUp 0.5s ease-in-out 2s forwards;
+  -o-animation: slideUp 0.5s ease-in-out 2s forwards;
+  animation: slideUp 0.5s ease-in-out 2s forwards;
 }
-.flash-forward-container {
-  -webkit-transform: translate(320px,0);
-  -moz-transform: translate(320px,0);
-  -ms-transform: translate(320px,0);
-  -o-transform: translate(320px,0);
-  transform: translate(320px,0);
+
+.title-container{
+  -webkit-transform: translate(970px,0);
+  -moz-transform: translate(970px,0);
+  -ms-transform: translate(970px,0);
+  -o-transform: translate(970px,0);
+  transform: translate(970px,0);
 
   -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
   -moz-animation: rollBack 10ms ease-in-out 0s forwards;
@@ -309,33 +391,33 @@
   -o-animation: rollBack 10ms ease-in-out 0s forwards;
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.flash-forward {
+.title{
+  background: url('images/970x66_title.png') no-repeat center center;
+  width: 169px;
+  height: 59px;
   position: absolute;
-  width: 187px;
-  height: 13px;
-  background: url('images/320x50_flash_forward.png') no-repeat center center;
-  background-size: 100% auto;
-  top: 14px;
-  left: 50px;
+  left: 254px;
+  top: 5px;
 
-  -webkit-transform: translate(-320px,0);
-  -moz-transform: translate(-320px,0);
-  -ms-transform: translate(-320px,0);
-  -o-transform: translate(-320px,0);
-  transform: translate(-320px,0);
+  -webkit-transform: translate(-970px,0);
+  -moz-transform: translate(-970px,0);
+  -ms-transform: translate(-970px,0);
+  -o-transform: translate(-970px,0);
+  transform: translate(-970px,0);
 
-  -webkit-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 3s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 3s forwards;
-  animation: slideRight 0.5s ease-in-out 3s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 2.5s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 2.5s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 2.5s forwards;
+  -o-animation: fadeIn 1s ease-in-out 2.5s forwards;
+  animation: fadeIn 1s ease-in-out 2.5s forwards;
 }
-.action-container {
-  -webkit-transform: translate(320px,0);
-  -moz-transform: translate(320px,0);
-  -ms-transform: translate(320px,0);
-  -o-transform: translate(320px,0);
-  transform: translate(320px,0);
+
+.date-container{
+  -webkit-transform: translate(970px,0);
+  -moz-transform: translate(970px,0);
+  -ms-transform: translate(970px,0);
+  -o-transform: translate(970px,0);
+  transform: translate(970px,0);
 
   -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
   -moz-animation: rollBack 10ms ease-in-out 0s forwards;
@@ -343,33 +425,33 @@
   -o-animation: rollBack 10ms ease-in-out 0s forwards;
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.action {
+.date{
+  background: url('images/970x66_date.png') no-repeat center center;
+  width: 136px;
+  height: 42px;
   position: absolute;
-  width: 63px;
-  height: 5px;
-  background: url('images/320x50_action.png') no-repeat center center;
-  background-size: 100% auto;
-  top: 33px;
-  left: 50px;
+  left: 553px;
+  top: 12px;
 
-  -webkit-transform: translate(-320px,0);
-  -moz-transform: translate(-320px,0);
-  -ms-transform: translate(-320px,0);
-  -o-transform: translate(-320px,0);
-  transform: translate(-320px,0);
+  -webkit-transform: translate(-970px,0);
+  -moz-transform: translate(-970px,0);
+  -ms-transform: translate(-970px,0);
+  -o-transform: translate(-970px,0);
+  transform: translate(-970px,0);
 
-  -webkit-animation: slideRight 0.5s ease-in-out 3.5s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 3.5s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 3.5s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 3.5s forwards;
-  animation: slideRight 0.5s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -o-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  animation: fadeIn 1s ease-in-out 3.5s forwards;
 }
-.intel-inside-container {
-  -webkit-transform: translate(320px,0);
-  -moz-transform: translate(320px,0);
-  -ms-transform: translate(320px,0);
-  -o-transform: translate(320px,0);
-  transform: translate(320px,0);
+
+.cta-container{
+  -webkit-transform: translate(0,-66px);
+  -moz-transform: translate(0,-66px);
+  -ms-transform: translate(0,-66px);
+  -o-transform: translate(0,-66px);
+  transform: translate(0,-66px);
 
   -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
   -moz-animation: rollBack 10ms ease-in-out 0s forwards;
@@ -377,93 +459,24 @@
   -o-animation: rollBack 10ms ease-in-out 0s forwards;
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.intel-inside {
+.cta{
+  background: url('images/970x66_cta.png') no-repeat center center;
+  width: 140px;
+  height: 33px;
   position: absolute;
-  width: 92px;
-  height: 7px;
-  background: url('images/320x50_intel_inside.png') no-repeat center center;
-  background-size: 100% auto;
-  top: 32px;
-  right: 84px;
-  -webkit-transform: translate(-320px,0);
-  -moz-transform: translate(-320px,0);
-  -ms-transform: translate(-320px,0);
-  -o-transform: translate(-320px,0);
-  transform: translate(-320px,0);
+  top: 50%;
+  margin-top: -16px;
+  right: 18px;
 
-  -webkit-animation: fadeIn 1s ease-in-out 4s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 4s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 4s forwards;
-  -o-animation: fadeIn 1s ease-in-out 4s forwards;
-  animation: fadeIn 1s ease-in-out 4s forwards;
-}
-.intel-logo-container {
-  -webkit-transform: translate(320px,0);
-  -moz-transform: translate(320px,0);
-  -ms-transform: translate(320px,0);
-  -o-transform: translate(320px,0);
-  transform: translate(320px,0);
+  -webkit-transform: translate(0,66px);
+  -moz-transform: translate(0,66px);
+  -ms-transform: translate(0,66px);
+  -o-transform: translate(0,66px);
+  transform: translate(0,66px);
 
-  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
-  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
-  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
-  -o-animation: rollBack 10ms ease-in-out 0s forwards;
-  animation: rollBack 10ms ease-in-out 0s forwards;
-}
-.intel-logo {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  background: url('images/320x50_icon_intel.png') no-repeat center center;
-  background-size: 100% auto;
-  top: 15px;
-  right: 53px;
-  -webkit-transform: translate(-320px,0);
-  -moz-transform: translate(-320px,0);
-  -ms-transform: translate(-320px,0);
-  -o-transform: translate(-320px,0);
-  transform: translate(-320px,0);
-
-  -webkit-animation: fadeIn 1s ease-in-out 5s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 5s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 5s forwards;
-  -o-animation: fadeIn 1s ease-in-out 5s forwards;
-  animation: fadeIn 1s ease-in-out 5s forwards;
-}
-.barrel-icon-container {
-  -webkit-transform: translate(320px,0);
-  -moz-transform: translate(320px,0);
-  -ms-transform: translate(320px,0);
-  -o-transform: translate(320px,0);
-  transform: translate(320px,0);
-
-  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
-  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
-  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
-  -o-animation: rollBack 10ms ease-in-out 0s forwards;
-  animation: rollBack 10ms ease-in-out 0s forwards;
-}
-.barrel-icon {
-  position: absolute;
-  width: 19px;
-  height: 27px;
-  background: url('images/320x50_icon_barrel.png') no-repeat center center;
-  background-size: 100% auto;
-  top: 13px;
-  right: 6px;  
-  -webkit-transform: translate(-320px,0);
-  -moz-transform: translate(-320px,0);
-  -ms-transform: translate(-320px,0);
-  -o-transform: translate(-320px,0);
-  transform: translate(-320px,0);
-
-  -webkit-animation: fadeIn 1s ease-in-out 6s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 6s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 6s forwards;
-  -o-animation: fadeIn 1s ease-in-out 6s forwards;
-  animation: fadeIn 1s ease-in-out 6s forwards;
-}
-.frame{
-  background: url('images/320x50_frame.png') no-repeat center center;
-  background-size: 100% auto;
+  -webkit-animation: slideUp 0.5s ease-in-out 4.5s forwards;
+  -moz-animation: slideUp 0.5s ease-in-out 4.5s forwards;
+  -ms-animation: slideUp 0.5s ease-in-out 4.5s forwards;
+  -o-animation: slideUp 0.5s ease-in-out 4.5s forwards;
+  animation: slideUp 0.5s ease-in-out 4.5s forwards;
 }
