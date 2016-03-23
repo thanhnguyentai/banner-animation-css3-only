@@ -345,22 +345,22 @@
 .static-text {
   position: absolute;
   background: url('images/728x90_static_text.png') no-repeat center center;
-  width: 300px;
-  height: 9px;
+  width: 250px;
+  height: 8px;
   top: 9px;
-  left: 34px;
+  left: 10px;
 }
 .static-car {
   position: absolute;
-  width: 217px;
-  height: 96px;
+  width: 179px;
+  height: 81px;
   background: url('images/728x90_static_car.png') no-repeat center center;
-  top: 4px;
-  right: 330px;
+  top: 8px;
+  right: 108px;
 }
 .static-cta-container {
   position: absolute;
-  width: 246px;
+  width: 115px;
   height: 90px;
   background-color: #474e53;
   top: 0px;
@@ -371,16 +371,24 @@
   width: 90px;
   height: 37px;
   background: url('images/728x90_static_lockup.png') no-repeat center center;
-  top: 15px;
-  right: 79px;
+  top: 10px;
+  right: 12px;
 }
 .cta {
   position: absolute;
-  width: 189px;
-  height: 30px;
+  width: 115px;
+  height: 24px;
   background: url('images/728x90_static_cta.png') no-repeat center center;
-  right: 25px;
-  bottom: 5px;
+  right: 0px;
+  bottom: 0px;
+}
+.border {
+  position: absolute;
+  width: 728px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  background: url('images/728x90_static_border.png') no-repeat center center;
 }
 
 .frame1-container {
@@ -395,8 +403,8 @@
   width: 311px;
   height: 41px;
   background: url('images/728x90_frame1.png') no-repeat center center;
-  top: 38px;
-  left: 264px;
+  top: 27px;
+  left: 27px;
 
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -417,10 +425,10 @@
 .frame2-content {
   position: absolute;
   width: 192px;
-  height: 48px;
+  height: 40px;
   background: url('images/728x90_frame2.png') no-repeat center center;
-  top: 28px;
-  left: 516px;
+  top: 25px;
+  left: 236px;
 
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -443,8 +451,8 @@
   width: 213px;
   height: 43px;
   background: url('images/728x90_frame3.png') no-repeat center center;
-  top: 26px;
-  left: 514px;
+  top: 23px;
+  left: 234px;
 
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -467,8 +475,8 @@
   width: 182px;
   height: 71px;
   background: url('images/728x90_frame4.png') no-repeat center center;
-  top: 11px;
-  left: 502px;
+  top: 8px;
+  left: 262px;
 
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -521,11 +529,11 @@
 }
 .frame5-logo {
   position: absolute;
-  width: 300px;
-  height: 39px;
+  width: 194px;
+  height: 26px;
   background: url('images/728x90_frame5_logo.png') no-repeat center center;
   top: 34px;
-  left: 34px;
+  left: 11px;
 
   -webkit-transform: translate(-728px,0);
   -moz-transform: translate(-728px,0);
@@ -541,17 +549,17 @@
 }
 .frame5-text {
   position: absolute;
-  width: 305px;
-  height: 44px;
+  width: 233px;
+  height: 34px;
   background: url('images/728x90_frame5_text.png') no-repeat center center;
-  top: 34px;
-  left: 415px;
+  top: 30px;
+  left: 216px;
 }
 .frame5-more-info {
   position: absolute;
-  width: 51px;
-  height: 8px;
+  width: 34px;
+  height: 5px;
   background: url('images/728x90_frame5_more_info.png') no-repeat center center;
-  top: 11px;
-  right: 287px;
+  top: 5px;
+  right: 119px;
 }
