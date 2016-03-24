@@ -490,39 +490,6 @@
   -o-animation: slideRight 0.5s ease-in-out 5s forwards;
   animation: slideRight 0.5s ease-in-out 5s forwards;
 }
-.more-info-container {
-  -webkit-transform: translate(300px,0);
-  -moz-transform: translate(300px,0);
-  -ms-transform: translate(300px,0);
-  -o-transform: translate(300px,0);
-  transform: translate(300px,0);
-
-  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
-  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
-  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
-  -o-animation: rollBack 10ms ease-in-out 0s forwards;
-  animation: rollBack 10ms ease-in-out 0s forwards;
-}
-.more-info {
-  position: absolute;
-  width: 40px;
-  height: 7px;
-  background: url('images/300x250_static_more_info.png') no-repeat center center;
-  right: 10px;
-  bottom: 8px;
-
-  -webkit-transform: translate(-300px,0);
-  -moz-transform: translate(-300px,0);
-  -ms-transform: translate(-300px,0);
-  -o-transform: translate(-300px,0);
-  transform: translate(-300px,0);
-
-  -webkit-animation: fadeIn 1s ease-in-out 5.5s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 5.5s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 5.5s forwards;
-  -o-animation: fadeIn 1s ease-in-out 5.5s forwards;
-  animation: fadeIn 1s ease-in-out 5.5s forwards;
-}
 .border {
   position: absolute;
   width: 300px;
