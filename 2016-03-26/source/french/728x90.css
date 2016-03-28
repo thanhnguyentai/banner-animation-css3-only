@@ -583,7 +583,7 @@
   z-index: 5;
 }
 .frame3-pack {
-  width: 211px;
+  width: 220px;
   height: 90px;
   background: url('images/728x90_frame3_pack.png') no-repeat center center;
   top: 0px;
@@ -649,7 +649,7 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .frame4-pack {
-  width: 211px;
+  width: 220px;
   height: 90px;
   background: url('images/728x90_frame3_pack.png') no-repeat center center;
   top: 0px;

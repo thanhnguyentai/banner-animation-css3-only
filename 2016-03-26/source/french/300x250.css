@@ -381,8 +381,8 @@
 }
 .frame1-pack-container {}
 .frame1-pack {
-  width: 239px;
-  height: 173px;
+  width: 246px;
+  height: 195px;
   background: url('images/300x250_frame1_pack.png') no-repeat center center;
   top: 57px;
   left: 35px;
@@ -532,8 +532,8 @@
   animation: fadeOut 1s ease-in-out 12s forwards;
 }
 .frame3-pack {
-  width: 165px;
-  height: 164px;
+  width: 164px;
+  height: 137px;
   background: url('images/300x250_frame3_pack.png') no-repeat center center;
   top: 88px;
   left: 137px;
@@ -563,7 +563,7 @@
 }
 .frame4-pack {
   width: 174px;
-  height: 172px;
+  height: 163px;
   background: url('images/300x250_frame4_pack.png') no-repeat center center;
   top: 79px;
   left: 127px;

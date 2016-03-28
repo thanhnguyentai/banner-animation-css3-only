@@ -382,7 +382,7 @@
 .frame1-pack-container {}
 .frame1-pack {
   width: 160px;
-  height: 322px;
+  height: 274px;
   background: url('images/160x600_frame1_pack.png') no-repeat center center;
   top: 206px;
   left: 0px;
@@ -541,7 +541,7 @@
 }
 .frame3-pack {
   width: 160px;
-  height: 322px;
+  height: 274px;
   background: url('images/160x600_frame1_pack.png') no-repeat center center;
   top: 162px;
   left: 0px;
