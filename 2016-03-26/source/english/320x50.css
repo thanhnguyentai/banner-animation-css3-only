@@ -641,9 +641,9 @@
   -o-transform: translate(0,-50px);
   transform: translate(0,-50px);
 
-  -webkit-animation: slideDown 0.5s ease-in-out 13s forwards;
-  -moz-animation: slideDown 0.5s ease-in-out 13s forwards;
-  -ms-animation: slideDown 0.5s ease-in-out 13s forwards;
-  -o-animation: slideDown 0.5s ease-in-out 13s forwards;
-  animation: slideDown 0.5s ease-in-out 13s forwards;
+  -webkit-animation: slideDown 0.5s ease-in-out 14s forwards;
+  -moz-animation: slideDown 0.5s ease-in-out 14s forwards;
+  -ms-animation: slideDown 0.5s ease-in-out 14s forwards;
+  -o-animation: slideDown 0.5s ease-in-out 14s forwards;
+  animation: slideDown 0.5s ease-in-out 14s forwards;
 }
