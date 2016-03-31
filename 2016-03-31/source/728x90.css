@@ -187,7 +187,7 @@
 /*-- slide up animation--*/
 @-webkit-keyframes slideUp {
   0%   {
-    -webkit-transform: translate(0,90px);
+    -webkit-transform: translate(0,66px);
     opacity: 0;
   }
   100% { 
@@ -197,7 +197,7 @@
 }
 @-moz-keyframes slideUp {
   0%   {
-    -moz-transform: translate(0,90px);
+    -moz-transform: translate(0,66px);
     opacity: 0;
   }
   100% { 
@@ -207,7 +207,7 @@
 }
 @-o-keyframes slideUp {
   0%   {
-    -o-transform: translate(0,90px);
+    -o-transform: translate(0,66px);
     opacity: 0;
   }
   100% { 
@@ -217,7 +217,7 @@
 }
 @keyframes slideUp {
   0%   {
-    transform: translate(0,90px);
+    transform: translate(0,66px);
     opacity: 0;
   }
   100% { 
@@ -229,7 +229,7 @@
 /*-- slide down animation--*/
 @-webkit-keyframes slideDown {
   0%   {
-    -webkit-transform: translate(0,-90px);
+    -webkit-transform: translate(0,-66px);
     opacity: 0;
   }
   100% { 
@@ -239,7 +239,7 @@
 }
 @-moz-keyframes slideDown {
   0%   {
-    -moz-transform: translate(0,-90px);
+    -moz-transform: translate(0,-66px);
     opacity: 0;
   }
   100% { 
@@ -249,7 +249,7 @@
 }
 @-o-keyframes slideDown {
   0%   {
-    -o-transform: translate(0,-90px);
+    -o-transform: translate(0,-66px);
     opacity: 0;
   }
   100% { 
@@ -259,7 +259,7 @@
 }
 @keyframes slideDown {
   0%   {
-    transform: translate(0,-90px);
+    transform: translate(0,-66px);
     opacity: 0;
   }
   100% { 
@@ -301,48 +301,6 @@
   }
 }
 
-/*-- roll back opacity animation--*/
-@-webkit-keyframes rollBackOpacity {
-  0%   {
-    -webkit-transform: translate(0,0);
-    opacity: 1;
-  }
-  100% { 
-    -webkit-transform: translate(0,0);
-    opacity: 1;
-  }
-}
-@-moz-keyframes rollBackOpacity {
-  0%   {
-    -moz-transform: translate(0,0);
-    opacity: 1;
-  }
-  100% { 
-    -moz-transform: translate(0,0);
-    opacity: 1;
-  }
-}
-@-o-keyframes rollBackOpacity {
-  0%   {
-    -o-transform: translate(0,0);
-    opacity: 1;
-  }
-  100% { 
-    -o-transform: translate(0,0);
-    opacity: 1;
-  }
-}
-@keyframes rollBackOpacity {
-  0%   {
-    transform: translate(0,0);
-    opacity: 1;
-  }
-  100% { 
-    transform: translate(0,0);
-    opacity: 1;
-  }
-}
-
 /*-------------------------------------------*/
 .absolute {
   position: absolute;
@@ -375,6 +333,7 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .content{
+  background: url('images/728x90_bg.jpg') no-repeat center center;
   -webkit-transform: translate(-728px,0);
   -moz-transform: translate(-728px,0);
   -ms-transform: translate(-728px,0);
@@ -387,15 +346,15 @@
   -o-animation: fadeIn 1s ease-in-out 1s forwards;
   animation: fadeIn 1s ease-in-out 1s forwards;
 }
-.footer {
-  width: 728px;
-  height: 18px;
-  background: url('images/728x90_footer.png') no-repeat center center;
-  left: 0px;
-  bottom: 0px;
-  z-index: 100;
-}
+
 .frame1-container {
+  -webkit-animation: fadeOut 1s ease-in-out 4s forwards;
+  -moz-animation: fadeOut 1s ease-in-out 4s forwards;
+  -ms-animation: fadeOut 1s ease-in-out 4s forwards;
+  -o-animation: fadeOut 1s ease-in-out 4s forwards;
+  animation: fadeOut 1s ease-in-out 4s forwards;
+}
+.frame1 {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   z-index: 1;
@@ -406,201 +365,95 @@
   -o-animation: fadeIn 10ms ease-in-out 0s forwards;
   animation: fadeIn 10ms ease-in-out 0s forwards;
 }
-.frame1 {
-  -webkit-animation: fadeOut 1s ease-in-out 4s forwards;
-  -moz-animation: fadeOut 1s ease-in-out 4s forwards;
-  -ms-animation: fadeOut 1s ease-in-out 4s forwards;
-  -o-animation: fadeOut 1s ease-in-out 4s forwards;
-  animation: fadeOut 1s ease-in-out 4s forwards;
-}
-.frame1-title {
-  width: 274px;
-  height: 76px;
-  background: url('images/728x90_frame1_title.png') no-repeat center center;
-  top: 5px;
-  left: 23px;
-}
-.frame1-pack-container {}
-.frame1-pack {
-  width: 402px;
-  height: 90px;
-  background: url('images/728x90_frame1_pack.png') no-repeat center center;
-  top: 0px;
-  right: 0px;
+.frame1-text {
+  width: 499px;
+  height: 28px;
+  background: url('./images/728x90_frame1_text.png') no-repeat center center;
+  top: 34px;
+  left: 196px;
 
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  z-index: 1;
-
   -webkit-animation: fadeIn 1s ease-in-out 2s forwards;
   -moz-animation: fadeIn 1s ease-in-out 2s forwards;
   -ms-animation: fadeIn 1s ease-in-out 2s forwards;
   -o-animation: fadeIn 1s ease-in-out 2s forwards;
-  animation: fadeIn 1s ease-in-out 2s forwards;
+  animation: fadeIn 1s ease-in-out 2s forwards;  
+}
+.frame1-logo {
+  width: 144px;
+  height: 35px;
+  background: url('./images/728x90_frame1_logo.png') no-repeat center center;
+  top: 28px;
+  left: 19px;
 }
 .frame2-container {
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  z-index: 1;
-
-  -webkit-animation: fadeIn 1s ease-in-out 4s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 4s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 4s forwards;
-  -o-animation: fadeIn 1s ease-in-out 4s forwards;
-  animation: fadeIn 1s ease-in-out 4s forwards;
-}
-.frame2 {
   -webkit-animation: fadeOut 1s ease-in-out 9s forwards;
   -moz-animation: fadeOut 1s ease-in-out 9s forwards;
   -ms-animation: fadeOut 1s ease-in-out 9s forwards;
   -o-animation: fadeOut 1s ease-in-out 9s forwards;
-  animation: fadeOut 1s ease-in-out 9s forwards;
+  animation: fadeOut 1s ease-in-out 9s forwards;  
 }
-.frame2-title-container{
-  -webkit-animation: fadeOut 1s ease-in-out 7s forwards;
-  -moz-animation: fadeOut 1s ease-in-out 7s forwards;
-  -ms-animation: fadeOut 1s ease-in-out 7s forwards;
-  -o-animation: fadeOut 1s ease-in-out 7s forwards;
-  animation: fadeOut 1s ease-in-out 7s forwards;
-}
-.frame2-title {
-  width: 218px;
-  height: 37px;
-  background: url('images/728x90_frame2_title.png') no-repeat center center;
-  top: 24px;
-  left: 97px;
-  z-index: 5;
-}
-.frame2-girl-container {
-  -webkit-animation: fadeOut 1s ease-in-out 7s forwards;
-  -moz-animation: fadeOut 1s ease-in-out 7s forwards;
-  -ms-animation: fadeOut 1s ease-in-out 7s forwards;
-  -o-animation: fadeOut 1s ease-in-out 7s forwards;
-  animation: fadeOut 1s ease-in-out 7s forwards;
-}
-.frame2-girl {
-  width: 118px;
-  height: 90px;
-  background: url('images/728x90_frame2_girl_face.png') no-repeat center center;
-  top: 0;
-  left: 316px;
-
+.frame2 {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  z-index: 2;
+  z-index: 1;
 
   -webkit-animation: fadeIn 1s ease-in-out 5s forwards;
   -moz-animation: fadeIn 1s ease-in-out 5s forwards;
   -ms-animation: fadeIn 1s ease-in-out 5s forwards;
   -o-animation: fadeIn 1s ease-in-out 5s forwards;
-  animation: fadeIn 1s ease-in-out 5s forwards;
+  animation: fadeIn 1s ease-in-out 5s forwards;  
 }
-.frame2-brush1-container {
-  -webkit-transform: translate(728px,0);
-  -moz-transform: translate(728px,0);
-  -ms-transform: translate(728px,0);
-  -o-transform: translate(728px,0);
-  transform: translate(728px,0);
+.frame2-logo {
+  width: 144px;
+  height: 35px;
+  background: url('./images/728x90_frame1_logo.png') no-repeat center center;
+  top: 28px;
+  left: 19px;
+}
+.frame2-text {
+  width: 209px;
+  height: 35px;
+  background: url('./images/728x90_frame2_text.png') no-repeat center center;
+  top: 30px;
+  left: 196px;
 
-  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
-  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
-  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
-  -o-animation: rollBack 10ms ease-in-out 0s forwards;
-  animation: rollBack 10ms ease-in-out 0s forwards;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s ease-in-out 6s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 6s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 6s forwards;
+  -o-animation: fadeIn 1s ease-in-out 6s forwards;
+  animation: fadeIn 1s ease-in-out 6s forwards;  
 }
-.frame2-brush1{
-  width: 332px;
+.frame2-icon {
+  width: 110px;
   height: 90px;
-  background: url('images/728x90_frame2_brush_1.png') no-repeat center center;
+  background: url('./images/728x90_frame2_icon.png') no-repeat center center;
   top: 0px;
-  left: 388px;
+  right: 188px;
 
-  -webkit-transform: translate(-728px,0);
-  -moz-transform: translate(-728px,0);
-  -ms-transform: translate(-728px,0);
-  -o-transform: translate(-728px,0);
-  transform: translate(-728px,0);
-
-  -webkit-animation: slideRight 0.5s ease-in-out 6s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 6s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 6s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 6s forwards;
-  animation: slideRight 0.5s ease-in-out 6s forwards;
+  opacity: 0;
+  -webkit-animation: fadeIn 1s ease-in-out 6s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 6s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 6s forwards;
+  -o-animation: fadeIn 1s ease-in-out 6s forwards;
+  animation: fadeIn 1s ease-in-out 6s forwards;  
 }
-.frame2-brush2-container{
-  -webkit-transform: translate(728px,0);
-  -moz-transform: translate(728px,0);
-  -ms-transform: translate(728px,0);
-  -o-transform: translate(728px,0);
-  transform: translate(728px,0);
-
-  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
-  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
-  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
-  -o-animation: rollBack 10ms ease-in-out 0s forwards;
-  animation: rollBack 10ms ease-in-out 0s forwards;
-}
-.frame2-brush2{
+.frame2-person {
   width: 126px;
-  height: 69px;
-  background: url('images/728x90_frame2_brush_2.png') no-repeat center center;
-  top: 15px;
-  left: 0px; 
-
-  -webkit-transform: translate(-728px,0);
-  -moz-transform: translate(-728px,0);
-  -ms-transform: translate(-728px,0);
-  -o-transform: translate(-728px,0);
-  transform: translate(-728px,0);
-
-  -webkit-animation: slideRight 0.5s ease-in-out 6.5s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 6.5s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 6.5s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 6.5s forwards;
-  animation: slideRight 0.5s ease-in-out 6.5s forwards;
-}
-.frame3-title-container {
-  z-index: 5;
-}
-.frame3-title {
-  width: 288px;
-  height: 37px;
-  background: url('images/728x90_frame3_title.png') no-repeat center center;
-  top: 24px;
-  left: 98px;
-
-  opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  z-index: 5;
-
-  -webkit-animation: fadeIn 1s ease-in-out 7s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 7s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 7s forwards;
-  -o-animation: fadeIn 1s ease-in-out 7s forwards;
-  animation: fadeIn 1s ease-in-out 7s forwards;
-}
-.frame3-pack-container {
-  z-index: 5;
-}
-.frame3-pack {
-  width: 211px;
   height: 90px;
-  background: url('images/728x90_frame3_pack.png') no-repeat center center;
+  background: url('./images/728x90_frame2_person.png') no-repeat center center;
+  right: 76px;
   top: 0px;
-  left: 382px;
 
   opacity: 0;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  z-index: 5;
-
   -webkit-animation: fadeIn 1s ease-in-out 7s forwards;
   -moz-animation: fadeIn 1s ease-in-out 7s forwards;
   -ms-animation: fadeIn 1s ease-in-out 7s forwards;
   -o-animation: fadeIn 1s ease-in-out 7s forwards;
-  animation: fadeIn 1s ease-in-out 7s forwards;
+  animation: fadeIn 1s ease-in-out 7s forwards;  
 }
-
-.frame4-container {
+.frame3-container {
   -webkit-transform: translate(728px,0);
   -moz-transform: translate(728px,0);
   -ms-transform: translate(728px,0);
@@ -613,48 +466,7 @@
   -o-animation: rollBack 10ms ease-in-out 0s forwards;
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.frame4 {
-  -webkit-transform: translate(-728px,0);
-  -moz-transform: translate(-728px,0);
-  -ms-transform: translate(-728px,0);
-  -o-transform: translate(-728px,0);
-  transform: translate(-728px,0);
-
-  -webkit-animation: fadeIn 1s ease-in-out 9s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 9s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 9s forwards;
-  -o-animation: fadeIn 1s ease-in-out 9s forwards;
-  animation: fadeIn 1s ease-in-out 9s forwards;
-}
-.frame4-title-container {
-}
-.frame4-title {
-  width: 231px;
-  height: 71px;
-  background: url('images/728x90_frame4_title.png') no-repeat center center;
-  top: 9px;
-  left: 12px;
-}
-.frame4-pack-container {
-  -webkit-transform: translate(728px,0);
-  -moz-transform: translate(728px,0);
-  -ms-transform: translate(728px,0);
-  -o-transform: translate(728px,0);
-  transform: translate(728px,0);
-
-  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
-  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
-  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
-  -o-animation: rollBack 10ms ease-in-out 0s forwards;
-  animation: rollBack 10ms ease-in-out 0s forwards;
-}
-.frame4-pack {
-  width: 211px;
-  height: 90px;
-  background: url('images/728x90_frame3_pack.png') no-repeat center center;
-  top: 0px;
-  left: 250px;
-
+.frame3 {
   -webkit-transform: translate(-728px,0);
   -moz-transform: translate(-728px,0);
   -ms-transform: translate(-728px,0);
@@ -667,8 +479,85 @@
   -o-animation: fadeIn 1s ease-in-out 10s forwards;
   animation: fadeIn 1s ease-in-out 10s forwards;
 }
+.frame3-logo {
+  width: 144px;
+  height: 35px;
+  background: url('./images/728x90_frame1_logo.png') no-repeat center center;
+  top: 28px;
+  left: 19px;
+}
+.frame3-bayer {
+  width: 35px;
+  height: 35px;
+  background: url('./images/728x90_frame3_bayer.png') no-repeat center center;
+  top: 29px;
+  right: 23px;
+}
+.frame3-text-container {
+  -webkit-transform: translate(728px,0);
+  -moz-transform: translate(728px,0);
+  -ms-transform: translate(728px,0);
+  -o-transform: translate(728px,0);
+  transform: translate(728px,0);
 
-.frame4-cta-container {
+  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
+  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
+  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
+  -o-animation: rollBack 10ms ease-in-out 0s forwards;
+  animation: rollBack 10ms ease-in-out 0s forwards;
+}
+.frame3-text {
+  width: 188px;
+  height: 35px;
+  background: url('./images/728x90_frame3_text.png') no-repeat center center;
+  top: 30px;
+  left: 183px;
+
+  -webkit-transform: translate(-728px,0);
+  -moz-transform: translate(-728px,0);
+  -ms-transform: translate(-728px,0);
+  -o-transform: translate(-728px,0);
+  transform: translate(-728px,0);
+
+  -webkit-animation: fadeIn 1s ease-in-out 11s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 11s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 11s forwards;
+  -o-animation: fadeIn 1s ease-in-out 11s forwards;
+  animation: fadeIn 1s ease-in-out 11s forwards;
+}
+.frame3-person-container {
+  -webkit-transform: translate(728px,0);
+  -moz-transform: translate(728px,0);
+  -ms-transform: translate(728px,0);
+  -o-transform: translate(728px,0);
+  transform: translate(728px,0);
+
+  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
+  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
+  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
+  -o-animation: rollBack 10ms ease-in-out 0s forwards;
+  animation: rollBack 10ms ease-in-out 0s forwards;
+}
+.frame3-person {
+  width: 126px;
+  height: 90px;
+  background: url('./images/728x90_frame2_person.png') no-repeat center center;
+  right: 76px;
+  top: 0px;
+
+  -webkit-transform: translate(-728px,0);
+  -moz-transform: translate(-728px,0);
+  -ms-transform: translate(-728px,0);
+  -o-transform: translate(-728px,0);
+  transform: translate(-728px,0);
+
+  -webkit-animation: fadeIn 1s ease-in-out 12s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 12s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 12s forwards;
+  -o-animation: fadeIn 1s ease-in-out 12s forwards;
+  animation: fadeIn 1s ease-in-out 12s forwards;
+}
+.frame3-cta-container {
   -webkit-transform: translate(0,90px);
   -moz-transform: translate(0,90px);
   -ms-transform: translate(0,90px);
@@ -681,12 +570,12 @@
   -o-animation: rollBack 10ms ease-in-out 0s forwards;
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.frame4-cta {
-  width: 236px;
-  height: 32px;
-  background: url('images/728x90_frame4_cta.png') no-repeat center center;
-  top: 21px;
-  right: 17px;
+.frame3-cta {
+  width: 141px;
+  height: 48px;
+  background: url('./images/728x90_frame3_cta.png') no-repeat center center;
+  left: 385px;
+  top: 25px;
 
   -webkit-transform: translate(0,-90px);
   -moz-transform: translate(0,-90px);
@@ -694,9 +583,13 @@
   -o-transform: translate(0,-90px);
   transform: translate(0,-90px);
 
-  -webkit-animation: slideDown 0.5s ease-in-out 11s forwards;
-  -moz-animation: slideDown 0.5s ease-in-out 11s forwards;
-  -ms-animation: slideDown 0.5s ease-in-out 11s forwards;
-  -o-animation: slideDown 0.5s ease-in-out 11s forwards;
-  animation: slideDown 0.5s ease-in-out 11s forwards;
+  -webkit-animation: slideDown 0.5s ease-in-out 13s forwards;
+  -moz-animation: slideDown 0.5s ease-in-out 13s forwards;
+  -ms-animation: slideDown 0.5s ease-in-out 13s forwards;
+  -o-animation: slideDown 0.5s ease-in-out 13s forwards;
+  animation: slideDown 0.5s ease-in-out 13s forwards;
+}
+.border {
+  background: url('./images/728x90_border.png') no-repeat center center;
+  z-index: 100;
 }
