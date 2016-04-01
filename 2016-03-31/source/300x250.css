@@ -333,7 +333,7 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .content{
-  background: url('images/300x250_bg.jpg') no-repeat center center;
+  background: url('images/300x250_bg.png') no-repeat center center;
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
   -ms-transform: translate(-300px,0);
