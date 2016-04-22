@@ -468,6 +468,28 @@
     transform: scale(0.8);
   }
 }
+
+/* blink animation */
+@-webkit-keyframes blink{
+  0%{background-color:#e4632a}
+  50%{background-color:#f2b69b}
+  100%{background-color:#e4632a}
+}
+@-moz-keyframes blink{
+  0%{background-color:#e4632a}
+  50%{background-color:#f2b69b}
+  100%{background-color:#e4632a}
+}
+@-ms-keyframes blink{
+  0%{background-color:#e4632a}
+  50%{background-color:#f2b69b}
+  100%{background-color:#e4632a}
+}
+@keyframes blink{
+  0%{background-color:#e4632a}
+  50%{background-color:#f2b69b}
+  100%{background-color:#e4632a}
+}
 /*-------------------------------------------*/
 .absolute {
   position: absolute;
@@ -798,7 +820,6 @@
 .cta {
   width: 77px;
   height: 15px;
-  background-color: #e4632a;
   right: 5px;
   bottom: 9px;
 
@@ -813,6 +834,19 @@
   -ms-animation: slideLeft2 0.5s ease-in-out 4.25s forwards;
   -o-animation: slideLeft2 0.5s ease-in-out 4.25s forwards;
   animation: slideLeft2 0.5s ease-in-out 4.25s forwards;
+}
+.cta-bg {
+  width: 77px;
+  height: 15px;
+  background-color: #e4632a;
+  top: 0px;
+  left: 0px;
+
+  -webkit-animation: blink 2s ease-in-out 5s 4;
+  -moz-animation: blink 2s ease-in-out 5s 4;
+  -ms-animation: blink 2s ease-in-out 5s 4;
+  -o-animation: blink 2s ease-in-out 5s 4;
+  animation: blink 2s ease-in-out 5s 4;
 }
 .cta-text {
   width: 67px;
