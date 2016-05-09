@@ -680,7 +680,7 @@
 /*-- slide hand 1 animation--*/
 @-webkit-keyframes slideHandOne {
   0%   {
-    -webkit-transform: (35px,-35px);
+    -webkit-transform: translate(35px,-35px);
     visibility: visible;
   }
   100% { 
@@ -690,7 +690,7 @@
 }
 @-moz-keyframes slideHandOne {
   0%   {
-    -moz-transform: (35px,-35px);
+    -moz-transform: translate(35px,-35px);
     visibility: visible;
   }
   100% { 
@@ -700,7 +700,7 @@
 }
 @-o-keyframes slideHandOne {
   0%   {
-    -o-transform: (35px,-35px);
+    -o-transform: translate(35px,-35px);
     visibility: visible;
   }
   100% { 
@@ -710,7 +710,7 @@
 }
 @keyframes slideHandOne {
   0%   {
-    transform: (35px,-35px);
+    transform: translate(35px,-35px);
     visibility: visible;
   }
   100% { 
