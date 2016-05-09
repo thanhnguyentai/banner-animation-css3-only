@@ -676,259 +676,6 @@
     visibility: visible;
   }
 }
-
-/*-- slide hand 1 animation--*/
-@-webkit-keyframes slideHandOne {
-  0%   {
-    -webkit-transform: translate(67px,-69px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-moz-keyframes slideHandOne {
-  0%   {
-    -moz-transform: translate(67px,-69px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-o-keyframes slideHandOne {
-  0%   {
-    -o-transform: translate(67px,-69px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@keyframes slideHandOne {
-  0%   {
-    transform: translate(67px,-69px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-
-/*-- slide hand 2 animation--*/
-@-webkit-keyframes slideHandTwo {
-  0%   {
-    -webkit-transform: translate(56px,30px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-moz-keyframes slideHandTwo {
-  0%   {
-    -moz-transform: translate(56px,30px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-o-keyframes slideHandTwo {
-  0%   {
-    -o-transform: translate(56px,30px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@keyframes slideHandTwo {
-  0%   {
-    transform: translate(56px,30px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-
-/*-- slide hand 3 animation--*/
-@-webkit-keyframes slideHandThree {
-  0%   {
-    -webkit-transform: translate(-85px,-30px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-moz-keyframes slideHandThree {
-  0%   {
-    -moz-transform: translate(-85px,-30px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-o-keyframes slideHandThree {
-  0%   {
-    -o-transform: translate(-85px,-30px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@keyframes slideHandThree {
-  0%   {
-    transform: translate(-85px,-30px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-
-/*-- slide hand 4 animation--*/
-@-webkit-keyframes slideHandFour {
-  0%   {
-    -webkit-transform: translate(-51px,64px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-moz-keyframes slideHandFour {
-  0%   {
-    -moz-transform: translate(-51px,64px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-o-keyframes slideHandFour {
-  0%   {
-    -o-transform: translate(-51px,64px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@keyframes slideHandFour {
-  0%   {
-    transform: translate(-51px,64px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-
-/*-- slide hand 5 animation--*/
-@-webkit-keyframes slideHandFive {
-  0%   {
-    -webkit-transform: translate(63px,-27px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-moz-keyframes slideHandFive {
-  0%   {
-    -moz-transform: translate(63px,-27px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-o-keyframes slideHandFive {
-  0%   {
-    -o-transform: translate(63px,-27px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@keyframes slideHandFive {
-  0%   {
-    transform: translate(63px,-27px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-
-/*-- slide hand 6 animation--*/
-@-webkit-keyframes slideHandSix {
-  0%   {
-    -webkit-transform: translate(-64px,64px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-moz-keyframes slideHandSix {
-  0%   {
-    -moz-transform: translate(-64px,64px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@-o-keyframes slideHandSix {
-  0%   {
-    -o-transform: translate(-64px,64px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-@keyframes slideHandSix {
-  0%   {
-    transform: translate(-64px,64px);
-    visibility: visible;
-  }
-  100% { 
-    transform: translate(0,0);
-    visibility: visible;
-  }
-}
-
 /*-- rotate right hand animation--*/
 @-webkit-keyframes rotateRightHand {
   0%   {
@@ -1171,8 +918,8 @@
   animation: slideLeftFadeOut 0.5s ease-in 4s forwards;
 }
 .frame1-text {
-  width: 457px;
-  height: 19px;
+  width: 570px;
+  height: 23px;
   background: url('./images/728x90_frame1_text.png') no-repeat center center;
   background-size: 100% auto;
   top: 33px;
@@ -1238,19 +985,55 @@
   animation: fadeIn 10ms ease-in-out 0s forwards;
 }
 .frame2-content {
-  -webkit-animation: slideRightFromZero 1s ease-out 9s forwards;
-  -moz-animation: slideRightFromZero 1s ease-out 9s forwards;
-  -ms-animation: slideRightFromZero 1s ease-out 9s forwards;
-  -o-animation: slideRightFromZero 1s ease-out 9s forwards;
-  animation: slideRightFromZero 1s ease-out 9s forwards;
+  -webkit-animation: slideDownFromZero 0.5s ease-out 8s forwards;
+  -moz-animation: slideDownFromZero 0.5s ease-out 8s forwards;
+  -ms-animation: slideDownFromZero 0.5s ease-out 8s forwards;
+  -o-animation: slideDownFromZero 0.5s ease-out 8s forwards;
+  animation: slideDownFromZero 0.5s ease-out 8s forwards;
 }
-.elevator {
-  width: 205px;
-  height: 71px;
-  background: url('./images/728x90_elevator.png') no-repeat center center;
+
+
+/*------------------------------------------------------*/
+.wand {
+  width: 22px;
+  height: 90px;
+  background: url('./images/728x90_wand.png') no-repeat center center;
   background-size: 100% auto;
-  top: 10px;
-  left: 163px;
+  top: 0px;
+  left: 353px;
+
+  -webkit-transform: translate(0px,90px);
+  -moz-transform: translate(0px,90px);
+  -ms-transform: translate(0px,90px);
+  -o-transform: translate(0px,90px);
+  transform: translate(0px,90px);
+
+  -webkit-animation: slideUp 0.5s ease-in-out 4.5s forwards;
+  -moz-animation: slideUp 0.5s ease-in-out 4.5s forwards;
+  -ms-animation: slideUp 0.5s ease-in-out 4.5s forwards;
+  -o-animation: slideUp 0.5s ease-in-out 4.5s forwards;
+  animation: slideUp 0.5s ease-in-out 4.5s forwards;
+}
+.hand-1-open-container, .hand-2-open-container, .hand-3-open-container, 
+.hand-4-open-container, .hand-5-open-container, .hand-6-open-container,
+.hand-1-close-container, .hand-2-close-container, .hand-3-close-container, 
+.hand-4-close-container, .hand-5-close-container, .hand-6-close-container {
+  visibility: hidden;
+}
+.hand-1-open-container {
+  -webkit-animation: fadeOut 0.1s ease-in-out 6s forwards;
+  -moz-animation: fadeOut 0.1s ease-in-out 6s forwards;
+  -ms-animation: fadeOut 0.1s ease-in-out 6s forwards;
+  -o-animation: fadeOut 0.1s ease-in-out 6s forwards;
+  animation: fadeOut 0.1s ease-in-out 6s forwards;
+}
+.hand-1-open {
+  width: 611px;
+  height: 66px;
+  background: url('./images/728x90_hand_1_open.png') no-repeat center center;
+  background-size: 100% auto;
+  top: 15px;
+  right: 314px;
 
   -webkit-transform: translate(-728px,0px);
   -moz-transform: translate(-728px,0px);
@@ -1258,170 +1041,163 @@
   -o-transform: translate(-728px,0px);
   transform: translate(-728px,0px);
 
-  -webkit-animation: slideRight 1s ease-in-out 4.5s forwards;
-  -moz-animation: slideRight 1s ease-in-out 4.5s forwards;
-  -ms-animation: slideRight 1s ease-in-out 4.5s forwards;
-  -o-animation: slideRight 1s ease-in-out 4.5s forwards;
-  animation: slideRight 1s ease-in-out 4.5s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 5.5s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 5.5s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 5.5s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 5.5s forwards;
+  animation: slideRight 0.5s ease-in-out 5.5s forwards;
 }
-.button-1, .button-2, .button-3, .button-5, .button-6 {
-  width: 31px;
-  height: 29px;
-  background: url('./images/728x90_highlight_button.png') no-repeat center center;
+.hand-1-close-container {}
+.hand-1-close {
+  width: 583px;
+  height: 60px;
+  background: url('./images/728x90_hand_1_close.png') no-repeat center center;
   background-size: 100% auto;
-}
-.button-1 {
-  top: 52px; 
-  left: 267px;
-  opacity: 0;
-
-  -webkit-animation: fadeIn 0.1s ease-in-out 6s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 6s forwards;
-  -ms-animation: fadeIn 0.1s ease-in-out 6s forwards;
-  -o-animation: fadeIn 0.1s ease-in-out 6s forwards;
-  animation: fadeIn 0.1s ease-in-out 6s forwards;
-}
-.hand-1-container, .hand-2-container, .hand-3-container, .hand-4-container, .hand-5-container, .hand-6-container {
-  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
-  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
-  -ms-animation: hideContent 10ms ease-in-out 0s forwards;
-  -o-animation: hideContent 10ms ease-in-out 0s forwards;
-  animation: hideContent 10ms ease-in-out 0s forwards;
-}
-.hand-1 {
-  width: 67px;
-  height: 69px;
-  background: url('./images/728x90_hand_1.png') no-repeat center center;
-  background-size: 100% auto;
-  top: 0px;
-  right: 387px;
-
-  -webkit-transform: translate(67px,-69px);
-  -moz-transform: translate(67px,-69px);
-  -ms-transform: translate(67px,-69px);
-  -o-transform: translate(67px,-69px);
-  transform: translate(67px,-69px);
-
-  -webkit-animation: slideHandOne 0.5s ease-in-out 5.5s forwards;
-  -moz-animation: slideHandOne 0.5s ease-in-out 5.5s forwards;
-  -ms-animation: slideHandOne 0.5s ease-in-out 5.5s forwards;
-  -o-animation: slideHandOne 0.5s ease-in-out 5.5s forwards;
-  animation: slideHandOne 0.5s ease-in-out 5.5s forwards;
-}
-.button-2 {
-  top: 51px;
-  left: 339px;
+  top: 20px;
+  right: 344px;
 
   opacity: 0;
 
-  -webkit-animation: fadeIn 0.1s ease-in-out 6.5s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 6.5s forwards;
-  -ms-animation: fadeIn 0.1s ease-in-out 6.5s forwards;
-  -o-animation: fadeIn 0.1s ease-in-out 6.5s forwards;
-  animation: fadeIn 0.1s ease-in-out 6.5s forwards;
+  -webkit-animation: fadeIn 0.02s ease-in-out 6s forwards;
+  -moz-animation: fadeIn 0.02s ease-in-out 6s forwards;
+  -ms-animation: fadeIn 0.02s ease-in-out 6s forwards;
+  -o-animation: fadeIn 0.02s ease-in-out 6s forwards;
+  animation: fadeIn 0.02s ease-in-out 6s forwards;
 }
-.hand-2 {
-  width: 56px;
-  height: 30px;
-  background: url('./images/728x90_hand_2.png') no-repeat center center;
+.hand-4-open-container {
+  -webkit-animation: fadeOut 0.1s ease-in-out 6.5s forwards;
+  -moz-animation: fadeOut 0.1s ease-in-out 6.5s forwards;
+  -ms-animation: fadeOut 0.1s ease-in-out 6.5s forwards;
+  -o-animation: fadeOut 0.1s ease-in-out 6.5s forwards;
+  animation: fadeOut 0.1s ease-in-out 6.5s forwards;
+}
+.hand-4-open {
+  width: 487px;
+  height: 66px;
+  background: url('./images/728x90_hand_4_open.png') no-repeat center center;
   background-size: 100% auto;
-  bottom: 0px;
-  right: 323px;
+  top: 21px;
+  left: 306px;
 
-  -webkit-transform: translate(56px,30px);
-  -moz-transform: translate(56px,30px);
-  -ms-transform: translate(56px,30px);
-  -o-transform: translate(56px,30px);
-  transform: translate(56px,30px);
+  -webkit-transform: translate(728px,0px);
+  -moz-transform: translate(728px,0px);
+  -ms-transform: translate(728px,0px);
+  -o-transform: translate(728px,0px);
+  transform: translate(728px,0px);
 
-  -webkit-animation: slideHandTwo 0.5s ease-in-out 6s forwards;
-  -moz-animation: slideHandTwo 0.5s ease-in-out 6s forwards;
-  -ms-animation: slideHandTwo 0.5s ease-in-out 6s forwards;
-  -o-animation: slideHandTwo 0.5s ease-in-out 6s forwards;
-  animation: slideHandTwo 0.5s ease-in-out 6s forwards;
+  -webkit-animation: slideLeft2 0.5s ease-in-out 6s forwards;
+  -moz-animation: slideLeft2 0.5s ease-in-out 6s forwards;
+  -ms-animation: slideLeft2 0.5s ease-in-out 6s forwards;
+  -o-animation: slideLeft2 0.5s ease-in-out 6s forwards;
+  animation: slideLeft2 0.5s ease-in-out 6s forwards;
 }
-.button-3 {
-  top: 10px;
-  left: 196px;
+.hand-4-close-container {}
+.hand-4-close {
+  width: 458px;
+  height: 60px;
+  background: url('./images/728x90_hand_4_close.png') no-repeat center center;
+  background-size: 100% auto;
+  top: 26px;
+  left: 334px;
+
   opacity: 0;
 
-  -webkit-animation: fadeIn 0.1s ease-in-out 7s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 7s forwards;
-  -ms-animation: fadeIn 0.1s ease-in-out 7s forwards;
-  -o-animation: fadeIn 0.1s ease-in-out 7s forwards;
-  animation: fadeIn 0.1s ease-in-out 7s forwards;
+  -webkit-animation: fadeIn 0.02s ease-in-out 6.5s forwards;
+  -moz-animation: fadeIn 0.02s ease-in-out 6.5s forwards;
+  -ms-animation: fadeIn 0.02s ease-in-out 6.5s forwards;
+  -o-animation: fadeIn 0.02s ease-in-out 6.5s forwards;
+  animation: fadeIn 0.02s ease-in-out 6.5s forwards;
 }
-.hand-3 {
-  width: 85px;
-  height: 30px;
-  background: url('./images/728x90_hand_3.png') no-repeat center center;
+.hand-5-open-container {
+  -webkit-animation: fadeOut 0.1s ease-in-out 7s forwards;
+  -moz-animation: fadeOut 0.1s ease-in-out 7s forwards;
+  -ms-animation: fadeOut 0.1s ease-in-out 7s forwards;
+  -o-animation: fadeOut 0.1s ease-in-out 7s forwards;
+  animation: fadeOut 0.1s ease-in-out 7s forwards;
+}
+.hand-5-open {
+  width: 516px;
+  height: 66px;
+  background: url('./images/728x90_hand_5_open.png') no-repeat center center;
   background-size: 100% auto;
-  top: 0px;
-  left: 123px;
+  top: -2px;
+  left: 306px;
 
-  -webkit-transform: translate(-85px,-30px);
-  -moz-transform: translate(-85px,-30px);
-  -ms-transform: translate(-85px,-30px);
-  -o-transform: translate(-85px,-30px);
-  transform: translate(-85px,-30px);
+  -webkit-transform: translate(728px,0px);
+  -moz-transform: translate(728px,0px);
+  -ms-transform: translate(728px,0px);
+  -o-transform: translate(728px,0px);
+  transform: translate(728px,0px);
 
-  -webkit-animation: slideHandThree 0.5s ease-in-out 6.5s forwards;
-  -moz-animation: slideHandThree 0.5s ease-in-out 6.5s forwards;
-  -ms-animation: slideHandThree 0.5s ease-in-out 6.5s forwards;
-  -o-animation: slideHandThree 0.5s ease-in-out 6.5s forwards;
-  animation: slideHandThree 0.5s ease-in-out 6.5s forwards;
+  -webkit-animation: slideLeft2 0.5s ease-in-out 6.5s forwards;
+  -moz-animation: slideLeft2 0.5s ease-in-out 6.5s forwards;
+  -ms-animation: slideLeft2 0.5s ease-in-out 6.5s forwards;
+  -o-animation: slideLeft2 0.5s ease-in-out 6.5s forwards;
+  animation: slideLeft2 0.5s ease-in-out 6.5s forwards;
 }
-.hand-4 {
-  width: 51px;
-  height: 64px;
-  background: url('./images/728x90_hand_4.png') no-repeat center center;
+.hand-5-close-container {}
+.hand-5-close {
+  width: 487px;
+  height: 61px;
+  background: url('./images/728x90_hand_5_close.png') no-repeat center center;
   background-size: 100% auto;
-  bottom: 0px;
-  left: 177px;
+  top: 2px;
+  left: 334px;
 
-  -webkit-transform: translate(-51px,64px);
-  -moz-transform: translate(-51px,64px);
-  -ms-transform: translate(-51px,64px);
-  -o-transform: translate(-51px,64px);
-  transform: translate(-51px,64px);
-
-  -webkit-animation: slideHandFour 0.5s ease-in-out 7s forwards;
-  -moz-animation: slideHandFour 0.5s ease-in-out 7s forwards;
-  -ms-animation: slideHandFour 0.5s ease-in-out 7s forwards;
-  -o-animation: slideHandFour 0.5s ease-in-out 7s forwards;
-  animation: slideHandFour 0.5s ease-in-out 7s forwards;
-}
-.button-5 {
-  top: 10px;
-  left: 338px;
   opacity: 0;
 
-  -webkit-animation: fadeIn 0.1s ease-in-out 8s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 8s forwards;
-  -ms-animation: fadeIn 0.1s ease-in-out 8s forwards;
-  -o-animation: fadeIn 0.1s ease-in-out 8s forwards;
-  animation: fadeIn 0.1s ease-in-out 8s forwards;
+  -webkit-animation: fadeIn 0.02s ease-in-out 7s forwards;
+  -moz-animation: fadeIn 0.02s ease-in-out 7s forwards;
+  -ms-animation: fadeIn 0.02s ease-in-out 7s forwards;
+  -o-animation: fadeIn 0.02s ease-in-out 7s forwards;
+  animation: fadeIn 0.02s ease-in-out 7s forwards;
 }
-.hand-5 {
-  width: 63px;
-  height: 27px;
-  background: url('./images/728x90_hand_5.png') no-repeat center center;
+.hand-6-open-container {
+  -webkit-animation: fadeOut 0.1s ease-in-out 7.5s forwards;
+  -moz-animation: fadeOut 0.1s ease-in-out 7.5s forwards;
+  -ms-animation: fadeOut 0.1s ease-in-out 7.5s forwards;
+  -o-animation: fadeOut 0.1s ease-in-out 7.5s forwards;
+  animation: fadeOut 0.1s ease-in-out 7.5s forwards;
+}
+.hand-6-open {
+  width:449px;
+  height: 66px;
+  background: url('./images/728x90_hand_6_open.png') no-repeat center center;
   background-size: 100% auto;
-  top: 0px;
-  right: 316px;
+  top: -3px;
+  right: 306px;
 
-  -webkit-transform: translate(63px,-27px);
-  -moz-transform: translate(63px,-27px);
-  -ms-transform: translate(63px,-27px);
-  -o-transform: translate(63px,-27px);
-  transform: translate(63px,-27px);
+  -webkit-transform: translate(-728px,0px);
+  -moz-transform: translate(-728px,0px);
+  -ms-transform: translate(-728px,0px);
+  -o-transform: translate(-728px,0px);
+  transform: translate(-728px,0px);
 
-  -webkit-animation: slideHandFive 0.5s ease-in-out 7.5s forwards;
-  -moz-animation: slideHandFive 0.5s ease-in-out 7.5s forwards;
-  -ms-animation: slideHandFive 0.5s ease-in-out 7.5s forwards;
-  -o-animation: slideHandFive 0.5s ease-in-out 7.5s forwards;
-  animation: slideHandFive 0.5s ease-in-out 7.5s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 7s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 7s forwards;
+  animation: slideRight 0.5s ease-in-out 7s forwards;
 }
+.hand-6-close-container {}
+.hand-6-close {
+  width: 421px;
+  height: 61px;
+  background: url('./images/728x90_hand_6_close.png') no-repeat center center;
+  background-size: 100% auto;
+  top: 2px;
+  right: 334px;
+
+  opacity: 0;
+
+  -webkit-animation: fadeIn 0.02s ease-in-out 7.5s forwards;
+  -moz-animation: fadeIn 0.02s ease-in-out 7.5s forwards;
+  -ms-animation: fadeIn 0.02s ease-in-out 7.5s forwards;
+  -o-animation: fadeIn 0.02s ease-in-out 7.5s forwards;
+  animation: fadeIn 0.02s ease-in-out 7.5s forwards;
+}
+
+/*-------------------------------------------------------*/
 
 .frame3-container {
   opacity: 0;
@@ -1435,11 +1211,11 @@
   animation: fadeIn 10ms ease-in-out 0s forwards;
 }
 .frame3-text-container {
-  -webkit-animation: slideRight2FadeOut 0.5s ease-out 11.5s forwards;
-  -moz-animation: slideRight2FadeOut 0.5s ease-out 11.5s forwards;
-  -ms-animation: slideRight2FadeOut 0.5s ease-out 11.5s forwards;
-  -o-animation: slideRight2FadeOut 0.5s ease-out 11.5s forwards;
-  animation: slideRight2FadeOut 0.5s ease-out 11.5s forwards;
+  -webkit-animation: slideRight2FadeOut 0.5s ease-out 10.5s forwards;
+  -moz-animation: slideRight2FadeOut 0.5s ease-out 10.5s forwards;
+  -ms-animation: slideRight2FadeOut 0.5s ease-out 10.5s forwards;
+  -o-animation: slideRight2FadeOut 0.5s ease-out 10.5s forwards;
+  animation: slideRight2FadeOut 0.5s ease-out 10.5s forwards;
 }
 .frame3-text {
   width: 556px;
@@ -1455,11 +1231,11 @@
   -o-transform: translate(-728px,0);
   transform: translate(-728px,0);
 
-  -webkit-animation: slideRight 0.5s ease-out 10s forwards;
-  -moz-animation: slideRight 0.5s ease-out 10s forwards;
-  -ms-animation: slideRight 0.5s ease-out 10s forwards;
-  -o-animation: slideRight 0.5s ease-out 10s forwards;
-  animation: slideRight 0.5s ease-out 10s forwards;
+  -webkit-animation: slideRight 0.5s ease-out 9s forwards;
+  -moz-animation: slideRight 0.5s ease-out 9s forwards;
+  -ms-animation: slideRight 0.5s ease-out 9s forwards;
+  -o-animation: slideRight 0.5s ease-out 9s forwards;
+  animation: slideRight 0.5s ease-out 9s forwards;
 }
 .frame3-line-container {
   -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
@@ -1475,11 +1251,11 @@
   -o-transform: translate(728px,-100px);
   transform: translate(728px,-100px);
   
-  -webkit-animation: rollBackTopRight 0.5s ease-out 10s forwards;
-  -moz-animation: rollBackTopRight 0.5s ease-out 10s forwards;
-  -ms-animation: rollBackTopRight 0.5s ease-out 10s forwards;
-  -o-animation: rollBackTopRight 0.5s ease-out 10s forwards;
-  animation: rollBackTopRight 0.5s ease-out 10s forwards;
+  -webkit-animation: rollBackTopRight 0.5s ease-out 9s forwards;
+  -moz-animation: rollBackTopRight 0.5s ease-out 9s forwards;
+  -ms-animation: rollBackTopRight 0.5s ease-out 9s forwards;
+  -o-animation: rollBackTopRight 0.5s ease-out 9s forwards;
+  animation: rollBackTopRight 0.5s ease-out 9s forwards;
 }
 
 .frame4-container {
@@ -1494,11 +1270,11 @@
   animation: fadeIn 10ms ease-in-out 0s forwards;
 }
 .frame4-text-container {
-  -webkit-animation: slideRight2FadeOut 0.5s ease-out 14s forwards;
-  -moz-animation: slideRight2FadeOut 0.5s ease-out 14s forwards;
-  -ms-animation: slideRight2FadeOut 0.5s ease-out 14s forwards;
-  -o-animation: slideRight2FadeOut 0.5s ease-out 14s forwards;
-  animation: slideRight2FadeOut 0.5s ease-out 14s forwards;
+  -webkit-animation: slideRight2FadeOut 0.5s ease-out 13s forwards;
+  -moz-animation: slideRight2FadeOut 0.5s ease-out 13s forwards;
+  -ms-animation: slideRight2FadeOut 0.5s ease-out 13s forwards;
+  -o-animation: slideRight2FadeOut 0.5s ease-out 13s forwards;
+  animation: slideRight2FadeOut 0.5s ease-out 13s forwards;
 }
 .frame4-text {
   width: 162px;
@@ -1514,18 +1290,18 @@
   -o-transform: translate(728px,-100px);
   transform: translate(728px,-100px);
   
-  -webkit-animation: slideRight 0.5s ease-out 11.5s forwards;
-  -moz-animation: slideRight 0.5s ease-out 11.5s forwards;
-  -ms-animation: slideRight 0.5s ease-out 11.5s forwards;
-  -o-animation: slideRight 0.5s ease-out 11.5s forwards;
-  animation: slideRight 0.5s ease-out 11.5s forwards;
+  -webkit-animation: slideRight 0.5s ease-out 10.5s forwards;
+  -moz-animation: slideRight 0.5s ease-out 10.5s forwards;
+  -ms-animation: slideRight 0.5s ease-out 10.5s forwards;
+  -o-animation: slideRight 0.5s ease-out 10.5s forwards;
+  animation: slideRight 0.5s ease-out 10.5s forwards;
 }
 .both-hands {
-  -webkit-animation: slideDownFromZero 0.5s ease-out 14s forwards;
-  -moz-animation: slideDownFromZero 0.5s ease-out 14s forwards;
-  -ms-animation: slideDownFromZero 0.5s ease-out 14s forwards;
-  -o-animation: slideDownFromZero 0.5s ease-out 14s forwards;
-  animation: slideDownFromZero 0.5s ease-out 14s forwards;
+  -webkit-animation: slideDownFromZero 0.5s ease-out 13s forwards;
+  -moz-animation: slideDownFromZero 0.5s ease-out 13s forwards;
+  -ms-animation: slideDownFromZero 0.5s ease-out 13s forwards;
+  -o-animation: slideDownFromZero 0.5s ease-out 13s forwards;
+  animation: slideDownFromZero 0.5s ease-out 13s forwards;
 }
 .right-hand-container {
   visibility: hidden;
@@ -1534,11 +1310,11 @@
   -webkit-transform-origin: 60% 100%;
   transform-origin: 60% 100%;
 
-  -webkit-animation: rotateRightHand 0.75s ease-out 13s forwards;
-  -moz-animation: rotateRightHand 0.75s ease-out 13s forwards;
-  -ms-animation: rotateRightHand 0.75s ease-out 13s forwards;
-  -o-animation: rotateRightHand 0.75s ease-out 13s forwards;
-  animation: rotateRightHand 0.75s ease-out 13s forwards;
+  -webkit-animation: rotateRightHand 0.75s ease-out 12s forwards;
+  -moz-animation: rotateRightHand 0.75s ease-out 12s forwards;
+  -ms-animation: rotateRightHand 0.75s ease-out 12s forwards;
+  -o-animation: rotateRightHand 0.75s ease-out 12s forwards;
+  animation: rotateRightHand 0.75s ease-out 12s forwards;
 }
 .right-hand {
   width: 111px;
@@ -1554,11 +1330,11 @@
   -o-transform: translate(728px,0px);
   transform: translate(728px,0px);
 
-  -webkit-animation: slideLeft2 0.5s ease-out 12s forwards;
-  -moz-animation: slideLeft2 0.5s ease-out 12s forwards;
-  -ms-animation: slideLeft2 0.5s ease-out 12s forwards;
-  -o-animation: slideLeft2 0.5s ease-out 12s forwards;
-  animation: slideLeft2 0.5s ease-out 12s forwards;
+  -webkit-animation: slideLeft2 0.5s ease-out 11s forwards;
+  -moz-animation: slideLeft2 0.5s ease-out 11s forwards;
+  -ms-animation: slideLeft2 0.5s ease-out 11s forwards;
+  -o-animation: slideLeft2 0.5s ease-out 11s forwards;
+  animation: slideLeft2 0.5s ease-out 11s forwards;
 }
 .right-hand-blink {
   width: 21px;
@@ -1569,11 +1345,11 @@
   left: 395px;
   opacity: 0;
 
-  -webkit-animation: blink 1s ease-out 13s forwards;
-  -moz-animation: blink 1s ease-out 13s forwards;
-  -ms-animation: blink 1s ease-out 13s forwards;
-  -o-animation: blink 1s ease-out 13s forwards;
-  animation: blink 1s ease-out 13s forwards;
+  -webkit-animation: blink 1s ease-out 12s forwards;
+  -moz-animation: blink 1s ease-out 12s forwards;
+  -ms-animation: blink 1s ease-out 12s forwards;
+  -o-animation: blink 1s ease-out 12s forwards;
+  animation: blink 1s ease-out 12s forwards;
 }
 .left-hand-container {
   visibility: hidden;
@@ -1582,11 +1358,11 @@
   -webkit-transform-origin: 40% 100%;
   transform-origin: 40% 100%;
 
-  -webkit-animation: rotateLeftHand 0.75s ease-out 13s forwards;
-  -moz-animation: rotateLeftHand 0.75s ease-out 13s forwards;
-  -ms-animation: rotateLeftHand 0.75s ease-out 13s forwards;
-  -o-animation: rotateLeftHand 0.75s ease-out 13s forwards;
-  animation: rotateLeftHand 0.75s ease-out 13s forwards;
+  -webkit-animation: rotateLeftHand 0.75s ease-out 12s forwards;
+  -moz-animation: rotateLeftHand 0.75s ease-out 12s forwards;
+  -ms-animation: rotateLeftHand 0.75s ease-out 12s forwards;
+  -o-animation: rotateLeftHand 0.75s ease-out 12s forwards;
+  animation: rotateLeftHand 0.75s ease-out 12s forwards;
 }
 .left-hand {
   width: 118px;
@@ -1602,11 +1378,11 @@
   -o-transform: translate(-728px,0px);
   transform: translate(-728px,0px);
 
-  -webkit-animation: slideRight 0.5s ease-out 12s forwards;
-  -moz-animation: slideRight 0.5s ease-out 12s forwards;
-  -ms-animation: slideRight 0.5s ease-out 12s forwards;
-  -o-animation: slideRight 0.5s ease-out 12s forwards;
-  animation: slideRight 0.5s ease-out 12s forwards;
+  -webkit-animation: slideRight 0.5s ease-out 11s forwards;
+  -moz-animation: slideRight 0.5s ease-out 11s forwards;
+  -ms-animation: slideRight 0.5s ease-out 11s forwards;
+  -o-animation: slideRight 0.5s ease-out 11s forwards;
+  animation: slideRight 0.5s ease-out 11s forwards;
 }
 .left-hand-blink {
   width: 21px;
@@ -1617,11 +1393,11 @@
   left: 282px;
   opacity: 0;
 
-  -webkit-animation: blink 1s ease-out 13s forwards;
-  -moz-animation: blink 1s ease-out 13s forwards;
-  -ms-animation: blink 1s ease-out 13s forwards;
-  -o-animation: blink 1s ease-out 13s forwards;
-  animation: blink 1s ease-out 13s forwards;
+  -webkit-animation: blink 1s ease-out 12s forwards;
+  -moz-animation: blink 1s ease-out 12s forwards;
+  -ms-animation: blink 1s ease-out 12s forwards;
+  -o-animation: blink 1s ease-out 12s forwards;
+  animation: blink 1s ease-out 12s forwards;
 }
 
 .frame5-container {
@@ -1653,11 +1429,11 @@
   -o-transform: translate(-728px,0);
   transform: translate(-728px,0);
 
-  -webkit-animation: slideRight 0.5s ease-in-out 14s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 14s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 14s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 14s forwards;
-  animation: slideRight 0.5s ease-in-out 14s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 13s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 13s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 13s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 13s forwards;
+  animation: slideRight 0.5s ease-in-out 13s forwards;
 }
 .frame5-text-container {
   -webkit-transform: translate(728px,0);
@@ -1686,11 +1462,11 @@
   -o-transform: translate(-728px,0);
   transform: translate(-728px,0);
 
-  -webkit-animation: slideRight 0.5s ease-in-out 14.5s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 14.5s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 14.5s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 14.5s forwards;
-  animation: slideRight 0.5s ease-in-out 14.5s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 13.5s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 13.5s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 13.5s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 13.5s forwards;
+  animation: slideRight 0.5s ease-in-out 13.5s forwards;
 }
 .frame5-cta-container {
   -webkit-transform: translate(728px,0);
@@ -1719,11 +1495,11 @@
   -o-transform: translate(-728px,0);
   transform: translate(-728px,0);
 
-  -webkit-animation: slideRight 0.5s ease-in-out 15s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 15s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 15s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 15s forwards;
-  animation: slideRight 0.5s ease-in-out 15s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 14s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 14s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 14s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 14s forwards;
+  animation: slideRight 0.5s ease-in-out 14s forwards;
 }
 
 .logo-container {
