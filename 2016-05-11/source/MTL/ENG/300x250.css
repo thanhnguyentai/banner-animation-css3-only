@@ -742,6 +742,19 @@
   animation: wheelRotationAnimation 1.5s ease-in-out 2.5s forwards;
 }
 
+.car-2-container {
+  -webkit-transform: translate(300px,50px);
+  -moz-transform: translate(300px,50px);
+  -ms-transform: translate(300px,50px);
+  -o-transform: translate(300px,50px);
+  transform: translate(300px,50px);
+
+  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
+  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
+  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
+  -o-animation: rollBack 10ms ease-in-out 0s forwards;
+  animation: rollBack 10ms ease-in-out 0s forwards;
+}
 .car-2 {
   width: 253px;
   height: 122px;
