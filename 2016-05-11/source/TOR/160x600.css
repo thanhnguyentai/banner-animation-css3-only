@@ -822,10 +822,10 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .car-3 {
-  width: 149px;
-  height: 63px;
+  width: 151px;
+  height: 65px;
   background: url('./images/160x600_car_3.png') no-repeat center center;
-  top: 109px;
+  top: 111px;
   left: 1px;
 
   -webkit-transform: translate(-160px,-50px);
