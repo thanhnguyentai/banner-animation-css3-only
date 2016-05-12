@@ -750,6 +750,17 @@
   -o-animation: fadeOut 0.5s ease-in-out 10s forwards;
   animation: fadeOut 0.5s ease-in-out 10s forwards;
 }
+.car-2-wrapper {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  z-index: 1;
+
+  -webkit-animation: fadeIn 10ms ease-in-out 0s forwards;
+  -moz-animation: fadeIn 10ms ease-in-out 0s forwards;
+  -ms-animation: fadeIn 10ms ease-in-out 0s forwards;
+  -o-animation: fadeIn 10ms ease-in-out 0s forwards;
+  animation: fadeIn 10ms ease-in-out 0s forwards;
+}
 .car-2-container {
   -webkit-transform: translate(300px,50px);
   -moz-transform: translate(300px,50px);
