@@ -504,34 +504,34 @@
 /*-- car run in animation --*/
 @-webkit-keyframes carRunAnimation {
   0%   {
-    -webkit-transform: translate(-160px,-50px);
+    -webkit-transform: translate(-160px,-50px) scale(0.5);
   }
   100% { 
-    -webkit-transform: translate(0,0);
+    -webkit-transform: translate(0,0) scale(1);
   }
 }
 @-moz-keyframes carRunAnimation {
   0%   {
-    -moz-transform: translate(-160px,-50px);
+    -moz-transform: translate(-160px,-50px) scale(0.5);
   }
   100% { 
-    -moz-transform: translate(0,0);
+    -moz-transform: translate(0,0) scale(1);
   }
 }
 @-o-keyframes carRunAnimation {
   0%   {
-    -o-transform: translate(-160px,-50px);
+    -o-transform: translate(-160px,-50px) scale(0.5);
   }
   100% { 
-    -o-transform: translate(0,0);
+    -o-transform: translate(0,0) scale(1);
   }
 }
 @keyframes carRunAnimation {
   0%   {
-    transform: translate(-160px,-50px);
+    transform: translate(-160px,-50px) scale(0.5);
   }
   100% { 
-    transform: translate(0,0);
+    transform: translate(0,0) scale(1);
   }
 }
 
@@ -618,7 +618,7 @@
   width: 160px;
   height: 103px;
   background: url('./images/160x600_background.png') no-repeat center center;
-  top: 51px;
+  top: 101px;
   left: 0px;
 }
 .car-container{
@@ -665,7 +665,7 @@
   width: 152px;
   height: 74px;
   background: url('./images/160x600_car_1.png') no-repeat center center;
-  top: 110px;
+  top: 160px;
   left: -9px;
 
   -webkit-transform: translate(-160px,-50px);
@@ -698,44 +698,45 @@
   -o-animation: fadeOut 10ms ease-in-out 4s forwards;
   animation: fadeOut 10ms ease-in-out 4s forwards; 
 }
-.front-wheel-container, .front-wheel-2-container {
-  width: 19px;
-  height: 29px;
+.front-wheel-container {
+  width: 16px;
+  height: 28px;
   top: 30px;
-  left: 64px;
+  left: 66px;
 
-  -webkit-transform: scaleX(0.6551);
-  -moz-transform: scaleX(0.6551);
-  -ms-transform: scaleX(0.6551);
-  transform: scaleX(0.6551);
+  -webkit-transform: scaleX(0.5714);
+  -moz-transform: scaleX(0.5714);
+  -ms-transform: scaleX(0.5714);
+  transform: scaleX(0.5714);
 }
-.front-wheel, .front-wheel-2 {
-  width: 29px;
-  height: 29px;
-  background: url('./images/160x600_wheel_front.png') no-repeat center center;
-  background-size: 29px 29px;
+.front-wheel {
+  width: 28px;
+  height: 28px;
+  background: url('./images/160x600_car_1_wheel_front.png') no-repeat center center;
+  background-size: 28px 28px;
   top: 0px;
   left: 0px;
 }
-.back-wheel-container, .back-wheel-2-container {
-  width: 11px;
-  height: 23px;
-  top: 26px;
+.back-wheel-container {
+  width: 9px;
+  height: 21px;
+  top: 27px;
   left: 16px;
 
-  -webkit-transform: scaleX(0.4783);
-  -moz-transform: scaleX(0.4783);
-  -ms-transform: scaleX(0.4783);
-  transform: scaleX(0.4783);
+  -webkit-transform: scaleX(0.4348);
+  -moz-transform: scaleX(0.4348);
+  -ms-transform: scaleX(0.4348);
+  transform: scaleX(0.4348);
 }
-.back-wheel, .back-wheel-2 {
-  width: 23px;
-  height: 23px;
-  background: url('./images/160x600_wheel_back.png') no-repeat center center;
-  background-size: 23px 23px;
+.back-wheel {
+  width: 21px;
+  height: 21px;
+  background: url('./images/160x600_car_1_wheel_back.png') no-repeat center center;
+  background-size: 21px 21px;
   top: 0px;
   left: 0px;
 }
+
 .front-wheel, .back-wheel {
   -webkit-animation: wheelRotationAnimation 1.5s ease-in-out 2.5s forwards;
   -moz-animation: wheelRotationAnimation 1.5s ease-in-out 2.5s forwards;
@@ -761,7 +762,7 @@
   width: 144px;
   height: 68px;
   background: url('./images/160x600_car_2.png') no-repeat center center;
-  top: 102px;
+  top: 152px;
   left: 1px;
 
   -webkit-transform: translate(-160px,-50px);
@@ -784,12 +785,42 @@
   animation: fadeOut 10ms ease-in-out 8s forwards; 
 }
 .front-wheel-2-container {
+  width: 16px;
+  height: 30px;
   top: 34px;
   left: 52px;
+
+  -webkit-transform: scaleX(0.533);
+  -moz-transform: scaleX(0.533);
+  -ms-transform: scaleX(0.533);
+  transform: scaleX(0.533);
+}
+.front-wheel-2 {
+  width: 30px;
+  height: 30px;
+  background: url('./images/160x600_car_2_wheel_front.png') no-repeat center center;
+  background-size: 30px 30px;
+  top: 0px;
+  left: 0px;
 }
 .back-wheel-2-container {
+  width: 9px;
+  height: 22px;
   top: 32px;
   left: 6px;
+
+  -webkit-transform: scaleX(0.4091);
+  -moz-transform: scaleX(0.4091);
+  -ms-transform: scaleX(0.4091);
+  transform: scaleX(0.4091);
+}
+.back-wheel-2{
+  width: 22px;
+  height: 22px;
+  background: url('./images/160x600_car_2_wheel_back.png') no-repeat center center;
+  background-size: 22px 22px;
+  top: 0px;
+  left: 0px;
 }
 .back-wheel-2, .front-wheel-2 {
   -webkit-animation: wheelRotationAnimation 1.5s ease-in-out 6.5s forwards;
@@ -816,7 +847,7 @@
   width: 139px;
   height: 27px;
   background: url('./images/160x600_text.png') no-repeat center center;
-  top: 214px;
+  top: 264px;
   left: 4px;
 
   -webkit-transform: translate(-160px,0);
@@ -848,7 +879,7 @@
   width: 138px;
   height: 17px;
   background: url('./images/160x600_logo.png') no-repeat center center;
-  top: 299px;
+  top: 349px;
   right: 9px;
 
   -webkit-transform: translate(-160px,0);

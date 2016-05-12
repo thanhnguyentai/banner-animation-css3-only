@@ -696,17 +696,6 @@
   -o-animation: fadeOut 10ms ease-in-out 4s forwards;
   animation: fadeOut 10ms ease-in-out 4s forwards; 
 }
-.front-wheel-container, .front-wheel-2-container {
-  width: 34px;
-  height: 53px;
-  top: 50px;
-  left: 114px;
-
-  -webkit-transform: scaleX(0.6415);
-  -moz-transform: scaleX(0.6415);
-  -ms-transform: scaleX(0.6415);
-  transform: scaleX(0.6415);
-}
 .front-wheel-container {
   width: 29px;
   height: 49px;
