@@ -696,7 +696,7 @@
   -o-animation: fadeOut 10ms ease-in-out 4s forwards;
   animation: fadeOut 10ms ease-in-out 4s forwards; 
 }
-.front-wheel-container, .front-wheel-2-container {
+.front-wheel-container, .front-wheel-2-container, .front-wheel-3-container {
   width: 34px;
   height: 53px;
   top: 50px;
@@ -707,7 +707,7 @@
   -ms-transform: scaleX(0.6415);
   transform: scaleX(0.6415);
 }
-.front-wheel, .front-wheel-2 {
+.front-wheel, .front-wheel-2, .front-wheel-3 {
   width: 53px;
   height: 53px;
   background: url('./images/300x250_wheel_front.png') no-repeat center center;
@@ -715,7 +715,7 @@
   top: 0px;
   left: 0px;
 }
-.back-wheel-container, .back-wheel-2-container {
+.back-wheel-container, .back-wheel-2-container, .back-wheel-3-container {
   width: 19px;
   height: 40px;
   top: 45px;
@@ -726,7 +726,7 @@
   -ms-transform: scaleX(0.475);
   transform: scaleX(0.475);
 }
-.back-wheel, .back-wheel-2 {
+.back-wheel, .back-wheel-2, .back-wheel-3 {
   width: 40px;
   height: 40px;
   background: url('./images/300x250_wheel_back.png') no-repeat center center;
@@ -742,6 +742,13 @@
   animation: wheelRotationAnimation 1.5s ease-in-out 2.5s forwards;
 }
 
+.car-2-outside {
+  -webkit-animation: fadeOut 0.5s ease-in-out 10s forwards;
+  -moz-animation: fadeOut 0.5s ease-in-out 10s forwards;
+  -ms-animation: fadeOut 0.5s ease-in-out 10s forwards;
+  -o-animation: fadeOut 0.5s ease-in-out 10s forwards;
+  animation: fadeOut 0.5s ease-in-out 10s forwards;
+}
 .car-2-container {
   -webkit-transform: translate(300px,50px);
   -moz-transform: translate(300px,50px);
@@ -797,6 +804,64 @@
   animation: wheelRotationAnimation 1.5s ease-in-out 6.5s forwards;
 }
 
+
+
+.car-3-container {
+  -webkit-transform: translate(300px,50px);
+  -moz-transform: translate(300px,50px);
+  -ms-transform: translate(300px,50px);
+  -o-transform: translate(300px,50px);
+  transform: translate(300px,50px);
+
+  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
+  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
+  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
+  -o-animation: rollBack 10ms ease-in-out 0s forwards;
+  animation: rollBack 10ms ease-in-out 0s forwards;
+}
+.car-3 {
+  width: 256px;
+  height: 109px;
+  background: url('./images/300x250_car_3.png') no-repeat center center;
+  top: 124px;
+  left: 4px;
+
+  -webkit-transform: translate(-300px,-50px);
+  -moz-transform: translate(-300px,-50px);
+  -ms-transform: translate(-300px,-50px);
+  -o-transform: translate(-300px,-50px);
+  transform: translate(-300px,-50px);
+
+  -webkit-animation: carRunAnimation 1.5s ease-in-out 10.5s forwards;
+  -moz-animation: carRunAnimation 1.5s ease-in-out 10.5s forwards;
+  -ms-animation: carRunAnimation 1.5s ease-in-out 10.5s forwards;
+  -o-animation: carRunAnimation 1.5s ease-in-out 10.5s forwards;
+  animation: carRunAnimation 1.5s ease-in-out 10.5s forwards;
+}
+.wheel-container-3 {
+  -webkit-animation: fadeOut 10ms ease-in-out 12s forwards;
+  -moz-animation: fadeOut 10ms ease-in-out 12s forwards;
+  -ms-animation: fadeOut 10ms ease-in-out 12s forwards;
+  -o-animation: fadeOut 10ms ease-in-out 12s forwards;
+  animation: fadeOut 10ms ease-in-out 12s forwards;
+}
+.front-wheel-3-container {
+  top: 46px;
+  left: 90px;
+}
+.back-wheel-3-container {
+  top: 43px;
+  left: 9px;
+}
+.back-wheel-3, .front-wheel-3 {
+  -webkit-animation: wheelRotationAnimation 1.5s ease-in-out 10.5s forwards;
+  -moz-animation: wheelRotationAnimation 1.5s ease-in-out 10.5s forwards;
+  -ms-animation: wheelRotationAnimation 1.5s ease-in-out 10.5s forwards;
+  -o-animation: wheelRotationAnimation 1.5s ease-in-out 10.5s forwards;
+  animation: wheelRotationAnimation 1.5s ease-in-out 10.5s forwards;
+}
+
+
 .text-container {
   -webkit-transform: translate(300px,0);
   -moz-transform: translate(300px,0);
@@ -823,11 +888,11 @@
   -o-transform: translate(-300px,0);
   transform: translate(-300px,0);
 
-  -webkit-animation: fadeIn 1s ease-in-out 8s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 8s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 8s forwards;
-  -o-animation: fadeIn 1s ease-in-out 8s forwards;
-  animation: fadeIn 1s ease-in-out 8s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 12s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 12s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 12s forwards;
+  -o-animation: fadeIn 1s ease-in-out 12s forwards;
+  animation: fadeIn 1s ease-in-out 12s forwards;
 }
 .logo-container {
   -webkit-transform: translate(300px,0);
@@ -855,11 +920,11 @@
   -o-transform: translate(-300px,0);
   transform: translate(-300px,0);
 
-  -webkit-animation: fadeIn 1s ease-in-out 9s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 9s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 9s forwards;
-  -o-animation: fadeIn 1s ease-in-out 9s forwards;
-  animation: fadeIn 1s ease-in-out 9s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 13s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 13s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 13s forwards;
+  -o-animation: fadeIn 1s ease-in-out 13s forwards;
+  animation: fadeIn 1s ease-in-out 13s forwards;
 }
 .cta-container {
   -webkit-transform: translate(300px,0);
@@ -887,11 +952,11 @@
   -o-transform: translate(-300px,0);
   transform: translate(-300px,0);
 
-  -webkit-animation: slideRight 0.5s ease-in-out 10s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 10s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 10s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 10s forwards;
-  animation: slideRight 0.5s ease-in-out 10s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 14s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 14s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 14s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 14s forwards;
+  animation: slideRight 0.5s ease-in-out 14s forwards;
 }
 
 .border {
