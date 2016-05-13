@@ -1018,8 +1018,8 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .cta {
-  width: 134px;
-  height: 28px;
+  width: 158px;
+  height: 32px;
   background: url('./images/728x90_cta.png') no-repeat center center;
   bottom: 10px;
   right: 10px;
