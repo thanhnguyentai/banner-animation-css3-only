@@ -597,12 +597,12 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .headline {
-  width: 92px;
-  height: 32px;
+  width: 95px;
+  height: 39px;
   background: url('./images/300x50_headline.png') no-repeat center center;
   background-size: 100% auto;
-  top: 10px;
-  left: 113px;
+  top: 7px;
+  left: 115px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
