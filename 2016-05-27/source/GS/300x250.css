@@ -515,7 +515,7 @@
 }
 
 .banner-container{
-  background-color: #000;
+  background-color: #fff;
   overflow: hidden;
 }
 
@@ -595,11 +595,11 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .headline {
-  width: 279px;
-  height: 51px;
+  width: 256px;
+  height: 87px;
   background: url('./images/300x250_headline.png') no-repeat center center;
-  top: 14px;
-  left: 12px;
+  top: 19px;
+  left: 24px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
@@ -662,7 +662,7 @@
   width: 69px;
   height: 12px;
   background: url('./images/300x250_option_text.png') no-repeat center center;
-  bottom: 3px;
+  bottom: 2px;
   right: 9px;
 
   -webkit-transform: translate(-300px,0);
