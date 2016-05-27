@@ -595,11 +595,11 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .headline {
-  width: 256px;
-  height: 87px;
+  width: 191px;
+  height: 78px;
   background: url('./images/300x250_headline.png') no-repeat center center;
-  top: 19px;
-  left: 24px;
+  top: 11px;
+  left: 18px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
@@ -662,7 +662,7 @@
   width: 69px;
   height: 12px;
   background: url('./images/300x250_option_text.png') no-repeat center center;
-  bottom: 2px;
+  bottom: 3px;
   right: 9px;
 
   -webkit-transform: translate(-300px,0);
