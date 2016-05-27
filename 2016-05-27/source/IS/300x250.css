@@ -563,11 +563,11 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .header {
-  width: 127px;
-  height: 23px;
+  width: 133px;
+  height: 24px;
   background: url('./images/300x250_header.png') no-repeat center center;
-  top: 212px;
-  left: 15px;
+  top: 210px;
+  left: 21px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
@@ -595,11 +595,11 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .headline {
-  width: 279px;
-  height: 51px;
+  width: 226px;
+  height: 69px;
   background: url('./images/300x250_headline.png') no-repeat center center;
-  top: 14px;
-  left: 12px;
+  top: 125px;
+  left: 22px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
@@ -627,11 +627,11 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .cta {
-  width: 135px;
-  height: 31px;
+  width: 113px;
+  height: 26px;
   background: url('./images/300x250_cta.png') no-repeat center center;
-  bottom: 18px;
-  left: 156px;
+  bottom: 19px;
+  left: 168px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
@@ -659,11 +659,11 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .option {
-  width: 69px;
-  height: 12px;
+  width: 106px;
+  height: 11px;
   background: url('./images/300x250_option_text.png') no-repeat center center;
-  bottom: 3px;
-  right: 9px;
+  bottom: 4px;
+  right: 23px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
