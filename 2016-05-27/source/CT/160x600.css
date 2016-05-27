@@ -607,11 +607,11 @@
   -o-transform: translate(-160px,0);
   transform: translate(-160px,0);
 
-  -webkit-animation: fadeIn 1s ease-in-out 4s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 4s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 4s forwards;
-  -o-animation: fadeIn 1s ease-in-out 4s forwards;
-  animation: fadeIn 1s ease-in-out 4s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -o-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  animation: fadeIn 1s ease-in-out 3.5s forwards;
 }
 .cta-container {
   -webkit-transform: translate(160px,0);
@@ -639,11 +639,11 @@
   -o-transform: translate(-160px,0);
   transform: translate(-160px,0);
 
-  -webkit-animation: slideRight 0.5s ease-in-out 6s forwards;
-  -moz-animation: slideRight 0.5s ease-in-out 6s forwards;
-  -ms-animation: slideRight 0.5s ease-in-out 6s forwards;
-  -o-animation: slideRight 0.5s ease-in-out 6s forwards;
-  animation: slideRight 0.5s ease-in-out 6s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 5s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 5s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 5s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 5s forwards;
+  animation: slideRight 0.5s ease-in-out 5s forwards;
 }
 .option-container {
   -webkit-transform: translate(160px,0);
@@ -671,9 +671,9 @@
   -o-transform: translate(-160px,0);
   transform: translate(-160px,0);
 
-  -webkit-animation: fadeIn 1s ease-in-out 7s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 7s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 7s forwards;
-  -o-animation: fadeIn 1s ease-in-out 7s forwards;
-  animation: fadeIn 1s ease-in-out 7s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 6s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 6s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 6s forwards;
+  -o-animation: fadeIn 1s ease-in-out 6s forwards;
+  animation: fadeIn 1s ease-in-out 6s forwards;
 }
