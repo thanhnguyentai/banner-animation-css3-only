@@ -515,7 +515,7 @@
 }
 
 .banner-container{
-  background-color: #fff;
+  background-color: #000;
   overflow: hidden;
 }
 
@@ -547,7 +547,7 @@
 }
 
 .background {
-  background: url('./images/300x250_car.jpg') no-repeat center center;
+  background: url('./images/300x250_bg.jpg') no-repeat center center;
 }
 .header-container {
   -webkit-transform: translate(300px,0);
@@ -563,11 +563,11 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .header {
-  width: 173px;
-  height: 21px;
+  width: 127px;
+  height: 23px;
   background: url('./images/300x250_header.png') no-repeat center center;
-  top: 17px;
-  left: 63px;
+  top: 212px;
+  left: 15px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
@@ -581,7 +581,7 @@
   -o-animation: fadeIn 1s ease-in-out 2s forwards;
   animation: fadeIn 1s ease-in-out 2s forwards;
 }
-.text-container {
+.headline-container {
   -webkit-transform: translate(300px,0);
   -moz-transform: translate(300px,0);
   -ms-transform: translate(300px,0);
@@ -594,12 +594,12 @@
   -o-animation: rollBack 10ms ease-in-out 0s forwards;
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.text {
-  width: 250px;
-  height: 35px;
-  background: url('./images/300x250_text.png') no-repeat center center;
-  top: 45px;
-  left: 27px;
+.headline {
+  width: 279px;
+  height: 51px;
+  background: url('./images/300x250_headline.png') no-repeat center center;
+  top: 14px;
+  left: 12px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
@@ -607,11 +607,11 @@
   -o-transform: translate(-300px,0);
   transform: translate(-300px,0);
 
-  -webkit-animation: fadeIn 1s ease-in-out 3s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 3s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 3s forwards;
-  -o-animation: fadeIn 1s ease-in-out 3s forwards;
-  animation: fadeIn 1s ease-in-out 3s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  -o-animation: fadeIn 1s ease-in-out 3.5s forwards;
+  animation: fadeIn 1s ease-in-out 3.5s forwards;
 }
 .cta-container {
   -webkit-transform: translate(300px,0);
@@ -627,11 +627,11 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .cta {
-  width: 92px;
-  height: 29px;
+  width: 135px;
+  height: 31px;
   background: url('./images/300x250_cta.png') no-repeat center center;
-  bottom: 26px;
-  left: 102px;
+  bottom: 18px;
+  left: 156px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
@@ -639,21 +639,41 @@
   -o-transform: translate(-300px,0);
   transform: translate(-300px,0);
 
-  -webkit-animation: fadeIn 1s ease-in-out 4s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 4s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 4s forwards;
-  -o-animation: fadeIn 1s ease-in-out 4s forwards;
-  animation: fadeIn 1s ease-in-out 4s forwards;
+  -webkit-animation: slideRight 0.5s ease-in-out 5s forwards;
+  -moz-animation: slideRight 0.5s ease-in-out 5s forwards;
+  -ms-animation: slideRight 0.5s ease-in-out 5s forwards;
+  -o-animation: slideRight 0.5s ease-in-out 5s forwards;
+  animation: slideRight 0.5s ease-in-out 5s forwards;
 }
-.logo-container {}
-.logo {
-  width: 61px;
-  height: 35px;
-  background: url('./images/300x250_logo.png') no-repeat center center;
-  right: 10px;
-  bottom: 11px;
+.option-container {
+  -webkit-transform: translate(300px,0);
+  -moz-transform: translate(300px,0);
+  -ms-transform: translate(300px,0);
+  -o-transform: translate(300px,0);
+  transform: translate(300px,0);
+
+  -webkit-animation: rollBack 10ms ease-in-out 0s forwards;
+  -moz-animation: rollBack 10ms ease-in-out 0s forwards;
+  -ms-animation: rollBack 10ms ease-in-out 0s forwards;
+  -o-animation: rollBack 10ms ease-in-out 0s forwards;
+  animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.border {
-  background: url('./images/300x250_border.png') no-repeat center center;
-  z-index: 100;
+.option {
+  width: 69px;
+  height: 12px;
+  background: url('./images/300x250_option_text.png') no-repeat center center;
+  bottom: 3px;
+  right: 9px;
+
+  -webkit-transform: translate(-300px,0);
+  -moz-transform: translate(-300px,0);
+  -ms-transform: translate(-300px,0);
+  -o-transform: translate(-300px,0);
+  transform: translate(-300px,0);
+
+  -webkit-animation: fadeIn 1s ease-in-out 6s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 6s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 6s forwards;
+  -o-animation: fadeIn 1s ease-in-out 6s forwards;
+  animation: fadeIn 1s ease-in-out 6s forwards;
 }
