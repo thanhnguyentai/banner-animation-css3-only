@@ -515,7 +515,7 @@
 }
 
 .banner-container{
-  background-color: #000;
+  background-color: #fff;
   overflow: hidden;
 }
 
@@ -597,12 +597,12 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .headline {
-  width: 104px;
-  height: 36px;
+  width: 92px;
+  height: 32px;
   background: url('./images/300x50_headline.png') no-repeat center center;
   background-size: 100% auto;
-  top: 7px;
-  left: 103px;
+  top: 10px;
+  left: 113px;
 
   -webkit-transform: translate(-300px,0);
   -moz-transform: translate(-300px,0);
