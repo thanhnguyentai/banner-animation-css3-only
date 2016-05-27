@@ -515,7 +515,7 @@
 }
 
 .banner-container{
-  background-color: #000;
+  background-color: #fff;
   overflow: hidden;
 }
 
@@ -568,8 +568,8 @@
   height: 14px;
   background: url('./images/320x50_header.png') no-repeat center center;
   background-size: 100% auto;
-  top: 3px;
-  left: 236px;
+  top: 5px;
+  left: 233px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
@@ -597,12 +597,12 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .headline {
-  width: 104px;
-  height: 36px;
+  width: 92px;
+  height: 32px;
   background: url('./images/320x50_headline.png') no-repeat center center;
   background-size: 100% auto;
-  top: 6px;
-  left: 123px;
+  top: 10px;
+  left: 128px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
@@ -634,8 +634,8 @@
   height: 19px;
   background: url('./images/320x50_cta.png') no-repeat center center;
   background-size: 100% auto;
-  bottom: 12px;
-  right: 4px;
+  bottom: 10px;
+  right: 7px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
@@ -667,8 +667,8 @@
   height: 6px;
   background: url('./images/320x50_option_text.png') no-repeat center center;
   background-size: 100% auto;
-  bottom: 3px;
-  right: 4px;
+  bottom: 2px;
+  right: 7px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
