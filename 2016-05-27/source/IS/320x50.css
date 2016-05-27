@@ -564,12 +564,12 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .header {
-  width: 75px;
-  height: 14px;
+  width: 71px;
+  height: 13px;
   background: url('./images/320x50_header.png') no-repeat center center;
   background-size: 100% auto;
-  top: 3px;
-  left: 236px;
+  top: 7px;
+  left: 237px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
@@ -597,12 +597,12 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .headline {
-  width: 104px;
-  height: 36px;
+  width: 121px;
+  height: 37px;
   background: url('./images/320x50_headline.png') no-repeat center center;
   background-size: 100% auto;
-  top: 6px;
-  left: 123px;
+  top: 7px;
+  left: 100px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
@@ -634,8 +634,8 @@
   height: 19px;
   background: url('./images/320x50_cta.png') no-repeat center center;
   background-size: 100% auto;
-  bottom: 12px;
-  right: 4px;
+  bottom: 8px;
+  right: 5px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
@@ -663,12 +663,12 @@
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
 .option {
-  width: 35px;
+  width: 53px;
   height: 6px;
   background: url('./images/320x50_option_text.png') no-repeat center center;
   background-size: 100% auto;
-  bottom: 3px;
-  right: 4px;
+  bottom: 4px;
+  left: 5px;
 
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
