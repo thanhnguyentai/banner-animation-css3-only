@@ -482,18 +482,20 @@
   background: url('./images/300x250_bg.png') no-repeat center center;
 }
 .title {
-  width: 128px;
-  height: 24px;
+  width: 144px;
+  height: 27px;
   background: url('./images/300x250_title.png') no-repeat center center;
-  top: 80px;
-  left: 81px;
+  top: 67px;
+  left: 50%;
+  margin-left: -72px;
 }
 .text {
-  width: 145px;
-  height: 24px;
+  width: 163px;
+  height: 27px;
   background: url('./images/300x250_text.png') no-repeat center center;
-  top: 113px;
-  left: 75px;
+  top: 106px;
+  left: 50%;
+  margin-left: -81px;
 }
 
 .channel-container {

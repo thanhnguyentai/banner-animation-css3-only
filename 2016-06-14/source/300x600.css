@@ -486,18 +486,20 @@
   bottom: 0px;
 }
 .title {
-  width: 128px;
-  height: 24px;
+  width: 144px;
+  height: 27px;
   background: url('./images/300x600_title.png') no-repeat center center;
-  top: 248px;
-  left: 87px;
+  top: 231px;
+  left: 50%;
+  margin-left: -72px;
 }
 .text {
-  width: 240px;
-  height: 41px;
+  width: 270px;
+  height: 43px;
   background: url('./images/300x600_text.png') no-repeat center center;
-  top: 299px;
-  left: 30px;
+  top: 285px;
+  left: 50%;
+  margin-left: -135px;
 }
 
 .channel-container {
