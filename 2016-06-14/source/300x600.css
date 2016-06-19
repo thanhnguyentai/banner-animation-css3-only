@@ -486,20 +486,20 @@
   bottom: 0px;
 }
 .title {
-  width: 144px;
+  width: 158px;
   height: 27px;
   background: url('./images/300x600_title.png') no-repeat center center;
-  top: 231px;
+  top: 225px;
   left: 50%;
-  margin-left: -72px;
+  margin-left: -79px;
 }
 .text {
-  width: 270px;
-  height: 43px;
+  width: 235px;
+  height: 44px;
   background: url('./images/300x600_text.png') no-repeat center center;
   top: 285px;
   left: 50%;
-  margin-left: -135px;
+  margin-left: -117px;
 }
 
 .channel-container {
@@ -609,7 +609,7 @@
 
 .channel4-container { 
   top: 190px;
-  left: 100%;
+  left: 110%;
   width: 86px;
   height: 56px;
   -webkit-animation: animateChannel1-X 2s ease-in 2.5s forwards;
@@ -733,7 +733,7 @@
 
 .channel8-container { 
   top: 190px;
-  left: 100%;
+  left: 110%;
   width: 88px;
   height: 58px;
   -webkit-animation: animateChannel1-X 2s ease-in 3.5s forwards;
