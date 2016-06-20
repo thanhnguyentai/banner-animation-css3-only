@@ -471,10 +471,11 @@
 }
 
 .logo {
-  width: 88px;
-  height: 39px;
+  width: 66px;
+  height: 29px;
   background: url('./images/728x90_logo.png') no-repeat center center;
-  top: 24px;
+  top: 50%;
+  margin-top: -14px;
   left: 12px;
 }
 .round {
@@ -485,18 +486,18 @@
   left: 200px;
 }
 .title {
-  width: 163px;
+  width: 154px;
   height: 27px;
   background: url('./images/728x90_title.png') no-repeat center center;
-  top: 16px;
-  left: 125px;
+  top: 13px;
+  left: 130px;
 }
 .text {
-  width: 163px;
-  height: 27px;
+  width: 173px;
+  height: 29px;
   background: url('./images/728x90_text.png') no-repeat center center;
-  top: 53px;
-  left: 122px;
+  top: 51px;
+  left: 118px;
 }
 
 .channel-container {
@@ -794,11 +795,11 @@
 
 
 .device {
-  width: 208px;
-  height: 37px;
+  width: 191px;
+  height: 33px;
   background: url('./images/728x90_device.png') no-repeat center center;
   top: 47px;
-  left: 312px;
+  left: 330px;
 }
 
 .cta-container {
@@ -818,7 +819,8 @@
   width: 158px;
   height: 31px;
   background: url('./images/728x90_cta.png') no-repeat center center;
-  top: 27px;
+  top: 50%;
+  margin-top: -15px;
   right: 25px;
 
   -webkit-transform: translate(-728px,0);
