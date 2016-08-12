@@ -190,6 +190,50 @@
   }
 }
 
+/*-- zoom animation out --*/
+@-webkit-keyframes zoomAnimation {
+  0%   {
+    visibility: visible;
+    -webkit-transform: scale(1);
+  }
+  50% {
+    visibility: visible;
+    -webkit-transform: scale(1.2);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes zoomAnimation {
+  0%   {
+    visibility: visible;
+    -moz-transform: scale(1);
+  }
+  50% {
+    visibility: visible;
+    -moz-transform: scale(1.2);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: scale(1);
+  }
+}
+@keyframes zoomAnimation {
+  0%   {
+    visibility: visible;
+    transform: scale(1);
+  }
+  50% {
+    visibility: visible;
+    transform: scale(1.2);
+  }
+  100% { 
+    visibility: visible;
+    transform: scale(1);
+  }
+}
+
 
 /*-------------------------------------------*/
 .absolute {
@@ -299,7 +343,7 @@
   -o-animation: fadeOut 0.5s ease-in-out 5.5s forwards;
   animation: fadeOut 0.5s ease-in-out 5.5s forwards;
 }
-.cta-container {
+.cta-wrapper {
   -webkit-transform: translate(320px,0);
   -moz-transform: translate(320px,0);
   -ms-transform: translate(320px,0);
@@ -312,14 +356,7 @@
   -o-animation: rollBack 10ms ease-in-out 0s forwards;
   animation: rollBack 10ms ease-in-out 0s forwards;
 }
-.cta {
-  width: 131px;
-  height: 25px;
-  background: url('./images/320x50_cta.png') no-repeat center center;
-  background-size: auto 100%;
-  top: 12px;
-  left: 24px;
-
+.cta-container {
   -webkit-transform: translate(-320px,0);
   -moz-transform: translate(-320px,0);
   -ms-transform: translate(-320px,0);
@@ -331,4 +368,19 @@
   -ms-animation: fadeIn 1s ease-in-out 6s forwards;
   -o-animation: fadeIn 1s ease-in-out 6s forwards;
   animation: fadeIn 1s ease-in-out 6s forwards;
+}
+.cta {
+  width: 131px;
+  height: 25px;
+  background: url('./images/320x50_cta.png') no-repeat center center;
+  background-size: auto 100%;
+  top: 12px;
+  left: 24px;
+
+  -webkit-animation: zoomAnimation 0.5s linear 7s forwards;
+  -moz-animation: zoomAnimation 0.5s linear 7s forwards;
+  -ms-animation: zoomAnimation 0.5s linear 7s forwards;
+  -o-animation: zoomAnimation 0.5s linear 7s forwards;
+  animation: zoomAnimation 0.5s linear 7s forwards;
+  
 }
