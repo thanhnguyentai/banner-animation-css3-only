@@ -194,28 +194,34 @@
 @-webkit-keyframes zoomAnimation {
   0%   {
     visibility: visible;
+    -webkit-box-shadow: 0px 0px 0px 0px #acacac;
     -webkit-transform: scale(1);
   }
   50% {
     visibility: visible;
+    -webkit-box-shadow: 0px 6px 6px 1px #acacac;
     -webkit-transform: scale(1.2);
   }
   100% { 
     visibility: visible;
+    -webkit-box-shadow: 0px 0px 0px 0px #acacac;
     -webkit-transform: scale(1);
   }
 }
 @-moz-keyframes zoomAnimation {
   0%   {
     visibility: visible;
+    -moz-box-shadow: 0px 0px 0px 0px #acacac;
     -moz-transform: scale(1);
   }
   50% {
     visibility: visible;
+    -moz-box-shadow: 0px 6px 6px 1px #acacac;
     -moz-transform: scale(1.2);
   }
   100% { 
     visibility: visible;
+    -moz-box-shadow: 0px 0px 0px 0px #acacac;
     -moz-transform: scale(1);
   }
 }
@@ -223,13 +229,16 @@
   0%   {
     visibility: visible;
     transform: scale(1);
+    box-shadow: 0px 0px 0px 0px #acacac;
   }
   50% {
     visibility: visible;
+    box-shadow: 0px 6px 6px 1px #acacac;
     transform: scale(1.2);
   }
   100% { 
     visibility: visible;
+    box-shadow: 0px 0px 0px 0px #acacac;
     transform: scale(1);
   }
 }
@@ -318,11 +327,11 @@
 .cake-wrapper {
   visibility: hidden;
 
-  -webkit-animation: moveRight 0.5s linear 4s forwards;
-  -moz-animation: moveRight 0.5s linear 4s forwards;
-  -ms-animation: moveRight 0.5s linear 4s forwards;
-  -o-animation: moveRight 0.5s linear 4s forwards;
-  animation: moveRight 0.5s linear 4s forwards;
+  -webkit-animation: moveRight 2s ease-in-out 1s forwards;
+  -moz-animation: moveRight 2s ease-in-out 1s forwards;
+  -ms-animation: moveRight 2s ease-in-out 1s forwards;
+  -o-animation: moveRight 2s ease-in-out 1s forwards;
+  animation: moveRight 2s ease-in-out 1s forwards;
 }
 .cake-container {
   -webkit-transform: scale(1.1584);
@@ -330,11 +339,11 @@
   -ms-transform: scale(1.1584);
   transform: scale(1.1584);
 
-  -webkit-animation: zoomOut 1s linear 2s forwards;
-  -moz-animation: zoomOut 1s linear 2s forwards;
-  -ms-animation: zoomOut 1s linear 2s forwards;
-  -o-animation: zoomOut 1s linear 2s forwards;
-  animation: zoomOut 1s linear 2s forwards;
+  -webkit-animation: zoomOut 2s ease-in-out 1s forwards;
+  -moz-animation: zoomOut 2s ease-in-out 1s forwards;
+  -ms-animation: zoomOut 2s ease-in-out 1s forwards;
+  -o-animation: zoomOut 2s ease-in-out 1s forwards;
+  animation: zoomOut 2s ease-in-out 1s forwards;
 }
 .cake {
   width: 303px;
@@ -399,11 +408,11 @@
   left: 20px;
   top: 87px;
 
-  -webkit-animation: fadeIn 1s ease-in-out 5s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 5s forwards;
-  -ms-animation: fadeIn 1s ease-in-out 5s forwards;
-  -o-animation: fadeIn 1s ease-in-out 5s forwards;
-  animation: fadeIn 1s ease-in-out 5s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 4s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 4s forwards;
+  -ms-animation: fadeIn 1s ease-in-out 4s forwards;
+  -o-animation: fadeIn 1s ease-in-out 4s forwards;
+  animation: fadeIn 1s ease-in-out 4s forwards;
 }
 .logo {
   width: 102px;
@@ -422,11 +431,16 @@
   right: 6px;
   bottom: 7px;
 
-  -webkit-animation: zoomAnimation 0.5s linear 6s forwards;
-  -moz-animation: zoomAnimation 0.5s linear 6s forwards;
-  -ms-animation: zoomAnimation 0.5s linear 6s forwards;
-  -o-animation: zoomAnimation 0.5s linear 6s forwards;
-  animation: zoomAnimation 0.5s linear 6s forwards;
+  -webkit-transform-origin: 50% 120%;
+  -moz-transform-origin: 50% 120%;
+  -ms-transform-origin: 50% 120%;
+  transform-origin: 50% 120%;
+
+  -webkit-animation: zoomAnimation 0.5s ease-in-out 5s forwards;
+  -moz-animation: zoomAnimation 0.5s ease-in-out 5s forwards;
+  -ms-animation: zoomAnimation 0.5s ease-in-out 5s forwards;
+  -o-animation: zoomAnimation 0.5s ease-in-out 5s forwards;
+  animation: zoomAnimation 0.5s ease-in-out 5s forwards;
 }
 .border {
   background: url('./images/300x250_border.png') no-repeat center center;
