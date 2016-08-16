@@ -200,7 +200,7 @@
   50% {
     visibility: visible;
     -webkit-box-shadow: 0px 6px 6px 1px #acacac;
-    -webkit-transform: scale(1.2);
+    -webkit-transform: scale(1.1);
   }
   100% { 
     visibility: visible;
@@ -217,7 +217,7 @@
   50% {
     visibility: visible;
     -moz-box-shadow: 0px 6px 6px 1px #acacac;
-    -moz-transform: scale(1.2);
+    -moz-transform: scale(1.1);
   }
   100% { 
     visibility: visible;
@@ -234,7 +234,7 @@
   50% {
     visibility: visible;
     box-shadow: 0px 6px 6px 1px #acacac;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
   100% { 
     visibility: visible;
