@@ -484,3 +484,8 @@
   -moz-animation: fadeInRight 0.5s ease-in-out 7s forwards;
   animation: fadeInRight 0.5s ease-in-out 7s forwards;
 }
+
+.border {
+  background: url('./images/300x600_border.png') no-repeat center center;
+  z-index: 800;
+}
