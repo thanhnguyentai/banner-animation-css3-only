@@ -1,0 +1,399 @@
+/*Basic settings*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+}
+ 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+img{
+  border: 0;
+
+}
+sup{
+  font-size: 9px;
+  line-height: 9px; 
+}
+
+a{
+  text-decoration: none;
+}
+body{
+   font-family: "MuseoSansForDell300", Trebuchet MS, Arial, Helvetica, sans-serif; 
+}
+@font-face {
+   font-family:'MuseoSansForDell300'; 
+   src:url('museosansfordell-300.woff') format('woff');          
+}
+@font-face {
+   font-family:'MuseoSansForDell700'; 
+   src:url('museosansfordell-700.woff') format('woff');          
+}
+#ad{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+
+#banner{  
+  width: 728px; 
+  height: 90px;
+  display: block;
+  cursor: pointer;  
+  overflow: hidden;
+  position:absolute;
+  visibility: visible;  
+  border: 1px #444444 solid;
+  background: #eeeeee;
+}
+#all-animation,
+#frame-1,
+#frame-2,
+#frame-3,
+#frame-4,
+#frame-5
+{  
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+#banner * {
+    -webkit-animation-play-state: paused;
+            animation-play-state: paused;
+}
+
+#banner.is-visible * {
+    -webkit-animation-play-state: running;
+            animation-play-state: running;
+}
+#banner.is-visible.last-loop-last-frame *:not(#legal) {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+#clickTAG {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   opacity: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9;
+   cursor:pointer;
+   margin: 0;
+}
+.ie-fallback{
+  position: absolute;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+}
+
+/**frame one start***/
+
+.dell-logo-blue{
+  top: 13px;
+  left: 25px;
+  position: absolute;
+  z-index:10;
+  
+  -webkit-animation: fade-out 0.3s linear 11.5s both;
+          animation: fade-out 0.3s linear 11.5s both;
+
+}
+.title-1{
+  font-size: 18px;
+  line-height: 21px;
+  left:336px;
+  top: 34px;
+  text-align: left;
+  color:#D74324;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  position: absolute;
+
+  -webkit-animation: fade-out 0.3s linear 2.5s both;
+          animation: fade-out 0.3s linear 2.5s both;
+}
+.product1{
+  position: absolute;
+  top:7px;
+  left:146px;
+
+  -webkit-animation: fade-out 0.3s linear 2.5s both;
+          animation: fade-out 0.3s linear 2.5s both;
+
+}
+.badge {
+  top: 6px;
+  left: 235px;
+  width: 72px;
+  height: 30px;
+  position: absolute;
+
+  -webkit-animation: fade-out 0.3s linear 2.5s both;
+          animation: fade-out 0.3s linear 2.5s both;
+}
+
+/*frame one end**/
+
+/*frame two css start**/
+.product2{
+  position: absolute;
+  top:2px;
+  left:385px;
+
+  -webkit-animation: fade-in 0.3s linear 3s both, fade-out 0.3s linear 5.5s forwards;
+          animation: fade-in 0.3s linear 3s both, fade-out 0.3s linear 5.5s forwards;
+
+}
+
+.title-2{
+  font-size: 18px;
+  line-height: 21px;
+  left:148px;
+  top: 34px;
+  text-align: left;
+  color:#D74324;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  position: absolute;
+  
+  -webkit-animation: fade-in 0.3s linear 3s both, fade-out 0.3s linear 5.5s forwards;
+          animation: fade-in 0.3s linear 3s both, fade-out 0.3s linear 5.5s forwards;
+}
+
+/**frame two end*/
+
+/*frame three start**/
+
+.lifestyle{
+  top: -1px;
+  right: -1px;
+  position: absolute;
+
+  -webkit-animation: fade-in 0.3s linear 6s both, fade-out 0.3s linear 8.5s forwards;
+          animation: fade-in 0.3s linear 6s both, fade-out 0.3s linear 8.5s forwards;
+}
+
+.title-3{
+  width:300px;
+  font-size: 18px;
+  line-height: 21px;
+  left:133px;
+  top: 24px;
+  text-align: center;
+  color:#D74324;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  position: absolute;
+
+  -webkit-animation: fade-in 0.3s linear 6s both, fade-out 0.3s linear 8.5s forwards;
+          animation: fade-in 0.3s linear 6s both, fade-out 0.3s linear 8.5s forwards;
+}
+.title-3-1{
+  font-size: 8px;
+  line-height: 8px;
+  text-align:right;
+  bottom: 7px;
+  right: 7px;
+  color:#FFFFFF;
+  position: absolute;
+
+  -webkit-animation: fade-in 0.3s linear 6s both, fade-out 0.3s linear 8.5s forwards;
+          animation: fade-in 0.3s linear 6s both, fade-out 0.3s linear 8.5s forwards;
+}
+
+.title-3-1 span{
+  font-family:'MuseoSansForDell700';
+}
+
+/*frame three end*/
+
+/*frame four start***/
+
+.title-4{
+  font-size: 18px;
+  line-height: 21px;
+  left:110px;
+  top: 34px;
+  text-align: left;
+  color:#D74324;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  position: absolute;
+
+  -webkit-animation: fade-in 0.3s linear 9s both, fade-out 0.3s linear 11.5s forwards;
+          animation: fade-in 0.3s linear 9s both, fade-out 0.3s linear 11.5s forwards;
+}
+.title-4-1{
+  position: absolute;
+  font-size: 18px;
+  line-height: 18px;
+  right:33px;
+  top: 26px;
+  text-align: left;
+  color:#444444;
+
+  -webkit-animation: fade-in 0.3s linear 9s both, fade-out 0.3s linear 11.5s forwards;
+          animation: fade-in 0.3s linear 9s both, fade-out 0.3s linear 11.5s forwards;
+}
+
+
+.product3{
+  position: absolute;
+  top:2px;
+  left:299px;
+
+  -webkit-animation: product3 8s linear 9s both;
+          animation: product3 8s linear 9s both;
+}
+
+/**frame four css end**/
+
+
+/**frame five css start**/
+.dell-logo-last{
+  top: 18px;
+  left: 11px;
+  position: absolute;
+  z-index:10;
+  
+  -webkit-animation: fade-in 0.3s linear 12s both;
+          animation: fade-in 0.3s linear 12s both;
+
+}
+
+.title-5{
+  position: absolute;
+  font-size: 14px;
+  line-height: 16px;
+  top: 28px;
+  left: 43px;
+  text-align: center;
+  width: 220px;
+  color:#D74324;
+
+  -webkit-animation: fade-in 0.3s linear 12s both;
+          animation: fade-in 0.3s linear 12s both;
+}
+.starting_text{
+  font-size: 11px;
+  color: #444444;
+  line-height: 11px;
+  position: absolute;
+  top: 27px;
+  left: 244px;
+
+  -webkit-animation: fade-in 0.3s linear 12s both;
+          animation: fade-in 0.3s linear 12s both;
+}
+.dollar{
+  font-size: 14px;
+  color: #444444;
+  line-height: 15px;
+  position: absolute;
+  top: 39px;
+  left: 244px;
+
+  -webkit-animation: fade-in 0.3s linear 12s both;
+          animation: fade-in 0.3s linear 12s both;
+}
+.price{
+  font-size: 24px;
+  color: #444444;
+  line-height: 26px;
+  position: absolute;
+  top: 38px;
+  left: 253px;
+
+  -webkit-animation: fade-in 0.3s linear 12s both;
+          animation: fade-in 0.3s linear 12s both;
+}
+.cta{
+  font-family:'MuseoSansForDell700';
+  color: #ffffff;
+  text-align: center;
+  background: #D74324;
+  left: 454px;
+  bottom: 31px;
+  position: absolute;
+
+  -webkit-animation: fade-in 0.3s linear 12s both;
+          animation: fade-in 0.3s linear 12s both;
+}
+.cta-text{
+  position: relative;
+  padding: 7px 10px;
+  font-size: 12px;
+  line-height: 14px;
+
+  -webkit-animation: fade-in 0.3s linear 11.5s both;
+          animation: fade-in 0.3s linear 11.5s both;
+}
+.vendor-logo{
+  position: absolute;
+  top: 32px;
+  right: 25px;
+  -webkit-animation: fade-in 0.3s linear 12s both;
+          animation: fade-in 0.3s linear 12s both;
+}
+
+/**frame five end***/
+
+/** keyframes animation start */
+
+@-webkit-keyframes fade-in{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+@keyframes fade-in{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-webkit-keyframes fade-out{
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@keyframes fade-out{
+  0%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+@-webkit-keyframes product1{
+  0%{opacity: 1;}
+  95%{opacity: 1;}
+  100%{opacity: 0;}
+}
+@keyframes product1{
+  0%{opacity: 1;}
+  95%{opacity: 1;}
+  100%{opacity: 0;}
+}
+
+@-webkit-keyframes product3{
+  0%   {transform:translate(0px,0px) scale(1,1); opacity: 0;}
+  5%   {transform:translate(0px,0px) scale(1,1); opacity: 1;}
+  35%   {transform:translate(0px,0px) scale(1,1); opacity: 1;}
+  40%    {transform:translate(-80px,0px) scale(1,1); opacity: 1;}
+  100%    {transform:translate(-80px,0px) scale(1,1); opacity: 1;}
+}
+@keyframes product3{
+  0%   {transform:translate(0px,0px) scale(1,1); opacity: 0;}
+  5%   {transform:translate(0px,0px) scale(1,1); opacity: 1;}
+  35%   {transform:translate(0px,0px) scale(1,1); opacity: 1;}
+  40%    {transform:translate(-80px,0px) scale(1,1); opacity: 1;}
+  100%    {transform:translate(-80px,0px) scale(1,1); opacity: 1;}
+}
+
+
+
+/** keyframes animation end *
