@@ -1,0 +1,50 @@
+html, body, div,
+a, img {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-text-size-adjust: 100%;
+}
+.button{
+	width:160px;
+	height:600px;
+	position:absolute;
+	overflow:hidden;
+	top:0px;
+	left:0px;
+	cursor:pointer;
+	z-index:2;
+	background:none;
+	border:none;
+}
+button:focus {
+	outline:0;
+}
+#banner{
+	position:relative;
+	overflow:hidden;
+	width:160px;
+	height:600px;
+}
+#container_grip, #container_clear, #container_inked{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:160px;
+	height:600px;
+	overflow:hidden;
+	opacity: 0;
+}
+#container_grip img, #container_clear img, #container_inked img{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#glow_grip, #splash_grip, #impact_grip, #streaks_grip,
+#glow_clear, #splash_clear, #impact_clear, #streaks_clear, #waves_clear,
+#glow_inked, #splash_inked, #impact_inked, #streaks_inked {
+	margin-left:-80px;
+}
