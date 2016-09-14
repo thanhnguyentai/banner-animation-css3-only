@@ -345,6 +345,8 @@
     -webkit-animation: fadeInRight 1s ease-in-out 10s forwards;
     -moz-animation: fadeInRight 1s ease-in-out 10s forwards;
     animation: fadeInRight 1s ease-in-out 10s forwards;
+
+    z-index: 100;
 }
 .cta:hover {
     background: url('./300x600_cta_hover.png') no-repeat center center;
