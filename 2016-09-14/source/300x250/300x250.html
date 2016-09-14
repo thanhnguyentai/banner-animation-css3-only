@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="ad.size" content="width=300,height=250">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index</title>
+    <script type="text/javascript">
+        var adserver;
+        var ADSERVERS = {
+            STANDARD:'Google Display Network or DoubleClick Standard',
+            ADWORDS:'Google AdWords',
+            DCM_RICH:'DoubleClick Studio',
+            ADGEAR:'AdGear'
+        };
+
+        var clickTag = 'http://www.google.com';
+        function onClickTag(event, type){
+            event.preventDefault();
+            event.stopPropagation();
+
+            if(type) console.log('click -> ' + type);
+            else console.log('click -> banner');
+
+            if(adserver === ADSERVERS.STANDARD) window.open(window.clickTag, '_blank');
+            else if(adserver === ADSERVERS.ADGEAR) ADGEAR.html5.clickThrough('clickTAG');
+            else if(adserver === ADSERVERS.DCM_RICH) Enabler.exit('clicktag');
+            else if(adserver === ADSERVERS.ADWORDS) ExitApi.exit();
+            else window.open(window.clickTag, '_blank');
+        }
+    </script>
+
+    <!-- Only for DoubleClick Studio. (https://support.google.com/richmedia/answer/2745108?hl=fr&ref_topic=4525889) -->
+    <!--script type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"> </script-->
+
+    <!-- Only for Google AdWords. (https://support.google.com/adwordspolicy/answer/176108?hl=fr) -->
+    <!--script type="text/javascript" src="https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"></script-->
+
+    <!-- Only for AdGear. (https://adgear.atlassian.net/wiki/pages/viewpage.action?pageId=20217995) -->
+    <!--script type="text/javascript" src="https://h5.adgear.com/v1/js/html5.min.js"></script-->
+
+	<style>
+		html {
+			height:100%;
+		}
+		body {
+			background-color:#FFFFFF;
+			margin:0;
+			height:100%;
+		}
+
+		*{
+            padding:0px;
+            margin:0px;
+        }
+	</style>
+	<!-- copy these lines to your document head: -->
+
+	<meta name="viewport" content="user-scalable=yes, width=300" />
+
+	<!-- end copy -->
+
+
+
+    </head>
+    <body>
+	<!-- copy these lines to your document: -->
+
+    <div id="index_hype_container" style="cursor:pointer;margin:auto;position:relative;width:300px;height:250px;overflow:hidden;" aria-live="polite">
+	<script type="text/javascript" charset="utf-8" src="300x250_index_hype_generated_script.js?82342"></script>
+	</div>
+
+	<!-- end copy -->
+	<script type="text/javascript">
+        if(window.Enabler) adserver = ADSERVERS.DCM_RICH;
+        else if(window.ExitApi) adserver = ADSERVERS.ADWORDS;
+        else if(window.ADGEAR) adserver = ADSERVERS.ADGEAR;
+        else adserver = ADSERVERS.STANDARD;
+
+        console.info('*** Ready for ' + adserver +' ***');
+    </script>
+    </body>
+</html>
