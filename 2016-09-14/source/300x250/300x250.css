@@ -228,6 +228,59 @@
   }
 }
 
+/*-- fade in up bounce animation--*/
+@-webkit-keyframes fadeInUpBounce {
+  0%   { 
+    opacity: 0; 
+    visibility: visible;
+    -webkit-transform: translate(0,200%);
+  }
+  70% { 
+    opacity: 1; 
+    -webkit-transform: translate(0,-20%);
+    visibility: visible;
+  }
+  100% { 
+    opacity: 1; 
+    -webkit-transform: translate(0,0);
+    visibility: visible;
+  }
+}
+@-moz-keyframes fadeInUpBounce {
+  0%   { 
+    opacity: 0; 
+    -moz-transform: translate(0,200%);
+    visibility: visible;
+  }
+  70% { 
+    opacity: 1; 
+    -moz-transform: translate(0,-20%);
+    visibility: visible;
+  }
+  100% { 
+    opacity: 1; 
+    -moz-transform: translate(0,0);
+    visibility: visible;
+  }
+}
+@keyframes fadeInUpBounce {
+  0%   { 
+    opacity: 0; 
+    transform: translate(0,200%);
+    visibility: visible;
+  }
+  70% { 
+    opacity: 1; 
+    transform: translate(0,-20%);
+    visibility: visible;
+  }
+  100% { 
+    opacity: 1; 
+    transform: translate(0,0);
+    visibility: visible;
+  }
+}
+
 /*-------------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -343,7 +396,7 @@
     width: 300px;
     height: 250px;
     background: url('./300x250_txt3.png') no-repeat center center;
-    top: 0px;
+    top: 8px;
     left: 0px;
 
     -webkit-animation: fadeInRight 1s ease-in-out 6s forwards;
@@ -359,7 +412,7 @@
     width: 300px;
     height: 250px;
     background: url('./300x250_txt3-1.png') no-repeat center;
-    top: 0px;
+    top: 8px;
     left: 0px;
 
     -webkit-animation: fadeInRight 1s ease-in-out 6.5s forwards;
@@ -414,9 +467,9 @@
     bottom: 42px;
     z-index: 100;
 
-    -webkit-animation: fadeInUp 0.5s ease-in-out 8s forwards;
-    -moz-animation: fadeInUp 0.5s ease-in-out 8s forwards;
-    animation: fadeInUp 0.5s ease-in-out 8s forwards;
+    -webkit-animation: fadeInUpBounce 1s ease-in-out 8s forwards;
+    -moz-animation: fadeInUpBounce 1s ease-in-out 8s forwards;
+    animation: fadeInUpBounce 1s ease-in-out 8s forwards;
 }
 .cta:hover {
     background-position: -2px -41px;

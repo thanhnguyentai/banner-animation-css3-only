@@ -243,9 +243,9 @@
     animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .frame1-text-container {
-    -webkit-animation: fadeOut 0.5s ease-in-out 5s forwards;
-    -moz-animation: fadeOut 0.5s ease-in-out 5s forwards;
-    animation: fadeOut 0.5s ease-in-out 5s forwards;
+    -webkit-animation: fadeOut 0.5s ease-in-out 4s forwards;
+    -moz-animation: fadeOut 0.5s ease-in-out 4s forwards;
+    animation: fadeOut 0.5s ease-in-out 4s forwards;
 }
 .frame1-text {
     width: 194px;
@@ -254,9 +254,9 @@
     left: 10px;
     top: 4px;
 
-    -webkit-animation: fadeInRight 1s ease-in-out 2s forwards;
-    -moz-animation: fadeInRight 1s ease-in-out 2s forwards;
-    animation: fadeInRight 1s ease-in-out 2s forwards;
+    -webkit-animation: fadeInRight 1s ease-in-out 1s forwards;
+    -moz-animation: fadeInRight 1s ease-in-out 1s forwards;
+    animation: fadeInRight 1s ease-in-out 1s forwards;
 }
 
 .frame2-text-wrapper {
@@ -265,9 +265,9 @@
     animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .frame2-text-container {
-    -webkit-animation: fadeOut 0.5s ease-in-out 8.5s forwards;
-    -moz-animation: fadeOut 0.5s ease-in-out 8.5s forwards;
-    animation: fadeOut 0.5s ease-in-out 8.5s forwards;
+    -webkit-animation: fadeOut 0.5s ease-in-out 7.5s forwards;
+    -moz-animation: fadeOut 0.5s ease-in-out 7.5s forwards;
+    animation: fadeOut 0.5s ease-in-out 7.5s forwards;
 }
 .frame2-text {
     width: 203px;
@@ -276,9 +276,9 @@
     left: 10px;
     top: 4px;
 
-    -webkit-animation: fadeInRight 1s ease-in-out 5.5s forwards;
-    -moz-animation: fadeInRight 1s ease-in-out 5.5s forwards;
-    animation: fadeInRight 1s ease-in-out 5.5s forwards;
+    -webkit-animation: fadeInRight 1s ease-in-out 4.5s forwards;
+    -moz-animation: fadeInRight 1s ease-in-out 4.5s forwards;
+    animation: fadeInRight 1s ease-in-out 4.5s forwards;
 }
 
 .cta-container {
@@ -293,9 +293,9 @@
     left: 11px;
     top: 6px;
 
-    -webkit-animation: fadeInRight 1s ease-in-out 9s forwards;
-    -moz-animation: fadeInRight 1s ease-in-out 9s forwards;
-    animation: fadeInRight 1s ease-in-out 9s forwards;
+    -webkit-animation: fadeInRight 1s ease-in-out 8s forwards;
+    -moz-animation: fadeInRight 1s ease-in-out 8s forwards;
+    animation: fadeInRight 1s ease-in-out 8s forwards;
 
     z-index: 100;
 }
