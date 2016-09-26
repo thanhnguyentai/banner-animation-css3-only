@@ -254,9 +254,9 @@
     left: 10px;
     top: 4px;
 
-    -webkit-animation: fadeInRight 1s ease-in-out 1s forwards;
-    -moz-animation: fadeInRight 1s ease-in-out 1s forwards;
-    animation: fadeInRight 1s ease-in-out 1s forwards;
+    -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
+    -moz-animation: fadeIn 1s ease-in-out 1s forwards;
+    animation: fadeIn 1s ease-in-out 1s forwards;
 }
 
 .frame2-text-wrapper {
