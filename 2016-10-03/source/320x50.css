@@ -168,7 +168,7 @@
 /*-- fade in right animation--*/
 @-webkit-keyframes fadeInRight {
   0%   {
-    -webkit-transform: translate(-300px,0);
+    -webkit-transform: translate(-320px,0);
     visibility: visible;
     opacity: 0;
   }
@@ -180,7 +180,7 @@
 }
 @-moz-keyframes fadeInRight {
   0%   {
-    -moz-transform: translate(-300px,0);
+    -moz-transform: translate(-320px,0);
     visibility: visible;
     opacity: 0;
   }
@@ -192,7 +192,7 @@
 }
 @keyframes fadeInRight {
   0%   {
-    transform: translate(-300px,0);
+    transform: translate(-320px,0);
     visibility: visible;
     opacity: 0;
   }
@@ -250,7 +250,7 @@
   }
   100% { 
     visibility: visible;
-    height: 96px;
+    height: 44px;
   }
 }
 @-moz-keyframes fillColor {
@@ -260,7 +260,7 @@
   }
   100% { 
     visibility: visible;
-    height: 96px;
+    height: 44px;
   }
 }
 @keyframes fillColor {
@@ -270,7 +270,7 @@
   }
   100% { 
     visibility: visible;
-    height: 96px;
+    height: 44px;
   }
 }
 
@@ -291,8 +291,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 50px;
   display: block;
 }
 
@@ -306,7 +306,8 @@
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .content{
-  background: url('./images/300x250_mill_bg.jpg') no-repeat center center;
+  background: url('./images/320x50_mill_bg.jpg') no-repeat center center;
+  background-size: 100% auto;
   -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
   -moz-animation: fadeIn 1s ease-in-out 1s forwards;
   animation: fadeIn 1s ease-in-out 1s forwards;
@@ -320,11 +321,12 @@
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .logo {
-  background: url('./images/300x250_mill_logo.png') no-repeat center center;
-  width: 260px;
-  height: 26px;
-  top: 11px;
-  left: 19px;
+  background: url('./images/320x50_mill_logo.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 65px;
+  height: 16px;
+  top: 17px;
+  left: 7px;
 
   -webkit-animation: fadeIn 0.5s ease-in-out 2s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 2s forwards;
@@ -337,11 +339,12 @@
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .header {
-  background: url('./images/300x250_mill_header.png') no-repeat center center;
-  width: 130px;
-  height: 46px;
-  top: 43px;
-  left: 15px;
+  background: url('./images/320x50_mill_header.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 65px;
+  height: 23px;
+  top: 12px;
+  left: 82px;
 
   -webkit-animation: fadeInZoomOut 0.5s ease-in-out 3s forwards;
   -moz-animation: fadeInZoomOut 0.5s ease-in-out 3s forwards;
@@ -354,22 +357,24 @@
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .text {
-  background: url('./images/300x250_mill_text.png') no-repeat center center;
-  width: 123px;
-  height: 85px;
-  top: 110px;
-  left: 14px;
+  background: url('./images/320x50_mill_text.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 61px;
+  height: 43px;
+  top: 3px;
+  right: 65px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 4s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 4s forwards;
   animation: fadeInDown 0.5s ease-in-out 4s forwards;
 }
 .man {
-  background: url('./images/300x250_mill_man_empty.png') no-repeat center center;
-  width: 95px;
-  height: 195px;
-  right: 16px;
-  bottom: 10px;
+  background: url('./images/320x50_mill_man_empty.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 21px;
+  height: 44px;
+  right: 133px;
+  bottom: 3px;
 
   -webkit-animation: fadeIn 0.5s ease-in-out 5s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 5s forwards;
@@ -377,10 +382,10 @@
 }
 
 .man-full-mask {
-  width: 95px;
-  height: 0;
-  right: 16px;
-  bottom: 10px;
+  width: 21px;
+  height: 0px;
+  right: 133px;
+  bottom: 3px;
 
   overflow: hidden;
 
@@ -389,18 +394,20 @@
   animation: fillColor 1s ease-in-out 6s forwards;
 }
 .man-full {
-  background: url('./images/300x250_mill_man_full.png') no-repeat center center;
-  width: 95px;
-  height: 195px;
+  background: url('./images/320x50_mill_man_full.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 21px;
+  height: 44px;
   left: 0px;
   bottom: 0px;
 }
 .man-full-ie {
-  background: url('./images/300x250_mill_man_full.png') no-repeat center 100%;
-  width: 95px;
-  height: 96px;
-  right: 16px;
-  bottom: 10px;
+  background: url('./images/320x50_mill_man_full.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 21px;
+  height: 44px;
+  right: 133px;
+  bottom: 3px;
 
   -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
@@ -413,11 +420,12 @@
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .cta {
-  background: url('./images/300x250_mill_cta.png') no-repeat center center;
-  width: 150px;
-  height: 30px;
-  left: 15px;
-  bottom: 10px;
+  background: url('./images/320x50_mill_cta.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 50px;
+  height: 25px;
+  top: 12px;
+  right: 7px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 7.5s forwards;
   -moz-animation: fadeInRight 0.5s ease-in-out 7.5s forwards;

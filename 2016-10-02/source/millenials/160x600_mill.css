@@ -250,7 +250,7 @@
   }
   100% { 
     visibility: visible;
-    height: 186px;
+    height: 93px;
   }
 }
 @-moz-keyframes fillColor {
@@ -260,17 +260,17 @@
   }
   100% { 
     visibility: visible;
-    height: 186px;
+    height: 93px;
   }
 }
 @keyframes fillColor {
   0%   {
     visibility: visible;
-    height: 0px;
+    height: 0;
   }
   100% { 
     visibility: visible;
-    height: 186px;
+    height: 93px;
   }
 }
 
@@ -396,9 +396,9 @@
   bottom: 0px;
 }
 .man-full-ie {
-  background: url('./images/160x600_mill_man_full.png') no-repeat center center;
+  background: url('./images/160x600_mill_man_full.png') no-repeat center 100%;
   width: 90px;
-  height: 186px;
+  height: 93px;
   left: 33px;
   bottom: 107px;
 
