@@ -164,40 +164,66 @@
   }
 }
 
+/*-- rotate --*/
+@-webkit-keyframes rotate {
+  0%   {
+    -webkit-transform: rotate(0);
+  }
+  100% { 
+    -webkit-transform: rotate(-13deg);
+  }
+}
+@-moz-keyframes rotate {
+  0%   {
+    -moz-transform: rotate(0);
+  }
+  100% { 
+    -moz-transform: rotate(-13deg);
+  }
+}
+@keyframes rotate {
+  0%   {
+    transform: rotate(0);
+  }
+  100% { 
+    transform: rotate(-13deg);
+  }
+}
 
-/*-- fade in right animation--*/
-@-webkit-keyframes fadeInRight {
+
+/*-- fade in rotate animation--*/
+@-webkit-keyframes fadeInRotate {
   0%   {
-    -webkit-transform: translate(-728px,0);
+    -webkit-transform: rotate(13deg);
     visibility: visible;
     opacity: 0;
   }
   100% { 
-    -webkit-transform: translate(0,0);
+    -webkit-transform: rotate(13deg);
     visibility: visible;
     opacity: 1;
   }
 }
-@-moz-keyframes fadeInRight {
+@-moz-keyframes fadeInRotate {
   0%   {
-    -moz-transform: translate(-728px,0);
+    -moz-transform: rotate(13deg);
     visibility: visible;
     opacity: 0;
   }
   100% { 
-    -moz-transform: translate(0,0);
+    -moz-transform: rotate(13deg);
     visibility: visible;
     opacity: 1;
   }
 }
-@keyframes fadeInRight {
+@keyframes fadeInRotate {
   0%   {
-    transform: translate(-728px,0);
+    transform: rotate(13deg);
     visibility: visible;
     opacity: 0;
   }
   100% { 
-    transform: translate(0,0);
+    transform: rotate(13deg);
     visibility: visible;
     opacity: 1;
   }
@@ -208,6 +234,11 @@
   0%   {
     visibility: visible;
     opacity: 0;
+    -webkit-transform: scale(1,1);
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
     -webkit-transform: scale(1.25,1.25);
   }
   100% { 
@@ -220,6 +251,11 @@
   0%   {
     visibility: visible;
     opacity: 0;
+    -moz-transform: scale(1,1);
+  }
+  50% {
+    visibility: visible;
+    opacity: 0.5;
     -moz-transform: scale(1.25,1.25);
   }
   100% { 
@@ -232,45 +268,16 @@
   0%   {
     visibility: visible;
     opacity: 0;
+    transform: scale(1,1);
+  }
+  50% {
+    opacity: 0.5;
     transform: scale(1.25,1.25);
   }
   100% { 
     visibility: visible;
     opacity: 1;
     transform: scale(1,1);
-  }
-}
-
-
-/*-- fill color --*/
-@-webkit-keyframes fillColor {
-  0%   {
-    visibility: visible;
-    height: 0px;
-  }
-  100% { 
-    visibility: visible;
-    height: 79px;
-  }
-}
-@-moz-keyframes fillColor {
-  0%   {
-    visibility: visible;
-    height: 0px;
-  }
-  100% { 
-    visibility: visible;
-    height: 79px;
-  }
-}
-@keyframes fillColor {
-  0%   {
-    visibility: visible;
-    height: 0px;
-  }
-  100% { 
-    visibility: visible;
-    height: 79px;
   }
 }
 
@@ -306,120 +313,89 @@
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .content{
-  background: url('./images/728x90_mill_bg.jpg') no-repeat center center;
+  background-color: #ffffff;
   -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
   -moz-animation: fadeIn 1s ease-in-out 1s forwards;
   animation: fadeIn 1s ease-in-out 1s forwards;
-
-  border: 1px solid #acacac;
 }
 
-.logo-container {
-  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
-  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
-  animation: hideContent 10ms ease-in-out 0s forwards;
+.bg {
+  background: url('./images/728x90_bg.jpg') no-repeat center center;
 }
 .logo {
-  background: url('./images/728x90_mill_logo.png') no-repeat center center;
-  width: 140px;
-  height: 32px;
-  top: 29px;
-  left: 15px;
-
-  -webkit-animation: fadeIn 0.5s ease-in-out 2s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 2s forwards;
-  animation: fadeIn 0.5s ease-in-out 2s forwards;
+  background: url('./images/728x90_logo.png') no-repeat center center;
+  width: 110px;
+  height: 53px;
+  top: 5px;
+  right: 28px;
+}
+.legal {
+  background: url('./images/728x90_legal.png') no-repeat center center;
+  width: 717px;
+  height: 16px;
+  z-index: 100;
+  left: 6px;
+  bottom: 4px;
 }
 
-.header-container {
-  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
-  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
-  animation: hideContent 10ms ease-in-out 0s forwards;
-}
-.header {
-  background: url('./images/728x90_mill_header.png') no-repeat center center;
-  width: 130px;
-  height: 46px;
-  top: 21px;
-  left: 180px;
-
-  -webkit-animation: fadeInZoomOut 0.5s ease-in-out 3s forwards;
-  -moz-animation: fadeInZoomOut 0.5s ease-in-out 3s forwards;
-  animation: fadeInZoomOut 0.5s ease-in-out 3s forwards;
-}
-
-.text-man-container {
+.text-container {
   -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .text {
-  background: url('./images/728x90_mill_text.png') no-repeat center center;
-  width: 199px;
-  height: 37px;
-  top: 26px;
-  right: 125px;
+  background: url('./images/728x90_text.png') no-repeat center center;
+  width: 328px;
+  height: 70px;
+  z-index: 0;
+  top: 9px;
+  left: 261px;
 
-  -webkit-animation: fadeInDown 0.5s ease-in-out 4s forwards;
-  -moz-animation: fadeInDown 0.5s ease-in-out 4s forwards;
-  animation: fadeInDown 0.5s ease-in-out 4s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 3.5s forwards;
 }
-.man {
-  background: url('./images/728x90_mill_man_empty.png') no-repeat center center;
-  width: 39px;
-  height: 79px;
-  right: 340px;
-  bottom: 5px;
-
-  -webkit-animation: fadeIn 0.5s ease-in-out 5s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 5s forwards;
-  animation: fadeIn 0.5s ease-in-out 5s forwards;
-}
-
-.man-full-mask {
-  width: 39px;
-  height: 0;
-  right: 340px;
-  bottom: 5px;
-
-  overflow: hidden;
-
-  -webkit-animation: fillColor 1s ease-in-out 6s forwards;
-  -moz-animation: fillColor 1s ease-in-out 6s forwards;
-  animation: fillColor 1s ease-in-out 6s forwards;
-}
-.man-full {
-  background: url('./images/728x90_mill_man_full.png') no-repeat center center;
-  width: 39px;
-  height: 79px;
-  left: 0px;
-  bottom: 0px;
-}
-.man-full-ie {
-  background: url('./images/728x90_mill_man_full.png') no-repeat center center;
-  width: 39px;
-  height: 79px;
-  right: 340px;
-  bottom: 5px;
-
-  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
-  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
-  animation: hideContent 10ms ease-in-out 0s forwards;
-}
-
 .cta-container {
   -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .cta {
-  background: url('./images/728x90_mill_cta.png') no-repeat center center;
-  width: 100px;
-  height: 50px;
-  top: 20px;
-  right: 15px;
+  background: url('./images/728x90_cta.png') no-repeat center center;
+  width: 111px;
+  height: 7px;
+  bottom: 17px;
+  right: 27px;
 
-  -webkit-animation: fadeInRight 0.5s ease-in-out 7.5s forwards;
-  -moz-animation: fadeInRight 0.5s ease-in-out 7.5s forwards;
-  animation: fadeInRight 0.5s ease-in-out 7.5s forwards;
+  -webkit-animation: fadeInZoomOut 0.5s ease-in-out 4.5s forwards;
+  -moz-animation: fadeInZoomOut 0.5s ease-in-out 4.5s forwards;
+  animation: fadeInZoomOut 0.5s ease-in-out 4.5s forwards;
+}
+
+.building-wrapper {
+  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
+  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
+  animation: hideContent 10ms ease-in-out 0s forwards;
+}
+.building-container {
+  width: 240px;
+  height: 176px;
+  top: -31px;
+  left: 50px;
+
+  -webkit-animation: rotate 0.5s ease-in-out 5.5s forwards;
+  -moz-animation: rotate 0.5s ease-in-out 5.5s forwards;
+  animation: rotate 0.5s ease-in-out 5.5s forwards;
+}
+.building {
+  background: url('./images/728x90_castle.jpg') no-repeat center center;
+  width: 240px;
+  height: 176px;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  -webkit-animation: fadeInRotate 0.5s ease-in-out 2.5s forwards;
+  -moz-animation: fadeInRotate 0.5s ease-in-out 2.5s forwards;
+  animation: fadeInRotate 0.5s ease-in-out 2.5s forwards;
 }
