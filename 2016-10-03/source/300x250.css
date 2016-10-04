@@ -164,12 +164,44 @@
   }
 }
 
+/*-- fade out up big--*/
+@-webkit-keyframes fadeOutUpBig {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0,-100%);
+  }
+}
+@-moz-keyframes fadeOutUpBig {
+  0%   {
+    visibility: visible;
+    -moz-transform: translate(0,0);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0,-100%);
+  }
+}
+@keyframes fadeOutUpBig {
+  0%   {
+    visibility: visible;
+    transform: translate(0,0);
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0,-100%);
+  }
+}
+
 /*-- fade in down big--*/
-@-webkit-keyframes fadeInDownBig {
+@-webkit-keyframes fadeInUpBig {
   0%   {
     visibility: visible;
     opacity: 0;
-    -webkit-transform: translate(0,-100%);
+    -webkit-transform: translate(0,100%);
   }
   100% { 
     visibility: visible;
@@ -177,11 +209,11 @@
     -webkit-transform: translate(0,0);
   }
 }
-@-moz-keyframes fadeInDownBig {
+@-moz-keyframes fadeInUpBig {
   0%   {
     visibility: visible;
     opacity: 0;
-    -moz-transform: translate(0,-100%);
+    -moz-transform: translate(0,100%);
   }
   100% { 
     visibility: visible;
@@ -189,11 +221,11 @@
     -moz-transform: translate(0,0);
   }
 }
-@keyframes fadeInDownBig {
+@keyframes fadeInUpBig {
   0%   {
     visibility: visible;
     opacity: 0;
-    transform: translate(0,-100%);
+    transform: translate(0,100%);
   }
   100% { 
     visibility: visible;
@@ -332,9 +364,9 @@
 }
 
 .frame1-container {
-  -webkit-animation: fadeOut 0.5s ease-in-out 3.5s forwards;
-  -moz-animation: fadeOut 0.5s ease-in-out 3.5s forwards;
-  animation: fadeOut 0.5s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeOutUpBig 1s ease-in-out 3.5s forwards;
+  -moz-animation: fadeOutUpBig 1s ease-in-out 3.5s forwards;
+  animation: fadeOutUpBig 1s ease-in-out 3.5s forwards;
 }
 .frame1-bg {
   background: url('./images/300x250_frame1_bg.jpg') no-repeat center center;
@@ -364,9 +396,9 @@
 .frame2-bg {
   background: url('./images/300x250_frame2_bg.jpg') no-repeat center center;
 
-  -webkit-animation: fadeInDownBig 0.5s ease-in-out 3.75s forwards;
-  -moz-animation: fadeInDownBig 0.5s ease-in-out 3.75s forwards;
-  animation: fadeInDownBig 0.5s ease-in-out 3.75s forwards;
+  -webkit-animation: fadeInUpBig 1s ease-in-out 3.5s forwards;
+  -moz-animation: fadeInUpBig 1s ease-in-out 3.5s forwards;
+  animation: fadeInUpBig 1s ease-in-out 3.5s forwards;
 }
 .frame2-text {
   background: url('./images/300x250_frame2_text.png') no-repeat center center;
@@ -375,9 +407,9 @@
   top: 7px;
   left: 64px;
 
-  -webkit-animation: fadeInDown 0.5s ease-in-out 4.5s forwards;
-  -moz-animation: fadeInDown 0.5s ease-in-out 4.5s forwards;
-  animation: fadeInDown 0.5s ease-in-out 4.5s forwards;
+  -webkit-animation: fadeInDown 0.5s ease-in-out 5s forwards;
+  -moz-animation: fadeInDown 0.5s ease-in-out 5s forwards;
+  animation: fadeInDown 0.5s ease-in-out 5s forwards;
 }
 .frame2-logo {
   background: url('./images/300x250_frame2_logo.png') no-repeat center center;
@@ -386,9 +418,9 @@
   top: 103px;
   left: 92px;
 
- -webkit-animation: fadeInDown 0.5s ease-in-out 4.75s forwards;
-  -moz-animation: fadeInDown 0.5s ease-in-out 4.75s forwards;
-  animation: fadeInDown 0.5s ease-in-out 4.75s forwards; 
+ -webkit-animation: fadeInDown 0.5s ease-in-out 5.25s forwards;
+  -moz-animation: fadeInDown 0.5s ease-in-out 5.25s forwards;
+  animation: fadeInDown 0.5s ease-in-out 5.25s forwards; 
 }
 .frame2-dots-container {
   opacity: 0;
