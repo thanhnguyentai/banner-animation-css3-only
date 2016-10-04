@@ -330,10 +330,12 @@
   animation: fadeInOnly 10ms ease-in-out 0s forwards;
 }
 .dot {
-  background-color: #f1f1f1;
+  /*background-color: #fbfbfb;*/
+  background-color: red;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
+  opacity: 0.75;
 
   /*
   -webkit-box-shadow: 0 0 1px 1px rgba(240,240,240,0.5);
@@ -348,106 +350,106 @@
   left: 68px;
 }
 .dot1-2 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 72px;
+  left: 59px;
 }
 .dot1-3 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 79px;
+  left: 52px;
 }
 .dot1-4 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 90px;
+  left: 45px;
 }
 .dot1-5 {
   width: 6px;
   height: 6px;
-  top: 0px;
-  left: 0px;
+  top: 102px;
+  left: 48px;
 }
 .dot1-6 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 112px;
+  left: 59px;
 }
 .dot1-7 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 121px;
+  left: 67px;
 }
 .dot1-8 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 133px;
+  left: 70px;
 }
 .dot1-9 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 146px;
+  left: 68px;
 }
 .dot1-10 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 158px;
+  left: 59px;
 }
 .dot1-11 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 167px;
+  left: 51px;
 }
-.dot1-11 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+.dot1-12 {
+  width: 5px;
+  height: 5px;
+  top: 175px;
+  left: 44px;
 }
 .dot1-13 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 185px;
+  left: 40px;
 }
 .dot1-14 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 195px;
+  left: 42px;
 }
 .dot1-15 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 202px;
+  left: 49px;
 }
 .dot1-16 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 5px;
+  height: 5px;
+  top: 203px;
+  left: 59px;
 }
 .dot1-17 {
   width: 6px;
   height: 6px;
-  top: 0px;
-  left: 0px;
+  top: 201px;
+  left: 67px;
 }
 .dot1-18 {
-  width: 6px;
-  height: 6px;
-  top: 0px;
-  left: 0px;
+  width: 7px;
+  height: 7px;
+  top: 196px;
+  left: 74px;
 }
 
 .dot2-1 {
