@@ -242,39 +242,6 @@
 }
 
 
-/*-- fill color --*/
-@-webkit-keyframes fillColor {
-  0%   {
-    visibility: visible;
-    height: 0px;
-  }
-  100% { 
-    visibility: visible;
-    height: 195px;
-  }
-}
-@-moz-keyframes fillColor {
-  0%   {
-    visibility: visible;
-    height: 0px;
-  }
-  100% { 
-    visibility: visible;
-    height: 195px;
-  }
-}
-@keyframes fillColor {
-  0%   {
-    visibility: visible;
-    height: 0px;
-  }
-  100% { 
-    visibility: visible;
-    height: 195px;
-  }
-}
-
-
 
 /*-------------------------------------------*/
 * {
@@ -306,120 +273,327 @@
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
 .content{
-  background: url('./images/300x250_mill_bg.jpg') no-repeat center center;
+  background-color: #fff;
   -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
   -moz-animation: fadeIn 1s ease-in-out 1s forwards;
   animation: fadeIn 1s ease-in-out 1s forwards;
-
-  border: 1px solid #acacac;
 }
 
-.logo-container {
+.frame1-container {}
+.frame1-bg {
+  background: url('./images/300x250_frame1_bg.jpg') no-repeat center center;
+}
+.frame1-text-container {
   -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
-.logo {
-  background: url('./images/300x250_mill_logo.png') no-repeat center center;
-  width: 260px;
-  height: 26px;
-  top: 11px;
-  left: 19px;
-
-  -webkit-animation: fadeIn 0.5s ease-in-out 2s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 2s forwards;
-  animation: fadeIn 0.5s ease-in-out 2s forwards;
+.frame1-text {
+  background: url('./images/300x250_frame1_text.png') no-repeat center center;
+  width: 195px;
+  height: 137px;
+  top: 36px;
+  left: 50px;
 }
 
-.header-container {
+.frame2-container {
+  /*
   -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards;
+  */
 }
-.header {
-  background: url('./images/300x250_mill_header.png') no-repeat center center;
-  width: 130px;
-  height: 46px;
-  top: 43px;
-  left: 15px;
-
-  -webkit-animation: fadeInZoomOut 0.5s ease-in-out 3s forwards;
-  -moz-animation: fadeInZoomOut 0.5s ease-in-out 3s forwards;
-  animation: fadeInZoomOut 0.5s ease-in-out 3s forwards;
+.frame2-bg {
+  background: url('./images/300x250_frame2_bg.jpg') no-repeat center center;
 }
-
-.text-man-container {
-  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
-  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
-  animation: hideContent 10ms ease-in-out 0s forwards;
+.frame2-text {
+  background: url('./images/300x250_frame2_text.png') no-repeat center center;
+  width: 156px;
+  height: 69px;
+  top: 7px;
+  left: 64px;
 }
-.text {
-  background: url('./images/300x250_mill_text.png') no-repeat center center;
-  width: 123px;
-  height: 85px;
-  top: 110px;
-  left: 14px;
-
-  -webkit-animation: fadeInDown 0.5s ease-in-out 4s forwards;
-  -moz-animation: fadeInDown 0.5s ease-in-out 4s forwards;
-  animation: fadeInDown 0.5s ease-in-out 4s forwards;
+.frame2-logo {
+  background: url('./images/300x250_frame2_logo.png') no-repeat center center;
+  width: 105px;
+  height: 49px;
+  top: 103px;
+  left: 92px;
 }
-.man {
-  background: url('./images/300x250_mill_man_empty.png') no-repeat center center;
-  width: 95px;
-  height: 195px;
-  right: 16px;
-  bottom: 10px;
+.frame2-dots-container {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  z-index: 1;
 
-  -webkit-animation: fadeIn 0.5s ease-in-out 5s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 5s forwards;
-  animation: fadeIn 0.5s ease-in-out 5s forwards;
+  -webkit-animation: fadeInOnly 10ms ease-in-out 0s forwards;
+  -moz-animation: fadeInOnly 10ms ease-in-out 0s forwards;
+  animation: fadeInOnly 10ms ease-in-out 0s forwards;
 }
+.dot {
+  background-color: #f1f1f1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 
-.man-full-mask {
-  width: 95px;
-  height: 0;
-  right: 16px;
-  bottom: 10px;
-
-  overflow: hidden;
-
-  -webkit-animation: fillColor 1s ease-in-out 6s forwards;
-  -moz-animation: fillColor 1s ease-in-out 6s forwards;
-  animation: fillColor 1s ease-in-out 6s forwards;
+  /*
+  -webkit-box-shadow: 0 0 1px 1px rgba(240,240,240,0.5);
+  -moz-box-shadow: 0 0 1px 1px rgba(240,240,240,0.5);
+  box-shadow: 0 0 1px 1px rgba(240,240,240,0.5);
+  */
 }
-.man-full {
-  background: url('./images/300x250_mill_man_full.png') no-repeat center center;
-  width: 95px;
-  height: 195px;
+.dot1-1 {
+  width: 4px;
+  height: 4px;
+  top: 70px;
+  left: 68px;
+}
+.dot1-2 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
   left: 0px;
-  bottom: 0px;
 }
-.man-full-ie {
-  background: url('./images/300x250_mill_man_full.png') no-repeat center center;
-  width: 95px;
-  height: 195px;
-  right: 16px;
-  bottom: 10px;
+.dot1-3 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-4 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-5 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-6 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-7 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-8 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-9 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-10 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-11 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-11 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-13 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-14 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-15 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-16 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-17 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot1-18 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
 
+.dot2-1 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-2 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-3 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-4 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-5 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-6 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-7 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-8 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-9 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-10 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-11 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-11 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-13 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-14 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-15 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-16 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-17 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-18 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-19 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+.dot2-20 {
+  width: 6px;
+  height: 6px;
+  top: 0px;
+  left: 0px;
+}
+
+.frame2-dots-ie {
+  background: url('./images/300x250_frame2_dots.png') no-repeat center center;
+
+  /*
   -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards;
+  */
+}
+.frame2-cta {
+  background: url('./images/300x250_frame2_cta.png') no-repeat center center;
+  width: 121px;
+  height: 9px;
+  bottom: 50px;
+  left: 88px;
 }
 
-.cta-container {
-  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
-  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
-  animation: hideContent 10ms ease-in-out 0s forwards;
-}
-.cta {
-  background: url('./images/300x250_mill_cta.png') no-repeat center center;
-  width: 150px;
-  height: 30px;
-  left: 15px;
-  bottom: 10px;
-
-  -webkit-animation: fadeInRight 0.5s ease-in-out 7.5s forwards;
-  -moz-animation: fadeInRight 0.5s ease-in-out 7.5s forwards;
-  animation: fadeInRight 0.5s ease-in-out 7.5s forwards;
+.legal-container {}
+.legal {
+  z-index: 100;
+  background: url('./images/300x250_legal.png') no-repeat center center;
+  width: 281px;
+  height: 21px;
+  left: 10px;
+  bottom: 3px;
 }
