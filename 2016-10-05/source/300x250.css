@@ -168,7 +168,7 @@
 /*-- panning --*/
 @-webkit-keyframes panning {
   0%   {
-    -webkit-transform: translate(-3px,0);
+    -webkit-transform: translate(-85px,0);
     visibility: visible;
     opacity: 1;
   }
@@ -180,7 +180,7 @@
 }
 @-moz-keyframes panning {
   0%   {
-    -moz-transform: translate(-3px,0);
+    -moz-transform: translate(-85px,0);
     visibility: visible;
     opacity: 1;
   }
@@ -192,7 +192,7 @@
 }
 @keyframes panning {
   0%   {
-    transform: translate(-3px,0);
+    transform: translate(-85px,0);
     visibility: visible;
     opacity: 1;
   }
@@ -285,14 +285,14 @@
 }
 .image {
   background: url('./images/300x250_image.jpg') no-repeat center center;
-  width: 317px;
-  height: 178px;
-  top: -4px;
-  left: -14px;
+  width: 397px;
+  height: 168px;
+  top: 0px;
+  left: -12px;
 
-  -webkit-animation: panning 1.5s linear 1.1s forwards;
-  -moz-animation: panning 1.5s linear 1.1s forwards;
-  animation: panning 1.5s linear 1.1s forwards;
+  -webkit-animation: panning 3s linear 1.1s forwards;
+  -moz-animation: panning 3s linear 1.1s forwards;
+  animation: panning 3s linear 1.1s forwards;
 }
 .steel {
   background: url('./images/300x250_steel.png') no-repeat center center;
@@ -335,9 +335,9 @@
   left: 10px;
   bottom: 43px;
 
-  -webkit-animation: fadeInDown 0.5s ease-in-out 2.5s forwards;
-  -moz-animation: fadeInDown 0.5s ease-in-out 2.5s forwards;
-  animation: fadeInDown 0.5s ease-in-out 2.5s forwards;
+  -webkit-animation: fadeInDown 0.5s ease-in-out 4.5s forwards;
+  -moz-animation: fadeInDown 0.5s ease-in-out 4.5s forwards;
+  animation: fadeInDown 0.5s ease-in-out 4.5s forwards;
 }
 .cta {
   background: url('./images/300x250_cta.png') no-repeat center center;
@@ -346,7 +346,7 @@
   left: 8px;
   bottom: 6px;
 
-  -webkit-animation: fadeInRight 0.5s ease-in-out 3.5s forwards;
-  -moz-animation: fadeInRight 0.5s ease-in-out 3.5s forwards;
-  animation: fadeInRight 0.5s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeInRight 0.5s ease-in-out 5.5s forwards;
+  -moz-animation: fadeInRight 0.5s ease-in-out 5.5s forwards;
+  animation: fadeInRight 0.5s ease-in-out 5.5s forwards;
 }
