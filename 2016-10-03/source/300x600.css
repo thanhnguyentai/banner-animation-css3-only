@@ -584,9 +584,9 @@
   bottom: 45px;
   left: 80px;
 
-  -webkit-animation: fadeInZoomOut 0.4s ease-in-out 7.2s forwards;
-  -moz-animation: fadeInZoomOut 0.4s ease-in-out 7.2s forwards;
-  animation: fadeInZoomOut 0.4s ease-in-out 7.2s forwards;
+  -webkit-animation: fadeInZoomOut 0.8s ease-in-out 7.2s forwards;
+  -moz-animation: fadeInZoomOut 0.8s ease-in-out 7.2s forwards;
+  animation: fadeInZoomOut 0.8s ease-in-out 7.2s forwards;
 }
 
 .dot2-1 {
@@ -595,9 +595,9 @@
   top: 547px;
   left: 236px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 7.6s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 7.6s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 7.6s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8s forwards;
 
 }
 .dot2-2 {
@@ -606,9 +606,9 @@
   top: 556px;
   left: 247px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 7.7s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 7.7s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 7.7s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.1s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.1s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.1s forwards;
 }
 .dot2-3 {
   width: 7px;
@@ -616,9 +616,9 @@
   top: 562px;
   left: 258px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 7.8s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 7.8s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 7.8s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.2s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.2s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.2s forwards;
 }
 .dot2-4 {
   width: 6px;
@@ -626,9 +626,9 @@
   top: 567px;
   left: 270px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 7.9s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 7.9s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 7.9s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.3s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.3s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.3s forwards;
 }
 .dot2-5 {
   width: 6px;
@@ -636,9 +636,9 @@
   top: 562px;
   left: 285px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.4s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.4s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.4s forwards;
 }
 .dot2-6 {
   width: 6px;
@@ -646,9 +646,9 @@
   top: 547px;
   left: 288px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.1s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.1s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.1s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.5s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.5s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.5s forwards;
 }
 .dot2-7 {
   width: 6px;
@@ -656,9 +656,9 @@
   top: 536px;
   left: 280px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.2s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.2s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.2s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.6s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.6s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.6s forwards;
 }
 .dot2-8 {
   width: 5px;
@@ -666,9 +666,9 @@
   top: 530px;
   left: 269px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.3s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.3s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.3s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.7s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.7s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.7s forwards;
 }
 .dot2-9 {
   width: 5px;
@@ -676,9 +676,9 @@
   top: 523px;
   left: 259px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.4s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.4s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.4s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.8s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.8s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.8s forwards;
 }
 .dot2-10 {
   width: 6px;
@@ -686,9 +686,9 @@
   top: 513px;
   left: 248px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.5s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.5s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.5s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.9s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.9s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 8.9s forwards;
 }
 .dot2-11 {
   width: 6px;
@@ -696,9 +696,9 @@
   top: 504px;
   left: 239px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.6s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.6s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.6s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9s forwards;
 }
 .dot2-12 {
   width: 6px;
@@ -706,9 +706,9 @@
   top: 491px;
   left: 234px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.7s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.7s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.7s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.1s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.1s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9.1s forwards;
 }
 .dot2-13 {
   width: 6px;
@@ -716,9 +716,9 @@
   top: 477px;
   left: 233px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.8s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.8s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.8s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.2s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.2s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9.2s forwards;
 }
 .dot2-14 {
   width: 6px;
@@ -726,9 +726,9 @@
   top: 462px;
   left: 231px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 8.9s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 8.9s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 8.9s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.3s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.3s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9.3s forwards;
 }
 .dot2-15 {
   width: 6px;
@@ -736,9 +736,9 @@
   top: 446px;
   left: 237px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 9s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.4s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.4s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9.4s forwards;
 }
 .dot2-16 {
   width: 6px;
@@ -746,9 +746,9 @@
   top: 438px;
   left: 248px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.1s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.1s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 9.1s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.5s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.5s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9.5s forwards;
 }
 .dot2-17 {
   width: 6px;
@@ -756,9 +756,9 @@
   top: 434px;
   left: 261px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.2s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.2s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 9.2s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.6s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.6s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9.6s forwards;
 }
 .dot2-18 {
   width: 6px;
@@ -766,9 +766,9 @@
   top: 435px;
   left: 277px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.3s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.3s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 9.3s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.7s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.7s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9.7s forwards;
 }
 .dot2-19 {
   width: 6px;
@@ -776,9 +776,9 @@
   top: 438px;
   left: 290px;
 
-  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.4s forwards;
-  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.4s forwards;
-  animation: fadeInZoomOut 0.2s ease-in-out 9.4s forwards;
+  -webkit-animation: fadeInZoomOut 0.2s ease-in-out 9.8s forwards;
+  -moz-animation: fadeInZoomOut 0.2s ease-in-out 9.8s forwards;
+  animation: fadeInZoomOut 0.2s ease-in-out 9.8s forwards;
 }
 
 .dots-ie {

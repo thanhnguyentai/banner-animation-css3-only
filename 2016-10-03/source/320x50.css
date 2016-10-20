@@ -238,8 +238,8 @@
   }
   50% {
     visibility: visible;
-    opacity: 0.5;
-    -webkit-transform: scale(1.25,1.25);
+    opacity: 1;
+    -webkit-transform: scale(1.1,1.1);
   }
   100% { 
     visibility: visible;
@@ -255,8 +255,8 @@
   }
   50% {
     visibility: visible;
-    opacity: 0.5;
-    -moz-transform: scale(1.25,1.25);
+    opacity: 1;
+    -moz-transform: scale(1.1,1.1);
   }
   100% { 
     visibility: visible;
@@ -271,8 +271,8 @@
     transform: scale(1,1);
   }
   50% {
-    opacity: 0.5;
-    transform: scale(1.25,1.25);
+    opacity: 1;
+    transform: scale(1.1,1.1);
   }
   100% { 
     visibility: visible;
@@ -372,9 +372,9 @@
   bottom: 14px;
   right: 13px;
 
-  -webkit-animation: fadeInZoomOut 0.5s ease-in-out 4.5s forwards;
-  -moz-animation: fadeInZoomOut 0.5s ease-in-out 4.5s forwards;
-  animation: fadeInZoomOut 0.5s ease-in-out 4.5s forwards;
+  -webkit-animation: fadeInZoomOut 0.8s ease-in-out 4.5s forwards;
+  -moz-animation: fadeInZoomOut 0.8s ease-in-out 4.5s forwards;
+  animation: fadeInZoomOut 0.8s ease-in-out 4.5s forwards;
 }
 
 .building-wrapper {
@@ -388,9 +388,9 @@
   top: -12px;
   left: 36px;
 
-  -webkit-animation: rotate 0.5s ease-in-out 5.5s forwards;
-  -moz-animation: rotate 0.5s ease-in-out 5.5s forwards;
-  animation: rotate 0.5s ease-in-out 5.5s forwards;
+  -webkit-animation: rotate 0.5s ease-in-out 5.8s forwards;
+  -moz-animation: rotate 0.5s ease-in-out 5.8s forwards;
+  animation: rotate 0.5s ease-in-out 5.8s forwards;
 }
 .building {
   background: url('./images/320x50_castle.jpg') no-repeat center center;

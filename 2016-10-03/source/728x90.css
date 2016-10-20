@@ -531,9 +531,9 @@
   bottom: 17px;
   right: 27px;
 
-  -webkit-animation: fadeInZoomOut 0.5s ease-in-out 5.25s forwards;
-  -moz-animation: fadeInZoomOut 0.5s ease-in-out 5.25s forwards;
-  animation: fadeInZoomOut 0.5s ease-in-out 5.25s forwards;
+  -webkit-animation: fadeInZoomOut 0.8s ease-in-out 5.25s forwards;
+  -moz-animation: fadeInZoomOut 0.8s ease-in-out 5.25s forwards;
+  animation: fadeInZoomOut 0.8s ease-in-out 5.25s forwards;
 }
 
 .dots-ie {
