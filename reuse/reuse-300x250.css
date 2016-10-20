@@ -654,7 +654,5 @@
 
   -webkit-animation: fadeIn 10ms ease-in-out 0s forwards;
   -moz-animation: fadeIn 10ms ease-in-out 0s forwards;
-  -ms-animation: fadeIn 10ms ease-in-out 0s forwards;
-  -o-animation: fadeIn 10ms ease-in-out 0s forwards;
   animation: fadeIn 10ms ease-in-out 0s forwards;
 }
