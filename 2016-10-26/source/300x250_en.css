@@ -259,9 +259,9 @@
 }
 .logo {
   background: url('./images/300x250_eng_logo.png') no-repeat center center;
-  width: 147px;
-  height: 103px;
-  top: 32px;
+  width: 196px;
+  height: 121px;
+  top: 0px;
   left: 0px;
 
   -webkit-animation: fadeIn 1s ease-in-out 2.75s forwards;
@@ -270,10 +270,10 @@
 }
 .text {
   background: url('./images/300x250_eng_text.png') no-repeat center center;
-  width: 183px;
-  height: 38px;
-  top: 165px;
-  left: 25px;
+  width: 244px;
+  height: 51px;
+  top: 160px;
+  left: 33px;
 
   -webkit-animation: fadeIn 1s ease-in-out 3.75s forwards;
   -moz-animation: fadeIn 1s ease-in-out 3.75s forwards;
@@ -281,10 +281,10 @@
 }
 .cta {
   background: url('./images/300x250_eng_cta.png') no-repeat center center;
-  width: 147px;
-  height: 26px;
-  left: 90px;
-  bottom: 18px;
+  width: 182px;
+  height: 35px;
+  right: 0px;
+  bottom: 1px;
 
   -webkit-animation: fadeIn 1s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 1s ease-in-out 0.5s forwards;
