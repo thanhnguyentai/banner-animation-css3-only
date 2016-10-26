@@ -286,7 +286,7 @@
   right: 0;
   top: 0;
 
-  -webkit-animation: fadeInRight 0.5s ease-in-out 4.5s forwards;
-  -moz-animation: fadeInRight 0.5s ease-in-out 4.5s forwards;
-  animation: fadeInRight 0.5s ease-in-out 4.5s forwards;
+  -webkit-animation: fadeIn 1s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 1s ease-in-out 0.5s forwards;
+  animation: fadeIn 1s ease-in-out 0.5s forwards;
 }
