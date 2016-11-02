@@ -260,9 +260,9 @@
   bottom: 193px;
   left: 63px;
 
-  -webkit-animation: fadeInLeft 1s ease-in-out 2s forwards;
-  -moz-animation: fadeInLeft 1s ease-in-out 2s forwards;
-  animation: fadeInLeft 1s ease-in-out 2s forwards;
+  -webkit-animation: fadeInLeft 0.5s ease-in-out 2s forwards;
+  -moz-animation: fadeInLeft 0.5s ease-in-out 2s forwards;
+  animation: fadeInLeft 0.5s ease-in-out 2s forwards;
 }
 .text-just {
   background: url('./images/300x600_text_just.png') no-repeat center center;
@@ -271,9 +271,9 @@
   bottom: 132px;
   left: 44px;
 
-  -webkit-animation: fadeInLeft 0.5s ease-in-out 3s forwards;
-  -moz-animation: fadeInLeft 0.5s ease-in-out 3s forwards;
-  animation: fadeInLeft 0.5s ease-in-out 3s forwards;
+  -webkit-animation: fadeInLeft 0.5s ease-in-out 2.5s forwards;
+  -moz-animation: fadeInLeft 0.5s ease-in-out 2.5s forwards;
+  animation: fadeInLeft 0.5s ease-in-out 2.5s forwards;
 }
 .text-got {
   background: url('./images/300x600_text_got.png') no-repeat center center;
@@ -282,9 +282,9 @@
   bottom: 132px;
   left: 149px;
 
-  -webkit-animation: fadeInLeft 0.5s ease-in-out 3.5s forwards;
-  -moz-animation: fadeInLeft 0.5s ease-in-out 3.5s forwards;
-  animation: fadeInLeft 0.5s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeInLeft 0.5s ease-in-out 3s forwards;
+  -moz-animation: fadeInLeft 0.5s ease-in-out 3s forwards;
+  animation: fadeInLeft 0.5s ease-in-out 3s forwards;
 }
 .text-bigger {
   background: url('./images/300x600_text_bigger.png') no-repeat center center;
@@ -293,9 +293,9 @@
   bottom: 65px;
   left: 67px;
 
-  -webkit-animation: fadeInLeft 0.5s ease-in-out 4s forwards;
-  -moz-animation: fadeInLeft 0.5s ease-in-out 4s forwards;
-  animation: fadeInLeft 0.5s ease-in-out 4s forwards;
+  -webkit-animation: fadeInLeft 0.5s ease-in-out 3.5s forwards;
+  -moz-animation: fadeInLeft 0.5s ease-in-out 3.5s forwards;
+  animation: fadeInLeft 0.5s ease-in-out 3.5s forwards;
 }
 .text-container {
   -webkit-animation: slideLeftOut 1s ease-in-out 5.5s forwards;
