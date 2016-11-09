@@ -351,7 +351,7 @@
   background: url('./images/728x90_unity_header.png') no-repeat center center;
   width: 208px;
   height: 33px;
-  top: 9px;
+  top: 10px;
   left: 145px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 2.75s forwards;
@@ -363,7 +363,7 @@
   background: url('./images/728x90_unity_sub.png') no-repeat center center;
   width: 189px;
   height: 29px;
-  top: 51px;
+  top: 52px;
   left: 144px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 3s forwards;
@@ -374,8 +374,8 @@
   background: url('./images/728x90_unity_cta.png') no-repeat center center;
   width: 89px;
   height: 28px;
-  top: 55px;
-  left: 391px;
+  top: 53px;
+  left: 15px;
 
   -webkit-animation: fadeInUp 0.5s ease-in-out 4s forwards;
   -moz-animation: fadeInUp 0.5s ease-in-out 4s forwards;
@@ -383,10 +383,10 @@
 }
 .intel-logo {
   background: url('./images/728x90_unity_intel_logo.png') no-repeat center center;
-  width: 557px;
-  height: 54px;
-  top: 27px;
-  left: 15px;
+  width: 207px;
+  height: 47px;
+  top: 22px;
+  right: 14px;
 
   -webkit-animation: fadeInLeft 0.5s ease-in-out 1.75s forwards;
   -moz-animation: fadeInLeft 0.5s ease-in-out 1.75s forwards;

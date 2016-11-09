@@ -340,7 +340,7 @@
   background: url('./images/160x600_portfolio_dell_logo.png') no-repeat center center;
   width: 125px;
   height: 22px;
-  top: 20px;
+  top: 36px;
   left: 18px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 1.5s forwards;
@@ -351,7 +351,7 @@
   background: url('./images/160x600_portfolio_header.png') no-repeat center center;
   width: 141px;
   height: 48px;
-  top: 69px;
+  top: 85px;
   left: 10px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 2.75s forwards;
@@ -363,7 +363,7 @@
   background: url('./images/160x600_portfolio_sub.png') no-repeat center center;
   width: 131px;
   height: 45px;
-  top: 128px;
+  top: 144px;
   left: 11px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 3s forwards;
@@ -374,7 +374,7 @@
   background: url('./images/160x600_portfolio_cta.png') no-repeat center center;
   width: 121px;
   height: 34px;
-  top: 344px;
+  top: 392px;
   left: 20px;
 
   -webkit-animation: fadeInUp 0.5s ease-in-out 4s forwards;
@@ -383,10 +383,10 @@
 }
 .intel-logo {
   background: url('./images/160x600_portfolio_intel_logo.png') no-repeat center center;
-  width: 109px;
-  height: 112px;
-  left: 15px;
-  bottom: 92px;
+  width: 112px;
+  height: 113px;
+  left: 12px;
+  bottom: 34px;
 
   -webkit-animation: fadeInUp 0.5s ease-in-out 1.75s forwards;
   -moz-animation: fadeInUp 0.5s ease-in-out 1.75s forwards;

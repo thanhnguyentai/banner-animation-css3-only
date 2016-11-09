@@ -351,7 +351,7 @@
   background: url('./images/300x250_portfolio_header.png') no-repeat center center;
   width: 225px;
   height: 31px;
-  top: 76px;
+  top: 81px;
   left: 16px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 2.75s forwards;
@@ -361,9 +361,9 @@
 }
 .sub {
   background: url('./images/300x250_portfolio_sub.png') no-repeat center center;
-  width: 172px;
+  width: 164px;
   height: 26px;
-  top: 117px;
+  top: 122px;
   left: 16px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 3s forwards;
@@ -374,7 +374,7 @@
   background: url('./images/300x250_portfolio_cta.png') no-repeat center center;
   width: 103px;
   height: 28px;
-  top: 156px;
+  top: 161px;
   left: 15px;
 
   -webkit-animation: fadeInUp 0.5s ease-in-out 4s forwards;
@@ -384,9 +384,9 @@
 .intel-logo {
   background: url('./images/300x250_portfolio_intel_logo.png') no-repeat center center;
   width: 92px;
-  height: 176px;
-  right: 11px;
-  top: 13px;
+  height: 221px;
+  right: 14px;
+  top: 14px;
 
   -webkit-animation: fadeInUp 0.5s ease-in-out 1.75s forwards;
   -moz-animation: fadeInUp 0.5s ease-in-out 1.75s forwards;
