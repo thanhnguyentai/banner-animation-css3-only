@@ -418,7 +418,7 @@
   width: 43px;
   height: 26px;
   top: 12px;
-  left: 117px;
+  left: 114px;
 
   -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
   -moz-animation: fadeIn 1s ease-in-out 1s forwards;
@@ -429,7 +429,7 @@
   background-size: auto 100%;
   width: 58px;
   height: 48px;
-  left: 162px;
+  left: 155px;
   bottom: 0px;
 
   -webkit-animation: fadeInZoomIn 1s ease-in-out 2s forwards;
@@ -439,9 +439,9 @@
 .cta {
   background: url('./images/320x50_en_cta.png') no-repeat center center;
   background-size: 100% auto;
-  width: 100px;
-  height: 18px;
-  right: 6px;
+  width: 111px;
+  height: 20px;
+  right: 4px;
   bottom: 15px;
 
   -webkit-animation: fadeInLeft 0.5s ease-in-out 3.25s forwards;
