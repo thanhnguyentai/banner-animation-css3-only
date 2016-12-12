@@ -409,10 +409,10 @@
 .frame1-text {
   background: url('./images/320x50_frame1_text.png') no-repeat center center;
   background-size: 100% auto;
-  width: 42px;
-  height: 7px;
-  top: 21px;
-  left: 56px;
+  width: 79px;
+  height: 14px;
+  top: 17px;
+  left: 57px;
 
   -webkit-animation: fadeIn 0.5s ease-in-out 1s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 1s forwards;
@@ -433,10 +433,10 @@
 }
 .frame2-text {
   background: url('./images/320x50_frame2_text.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 44px;
-  height: 9px;
-  top: 21px;
+  background-size: auto 100%;
+  width: 85px;
+  height: 17px;
+  top: 17px;
   left: 55px;
   -webkit-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
@@ -458,9 +458,9 @@
 .frame3-text {
   background: url('./images/320x50_frame3_text.png') no-repeat center center;
   background-size: 100% auto;
-  width: 39px;
-  height: 7px;
-  top: 21px;
+  width: 73px;
+  height: 14px;
+  top: 17px;
   left: 58px;
   -webkit-animation: fadeIn 0.5s ease-in-out 6s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 6s forwards;
@@ -482,9 +482,9 @@
 .frame4-text {
   background: url('./images/320x50_frame4_text.png') no-repeat center center;
   background-size: 100% auto;
-  width: 46px;
-  height: 7px;
-  top: 21px;
+  width: 87px;
+  height: 14px;
+  top: 17px;
   left: 54px;
   -webkit-animation: fadeIn 0.5s ease-in-out 8.5s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 8.5s forwards;
@@ -506,10 +506,10 @@
 .frame5-text {
   background: url('./images/320x50_frame5_text.png') no-repeat center center;
   background-size: 100% auto;
-  width: 50px;
-  height: 9px;
-  top: 21px;
-  left: 52px;
+  width: 96px;
+  height: 17px;
+  top: 17px;
+  left: 50px;
   -webkit-animation: fadeIn 0.5s ease-in-out 11s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 11s forwards;
   animation: fadeIn 0.5s ease-in-out 11s forwards;
@@ -533,7 +533,7 @@
   width: 23px;
   height: 22px;
   top: 14px;
-  left: 16px;
+  left: 9px;
   -webkit-animation: fadeIn 0.5s ease-in-out 13.5s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 13.5s forwards;
   animation: fadeIn 0.5s ease-in-out 13.5s forwards;
@@ -541,21 +541,21 @@
 .frame6-text {
   background: url('./images/320x50_frame6_text.png') no-repeat center center;
   background-size: 100% auto;
-  width: 178px;
-  height: 19px;
-  top: 16px;
-  left: 54px;
+  width: 217px;
+  height: 24px;
+  top: 14px;
+  left: 37px;
   -webkit-animation: fadeIn 0.5s ease-in-out 14s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 14s forwards;
   animation: fadeIn 0.5s ease-in-out 14s forwards;
 }
 .frame6-cta {
   background: url('./images/320x50_frame6_cta.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 43px;
-  height: 13px;
-  top: 18px;
-  right: 26px;
+  background-size: auto 100%;
+  width: 50px;
+  height: 15px;
+  top: 17px;
+  right: 9px;
   -webkit-animation: fadeIn 0.5s ease-in-out 14.25s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 14.25s forwards;
   animation: fadeIn 0.5s ease-in-out 14.25s forwards;
