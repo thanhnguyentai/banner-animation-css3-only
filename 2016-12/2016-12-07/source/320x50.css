@@ -404,10 +404,10 @@
 }
 .logo {
   background: url('./images/320x50_logo.png') no-repeat center center;
-  width: 56px;
-  height: 50px;
-  top: 0px;
-  right: 0px;
+  width: 37px;
+  height: 34px;
+  top: 9px;
+  left: 6px;
 
   -webkit-animation: fadeIn 1s ease-in-out 1s forwards;
   -moz-animation: fadeIn 1s ease-in-out 1s forwards;
@@ -415,10 +415,10 @@
 }
 .text {
   background: url('./images/320x50_text.png') no-repeat center center;
-  width: 229px;
-  height: 14px;
-  top: 9px;
-  left: 19px;
+  width: 123px;
+  height: 29px;
+  top: 10px;
+  left: 49px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 2s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 2s forwards;
@@ -426,10 +426,10 @@
 }
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
-  width: 100px;
-  height: 18px;
-  top: 29px;
-  left: 84px;
+  width: 79px;
+  height: 14px;
+  top: 16px;
+  right: 18px;
 
   -webkit-animation: fadeInUp 0.5s ease-in-out 2.5s forwards;
   -moz-animation: fadeInUp 0.5s ease-in-out 2.5s forwards;
