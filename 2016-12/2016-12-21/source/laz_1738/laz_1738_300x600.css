@@ -530,9 +530,9 @@
 .frame4-cta {
   background: url('./images/laz_1738_300x600_frame4_cta.png') no-repeat center center;
   width: 130px;
-  height: 30px;
+  height: 41px;
   right: 24px;
-  bottom: 466px;
+  bottom: 455px;
 
   -webkit-animation: fadeInUp 0.5s ease-in-out 8.5s forwards;
   -moz-animation: fadeInUp 0.5s ease-in-out 8.5s forwards;

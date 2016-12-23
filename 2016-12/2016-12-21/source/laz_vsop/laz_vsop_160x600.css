@@ -505,17 +505,6 @@
   -moz-animation: fadeIn 0.5s ease-in-out 7.75s forwards;
   animation: fadeIn 0.5s ease-in-out 7.75s forwards;
 }
-.frame4-bottle {
-  background: url('./images/laz_vsop_160x600_frame4_bottle.png') no-repeat center center;
-  width: 160px;
-  height: 505px;
-  left: 0px;
-  bottom: 8px;
-
-  -webkit-animation: fadeInUp 0.5s ease-in-out 8s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 8s forwards;
-  animation: fadeInUp 0.5s ease-in-out 8s forwards;
-}
 .frame4-logo {
   background: url('./images/laz_vsop_160x600_frame4_logo.png') no-repeat center center;
   width: 140px;
