@@ -256,10 +256,10 @@
 }
 .text {
   background: url('./images/160x600_text.png') no-repeat center center;
-  width: 134px;
-  height: 87px;
-  top: 426px;
-  left: 13px;
+  width: 145px;
+  height: 92px;
+  top: 421px;
+  left: 7px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
