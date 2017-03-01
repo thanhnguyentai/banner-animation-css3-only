@@ -259,10 +259,10 @@
 
 .text {
   background: url('./images/728x90_text.png') no-repeat center center;
-  width: 302px;
-  height: 39px;
-  top: 8px;
-  left: 151px;
+  width: 266px;
+  height: 38px;
+  top: 22px;
+  left: 15px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 2s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 2s forwards;
@@ -271,10 +271,10 @@
 
 .text2 {
   background: url('./images/728x90_text2.png') no-repeat center center;
-  width: 110px;
-  height: 32px;
-  top: 51px;
-  left: 152px;
+  width: 105px;
+  height: 23px;
+  top: 41px;
+  left: 143px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 3.5s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 3.5s forwards;
