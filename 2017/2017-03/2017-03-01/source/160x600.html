@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>
+			Banner Animation
+		</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="160x600.css">
+	</head>
+	<body>
+		<div class="banner-container container">
+			<div class="content-container container">
+				<div class="content container">
+					<div class="content-wrapper container">
+						<div class="background container">&nbsp;</div>
+					    <svg version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" viewBox="0 0 160 600">
+	                        <defs>
+	                            <!-- Filter for beginning light burst and ending light flash -->
+	                            <filter id="lightEffects" color-interpolation-filters="sRGB">
+	                                <feSpecularLighting result="resLightBurst" id="lightBurst" specularExponent="128" specularConstant="1.4" lighting-color="#f3f2f0" color-interpolation-filters="sRGB">
+	                                    <fePointLight id="burstPoint" x="150" y="125" z="0" color-interpolation-filters="sRGB"/>
+	                                </feSpecularLighting>
+
+	                                <feGaussianBlur result="resBlurLightFlash" stdDeviation="0" color-interpolation-filters="sRGB"/>
+	                                <feSpecularLighting result="resLightFlash" in="resBlurLightFlash" specularExponent="128" lighting-color="#f3f2f0" color-interpolation-filters="sRGB">
+	                                    <fePointLight id="pointLight" x="330" y="250" z="100" color-interpolation-filters="sRGB"/>
+	                                </feSpecularLighting>
+
+	                                <feImage result="resImgLines" id="techLines" x="0" y="0" width="640" height="270" xlink:href="./images/160x600_lines.jpg" color-interpolation-filters="sRGB"/>
+
+	                                <feTurbulence result="resTurb" type="fractalNoise" baseFrequency="0.005" numOctaves="1" data-filterId="5" color-interpolation-filters="sRGB"/>
+	                                <feDisplacementMap result="resTechDistortion" id="techDistortion" scale="-100" in="resImgLines" in2="resTurb" color-interpolation-filters="sRGB"/>
+
+	                                <!-- Blend source image with techLines -->
+	                                <feBlend result="comp1" in="SourceGraphic" in2="resTechDistortion" mode="screen" color-interpolation-filters="sRGB"/>
+
+	                                <!-- Composite light burst -->
+	                                <feComposite result="comp2" in="resLightBurst" in2="comp1" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" color-interpolation-filters="sRGB"/>
+
+	                                <!-- Composite light flash -->
+	                                <feComposite in="resLightFlash" in2="comp2" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" color-interpolation-filters="sRGB"/>
+	                            </filter>
+	                        </defs>
+
+	                        <!-- Apply lighting effects filter to background image -->
+	                        <image x="0" y="0" width="160" height="600" style="filter:url(#lightEffects)" xlink:href="./images/160x600_bg.jpg"></image>
+	                    </svg>
+						<div class="logo absolute">&nbsp;</div>
+						<div class="text absolute">&nbsp;</div>
+						<div class="cta absolute">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="160x600.js"></script>
+	</body>
+</html>
