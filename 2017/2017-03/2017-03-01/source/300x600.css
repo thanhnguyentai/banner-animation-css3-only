@@ -264,15 +264,21 @@
 }
 
 .background {
-  /*background: url('./images/300x600_bg.jpg') no-repeat center center;*/
+  background: url('./images/300x600_bg.jpg') no-repeat center center;
   -webkit-animation: fadeIn 1s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 1s ease-in-out 0.5s forwards;
   animation: fadeIn 1s ease-in-out 0.5s forwards;
 }
 svg {
+   opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  z-index: 1;
   -webkit-animation: fadeIn 1s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 1s ease-in-out 0.5s forwards;
   animation: fadeIn 1s ease-in-out 0.5s forwards; 
+
+  position: absolute;
+  z-index: 1;
 }
 
 .logo {
@@ -281,6 +287,8 @@ svg {
   height: 30px;
   top: 245px;
   left: 34px;
+
+   z-index: 5;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
@@ -292,6 +300,7 @@ svg {
   height: 54px;
   top: 293px;
   left: 47px;
+   z-index: 5;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
@@ -303,14 +312,9 @@ svg {
   height: 26px;
   right: 55px;
   bottom: 40px;
+   z-index: 5;
 
   -webkit-animation: fadeInLeft 0.5s ease-in-out 4s forwards;
   -moz-animation: fadeInLeft 0.5s ease-in-out 4s forwards;
   animation: fadeInLeft 0.5s ease-in-out 4s forwards;
-}
-
-#ad {
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
 }
