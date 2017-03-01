@@ -21,7 +21,7 @@ function initializeVariables() {
     TweenMax.set(techLines, {
         attr: {
             x: -10,
-            y: -10
+            y: -50
         }
     }),
    
@@ -68,7 +68,7 @@ function setupTimelineBackground() {
     tlBackground.add("start").set(techLines, {
         attr: {
             x: -10,
-            y: -10
+            y: -50
         }
     }).to(techLines, 7.5, {
         attr: {
