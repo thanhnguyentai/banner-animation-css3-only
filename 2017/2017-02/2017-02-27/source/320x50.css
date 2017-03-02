@@ -305,14 +305,14 @@
 }
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
-  width: 72px;
-  height: 19px;
-  right: 7px;
+  width: 80px;
+  height: 18px;
+  right: 5px;
   bottom: 6px;
 
-  -webkit-animation: fadeInDown 0.5s ease-in-out 3.75s forwards;
-  -moz-animation: fadeInDown 0.5s ease-in-out 3.75s forwards;
-  animation: fadeInDown 0.5s ease-in-out 3.75s forwards;
+  -webkit-animation: fadeInUp 0.5s ease-in-out 8s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 8s forwards;
+  animation: fadeInUp 0.5s ease-in-out 8s forwards;
 }
 
 .image-container {
@@ -346,15 +346,4 @@
   -webkit-animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
   animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
-}
-.cta2 {
-  background: url('./images/320x50_cta2.png') no-repeat center center;
-  width: 72px;
-  height: 19px;
-  right: 7px;
-  bottom: 6px;
-
-  -webkit-animation: fadeIn 0.75s ease-in-out 8s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 8s forwards;
-  animation: fadeIn 0.75s ease-in-out 8s forwards;
 }
