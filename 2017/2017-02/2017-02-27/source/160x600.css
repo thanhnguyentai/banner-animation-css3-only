@@ -310,14 +310,14 @@
   left: 5px;
   bottom: 19px;
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 8s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 8s forwards;
-  animation: fadeInUp 0.5s ease-in-out 8s forwards;
+  -webkit-animation: fadeInUp 0.5s ease-in-out 7s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 7s forwards;
+  animation: fadeInUp 0.5s ease-in-out 7s forwards;
 }
 .image-container {
-  -webkit-animation: fadeOutDown 0.75s ease-in-out 6.25s forwards;
-  -moz-animation: fadeOutDown 0.75s ease-in-out 6.25s forwards;
-  animation: fadeOutDown 0.75s ease-in-out 6.25s forwards;
+  -webkit-animation: fadeOutDown 0.75s ease-in-out 5.25s forwards;
+  -moz-animation: fadeOutDown 0.75s ease-in-out 5.25s forwards;
+  animation: fadeOutDown 0.75s ease-in-out 5.25s forwards;
 }
 .image2 {
   background: url('./images/160x600_image2.jpg') no-repeat center center;
@@ -326,14 +326,14 @@
   top: 67px;
   left: 0;
 
-  -webkit-animation: fadeInUp 0.75s ease-in-out 6.5s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 6.5s forwards;
-  animation: fadeInUp 0.75s ease-in-out 6.5s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 5.5s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 5.5s forwards;
+  animation: fadeInUp 0.75s ease-in-out 5.5s forwards;
 }
 .text-container {
-  -webkit-animation: fadeOutDown 0.75s ease-in-out 6.25s forwards;
-  -moz-animation: fadeOutDown 0.75s ease-in-out 6.25s forwards;
-  animation: fadeOutDown 0.75s ease-in-out 6.25s forwards;
+  -webkit-animation: fadeOutDown 0.75s ease-in-out 5.25s forwards;
+  -moz-animation: fadeOutDown 0.75s ease-in-out 5.25s forwards;
+  animation: fadeOutDown 0.75s ease-in-out 5.25s forwards;
 }
 .text2 {
   background: url('./images/160x600_text2.png') no-repeat center center;
@@ -342,7 +342,7 @@
   top: 426px;
   left: 13px;
 
-  -webkit-animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
-  animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 5.75s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 5.75s forwards;
+  animation: fadeInUp 0.75s ease-in-out 5.75s forwards;
 }
