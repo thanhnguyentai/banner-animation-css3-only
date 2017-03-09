@@ -282,10 +282,10 @@
 }
 .text1 {
   background: url('./images/160x600_text1.png') no-repeat center center;
-  width: 128px;
-  height: 43px;
-  top: 200px;
-  left: 17px;
+  width: 143px;
+  height: 30px;
+  top: 178px;
+  left: 8px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 2.25s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 2.25s forwards;
@@ -293,14 +293,25 @@
 }
 .text2 {
   background: url('./images/160x600_text2.png') no-repeat center center;
+  width: 144px;
+  height: 35px;
+  left: 8px;
+  top: 222px;
+
+  -webkit-animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
+  animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
+}
+.text3 {
+  background: url('./images/160x600_text3.png') no-repeat center center;
   width: 138px;
   height: 43px;
   left: 9px;
   bottom: 275px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
-  animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
 }
 .cta {
   background: url('./images/160x600_cta.png') no-repeat center center;
@@ -309,16 +320,16 @@
   left: 43px;
   bottom: 239px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 5s forwards;
-  animation: fadeIn 0.75s ease-in-out 5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 6.5s forwards;
 }
 .logo {
   background: url('./images/160x600_logo.png') no-repeat center center;
   width: 88px;
-  height: 47px;
-  right: 35px;
-  bottom: 31px;
+  height: 94px;
+  right: 36px;
+  bottom: 27px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 1s forwards;

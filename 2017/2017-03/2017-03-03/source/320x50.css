@@ -282,10 +282,10 @@
 }
 .text1 {
   background: url('./images/320x50_text1.png') no-repeat center center;
-  width: 206px;
-  height: 18px;
-  top: 15px;
-  left: 57px;
+  width: 254px;
+  height: 17px;
+  top: 16px;
+  left: 13px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 2.25s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 2.25s forwards;
@@ -304,7 +304,7 @@
 }
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
-  width: 45px;
+  width: 50px;
   height: 5px;
   right: 7px;
   bottom: 6px;
@@ -316,7 +316,7 @@
 .logo {
   background: url('./images/320x50_logo.png') no-repeat center center;
   width: 30px;
-  height: 16px;
+  height: 17px;
   right: 5px;
   bottom: 19px;
 
