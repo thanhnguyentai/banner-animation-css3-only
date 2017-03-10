@@ -282,10 +282,10 @@
 }
 .text1 {
   background: url('./images/320x50_text1.png') no-repeat center center;
-  width: 254px;
-  height: 17px;
+  width: 250px;
+  height: 16px;
   top: 16px;
-  left: 13px;
+  left: 12px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 2.25s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 2.25s forwards;

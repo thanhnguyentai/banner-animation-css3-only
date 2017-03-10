@@ -282,7 +282,7 @@
 }
 .text1 {
   background: url('./images/300x250_text1.png') no-repeat center center;
-  width: 201px;
+  width: 202px;
   height: 40px;
   top: 29px;
   left: 49px;
@@ -293,8 +293,8 @@
 }
 .text2 {
   background: url('./images/300x250_text2.png') no-repeat center center;
-  width: 203px;
-  height: 45px;
+  width: 207px;
+  height: 44px;
   top: 80px;
   left: 49px;
 
