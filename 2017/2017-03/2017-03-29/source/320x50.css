@@ -293,6 +293,37 @@
   }
 }
 
+/*-- slide right  --*/
+@-webkit-keyframes slideRight {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(100%, 0);
+  }
+}
+@-moz-keyframes slideRight {
+  0%   {
+    visibility: visible;
+    -moz-transform: translate(0, 0);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(100%, 0);
+  }
+}
+@keyframes slideRight {
+  0%   {
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(100%, 0);
+  }
+}
 
 
 /*-------------------------------------------*/
@@ -396,6 +427,27 @@
   animation: fadeOut 0.01s ease-in-out 5.5s forwards;
 }
 
+.frame3-hand {
+  background: url('./images/320x50_frame3_hand.png') no-repeat center center;
+  width: 59px;
+  height: 41px;
+  top: 0;
+  left: 0;
+  -webkit-animation: fadeIn 0.05s ease-in-out 5.5s forwards;
+  -moz-animation: fadeIn 0.05s ease-in-out 5.5s forwards;
+  animation: fadeIn 0.05s ease-in-out 5.5s forwards;
+}
+.frame3-hand-container {
+  width: 59px;
+  height: 41px;
+  right: 0;
+  bottom: 4px;
+
+  -webkit-animation: slideRight 0.75s ease-in-out 6s forwards;
+  -moz-animation: slideRight 0.75s ease-in-out 6s forwards;
+  animation: slideRight 0.75s ease-in-out 6s forwards;
+}
+
 .frame3-piece0 {
   background: url('./images/320x50_frame3_piece0.png') no-repeat center center;
   width: 31px;
@@ -441,7 +493,7 @@
 
 .frame4 {
   background: url('./images/320x50_frame4.png') no-repeat center center;
-  -webkit-animation: fadeIn 0.75s ease-in-out 6s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 6s forwards;
-  animation: fadeIn 0.75s ease-in-out 6s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 6.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 6.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 6.75s forwards;
 }
