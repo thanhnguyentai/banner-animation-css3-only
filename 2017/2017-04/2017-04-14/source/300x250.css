@@ -353,9 +353,11 @@
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 #mask-rect {
+  /*
   -webkit-animation: moveMaskSvg 2s ease-in-out 3.75s forwards;
   -moz-animation: moveMaskSvg 2s ease-in-out 3.75s forwards;
   animation: moveMaskSvg 2s ease-in-out 3.75s forwards;
+  */
 }
 
 .leaves {

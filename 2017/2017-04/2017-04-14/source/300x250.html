@@ -43,5 +43,13 @@
 				</div>
 			</div>
 		</div>
+		<script src="./tweenmax_1.18_min.js"></script>
+		<script>
+			var tl = new TimelineMax();
+			setTimeout(function() {
+				tl.add('scene1')
+				    .to('#mask-rect', 2, {attr:{x:-100}});
+			}, 3750);
+		</script>
 	</body>
 </html>
