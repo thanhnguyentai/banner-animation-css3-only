@@ -345,6 +345,9 @@
 }
 .purple-chameleon-static {
   background: url('./images/300x250_chameleon_purple.jpg') no-repeat center center;
+  -webkit-animation: hidden 10ms ease-in-out 0s forwards;
+  -moz-animation: hidden 10ms ease-in-out 0s forwards;
+  animation: hidden 10ms ease-in-out 0s forwards; 
 }
 
 .chameleon-mask {
@@ -353,11 +356,6 @@
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 #mask-rect {
-  /*
-  -webkit-animation: moveMaskSvg 2s ease-in-out 3.75s forwards;
-  -moz-animation: moveMaskSvg 2s ease-in-out 3.75s forwards;
-  animation: moveMaskSvg 2s ease-in-out 3.75s forwards;
-  */
 }
 
 .leaves {
@@ -371,8 +369,8 @@
 
 .logo {
   background: url('./images/300x250_logo.png') no-repeat center center;
-  width: 86px;
-  height: 16px;
+  width: 96px;
+  height: 18px;
   top: 9px;
   right: 10px;
   z-index: 5;
@@ -386,13 +384,13 @@
   background: url('./images/300x250_text.png') no-repeat center center;
   width: 132px;
   height: 60px;
-  top: 110px;
+  top: 80px;
   left: 16px;
   z-index: 5;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 6.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 6.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 6.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 3.75s forwards;
 }
 
 .cta {
