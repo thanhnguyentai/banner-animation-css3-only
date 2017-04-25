@@ -407,9 +407,9 @@
   left: 20px;
   z-index: 5;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 10.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 10.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 10.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 
 .text {
@@ -420,9 +420,9 @@
   left: 20px;
   z-index: 5;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 11.5s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 11.5s forwards;
-  animation: fadeInDown 0.75s ease-in-out 11.5s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
 }
 .cta {
   background: url('./images/300x600_fr_cta.png') no-repeat center center;

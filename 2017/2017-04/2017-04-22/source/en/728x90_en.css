@@ -171,11 +171,11 @@
   }
 }
 
-/*-- fade in left --*/
-@-webkit-keyframes fadeInLeft {
+/*-- fade in up --*/
+@-webkit-keyframes fadeInUp {
   0%   {
     visibility: visible;
-    -webkit-transform: translate(10px, 0);
+    -webkit-transform: translate(0, 10px);
     opacity: 0;
   }
   100% { 
@@ -184,10 +184,10 @@
     opacity: 1;
   }
 }
-@-moz-keyframes fadeInLeft {
+@-moz-keyframes fadeInUp {
   0%   {
     visibility: visible;
-    -moz-transform: translate(10px, 0);
+    -moz-transform: translate(0, 10px);
     opacity: 0;
   }
   100% { 
@@ -196,10 +196,10 @@
     opacity: 1;
   }
 }
-@keyframes fadeInLeft {
+@keyframes fadeInUp {
   0%   {
     visibility: visible;
-    transform: translate(10px, 0);
+    transform: translate(0, 10px);
     opacity: 0;
   }
   100% { 
@@ -209,85 +209,6 @@
   }
 }
 
-/*-- slide left right --*/
-@-webkit-keyframes slideLeftRight {
-  0%   {
-    -webkit-transform: translate(0, 0);
-  }
-  6.25%, 18.75% { 
-    -webkit-transform: translate(-340px, 0);
-  }
-  25%, 31.25%   {
-    -webkit-transform: translate(0, 0);
-  }
-  37.5%, 50% { 
-    -webkit-transform: translate(-340px, 0);
-  }
-  56.25%, 62.5%   {
-    -webkit-transform: translate(0, 0);
-  }
-  68.75%, 81.25% { 
-    -webkit-transform: translate(-340px, 0);
-  }
-  87.5%, 93.75%   {
-    -webkit-transform: translate(0, 0);
-  }
-  100% { 
-    -webkit-transform: translate(-340px, 0);
-  }
-}
-@-moz-keyframes slideLeftRight {
-  0%   {
-    -moz-transform: translate(0, 0);
-  }
-  6.25%, 18.75% { 
-    -moz-transform: translate(-340px, 0);
-  }
-  25%, 31.25%   {
-    -moz-transform: translate(0, 0);
-  }
-  37.5%, 50% { 
-    -moz-transform: translate(-340px, 0);
-  }
-  56.25%, 62.5%   {
-    -moz-transform: translate(0, 0);
-  }
-  68.75%, 81.25% { 
-    -moz-transform: translate(-340px, 0);
-  }
-  87.5%, 93.75%   {
-    -moz-transform: translate(0, 0);
-  }
-  100% { 
-    -moz-transform: translate(-340px, 0);
-  }
-}
-@keyframes slideLeftRight {
-  0%   {
-    transform: translate(0, 0);
-  }
-  6.25%, 18.75% { 
-    transform: translate(-340px, 0);
-  }
-  25%, 31.25%   {
-    transform: translate(0, 0);
-  }
-  37.5%, 50% { 
-    transform: translate(-340px, 0);
-  }
-  56.25%, 62.5%   {
-    transform: translate(0, 0);
-  }
-  68.75%, 81.25% { 
-    transform: translate(-340px, 0);
-  }
-  87.5%, 93.75%   {
-    transform: translate(0, 0);
-  }
-  100% { 
-    transform: translate(-340px, 0);
-  }
-}
 
 /*-------------------------------------------*/
 * {
@@ -330,9 +251,9 @@
 }
 .content{
   background-color: #ffffff;
-  -webkit-animation: fadeIn 1s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 1s ease-in-out 0.5s forwards;
-  animation: fadeIn 1s ease-in-out 0.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   border: 1px solid #000000;
   overflow: hidden;
 }
@@ -342,70 +263,12 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 
-.closet0 {
-  background: url('./images/728x90_en_closet0.jpg') no-repeat center center;
-  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
-  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
-  animation: hideContent 10ms ease-in-out 0s forwards;
-}
-.closet1 {
-  background: url('./images/728x90_en_closet1.jpg') no-repeat center center;
-  -webkit-animation: fadeIn 0.1s ease-in-out 1.25s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 1.25s forwards;
-  animation: fadeIn 0.1s ease-in-out 1.25s forwards;
-}
-.closet2 {
-  background: url('./images/728x90_en_closet2.jpg') no-repeat center center;
-  -webkit-animation: fadeIn 0.1s ease-in-out 3.75s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 3.75s forwards;
-  animation: fadeIn 0.1s ease-in-out 3.75s forwards;
-}
-.closet3 {
-  background: url('./images/728x90_en_closet3.jpg') no-repeat center center;
-  -webkit-animation: fadeIn 0.1s ease-in-out 6.25s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 6.25s forwards;
-  animation: fadeIn 0.1s ease-in-out 6.25s forwards;
-}
-.closet4 {
-  background: url('./images/728x90_en_closet4.jpg') no-repeat center center;
-  -webkit-animation: fadeIn 0.1s ease-in-out 8.75s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 8.75s forwards;
-  animation: fadeIn 0.1s ease-in-out 8.75s forwards;
-}
-.door-down-container {
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-}
-.door-down {
-  background: url('./images/728x90_en_door_down.png') no-repeat center center;
-  width: 359px;
-  height: 90px;
-  top: 0px;
-  left: 335px;
-  -webkit-animation: slideLeftRight 8s ease-in-out 1.75s forwards;
-  -moz-animation: slideLeftRight 8s ease-in-out 1.75s forwards;
-  animation: slideLeftRight 8s ease-in-out 1.75s forwards;
-}
-.door-up {
-  background: url('./images/728x90_en_door_up.png') no-repeat center center;
-  width: 344px;
-  height: 90px;
-  top: 0px;
-  left: 0px;
-
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-}
-
 .logo {
   background: url('./images/728x90_en_logo.png') no-repeat center center;
-  width: 120px;
-  height: 30px;
-  top: 30px;
-  left: 30px;
-  z-index: 5;
+  width: 72px;
+  height: 44px;
+  top: 22px;
+  left: 41px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
@@ -414,24 +277,55 @@
 
 .text {
   background: url('./images/728x90_en_text.png') no-repeat center center;
-  width: 132px;
-  height: 59px;
-  top: 16px;
-  left: 181px;
-  z-index: 5;
+  width: 326px;
+  height: 71px;
+  top: 10px;
+  left: 231px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
-  animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 1.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 1.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 1.75s forwards;
 }
 .cta {
   background: url('./images/728x90_en_cta.png') no-repeat center center;
-  width: 185px;
-  height: 90px;
-  right: 0px;
-  bottom: 0px;
-  z-index: 5;
+  width: 145px;
+  height: 39px;
+  right: 13px;
+  bottom: 25px;
 
-  -webkit-animation: fadeInLeft 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeInLeft 0.75s ease-in-out 0.5s forwards;
-  animation: fadeInLeft 0.75s ease-in-out 0.5s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 3s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 3s forwards;
+  animation: fadeInUp 0.75s ease-in-out 3s forwards;
+}
+
+.image1 {
+  background: url('./images/728x90_en_image1.jpg') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
+.image2 {
+  background: url('./images/728x90_en_image2.jpg') no-repeat center center;
+
+  -webkit-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 4.25s forwards;
+}
+.image3 {
+  background: url('./images/728x90_en_image3.jpg') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 6s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 6s forwards;
+  animation: fadeIn 0.75s ease-in-out 6s forwards;
+}
+.image4 {
+  background: url('./images/728x90_en_image4.jpg') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 7.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 7.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 7.75s forwards;
+}
+.image5 {
+  background: url('./images/728x90_en_image5.jpg') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 9.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 9.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 9.5s forwards;
+}
