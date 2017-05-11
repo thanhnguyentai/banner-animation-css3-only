@@ -207,17 +207,17 @@ html, body {
 }
 
 #product1-info {
-	width: 217px;
+	width: 197px;
 	height: 44px;
 	background: url('320x50_product1.png') no-repeat center center;
 	top: 0px;
-	left: 16px;
+	left: 27px;
 }
 
 #product2-info {
-	width: 217px;
+	width: 197px;
 	height: 38px;
 	background: url('320x50_product2.png') no-repeat center center;
 	top: 8px;
-	left: 16px;	
+	left: 27px;	
 }

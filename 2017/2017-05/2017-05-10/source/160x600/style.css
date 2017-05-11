@@ -233,25 +233,3 @@ html, body {
 	top: 402px;
 	left: 12px;
 }
-
-#arrow1 {
-	width: 13px;
-	height: 15px;
-	background: url('arrow_left.png') no-repeat center center;
-	opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	z-index: 1;
-	top: 237px;
-	left: 6px;
-}
-
-#arrow2 {
-	width: 13px;
-	height: 15px;
-	background: url('arrow_right.png') no-repeat center center;
-	opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	z-index: 1;
-	top: 237px;
-	right: 6px;
-}

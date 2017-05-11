@@ -95,8 +95,6 @@ introAnim = function() {
 
     // Show production
     tl.to('#product1', 1, {opacity:1}, '-=5');
-    tl.to('#arrow1', 0.75, {opacity:1}, '-=4.5');
-    tl.to('#arrow2', 0.75, {opacity:1}, '-=4.5');
 
     // Show next production
     tl.to('#product1', 0.75, {opacity:0}, '-=2.5');

@@ -297,25 +297,3 @@ html, body {
 	top: 35px;
 	left: 461px;
 }
-
-#arrow1 {
-	width: 13px;
-	height: 15px;
-	background: url('arrow_left.png') no-repeat center center;
-	opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	z-index: 1;
-	top: 38px;
-	left: 75px;
-}
-
-#arrow2 {
-	width: 13px;
-	height: 15px;
-	background: url('arrow_right.png') no-repeat center center;
-	opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	z-index: 1;
-	top: 38px;
-	right: 140px;
-}
