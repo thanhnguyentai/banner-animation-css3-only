@@ -361,9 +361,9 @@
 
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
-  width: 98px;
+  width: 70px;
   height: 9px;
-  left: 146px;
+  left: 184px;
   top: 38px;
 
   -webkit-animation: fadeInRight 0.75s ease-in-out 2.75s forwards;
