@@ -449,7 +449,7 @@
   bottom: 0px;
   right: 0px;
 
-  -webkit-animation: fadeInLeft 0.75s ease-in-out 5.25s forwards;
-  -moz-animation: fadeInLeft 0.75s ease-in-out 5.25s forwards;
-  animation: fadeInLeft 0.75s ease-in-out 5.25s forwards;
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 0.5s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 0.5s forwards;
 }

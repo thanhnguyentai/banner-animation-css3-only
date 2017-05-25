@@ -437,7 +437,7 @@
   bottom: 0px;
   left: 0px;
 
-  -webkit-animation: fadeInUp 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 5.5s forwards;
-  animation: fadeInUp 0.75s ease-in-out 5.5s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 0.5s forwards;
+  animation: fadeInUp 0.75s ease-in-out 0.5s forwards;
 }
