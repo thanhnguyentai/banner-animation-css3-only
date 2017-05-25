@@ -347,7 +347,7 @@
   background: url('./images/640x175_text1.png') no-repeat center center;
   width: 349px;
   height: 60px;
-  top: 28px;
+  top: 19px;
   left: 77px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1.5s forwards;
@@ -365,7 +365,7 @@
   background: url('./images/640x175_text2.png') no-repeat center center;
   width: 264px;
   height: 61px;
-  top: 24px;
+  top: 16px;
   left: 78px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 3.75s forwards;
@@ -383,7 +383,7 @@
   background: url('./images/640x175_text3.png') no-repeat center center;
   width: 321px;
   height: 60px;
-  top: 26px;
+  top: 17px;
   left: 78px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 6s forwards;
@@ -395,7 +395,7 @@
   background: url('./images/640x175_cta.png') no-repeat center center;
   width: 125px;
   height: 34px;
-  top: 95px;
+  top: 87px;
   left: 79px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 7s forwards;

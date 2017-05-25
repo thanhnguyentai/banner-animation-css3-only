@@ -332,7 +332,7 @@
   background: url('./images/640x480_logo.png') no-repeat center center;
   width: 42px;
   height: 42px;
-  top: 22px;
+  top: 25px;
   left: 29px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
@@ -344,7 +344,7 @@
   background: url('./images/640x480_text1.png') no-repeat center center;
   width: 278px;
   height: 212px;
-  top: 105px;
+  top: 118px;
   left: 19px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1.5s forwards;
@@ -362,7 +362,7 @@
   background: url('./images/640x480_text2.png') no-repeat center center;
   width: 275px;
   height: 175px;
-  top: 106px;
+  top: 119px;
   left: 19px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 3.75s forwards;
@@ -380,7 +380,7 @@
   background: url('./images/640x480_text3.png') no-repeat center center;
   width: 262px;
   height: 169px;
-  top: 108px;
+  top: 121px;
   left: 19px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 6s forwards;
@@ -392,7 +392,7 @@
   background: url('./images/640x480_cta.png') no-repeat center center;
   width: 125px;
   height: 34px;
-  top: 294px;
+  top: 300px;
   left: 35px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 7s forwards;
