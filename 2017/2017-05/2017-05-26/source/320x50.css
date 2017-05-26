@@ -404,9 +404,9 @@
   top: 0px;
   right: 40px;
 
-  -webkit-animation: fadeIn 0.75s linear 3.25s forwards;
-  -moz-animation: fadeIn 0.75s linear 3.25s forwards;
-  animation: fadeIn 0.75s linear 3.25s forwards;
+  -webkit-animation: fadeIn 0.75s linear 0.5s forwards;
+  -moz-animation: fadeIn 0.75s linear 0.5s forwards;
+  animation: fadeIn 0.75s linear 0.5s forwards;
 }
 
 .cta {
@@ -417,7 +417,7 @@
   top: 12px;
   left: 5px;
 
-  -webkit-animation: fadeInRight 0.75s linear 4.5s forwards;
-  -moz-animation: fadeInRight 0.75s linear 4.5s forwards;
-  animation: fadeInRight 0.75s linear 4.5s forwards;
+  -webkit-animation: fadeInRight 0.75s linear 3.5s forwards;
+  -moz-animation: fadeInRight 0.75s linear 3.5s forwards;
+  animation: fadeInRight 0.75s linear 3.5s forwards;
 }

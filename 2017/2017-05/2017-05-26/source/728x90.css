@@ -386,7 +386,7 @@
   top: 0px;
   right: 145px;
 
-  -webkit-animation: fadeIn 0.75s linear 5s forwards;
-  -moz-animation: fadeIn 0.75s linear 5s forwards;
-  animation: fadeIn 0.75s linear 5s forwards;
+  -webkit-animation: fadeIn 0.75s linear 0.5s forwards;
+  -moz-animation: fadeIn 0.75s linear 0.5s forwards;
+  animation: fadeIn 0.75s linear 0.5s forwards;
 }
