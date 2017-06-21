@@ -403,17 +403,6 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.copyright {
-  background: url('./images/300x250_copyright.png') no-repeat center center;
-  width: 143px;
-  height: 10px;
-  left: 17px;
-  bottom: 13px;
-
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-}
 
 .image {
   background: url('./images/300x250_image.png') no-repeat center center;
@@ -461,4 +450,16 @@
   -webkit-animation: fadeInRight 0.75s ease-in-out 3s forwards;
   -moz-animation: fadeInRight 0.75s ease-in-out 3s forwards;
   animation: fadeInRight 0.75s ease-in-out 3s forwards;
+}
+
+.copyright {
+  background: url('./images/300x250_copyright.png') no-repeat center center;
+  width: 143px;
+  height: 10px;
+  left: 17px;
+  bottom: 13px;
+
+  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  animation: fadeIn 0.75s ease-in-out 3s forwards;
 }
