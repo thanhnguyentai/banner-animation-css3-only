@@ -423,10 +423,10 @@
 
 .logo2 {
   background: url('./images/300x250_logo2.png') no-repeat center center;
-  width: 54px;
-  height: 44px;
-  top: 22px;
-  right: 21px;
+  width: 35px;
+  height: 29px;
+  bottom: 7px;
+  right: 11px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 2s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 3s forwards;
