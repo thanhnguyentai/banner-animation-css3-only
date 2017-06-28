@@ -339,8 +339,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 160px;
-  height: 600px;
+  width: 320px;
+  height: 50px;
   display: block;
 }
 
@@ -380,37 +380,46 @@
 }
 
 .bg {
-  background: url('./images/160x600_bg.jpg') no-repeat center center;
-  width: 160px;
-  height: 1175px;
-  left: 0px;
-  bottom: 0px;
+  background-color: #fff;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
 
-  -webkit-animation: fadeInZoomOut 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeInZoomOut 0.75s ease-in-out 0.5s forwards;
-  animation: fadeInZoomOut 0.75s ease-in-out 0.5s forwards;
+.border {
+  background: url('./images/320x50_border.png') no-repeat center center;
+  width: 213px;
+  height: 50px;
+  right: 0px;
+  bottom: 0px;
+  
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  z-index: 10;
 }
 
 .logo {
-  -webkit-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 1.25s forwards;
+  background: url('./images/320x50_logo.png') no-repeat center center;
+  width: 107px;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
+
 
 .text {
-  -webkit-animation: fadeInZoomOut 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeInZoomOut 0.75s ease-in-out 2s forwards;
-  animation: fadeInZoomOut 0.75s ease-in-out 2s forwards;
-}
+  background: url('./images/320x50_text.png') no-repeat center center;
+  width: 197px;
+  height: 39px;
+  top: 5px;
+  left: 118px;
 
-.cta {
-  -webkit-animation: fadeInRight 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeInRight 0.75s ease-in-out 3s forwards;
-  animation: fadeInRight 0.75s ease-in-out 3s forwards;
-}
-
-.copyright {
-  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
-  animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
 }
