@@ -461,6 +461,18 @@
   animation: fadeIn 0.25s ease-in-out 3.25s forwards;
 }
 
+.text {
+  background: url('./images/300x250_text.png') no-repeat center center;
+  width: 199px;
+  height: 15px;
+  left: 49px;
+  bottom: 32px;
+
+  -webkit-animation: fadeInDown 0.75s ease-in-out 3.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 3.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 3.75s forwards;
+}
+
 .cta {
   background: url('./images/300x250_cta.png') no-repeat center center;
   width: 180px;
@@ -468,7 +480,7 @@
   left: 56px;
   bottom: 8px;
 
-  -webkit-animation: fadeInUp 0.75s ease-in-out 4s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 4s forwards;
-  animation: fadeInUp 0.75s ease-in-out 4s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 5s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 5s forwards;
+  animation: fadeInUp 0.75s ease-in-out 5s forwards;
 }
