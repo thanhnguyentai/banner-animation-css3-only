@@ -327,7 +327,7 @@
 @-webkit-keyframes slideInRightBottom {
   0%   {
     visibility: visible;
-    -webkit-transform: translate(-100%, -30%);
+    -webkit-transform: translate(-100%, -20%);
   }
   100% { 
     visibility: visible;
@@ -337,7 +337,7 @@
 @-moz-keyframes slideInRightBottom {
   0%   {
     visibility: visible;
-    -moz-transform: translate(-100%, -30%);
+    -moz-transform: translate(-100%, -20%);
   }
   100% { 
     visibility: visible;
@@ -347,7 +347,7 @@
 @keyframes slideInRightBottom {
   0%   {
     visibility: visible;
-    transform: translate(-100%, -30%);
+    transform: translate(-100%, -20%);
   }
   100% { 
     visibility: visible;
@@ -445,9 +445,9 @@
   top: 39px;
   left: 0px;
 
-  -webkit-animation: slideInRightBottom 1.5s ease-in-out 2s forwards;
-  -moz-animation: slideInRightBottom 1.5s ease-in-out 2s forwards;
-  animation: slideInRightBottom 1.5s ease-in-out 2s forwards;
+  -webkit-animation: slideInRightBottom 1.5s ease-out 2s forwards;
+  -moz-animation: slideInRightBottom 1.5s ease-out 2s forwards;
+  animation: slideInRightBottom 1.5s ease-out 2s forwards;
 }
 .wave {
   background: url('./images/300x250_wave.png') no-repeat center center;
