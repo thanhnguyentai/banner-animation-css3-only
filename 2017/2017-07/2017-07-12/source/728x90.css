@@ -656,10 +656,10 @@
 }
 .frame2-text {
   background: url('./images/728x90_text2.png') no-repeat center center;
-  width: 262px;
+  width: 279px;
   height: 59px;
   top: 16px;
-  left: 111px;
+  left: 94px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 4.25s forwards;

@@ -654,10 +654,10 @@
 }
 .frame2-text {
   background: url('./images/300x250_text2.png') no-repeat center center;
-  width: 251px;
-  height: 57px;
-  top: 25px;
-  right: 15px;
+  width: 233px;
+  height: 56px;
+  top: 26px;
+  right: 12px;
 
   -webkit-animation: fadeInLeft 0.75s ease-in-out 4.25s forwards;
   -moz-animation: fadeInLeft 0.75s ease-in-out 4.25s forwards;
