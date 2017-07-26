@@ -340,9 +340,9 @@
 .frame1-content {
   width: 335px;
   height: 600px;
-  -webkit-animation: slideLeft100 5.5s ease-in-out 1.75s forwards;
-  -moz-animation: slideLeft100 5.5s ease-in-out 1.75s forwards;
-  animation: slideLeft100 5.5s ease-in-out 1.75s forwards;
+  -webkit-animation: slideLeft100 4s ease-in-out 1.75s forwards;
+  -moz-animation: slideLeft100 4s ease-in-out 1.75s forwards;
+  animation: slideLeft100 4s ease-in-out 1.75s forwards;
 }
 
 .frame2-down {
@@ -363,9 +363,9 @@
   top: 0px;
   right: 0px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 6.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 6.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 6.75s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 6s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 6s forwards;
+  animation: fadeIn 0.75s ease-in-out 6s forwards;
 }
 .logo2 {
   background: url('./images/160x600_logo2.png') no-repeat center center;
@@ -381,15 +381,15 @@
 .logo2-container {
   width: 300px;
   left: 160px;
-  -webkit-animation: logo2SlideLeft 0.75s ease-in-out 5.75s forwards;
-  -moz-animation: logo2SlideLeft 0.75s ease-in-out 5.75s forwards;
-  animation: logo2SlideLeft 0.75s ease-in-out 5.75s forwards;
+  -webkit-animation: logo2SlideLeft 0.75s ease-in-out 5s forwards;
+  -moz-animation: logo2SlideLeft 0.75s ease-in-out 5s forwards;
+  animation: logo2SlideLeft 0.75s ease-in-out 5s forwards;
 }
 .frame2-content {
   width: 300px;
-  -webkit-animation: frame2SlideLeft1 5s ease-in-out 1.75s forwards;
-  -moz-animation: frame2SlideLeft1 5s ease-in-out 1.75s forwards;
-  animation: frame2SlideLeft1 5s ease-in-out 1.75s forwards;
+  -webkit-animation: frame2SlideLeft1 4s ease-in-out 1.75s forwards;
+  -moz-animation: frame2SlideLeft1 4s ease-in-out 1.75s forwards;
+  animation: frame2SlideLeft1 4s ease-in-out 1.75s forwards;
 }
 .frame2-container {
   left: 215px;
@@ -407,9 +407,9 @@
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .logo1-container {
-  -webkit-animation: slideLeft100 0.75s ease-in-out 4.5s forwards;
-  -moz-animation: slideLeft100 0.75s ease-in-out 4.5s forwards;
-  animation: slideLeft100 0.75s ease-in-out 4.5s forwards;
+  -webkit-animation: slideLeft100 0.75s ease-in-out 4s forwards;
+  -moz-animation: slideLeft100 0.75s ease-in-out 4s forwards;
+  animation: slideLeft100 0.75s ease-in-out 4s forwards;
 }
 
 .text {
@@ -419,14 +419,14 @@
   top: 303px;
   left: 5px;
 
-  -webkit-animation: slideInLeft100 0.75s ease-in-out 3s forwards;
-  -moz-animation: slideInLeft100 0.75s ease-in-out 3s forwards;
-  animation: slideInLeft100 0.75s ease-in-out 3s forwards;
+  -webkit-animation: slideInLeft100 0.75s ease-in-out 2.5s forwards;
+  -moz-animation: slideInLeft100 0.75s ease-in-out 2.5s forwards;
+  animation: slideInLeft100 0.75s ease-in-out 2.5s forwards;
 }
 .text-content {
-  -webkit-animation: slideLeft100 1s ease-in-out 4.5s forwards;
-  -moz-animation: slideLeft100 1s ease-in-out 4.5s forwards;
-  animation: slideLeft100 1s ease-in-out 4.5s forwards;
+  -webkit-animation: slideLeft100 1s ease-in-out 4s forwards;
+  -moz-animation: slideLeft100 1s ease-in-out 4s forwards;
+  animation: slideLeft100 1s ease-in-out 4s forwards;
 }
 
 .cta {
@@ -436,7 +436,7 @@
   top: 10px;
   right: 0px;
 
-  -webkit-animation: slideInLeft100 0.5s ease-in-out 7.75s forwards;
-  -moz-animation: slideInLeft100 0.5s ease-in-out 7.75s forwards;
-  animation: slideInLeft100 0.5s ease-in-out 7.75s forwards;
+  -webkit-animation: slideInLeft100 0.5s ease-in-out 7s forwards;
+  -moz-animation: slideInLeft100 0.5s ease-in-out 7s forwards;
+  animation: slideInLeft100 0.5s ease-in-out 7s forwards;
 }
