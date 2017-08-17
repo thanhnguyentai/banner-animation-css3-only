@@ -449,10 +449,10 @@
 
 .cta {
   background: url('./images/160x600_cta.png') no-repeat center center;
-  width: 133px;
-  height: 30px;
-  bottom: 185px;
-  right: 14px;
+  width: 144px;
+  height: 46px;
+  bottom: 177px;
+  right: 8px;
 
   -webkit-animation: fadeInRight 0.75s ease-in-out 3s forwards;
   -moz-animation: fadeInRight 0.75s ease-in-out 3s forwards;

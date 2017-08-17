@@ -450,9 +450,9 @@
 .cta {
   background: url('./images/728x90_cta.png') no-repeat center center;
   width: 139px;
-  height: 31px;
-  bottom: 30px;
-  right: 20px;
+  height: 46px;
+  bottom: 23px;
+  right: 19px;
 
   -webkit-animation: fadeInRight 0.75s ease-in-out 3s forwards;
   -moz-animation: fadeInRight 0.75s ease-in-out 3s forwards;
