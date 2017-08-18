@@ -509,7 +509,7 @@
   background: url('./images/300x250_small_logo.png') no-repeat center center;
   width: 68px;
   height: 31px;
-  left: 98px;
+  left: 110px;
   bottom: 16px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 12s forwards;
@@ -529,10 +529,10 @@
 }
 .frame4-cta {
   background: url('./images/300x250_frame4_cta.png') no-repeat center center;
-  width: 64px;
-  height: 21px;
-  left: 20px;
-  bottom: 22px;
+  width: 80px;
+  height: 26px;
+  left: 15px;
+  bottom: 20px;
 
   -webkit-animation: fadeInRight 0.75s ease-in-out 13.5s forwards;
   -moz-animation: fadeInRight 0.75s ease-in-out 13.5s forwards;

@@ -529,13 +529,12 @@
 }
 .frame4-cta {
   background: url('./images/160x600_frame4_cta.png') no-repeat center center;
-  width: 89px;
-  height: 28px;
-  left: 35px;
+  width: 100px;
+  height: 31px;
+  left: 30px;
   bottom: 105px;
 
   -webkit-animation: fadeInRight 0.75s ease-in-out 13.5s forwards;
   -moz-animation: fadeInRight 0.75s ease-in-out 13.5s forwards;
   animation: fadeInRight 0.75s ease-in-out 13.5s forwards;
-}
 }
