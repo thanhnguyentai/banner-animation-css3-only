@@ -775,9 +775,9 @@
 }
 .frame4-cta {
   background: url('./images/160x600_frame4_cta.png') no-repeat center center;
-  width: 100px;
-  height: 31px;
-  left: 30px;
+  width: 125px;
+  height: 28px;
+  left: 17px;
   bottom: 105px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 10.5s forwards;

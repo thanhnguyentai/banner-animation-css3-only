@@ -741,7 +741,7 @@
   background: url('./images/300x600_small_logo.png') no-repeat center center;
   width: 112px;
   height: 49px;
-  right: 29px;
+  right: 15px;
   bottom: 46px;
 }
 .frame4-dot {
@@ -775,9 +775,9 @@
 }
 .frame4-cta {
   background: url('./images/300x600_frame4_cta.png') no-repeat center center;
-  width: 116px;
+  width: 145px;
   height: 33px;
-  left: 26px;
+  left: 15px;
   bottom: 54px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 10.5s forwards;
