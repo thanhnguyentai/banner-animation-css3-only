@@ -361,163 +361,35 @@
   }
 }
 
-/*-- slide in left --*/
-@-webkit-keyframes slideInLeft {
+/*-- slide in top --*/
+@-webkit-keyframes slideInTop {
   0%   {
-    visibility: visible;
-    -webkit-transform: translate(100%,0);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-}
-@-moz-keyframes slideInLeft {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(100%,0);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
-}
-@keyframes slideInLeft {
-  0%   {
-    visibility: visible;
-    transform: translate(100%,0);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(0,0);
-  }
-}
-
-/*-- slide out left --*/
-@-webkit-keyframes slideOutLeft {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(-100%,0);
-  }
-}
-@-moz-keyframes slideOutLeft {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(-100%,0);
-  }
-}
-@keyframes slideOutLeft {
-  0%   {
-    visibility: visible;
-    transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(-100%,0);
-  }
-}
-
-/*-- slide in right --*/
-@-webkit-keyframes slideInRight {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(-100%,0);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-}
-@-moz-keyframes slideInRight {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(-100%,0);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
-}
-@keyframes slideInRight {
-  0%   {
-    visibility: visible;
-    transform: translate(-100%,0);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(0,0);
-  }
-}
-
-/*-- slide out right --*/
-@-webkit-keyframes slideOutRight {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(100%,0);
-  }
-}
-@-moz-keyframes slideOutRight {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(100%,0);
-  }
-}
-@keyframes slideOutRight {
-  0%   {
-    visibility: visible;
-    transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(100%,0);
-  }
-}
-
-/*-- slide out bottom --*/
-@-webkit-keyframes slideOutBottom {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-  100% { 
     visibility: visible;
     -webkit-transform: translate(0,100%);
   }
-}
-@-moz-keyframes slideOutBottom {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
   100% { 
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+  }
+}
+@-moz-keyframes slideInTop {
+  0%   {
     visibility: visible;
     -moz-transform: translate(0,100%);
   }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0,0);
+  }
 }
-@keyframes slideOutBottom {
+@keyframes slideInTop {
   0%   {
     visibility: visible;
-    transform: translate(0,0);
+    transform: translate(0,100%);
   }
   100% { 
     visibility: visible;
-    transform: translate(0,100%);
+    transform: translate(0,0);
   }
 }
 
@@ -569,8 +441,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 50px;
   display: block;
 }
 
@@ -609,185 +481,58 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 
-.frame1-bg {
-  background: url('./images/300x250_frame1_bg.jpg') no-repeat center center;
+.bg {
+  background: url('./images/320x50_bg.jpg') no-repeat center center;
+  background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.big-logo {
-  background: url('./images/300x250_big_logo.png') no-repeat center center;
-  width: 97px;
-  height: 43px;
+.logo {
+  background: url('./images/320x50_logo.png') no-repeat center center;
+  background-size: auto 100%;
+  width: 54px;
+  height: 24px;
+  top: 15px;
   left: 13px;
-  bottom: 15px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -webkit-animation: fadeInRight 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeInRight 0.75s ease-in-out 0.5s forwards;
+  animation: fadeInRight 0.75s ease-in-out 0.5s forwards;
 }
-.frame1-text1 {
-  background: url('./images/300x250_frame1_text1.png') no-repeat center center;
-  width: 122px;
-  height: 41px;
-  top: 30px;
-  left: 48px;
-
-  -webkit-animation: slideInRight 0.25s linear 1.25s forwards;
-  -moz-animation: slideInRight 0.25s linear 1.25s forwards;
-  animation: slideInRight 0.25s linear 1.25s forwards;
-}
-.frame1-text2 {
-  background: url('./images/300x250_frame1_text2.png') no-repeat center center;
-  width: 150px;
-  height: 84px;
-  top: 73px;
-  left: 20px;
-
-  -webkit-animation: slideInLeft 0.25s linear 1.75s forwards;
-  -moz-animation: slideInLeft 0.25s linear 1.75s forwards;
-  animation: slideInLeft 0.25s linear 1.75s forwards;
-}
-
-.frame1-container {
-  -webkit-animation: slideOutLeft 0.25s linear 3.5s forwards;
-  -moz-animation: slideOutLeft 0.25s linear 3.5s forwards;
-  animation: slideOutLeft 0.25s linear 3.5s forwards;
-}
-
-.frame2-content {
-  -webkit-animation: slideInLeft 0.25s linear 3.5s forwards;
-  -moz-animation: slideInLeft 0.25s linear 3.5s forwards;
-  animation: slideInLeft 0.25s linear 3.5s forwards;
-}
-.frame2-bg {
-  background: url('./images/300x250_frame2_bg.jpg') no-repeat center center;
-}
-.frame2-text1 {
-  background: url('./images/300x250_frame2_text1.png') no-repeat center center;
-  width: 122px;
-  height: 41px;
-  top: 41px;
-  left: 55px;
-
-  -webkit-animation: slideInRight 0.25s linear 4s forwards;
-  -moz-animation: slideInRight 0.25s linear 4s forwards;
-  animation: slideInRight 0.25s linear 4s forwards;
-}
-.frame2-text2 {
-  background: url('./images/300x250_frame2_text2.png') no-repeat center center;
-  width: 168px;
-  height: 75px;
-  top: 72px;
-  left: 14px;
-
-  -webkit-animation: slideInLeft 0.25s linear 4.5s forwards;
-  -moz-animation: slideInLeft 0.25s linear 4.5s forwards;
-  animation: slideInLeft 0.25s linear 4.5s forwards;
-}
-
-.frame2-container {
-  -webkit-animation: slideOutLeft 0.25s linear 6.25s forwards;
-  -moz-animation: slideOutLeft 0.25s linear 6.25s forwards;
-  animation: slideOutLeft 0.25s linear 6.25s forwards;
-}
-
-.frame3-container {
-  -webkit-animation: slideInLeft 0.25s linear 6.25s forwards;
-  -moz-animation: slideInLeft 0.25s linear 6.25s forwards;
-  animation: slideInLeft 0.25s linear 6.25s forwards;
-}
-.frame3-bg {
-  background: url('./images/300x250_frame3_bg.jpg') no-repeat center center;
-}
-.frame3-text1 {
-  background: url('./images/300x250_frame3_text1.png') no-repeat center center;
-  width: 122px;
-  height: 41px;
-  top: 23px;
-  left: 36px;
-
-  -webkit-animation: slideInRight 0.25s linear 6.75s forwards;
-  -moz-animation: slideInRight 0.25s linear 6.75s forwards;
-  animation: slideInRight 0.25s linear 6.75s forwards;
-}
-.frame3-text2 {
-  background: url('./images/300x250_frame3_text2.png') no-repeat center center;
-  width: 122px;
-  height: 82px;
-  top: 66px;
-  left: 38px;
-
-  -webkit-animation: slideInLeft 0.25s linear 7.25s forwards;
-  -moz-animation: slideInLeft 0.25s linear 7.25s forwards;
-  animation: slideInLeft 0.25s linear 7.25s forwards;
-}
-
-.frame123-container {
-  -webkit-animation: slideOutBottom 0.25s linear 9s forwards;
-  -moz-animation: slideOutBottom 0.25s linear 9s forwards;
-  animation: slideOutBottom 0.25s linear 9s forwards;
-}
-
-.frame4-container {
-  -webkit-animation: slideInBottom 0.25s linear 9s forwards;
-  -moz-animation: slideInBottom 0.25s linear 9s forwards;
-  animation: slideInBottom 0.25s linear 9s forwards;
-}
-.frame4-bg {
-  background: url('./images/300x250_frame4_bg.jpg') no-repeat center center;
-}
-.frame4-image {
-  background: url('./images/300x250_image.png') no-repeat center center;
-  width: 110px;
-  height: 139px;
-  right: 11px;
-  bottom: 36px;
-}
-.small-logo {
-  background: url('./images/300x250_small_logo.png') no-repeat center center;
-  width: 68px;
-  height: 31px;
-  left: 138px;
-  bottom: 8px;
-}
-.frame4-dot {
-  background: url('./images/300x250_frame4_dot.png') no-repeat center center;
-  width: 139px;
-  height: 136px;
-  top: 25px;
-  left: 23px;
-}
-.frame4-text1 {
-  background: url('./images/300x250_frame4_text1.png') no-repeat center center;
-  width: 138px;
-  height: 36px;
-  top: 45px;
-  left: 23px;
-
-  -webkit-animation: slideInRight 0.25s linear 9.5s forwards;
-  -moz-animation: slideInRight 0.25s linear 9.5s forwards;
-  animation: slideInRight 0.25s linear 9.5s forwards;
-}
-.frame4-text2 {
-  background: url('./images/300x250_frame4_text2.png') no-repeat center center;
-  width: 139px;
-  height: 55px;
-  top: 87px;
-  left: 23px;
-
-  -webkit-animation: slideInLeft 0.25s linear 10s forwards;
-  -moz-animation: slideInLeft 0.25s linear 10s forwards;
-  animation: slideInLeft 0.25s linear 10s forwards;
-}
-.frame4-cta {
-  background: url('./images/300x250_frame4_cta.png') no-repeat center center;
-  width: 122px;
+.text1 {
+  background: url('./images/320x50_text1.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 85px;
   height: 22px;
-  left: 9px;
-  bottom: 13px;
+  top: 14px;
+  left: 83px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 10.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 10.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 10.5s forwards;
+  -webkit-animation: slideInBottom 0.25s linear 1.5s forwards;
+  -moz-animation: slideInBottom 0.25s linear 1.5s forwards;
+  animation: slideInBottom 0.25s linear 1.5s forwards;
+}
+.text2 {
+  background: url('./images/320x50_text2.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 55px;
+  height: 22px;
+  top: 14px;
+  left: 173px;
+
+  -webkit-animation: slideInTop 0.25s linear 2s forwards;
+  -moz-animation: slideInTop 0.25s linear 2s forwards;
+  animation: slideInTop 0.25s linear 2s forwards;
+}
+.cta {
+  background: url('./images/320x50_cta.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 58px;
+  height: 25px;
+  top: 13px;
+  right: 12px;
+
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 2.5s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 2.5s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 2.5s forwards;
 }
