@@ -527,10 +527,10 @@
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
   background-size: 100% auto;
-  width: 58px;
+  width: 71px;
   height: 25px;
   top: 13px;
-  right: 12px;
+  right: 7px;
 
   -webkit-animation: fadeInLeft 0.75s ease-in-out 2.5s forwards;
   -moz-animation: fadeInLeft 0.75s ease-in-out 2.5s forwards;
