@@ -1,5 +1,4 @@
 
-
 (function() {
     (function k() {
         function l(a, b, d) {
@@ -361,7 +360,7 @@
                         y: 0.26,
                         z: 0.11,
                         i: "c",
-                        e: 268,
+                        e: 185,
                         s: 0,
                         o: "182"
                     }, {
@@ -369,7 +368,7 @@
                         y: 0.26,
                         z: 0.11,
                         i: "a",
-                        e: 280,
+                        e: 198,
                         s: 13,
                         o: "153"
                     }, {
@@ -438,7 +437,7 @@
                         y: 3.06,
                         z: 0.09,
                         i: "c",
-                        e: 246,
+                        e: 264,
                         s: 0,
                         o: "157"
                     }, {
@@ -446,7 +445,7 @@
                         y: 3.06,
                         z: 0.09,
                         i: "a",
-                        e: 259,
+                        e: 276,
                         s: 13,
                         o: "160"
                     }, {
@@ -459,7 +458,7 @@
                     }, {
                         y: 3.15,
                         i: "a",
-                        s: 259,
+                        s: 276,
                         z: 0,
                         o: "160",
                         f: "c"
@@ -529,7 +528,7 @@
                         y: 5,
                         z: 0.08,
                         i: "c",
-                        e: 163,
+                        e: 248, // width container
                         s: 0,
                         o: "172"
                     }, {
@@ -537,7 +536,7 @@
                         y: 5,
                         z: 0.08,
                         i: "a",
-                        e: 176,
+                        e: 260,
                         s: 13,
                         o: "168"
                     }, {
@@ -872,7 +871,7 @@
                     b: 0
                 },
                 "173": {
-                    c: 163,
+                    c: 270,
                     d: 46,
                     I: "None",
                     r: "inline",
@@ -977,14 +976,15 @@
                 "174": {
                     G: "#FFFFFF",
                     aU: 8,
-                    c: 173,
+                    c: 260, // width text
                     aV: 8,
                     d: 47,
                     r: "inline",
                     s: "Helvetica,Arial,Sans-Serif",
-                    t: 41,
+                    t: 27,
                     Z: "break-word",
-                    w: "GESTION ACTIVE",
+                    Y: 47,
+                    w: "GESTION&nbsp;ACTIVE",
                     bF: "172",
                     j: "absolute",
                     x: "visible",
@@ -1168,7 +1168,7 @@
                     b: 230
                 },
                 "158": {
-                    c: 246,
+                    c: 264,
                     d: 46,
                     I: "None",
                     r: "inline",
@@ -1269,12 +1269,13 @@
                 "159": {
                     G: "#FFFFFF",
                     aU: 8,
-                    c: 251,
+                    c: 256,
                     aV: 8,
                     d: 47,
                     r: "inline",
                     s: "Helvetica,Arial,Sans-Serif",
-                    t: 41,
+                    t: 27,
+                    Y: 47,
                     Z: "break-word",
                     w: "REPRÉSENTATION",
                     bF: "157",
@@ -1380,7 +1381,8 @@
                     d: 47,
                     r: "inline",
                     s: "Helvetica,Arial,Sans-Serif",
-                    t: 41,
+                    t: 27,
+                    Y: 47,
                     Z: "break-word",
                     w: "INNOVATION",
                     bF: "182",
@@ -1468,7 +1470,7 @@
                 "185": {
                     aV: 8,
                     w: "MC",
-                    a: 162,
+                    a: 156,
                     x: "visible",
                     Z: "break-word",
                     b: 442,
