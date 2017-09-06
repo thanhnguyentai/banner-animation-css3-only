@@ -94,9 +94,9 @@
             },
             "0": {
                 p: 1,
-                n: "Dynamic_white_EN.svg",
+                n: "300x250_logo.png",
                 g: "101",
-                t: "image/svg+xml"
+                t: "image/png"
             },
             "-1": {
                 n: "PIE.htc"
@@ -946,7 +946,7 @@
                     dB: "img",
                     z: 20,
                     k: "div",
-                    c: 113,
+                    c: 139,
                     d: 23,
                     r: "inline"
                 },
