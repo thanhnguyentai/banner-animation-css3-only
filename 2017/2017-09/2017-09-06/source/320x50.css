@@ -529,6 +529,7 @@
 
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
+  background-size: 100% 100%;
   width: 71px;
   height: 15px;
   top: 16px;
@@ -656,6 +657,7 @@
 }
 .frame3-product1 {
   background: url('./images/320x50_frame3_product1.png') no-repeat center center;
+  background-size: 100% 100%;
   width: 34px;
   height: 44px;
   top: 9px;
@@ -663,6 +665,7 @@
 }
 .frame3-product2 {
   background: url('./images/320x50_frame3_product2.png') no-repeat center center;
+  background-size: 100% 100%;
   width: 33px;
   height: 41px;
   top: 10px;
@@ -673,6 +676,7 @@
 }
 .frame3-product3 {
   background: url('./images/320x50_frame3_product3.png') no-repeat center center;
+  background-size: 100% 100%;
   width: 28px;
   height: 37px;
   top: 12px;
@@ -683,6 +687,7 @@
 }
 .frame3-product4 {
   background: url('./images/320x50_frame3_product4.png') no-repeat center center;
+  background-size: 100% 100%;
   width: 19px;
   height: 33px;
   top: 14px;
@@ -693,6 +698,7 @@
 }
 .frame3-product5 {
   background: url('./images/320x50_frame3_product5.png') no-repeat center center;
+  background-size: 100% 100%;
   width: 30px;
   height: 39px;
   top: 11px;
@@ -703,6 +709,7 @@
 }
 .frame3-product6 {
   background: url('./images/320x50_frame3_product6.png') no-repeat center center;
+  background-size: 100% 100%;
   width: 26px;
   height: 33px;
   top: 14px;
