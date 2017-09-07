@@ -697,7 +697,7 @@
             v: {
                 "173": {
                     c: 4,
-                    d: 29,
+                    d: 27,
                     I: "None",
                     e: 1,
                     J: "None",
@@ -836,7 +836,7 @@
                     r: "inline",
                     a: 208,
                     j: "absolute",
-                    b: 0
+                    b: 2
                 },
                 "174": {
                     aV: 8,
@@ -954,8 +954,8 @@
                     d: 47,
                     r: "inline",
                     s: "Helvetica,Arial,Sans-Serif",
-                    t: 18,
-                    Y: 32,
+                    t: 17,
+                    Y: 30,
                     Z: "break-word",
                     w: "INNOVATION",
                     bF: "182",
@@ -1071,7 +1071,7 @@
                 },
                 "184": {
                     c: 175,
-                    d: 29,
+                    d: 27,
                     I: "None",
                     r: "inline",
                     J: "None",
@@ -1096,7 +1096,7 @@
                 },
                 "176": {
                     c: 160,
-                    d: 29,
+                    d: 27,
                     I: "None",
                     r: "inline",
                     J: "None",
@@ -1211,7 +1211,7 @@
                 },
                 "156": {
                     c: 4,
-                    d: 29,
+                    d: 27,
                     I: "None",
                     e: 1,
                     J: "None",
@@ -1232,7 +1232,7 @@
                     P: 0,
                     D: "#D81E05",
                     a: 0,
-                    b: 0
+                    b: 2
                 },
                 "177": {
                     G: "#FFFFFF",
@@ -1242,8 +1242,8 @@
                     d: 47,
                     r: "inline",
                     s: "Helvetica,Arial,Sans-Serif",
-                    t: 18,
-                    Y: 32,
+                    t: 17,
+                    Y: 30,
                     Z: "break-word",
                     w: "GESTION ACTIVE",
                     bF: "175",
