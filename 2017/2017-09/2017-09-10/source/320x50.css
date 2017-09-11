@@ -464,10 +464,10 @@
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
   background-size: 100% auto;
-  width: 57px;
+  width: 71px;
   height: 11px;
   bottom: 8px;
-  right: 26px;
+  right: 20px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 3.5s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 3.5s forwards;
