@@ -213,7 +213,7 @@
 @-webkit-keyframes fadeInRight {
   0%   {
     visibility: visible;
-    -webkit-transform: translate(-20px, 0);
+    -webkit-transform: translate(-50%, 0);
     opacity: 0;
   }
   100% { 
@@ -225,7 +225,7 @@
 @-moz-keyframes fadeInRight {
   0%   {
     visibility: visible;
-    -moz-transform: translate(-20px, 0);
+    -moz-transform: translate(-50%, 0);
     opacity: 0;
   }
   100% { 
@@ -237,7 +237,7 @@
 @keyframes fadeInRight {
   0%   {
     visibility: visible;
-    transform: translate(-20px, 0);
+    transform: translate(-50%, 0);
     opacity: 0;
   }
   100% { 
@@ -251,7 +251,7 @@
 @-webkit-keyframes fadeInLeft {
   0%   {
     visibility: visible;
-    -webkit-transform: translate(20px, 0);
+    -webkit-transform: translate(50%, 0);
     opacity: 0;
   }
   100% { 
@@ -263,7 +263,7 @@
 @-moz-keyframes fadeInLeft {
   0%   {
     visibility: visible;
-    -moz-transform: translate(20px, 0);
+    -moz-transform: translate(50%, 0);
     opacity: 0;
   }
   100% { 
@@ -275,7 +275,7 @@
 @keyframes fadeInLeft {
   0%   {
     visibility: visible;
-    transform: translate(20px, 0);
+    transform: translate(50%, 0);
     opacity: 0;
   }
   100% { 
@@ -453,9 +453,9 @@
   top: 21px;
   left: 13px;
 
-  -webkit-animation: fadeInRight 1s ease-in-out 2.25s forwards;
-  -moz-animation: fadeInRight 1s ease-in-out 2.25s forwards;
-  animation: fadeInRight 1s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeInRight 1s ease-out 2.25s forwards;
+  -moz-animation: fadeInRight 1s ease-out 2.25s forwards;
+  animation: fadeInRight 1s ease-out 2.25s forwards;
 }
 .frame1-text {
   background: url('./images/300x250_frame1_text.png') no-repeat center center;
@@ -464,9 +464,9 @@
   top: 50px;
   left: 13px;
 
-  -webkit-animation: fadeInRight 1s ease-in-out 2.5s forwards;
-  -moz-animation: fadeInRight 1s ease-in-out 2.5s forwards;
-  animation: fadeInRight 1s ease-in-out 2.5s forwards;
+  -webkit-animation: fadeInRight 1s ease-out 2.5s forwards;
+  -moz-animation: fadeInRight 1s ease-out 2.5s forwards;
+  animation: fadeInRight 1s ease-out 2.5s forwards;
 }
 .frame1-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
@@ -492,9 +492,9 @@
   top: 50px;
   left: 13px;
 
-  -webkit-animation: fadeInRight 1s ease-in-out 5.75s forwards;
-  -moz-animation: fadeInRight 1s ease-in-out 5.75s forwards;
-  animation: fadeInRight 1s ease-in-out 5.75s forwards;
+  -webkit-animation: fadeInRight 1s ease-out 5.75s forwards;
+  -moz-animation: fadeInRight 1s ease-out 5.75s forwards;
+  animation: fadeInRight 1s ease-out 5.75s forwards;
 }
 .frame2-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 7.75s forwards;
@@ -520,9 +520,9 @@
   top: 50px;
   left: 13px;
 
-  -webkit-animation: fadeInRight 1s ease-in-out 9s forwards;
-  -moz-animation: fadeInRight 1s ease-in-out 9s forwards;
-  animation: fadeInRight 1s ease-in-out 9s forwards;
+  -webkit-animation: fadeInRight 1s ease-out 9s forwards;
+  -moz-animation: fadeInRight 1s ease-out 9s forwards;
+  animation: fadeInRight 1s ease-out 9s forwards;
 }
 .frame3-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 11s forwards;
@@ -548,9 +548,9 @@
   top: 19px;
   left: 38px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 12.25s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 12.25s forwards;
-  animation: fadeInDown 0.75s ease-in-out 12.25s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-out 12.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-out 12.25s forwards;
+  animation: fadeInDown 0.75s ease-out 12.25s forwards;
 }
 .frame4-text2 {
   background: url('./images/300x250_frame4_text2.png') no-repeat center center;
@@ -559,9 +559,9 @@
   top: 64px;
   left: 78px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 12.5s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 12.5s forwards;
-  animation: fadeInDown 0.75s ease-in-out 12.5s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-out 12.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-out 12.5s forwards;
+  animation: fadeInDown 0.75s ease-out 12.5s forwards;
 }
 
 .cta {
