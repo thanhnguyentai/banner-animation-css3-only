@@ -507,9 +507,9 @@
   background: url('./images/320x50_cta.png') no-repeat center center;
   background-size: 100% auto;
   width: 71px;
-  height: 17px;
-  top: 17px;
-  right: 13px;
+  height: 27px;
+  top: 11px;
+  right: 7px;
 
   -webkit-animation: fadeInRight 0.75s ease-out 4s forwards;
   -moz-animation: fadeInRight 0.75s ease-out 4s forwards;

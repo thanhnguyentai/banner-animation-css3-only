@@ -584,9 +584,9 @@
 .frame3-cta {
   background: url('./images/300x250_frame3_cta.png') no-repeat center center;
   background-size: auto 100%;
-  width: 113px;
+  width: 161px;
   height: 26px;
-  left: 92px;
+  left: 70px;
   bottom: 44px;
 
   -webkit-animation: fadeInUp 0.75s ease-out 10.75s forwards;
