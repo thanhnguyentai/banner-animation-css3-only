@@ -380,3 +380,20 @@
   -moz-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
   animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
 }
+
+.logo-container {
+  -webkit-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+}
+.cta {
+  background: url('./images/320x50_cta.png') no-repeat center center;
+  width: 104px;
+  height: 28px;
+  top: 11px;
+  left: 8px;
+
+  -webkit-animation: fadeInRight 0.75s ease-in-out 5s forwards;
+  -moz-animation: fadeInRight 0.75s ease-in-out 5s forwards;
+  animation: fadeInRight 0.75s ease-in-out 5s forwards;
+}
