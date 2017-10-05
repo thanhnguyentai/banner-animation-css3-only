@@ -673,12 +673,33 @@
   background: url('./images/728x90_car2.png') no-repeat center center;
   width: 88px;
   height: 57px;
-  top: 8px;
-  left: 126px;
+  top: 0px;
+  left: 0px;
 
   -webkit-animation: carLeftDriveIn 0.5s ease-in 4.5s forwards;
   -moz-animation: carLeftDriveIn 0.5s ease-in 4.5s forwards;
   animation: carLeftDriveIn 0.5s ease-in 4.5s forwards;
+}
+.car2-2-2 {
+  width: 88px;
+  height: 57px;
+  top: 8px;
+  left: 126px;
+
+  -webkit-animation: carLeftDriveOut 0.5s ease-in-out 5.5s forwards;
+  -moz-animation: carLeftDriveOut 0.5s ease-in-out 5.5s forwards;
+  animation: carLeftDriveOut 0.5s ease-in-out 5.5s forwards;
+}
+.car2-3 {
+  background: url('./images/728x90_car2.png') no-repeat center center;
+  width: 88px;
+  height: 57px;
+  top: 8px;
+  left: 126px;
+
+  -webkit-animation: carLeftDriveIn 0.5s ease-in 6.5s forwards;
+  -moz-animation: carLeftDriveIn 0.5s ease-in 6.5s forwards;
+  animation: carLeftDriveIn 0.5s ease-in 6.5s forwards;
 }
 .car3-container {
   -webkit-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
@@ -700,12 +721,33 @@
   background: url('./images/728x90_car3.png') no-repeat center center;
   width: 89px;
   height: 46px;
-  top: 12px;
-  left: 265px;
+  top: 0px;
+  left: 0px;
 
   -webkit-animation: carRightDriveIn 0.5s ease-in 4s forwards;
   -moz-animation: carRightDriveIn 0.5s ease-in 4s forwards;
   animation: carRightDriveIn 0.5s ease-in 4s forwards;
+}
+.car3-2-2 {
+  width: 89px;
+  height: 46px;
+  top: 12px;
+  left: 265px;
+
+  -webkit-animation: carRightDriveOut 0.5s ease-in-out 5s forwards;
+  -moz-animation: carRightDriveOut 0.5s ease-in-out 5s forwards;
+  animation: carRightDriveOut 0.5s ease-in-out 5s forwards;
+}
+.car3-3 {
+  background: url('./images/728x90_car3.png') no-repeat center center;
+  width: 89px;
+  height: 46px;
+  top: 12px;
+  left: 265px;
+
+  -webkit-animation: carRightDriveIn 0.5s ease-in 6s forwards;
+  -moz-animation: carRightDriveIn 0.5s ease-in 6s forwards;
+  animation: carRightDriveIn 0.5s ease-in 6s forwards;
 }
 .text {
   background: url('./images/728x90_text.png') no-repeat center center;
