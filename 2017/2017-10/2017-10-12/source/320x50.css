@@ -525,9 +525,9 @@
   animation: fadeInLeft100 0.75s ease-in-out 1.5s forwards;
 }
 .frame1-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 3.5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 3.5s forwards;
-  animation: fadeOut 0.75s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 4.25s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 4.25s forwards;
+  animation: fadeOut 0.75s ease-in-out 4.25s forwards;
 }
 
 .frame2-text {
@@ -538,14 +538,14 @@
   top: 13px;
   left: 10px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 4s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 4s forwards;
-  animation: fadeInDown 0.75s ease-in-out 4s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
 }
 .frame2-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 6.25s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 6.25s forwards;
-  animation: fadeOut 0.75s ease-in-out 6.25s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 7.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 7.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 7.5s forwards;
 }
 .frame3-logo {
   background: url('./images/320x50_frame3_logo.png') no-repeat center center;
@@ -555,7 +555,7 @@
   top: 19px;
   left: 10px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 6.75s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 6.75s forwards;
-  animation: fadeInDown 0.75s ease-in-out 6.75s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 8s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 8s forwards;
+  animation: fadeInDown 0.75s ease-in-out 8s forwards;
 }
