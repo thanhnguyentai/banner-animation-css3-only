@@ -522,16 +522,16 @@
   animation: fadeInUp 0.75s ease-in-out 0.75s forwards;
 }
 .frame1-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 4s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 4s forwards;
-  animation: fadeOut 0.75s ease-in-out 4s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 4.5s forwards;
 }
 .frame2-image {
   background: url('./images/300x250_frame2_image.jpg') no-repeat center center;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 5s forwards;
+  animation: fadeIn 0.75s ease-in-out 5s forwards;
 }
 .frame2-icon {
   background: url('./images/300x250_frame2_icon.png') no-repeat center center;
@@ -540,9 +540,9 @@
   top: 53px;
   left: 75px;
 
-  -webkit-animation: fadeInZoomIn 0.75s ease-in-out 5.25s forwards;
-  -moz-animation: fadeInZoomIn 0.75s ease-in-out 5.25s forwards;
-  animation: fadeInZoomIn 0.75s ease-in-out 5.25s forwards;
+  -webkit-animation: fadeInZoomIn 0.75s ease-in-out 5.75s forwards;
+  -moz-animation: fadeInZoomIn 0.75s ease-in-out 5.75s forwards;
+  animation: fadeInZoomIn 0.75s ease-in-out 5.75s forwards;
 }
 .frame2-text {
   background: url('./images/300x250_frame2_text.png') no-repeat center center;
@@ -551,21 +551,21 @@
   top: 109px;
   left: 33px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 6s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 6s forwards;
-  animation: fadeInDown 0.75s ease-in-out 6s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 6.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 6.5s forwards;
+  animation: fadeInDown 0.75s ease-in-out 6.5s forwards;
 }
 .frame2-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 8s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 8s forwards;
-  animation: fadeOut 0.75s ease-in-out 8s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 8.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 8.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 8.5s forwards;
 }
 .frame3-image {
   background: url('./images/300x250_frame3_image.jpg') no-repeat center center;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 8.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 8.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 8.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 8.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 8.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 8.75s forwards;
 }
 .frame3-logo1 {
   background: url('./images/300x250_frame3_logo1.png') no-repeat center center;
@@ -574,9 +574,9 @@
   top: 7px;
   left: 9px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 9s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 9s forwards;
-  animation: fadeInDown 0.75s ease-in-out 9s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 9.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 9.5s forwards;
+  animation: fadeInDown 0.75s ease-in-out 9.5s forwards;
 }
 .frame3-logo2 {
   background: url('./images/300x250_frame3_logo2.png') no-repeat center center;
@@ -585,7 +585,7 @@
   top: 4px;
   right: 6px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 9.25s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 9.25s forwards;
-  animation: fadeInDown 0.75s ease-in-out 9.25s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 9.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 9.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 9.75s forwards;
 }
