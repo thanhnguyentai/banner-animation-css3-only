@@ -520,9 +520,9 @@
   top: 18px;
   left: 23px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 2s forwards;
-  animation: fadeInDown 0.75s ease-in-out 2s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
 }
 .light1{
   background: url('./images/728x90_light1.png') no-repeat center center;
@@ -532,9 +532,9 @@
   top: 0px;
   left: 310px;
 
-  -webkit-animation: fadeInDown 0.2s ease-in-out 2.75s forwards;
-  -moz-animation: fadeInDown 0.2s ease-in-out 2.75s forwards;
-  animation: fadeInDown 0.2s ease-in-out 2.75s forwards;
+  -webkit-animation: fadeInDown 0.2s ease-in-out 2.25s forwards;
+  -moz-animation: fadeInDown 0.2s ease-in-out 2.25s forwards;
+  animation: fadeInDown 0.2s ease-in-out 2.25s forwards;
 }
 .appliance1 {
   background: url('./images/728x90_appliance1.png') no-repeat center center;
@@ -544,9 +544,9 @@
   bottom: 0px;
   left: 295px;
 
-  -webkit-animation: fadeIn 0.2s ease-in-out 2.85s forwards;
-  -moz-animation: fadeIn 0.2s ease-in-out 2.85s forwards;
-  animation: fadeIn 0.2s ease-in-out 2.85s forwards;
+  -webkit-animation: fadeIn 0.2s ease-in-out 2.35s forwards;
+  -moz-animation: fadeIn 0.2s ease-in-out 2.35s forwards;
+  animation: fadeIn 0.2s ease-in-out 2.35s forwards;
 }
 .light2 {
   background: url('./images/728x90_light2.png') no-repeat center center;
@@ -556,9 +556,9 @@
   top: 0px;
   left: 366px;
 
-  -webkit-animation: fadeInDown 0.2s ease-in-out 4s forwards;
-  -moz-animation: fadeInDown 0.2s ease-in-out 4s forwards;
-  animation: fadeInDown 0.2s ease-in-out 4s forwards;
+  -webkit-animation: fadeInDown 0.2s ease-in-out 3.3s forwards;
+  -moz-animation: fadeInDown 0.2s ease-in-out 3.3s forwards;
+  animation: fadeInDown 0.2s ease-in-out 3.3s forwards;
 }
 .appliance2 {
   background: url('./images/728x90_appliance2.png') no-repeat center center;
@@ -568,9 +568,9 @@
   top: 22px;
   left: 383px;
 
-  -webkit-animation: fadeIn 0.2s ease-in-out 4.1s forwards;
-  -moz-animation: fadeIn 0.2s ease-in-out 4.1s forwards;
-  animation: fadeIn 0.2s ease-in-out 4.1s forwards;
+  -webkit-animation: fadeIn 0.2s ease-in-out 3.4s forwards;
+  -moz-animation: fadeIn 0.2s ease-in-out 3.4s forwards;
+  animation: fadeIn 0.2s ease-in-out 3.4s forwards;
 }
 .light3 {
   background: url('./images/728x90_light3.png') no-repeat center center;
@@ -580,9 +580,9 @@
   top: 0px;
   left: 418px;
 
-  -webkit-animation: fadeInDown 0.2s ease-in-out 5.3s forwards;
-  -moz-animation: fadeInDown 0.2s ease-in-out 5.3s forwards;
-  animation: fadeInDown 0.2s ease-in-out 5.3s forwards;
+  -webkit-animation: fadeInDown 0.2s ease-in-out 4.35s forwards;
+  -moz-animation: fadeInDown 0.2s ease-in-out 4.35s forwards;
+  animation: fadeInDown 0.2s ease-in-out 4.35s forwards;
 }
 .appliance3 {
   background: url('./images/728x90_appliance3.png') no-repeat center center;
@@ -592,9 +592,9 @@
   bottom: 0px;
   left: 432px;
 
-  -webkit-animation: fadeIn 0.2s ease-in-out 5.4s forwards;
-  -moz-animation: fadeIn 0.2s ease-in-out 5.4s forwards;
-  animation: fadeIn 0.2s ease-in-out 5.4s forwards;
+  -webkit-animation: fadeIn 0.2s ease-in-out 4.45s forwards;
+  -moz-animation: fadeIn 0.2s ease-in-out 4.45s forwards;
+  animation: fadeIn 0.2s ease-in-out 4.45s forwards;
 }
 
 .cta {
@@ -605,7 +605,7 @@
   right: 17px;
   bottom: 7px;
 
-  -webkit-animation: fadeInUp100 0.75s ease-in-out 6s forwards;
-  -moz-animation: fadeInUp100 0.75s ease-in-out 6s forwards;
-  animation: fadeInUp100 0.75s ease-in-out 6s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 5s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 5s forwards;
+  animation: fadeInUp 0.75s ease-in-out 5s forwards;
 }
