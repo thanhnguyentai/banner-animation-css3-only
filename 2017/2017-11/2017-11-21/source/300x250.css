@@ -512,10 +512,10 @@
 }
 .text1 {
   background: url('./images/300x250_d_text1.png') no-repeat center center;
-  width: 257px;
-  height: 38px;
-  top: 159px;
-  left: 25px;
+  width: 269px;
+  height: 35px;
+  top: 157px;
+  left: 16px;
 
   -webkit-animation: fadeIn 0.25s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.25s ease-in-out 0.75s forwards;
@@ -539,10 +539,10 @@
 }
 .text2 {
   background: url('./images/300x250_d_text2.png') no-repeat center center;
-  width: 125px;
-  height: 46px;
-  top: 150px;
-  left: 163px;
+  width: 247px;
+  height: 22px;
+  top: 165px;
+  left: 31px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 5.5s forwards;

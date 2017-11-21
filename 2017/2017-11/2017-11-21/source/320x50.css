@@ -529,10 +529,10 @@
 .text1 {
   background: url('./images/320x50_text1.png') no-repeat center center;
   background-size: 100% auto;
-  width: 92px;
+  width: 96px;
   height: 13px;
   top: 33px;
-  left: 124px;
+  left: 120px;
 
   -webkit-animation: fadeIn 0.25s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.25s ease-in-out 0.75s forwards;

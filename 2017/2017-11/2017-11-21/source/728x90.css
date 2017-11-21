@@ -523,10 +523,10 @@
 }
 .text1 {
   background: url('./images/728x90_text1.png') no-repeat center center;
-  width: 266px;
+  width: 272px;
   height: 27px;
   top: 56px;
-  left: 258px;
+  left: 252px;
 
   -webkit-animation: fadeIn 0.25s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.25s ease-in-out 0.75s forwards;
