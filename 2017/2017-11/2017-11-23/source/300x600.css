@@ -553,7 +553,7 @@
   background: url('./images/300x600_frame2_text1.png') no-repeat center center;
   width: 220px;
   height: 203px;
-  top: 112px;
+  top: 49px;
   left: 43px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 5.25s forwards;
@@ -564,10 +564,22 @@
   background: url('./images/300x600_frame2_text2.png') no-repeat center center;
   width: 226px;
   height: 47px;
-  top: 349px;
+  top: 286px;
   left: 46px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 5.75s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 5.75s forwards;
   animation: fadeInDown 0.75s ease-in-out 5.75s forwards;
+}
+
+.cta {
+  background: url('./images/300x600_cta.png') no-repeat center center;
+  width: 103px;
+  height: 23px;
+  top: 360px;
+  left: 102px;
+
+  -webkit-animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
+  animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
 }

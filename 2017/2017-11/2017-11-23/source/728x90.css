@@ -514,10 +514,22 @@
   background: url('./images/728x90_text2.png');
   width: 280px;
   height: 46px;
-  top: 22px;
+  top: 10px;
   left: 182px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 3s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 3s forwards;
   animation: fadeInDown 0.75s ease-in-out 3s forwards;
+}
+
+.cta {
+  background: url('./images/728x90_cta.png') no-repeat center center;
+  width: 123px;
+  height: 20px;
+  top: 62px;
+  left: 271px;
+
+  -webkit-animation: fadeInUp 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 4s forwards;
+  animation: fadeInUp 0.75s ease-in-out 4s forwards;
 }

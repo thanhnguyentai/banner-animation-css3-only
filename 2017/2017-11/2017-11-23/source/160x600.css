@@ -532,3 +532,14 @@
   -moz-animation: fadeInDown 0.75s ease-in-out 2.75s forwards;
   animation: fadeInDown 0.75s ease-in-out 2.75s forwards;
 }
+.cta {
+  background: url('./images/160x600_cta.png') no-repeat center center;
+  width: 131px;
+  height: 30px;
+  top: 304px;
+  left: 14px;
+
+  -webkit-animation: fadeInUp 0.75s ease-in-out 3.75s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 3.75s forwards;
+  animation: fadeInUp 0.75s ease-in-out 3.75s forwards;
+}
