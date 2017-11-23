@@ -431,7 +431,13 @@
   0%   {
     -webkit-transform: rotate(0);   
   }
+  25% {
+    -webkit-transform: rotate(45deg);
+  }
   50% {
+    -webkit-transform: rotate(0);
+  }
+  75% {
     -webkit-transform: rotate(45deg);
   }
   100% {
@@ -442,7 +448,13 @@
   0%   {
     -moz-transform: rotate(0);   
   }
+  25% {
+    -moz-transform: rotate(45deg);
+  }
   50% {
+    -moz-transform: rotate(0);
+  }
+  75% {
     -moz-transform: rotate(45deg);
   }
   100% {
@@ -453,7 +465,13 @@
   0%   {
     transform: rotate(0);   
   }
+  25% {
+    transform: rotate(45deg);
+  }
   50% {
+    transform: rotate(0);
+  }
+  75% {
     transform: rotate(45deg);
   }
   100% {
@@ -571,7 +589,7 @@
   right: 157px;
   bottom: 28px;
 
-  -webkit-animation: expandIconAnimation 0.75s linear 3.75s forwards;
-  -moz-animation: expandIconAnimation 0.75s linear 3.75s forwards;
-  animation: expandIconAnimation 0.75s linear 3.75s forwards;
+  -webkit-animation: expandIconAnimation 1s linear 3.75s forwards;
+  -moz-animation: expandIconAnimation 1s linear 3.75s forwards;
+  animation: expandIconAnimation 1s linear 3.75s forwards;
 }
