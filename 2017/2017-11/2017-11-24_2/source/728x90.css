@@ -501,10 +501,10 @@
 }
 .person {
   background: url('./images/728x90_person.png') no-repeat center center;
-  width: 154px;
+  width: 134px;
   height: 90px;
   top: 0px;
-  left: 191px;
+  left: 212px;
 
   -webkit-transform-origin: 50% 20%;
   -moz-transform-origin: 50% 20%;
