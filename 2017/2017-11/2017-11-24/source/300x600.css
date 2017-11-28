@@ -539,10 +539,10 @@
 }
 .text2 {
   background: url('./images/300x600_text2.png') no-repeat center center;
-  width: 285px;
+  width: 216px;
   height: 100px;
   top: 420px;
-  left: 8px;
+  left: 42px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
