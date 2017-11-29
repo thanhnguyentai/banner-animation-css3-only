@@ -529,9 +529,9 @@
   animation: fadeInLeft100 0.75s ease-in-out 1.75s forwards;
 }
 .text-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 4s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 4s forwards;
-  animation: fadeOut 0.75s ease-in-out 4s forwards; 
+  -webkit-animation: fadeOut 0.75s ease-in-out 3.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 3.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 3.5s forwards; 
 }
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
@@ -541,7 +541,7 @@
   top: 16px;
   left: 175px;
 
-  -webkit-animation: fadeInLeft100 0.75s ease-in-out 4.5s forwards;
-  -moz-animation: fadeInLeft100 0.75s ease-in-out 4.5s forwards;
-  animation: fadeInLeft100 0.75s ease-in-out 4.5s forwards;
+  -webkit-animation: fadeInLeft100 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeInLeft100 0.75s ease-in-out 4s forwards;
+  animation: fadeInLeft100 0.75s ease-in-out 4s forwards;
 }
