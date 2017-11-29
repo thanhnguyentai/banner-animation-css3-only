@@ -501,14 +501,14 @@
 }
 .person {
   background: url('./images/728x90_person.png') no-repeat center center;
-  width: 134px;
-  height: 90px;
-  top: 0px;
-  left: 212px;
+  width: 189px;
+  height: 169px;
+  top: -34px;
+  left: 164px;
 
-  -webkit-transform-origin: 50% 20%;
-  -moz-transform-origin: 50% 20%;
-  transform-origin: 50% 20%;
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
 
   -webkit-animation: zoomIn 1.25s ease-in-out 0.75s forwards;
   -moz-animation: zoomIn 1.25s ease-in-out 0.75s forwards;
