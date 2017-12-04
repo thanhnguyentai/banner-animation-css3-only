@@ -369,7 +369,7 @@
   }
   100% { 
     visibility: visible;
-    -webkit-transform: scale(1, 1);
+    -webkit-transform: scale(1.005, 1.005);
   }
 }
 @-moz-keyframes zoomOut {
@@ -379,7 +379,7 @@
   }
   100% { 
     visibility: visible;
-    -moz-transform: scale(1, 1);
+    -moz-transform: scale(1.005, 1.005);
   }
 }
 @keyframes zoomOut {
@@ -389,7 +389,7 @@
   }
   100% { 
     visibility: visible;
-    transform: scale(1, 1);
+    transform: scale(1.005, 1.005);
   }
 }
 
