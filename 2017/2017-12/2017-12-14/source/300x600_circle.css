@@ -688,10 +688,10 @@
   -moz-animation: fillCup 0.75s linear 3.5s forwards;
   animation: fillCup 0.75s linear 3.5s forwards;
 }
-.frame2-number-container {
-  -webkit-animation: fadeOut 0.5s ease-in-out 3.75s forwards;
-  -moz-animation: fadeOut 0.5s ease-in-out 3.75s forwards;
-  animation: fadeOut 0.5s ease-in-out 3.75s forwards;
+.frame2-number-container, .frame2-pot-container {
+  -webkit-animation: fadeOut 0.5s ease-in-out 4s forwards;
+  -moz-animation: fadeOut 0.5s ease-in-out 4s forwards;
+  animation: fadeOut 0.5s ease-in-out 4s forwards;
 }
 .frame3-number {
   background: url('./images/300x600_circle_1.png') no-repeat center center;
@@ -700,12 +700,12 @@
   bottom: 42px;
   left: 142px;
 
-  -webkit-animation: fadeIn 0.5s ease-in-out 4s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 4s forwards;
-  animation: fadeIn 0.5s ease-in-out 4s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 4.25s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 4.25s forwards;
+  animation: fadeIn 0.5s ease-in-out 4.25s forwards;
 }
-.frame3-number-container, .frame2-pot-container, .frame2-water-container, .frame3-cup-container, .frame1-cup-container, .gray-bg-outside {
-  -webkit-animation: fadeOut 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 5.5s forwards;
-  animation: fadeOut 0.75s ease-in-out 5.5s forwards;
+.frame3-number-container, .frame2-water-container, .frame3-cup-container, .frame1-cup-container, .gray-bg-outside {
+  -webkit-animation: fadeOut 0.75s ease-in-out 5.75s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 5.75s forwards;
+  animation: fadeOut 0.75s ease-in-out 5.75s forwards;
 }
