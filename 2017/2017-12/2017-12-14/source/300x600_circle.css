@@ -565,9 +565,9 @@
 
 .content{
   background-color: #ffffff;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
   overflow: hidden;
 }
 
@@ -580,9 +580,9 @@
   background: url('./images/300x600_circle_bg.jpg') no-repeat center center;
   background-size: 100% auto;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
 }
 
 .gray-bg {
@@ -590,9 +590,9 @@
   opacity: 0.75;
 }
 .gray-bg-container {
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
 }
 .frame1-number {
   background: url('./images/300x600_circle_3.png') no-repeat center center;
@@ -601,9 +601,9 @@
   bottom: 41px;
   left: 134px;
 
-  -webkit-animation: fadeIn 0.5s ease-in-out 1s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 1s forwards;
-  animation: fadeIn 0.5s ease-in-out 1s forwards;
+  -webkit-animation: fadeIn 0.25s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.25s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.25s ease-in-out 0.75s forwards;
 }
 .frame1-cup {
   background: url('./images/300x600_circle_frame1_cup.png') no-repeat center center;
@@ -612,14 +612,14 @@
   top: 249px;
   left: 67px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  animation: fadeIn 0.75s ease-in-out 1s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.5s ease-in-out 0.75s forwards;
 }
 .frame1-number-container {
-  -webkit-animation: fadeOut 0.5s ease-in-out 2.25s forwards;
-  -moz-animation: fadeOut 0.5s ease-in-out 2.25s forwards;
-  animation: fadeOut 0.5s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeOut 0.25s ease-in-out 1.75s forwards;
+  -moz-animation: fadeOut 0.25s ease-in-out 1.75s forwards;
+  animation: fadeOut 0.25s ease-in-out 1.75s forwards;
 }
 .frame2-number {
   background: url('./images/300x600_circle_2.png') no-repeat center center;
@@ -628,9 +628,9 @@
   bottom: 42px;
   left: 135px;
 
-  -webkit-animation: fadeIn 0.5s ease-in-out 2.75s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 2.75s forwards;
-  animation: fadeIn 0.5s ease-in-out 2.75s forwards;
+  -webkit-animation: fadeIn 0.25s ease-in-out 2s forwards;
+  -moz-animation: fadeIn 0.25s ease-in-out 2s forwards;
+  animation: fadeIn 0.25s ease-in-out 2s forwards;
 }
 .frame2-pot {
   background: url('./images/300x600_circle_frame2_pot.png') no-repeat center center;
@@ -639,9 +639,9 @@
   top: 0px;
   left: 0px;
 
-  -webkit-animation: fadeInRight100 0.5s ease-in-out 2.75s forwards;
-  -moz-animation: fadeInRight100 0.5s ease-in-out 2.75s forwards;
-  animation: fadeInRight100 0.5s ease-in-out 2.75s forwards;
+  -webkit-animation: fadeInRight100 0.5s ease-in-out 2s forwards;
+  -moz-animation: fadeInRight100 0.5s ease-in-out 2s forwards;
+  animation: fadeInRight100 0.5s ease-in-out 2s forwards;
 }
 .frame2-water {
   background: url('./images/300x600_circle_frame2_water.png') no-repeat center center;
@@ -657,18 +657,18 @@
   left: 0px;
   overflow: hidden;
 
-  -webkit-animation: waterFall 0.5s linear 3.25s forwards;
-  -moz-animation: waterFall 0.5s linear 3.25s forwards;
-  animation: waterFall 0.5s linear 3.25s forwards;
+  -webkit-animation: waterFall 0.5s linear 2.5s forwards;
+  -moz-animation: waterFall 0.5s linear 2.5s forwards;
+  animation: waterFall 0.5s linear 2.5s forwards;
 }
 .frame2-water-outsite {
   width: 93px;
   height: 147px;
   top: 139px;
   left: 101px;
-  -webkit-animation: fadeOut 0.25s linear 4s forwards;
-  -moz-animation: fadeOut 0.25s linear 4s forwards;
-  animation: fadeOut 0.25s linear 4s forwards;
+  -webkit-animation: fadeOut 0.25s linear 3s forwards;
+  -moz-animation: fadeOut 0.25s linear 3s forwards;
+  animation: fadeOut 0.25s linear 3s forwards;
 }
 .frame3-cup {
   background: url('./images/300x600_circle_frame3_cup.png') no-repeat center center;
@@ -684,14 +684,14 @@
   bottom: 123px;
   overflow: hidden;
 
-  -webkit-animation: fillCup 0.75s linear 3.5s forwards;
-  -moz-animation: fillCup 0.75s linear 3.5s forwards;
-  animation: fillCup 0.75s linear 3.5s forwards;
+  -webkit-animation: fillCup 0.75s linear 2.75s forwards;
+  -moz-animation: fillCup 0.75s linear 2.75s forwards;
+  animation: fillCup 0.75s linear 2.75s forwards;
 }
 .frame2-number-container, .frame2-pot-container {
-  -webkit-animation: fadeOut 0.5s ease-in-out 4s forwards;
-  -moz-animation: fadeOut 0.5s ease-in-out 4s forwards;
-  animation: fadeOut 0.5s ease-in-out 4s forwards;
+  -webkit-animation: fadeOut 0.25s ease-in-out 3s forwards;
+  -moz-animation: fadeOut 0.25s ease-in-out 3s forwards;
+  animation: fadeOut 0.25s ease-in-out 3s forwards;
 }
 .frame3-number {
   background: url('./images/300x600_circle_1.png') no-repeat center center;
@@ -700,12 +700,12 @@
   bottom: 42px;
   left: 142px;
 
-  -webkit-animation: fadeIn 0.5s ease-in-out 4.25s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 4.25s forwards;
-  animation: fadeIn 0.5s ease-in-out 4.25s forwards;
+  -webkit-animation: fadeIn 0.25s ease-in-out 3.25s forwards;
+  -moz-animation: fadeIn 0.25s ease-in-out 3.25s forwards;
+  animation: fadeIn 0.25s ease-in-out 3.25s forwards;
 }
 .frame3-number-container, .frame2-water-container, .frame3-cup-container, .frame1-cup-container, .gray-bg-outside {
-  -webkit-animation: fadeOut 0.75s ease-in-out 5.75s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 5.75s forwards;
-  animation: fadeOut 0.75s ease-in-out 5.75s forwards;
+  -webkit-animation: fadeOut 0.5s ease-in-out 4.25s forwards;
+  -moz-animation: fadeOut 0.5s ease-in-out 4.25s forwards;
+  animation: fadeOut 0.5s ease-in-out 4.25s forwards;
 }
