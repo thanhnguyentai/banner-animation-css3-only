@@ -702,3 +702,14 @@
   -moz-animation: bird1FlyLeft 1.75s linear 4s forwards;
   animation: bird1FlyLeft 1.75s linear 4s forwards;
 }
+.cta {
+  background: url('./images/300x250_a_cta.png') no-repeat center center;
+  width: 120px;
+  height: 12px;
+  left: 104px;
+  bottom: 16px;
+
+  -webkit-animation: fadeInUp 0.5s ease-in-out 6s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 6s forwards;
+  animation: fadeInUp 0.5s ease-in-out 6s forwards;
+}

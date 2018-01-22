@@ -597,3 +597,15 @@
   -moz-animation: fadeIn 0.1s linear 2.6s forwards;
   animation: fadeIn 0.1s linear 2.6s forwards;
 }
+
+.cta {
+  background: url('./images/300x250_b_cta.png') no-repeat center center;
+  width: 107px;
+  height: 11px;
+  left: 15px;
+  bottom: 9px;
+
+  -webkit-animation: fadeInUp 0.5s ease-in-out 3.25s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 3.25s forwards;
+  animation: fadeInUp 0.5s ease-in-out 3.25s forwards;
+}
