@@ -500,10 +500,10 @@
 }
 .text {
   background: url('./images/300x250_mobile_text.png') no-repeat center center;
-  width: 177px;
-  height: 11px;
-  top: 171px;
-  left: 60px;
+  width: 142px;
+  height: 9px;
+  top: 173px;
+  left: 78px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 2s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 2s forwards;

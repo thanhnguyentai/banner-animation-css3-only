@@ -493,7 +493,7 @@
   width: 63px;
   height: 25px;
   top: 12px;
-  left: 22px;
+  left: 16px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
@@ -505,7 +505,7 @@
   width: 109px;
   height: 7px;
   top: 22px;
-  right: 37px;
+  right: 20px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 2s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 2s forwards;
@@ -521,8 +521,8 @@
   background-size: auto 100%;
   width: 121px;
   height: 28px;
-  top: 12px;
-  right: 30px;
+  top: 11px;
+  right: 15px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
