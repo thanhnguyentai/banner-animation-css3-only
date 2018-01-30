@@ -523,9 +523,9 @@
   top: 0px;
   left: 0px;
 
-  -webkit-animation: fadeInRight100 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeInRight100 0.75s ease-in-out 2s forwards;
-  animation: fadeInRight100 0.75s ease-in-out 2s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 1.5s forwards;
 }
 .text {
   background: url('./images/300x250_mobile_text.png') no-repeat center center;
@@ -534,9 +534,9 @@
   top: 83px;
   left: 131px;
 
-  -webkit-animation: fadeInRight 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeInRight 0.75s ease-in-out 2.5s forwards;
-  animation: fadeInRight 0.75s ease-in-out 2.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 1.5s forwards;
 }
 .logo-bottom {
   background: url('./images/300x250_mobile_logo_bottom.png') no-repeat center center;
@@ -545,9 +545,9 @@
   top: 152px;
   left: 150px;
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 3.25s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 3.25s forwards;
-  animation: fadeInUp 0.5s ease-in-out 3.25s forwards;
+  -webkit-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+  animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
 }
 .cta {
   background: url('./images/300x250_mobile_cta.png') no-repeat center center;
@@ -556,7 +556,7 @@
   left: 52px;
   bottom: 11px;
 
-  -webkit-animation: fadeInRight 0.75s ease-in-out 4.25s forwards;
-  -moz-animation: fadeInRight 0.75s ease-in-out 4.25s forwards;
-  animation: fadeInRight 0.75s ease-in-out 4.25s forwards;
+  -webkit-animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
+  -moz-animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
+  animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
 }

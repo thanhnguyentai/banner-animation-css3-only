@@ -516,9 +516,9 @@
   top: 336px;
   left: 52px;
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
-  animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 1.5s forwards;
 }
 .logo-bottom {
   background: url('./images/300x600_logo_bottom.png') no-repeat center center;
@@ -527,9 +527,9 @@
   top: 452px;
   left: 58px;
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 2.75s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 2.75s forwards;
-  animation: fadeInUp 0.5s ease-in-out 2.75s forwards;
+  -webkit-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+  animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
 }
 .cta {
   background: url('./images/300x600_cta.png') no-repeat center center;
@@ -538,7 +538,7 @@
   left: 0px;
   bottom: 0px;
 
-  -webkit-animation: fadeInUp100 0.75s ease-in-out 3.5s forwards;
-  -moz-animation: fadeInUp100 0.75s ease-in-out 3.5s forwards;
-  animation: fadeInUp100 0.75s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeInUp100 0.75s ease-in-out 3.25s forwards;
+  -moz-animation: fadeInUp100 0.75s ease-in-out 3.25s forwards;
+  animation: fadeInUp100 0.75s ease-in-out 3.25s forwards;
 }
