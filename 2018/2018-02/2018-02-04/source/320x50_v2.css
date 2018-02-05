@@ -614,14 +614,14 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 .bg {
-  background: url('./images/320x50_bg.jpg') no-repeat center center;
+  background: url('./images/320x50_bg_v2.jpg') no-repeat center center;
   background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .text {
-  background: url('./images/320x50_text.png') no-repeat center center;
+  background: url('./images/320x50_text_v2.png') no-repeat center center;
   background-size: 100% auto;
   width: 104px;
   height: 38px;
@@ -633,7 +633,7 @@
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .people {
-  background: url('./images/320x50_people.png') no-repeat center center;
+  background: url('./images/320x50_people_v2.png') no-repeat center center;
   background-size: 100% auto;
   width: 59px;
   height: 49px;
@@ -645,7 +645,7 @@
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
 }
 .logo {
-  background: url('./images/320x50_logo.png') no-repeat center center;
+  background: url('./images/320x50_logo_v2.png') no-repeat center center;
   background-size: 100% auto;
   width: 99px;
   height: 13px;
@@ -657,7 +657,7 @@
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
 }
 .bg2 {
-  background: url('./images/320x50_bg2.png') no-repeat center center;
+  background: url('./images/320x50_bg2_v2.png') no-repeat center center;
   background-size: 100% auto;
   width: 105px;
   height: 50px;
@@ -674,7 +674,7 @@
   animation: fadeOut 0.75s ease-in-out 4s forwards;
 }
 .cta {
-  background: url('./images/320x50_cta.png') no-repeat center center;
+  background: url('./images/320x50_cta_v2.png') no-repeat center center;
   background-size: 100% auto;
   width: 97px;
   height: 20px;

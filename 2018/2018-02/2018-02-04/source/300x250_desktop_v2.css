@@ -575,14 +575,14 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 .bg {
-  background: url('./images/300x250_desktop_bg.jpg') no-repeat center center;
+  background: url('./images/300x250_desktop_bg_v2.jpg') no-repeat center center;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .text {
-  background: url('./images/300x250_desktop_text.png') no-repeat center center;
+  background: url('./images/300x250_desktop_text_v2.png') no-repeat center center;
   width: 121px;
   height: 52px;
   top: 91px;
@@ -593,7 +593,7 @@
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .people {
-  background: url('./images/300x250_desktop_people.png') no-repeat center center;
+  background: url('./images/300x250_desktop_people_v2.png') no-repeat center center;
   width: 300px;
   height: 186px;
   left: 0px;
@@ -604,7 +604,7 @@
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
 }
 .logo {
-  background: url('./images/300x250_desktop_logo.png') no-repeat center center;
+  background: url('./images/300x250_desktop_logo_v2.png') no-repeat center center;
   width: 167px;
   height: 22px;
   top: 16px;
@@ -615,7 +615,7 @@
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
 }
 .bg2 {
-  background: url('./images/300x250_desktop_bg2.png') no-repeat center center;
+  background: url('./images/300x250_desktop_bg2_v2.png') no-repeat center center;
   width: 248px;
   height: 250px;
   top: 0px;
@@ -633,7 +633,7 @@
   overflow: hidden;
 }
 .line1 {
-  background: url('./images/300x250_desktop_line1.png') no-repeat center center;
+  background: url('./images/300x250_desktop_line1_v2.png') no-repeat center center;
   width: 136px;
   height: 2px;
   top: 79px;
@@ -644,7 +644,7 @@
   animation: fadeInRight100 0.75s ease-in-out 3.5s forwards;
 }
 .line2 {
-  background: url('./images/300x250_desktop_line2.png') no-repeat center center;
+  background: url('./images/300x250_desktop_line2_v2.png') no-repeat center center;
   width: 136px;
   height: 2px;
   top: 172px;
@@ -655,7 +655,7 @@
   animation: fadeInRight100 0.75s ease-in-out 3.5s forwards;
 }
 .call {
-  background: url('./images/300x250_desktop_call.png') no-repeat center center;
+  background: url('./images/300x250_desktop_call_v2.png') no-repeat center center;
   width: 66px;
   height: 12px;
   top: 151px;

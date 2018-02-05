@@ -575,14 +575,14 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 .bg {
-  background: url('./images/728x90_bg.jpg') no-repeat center center;
+  background: url('./images/728x90_bg_v2.jpg') no-repeat center center;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .text {
-  background: url('./images/728x90_text.png') no-repeat center center;
+  background: url('./images/728x90_text_v2.png') no-repeat center center;
   width: 183px;
   height: 38px;
   top: 19px;
@@ -593,7 +593,7 @@
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .people {
-  background: url('./images/728x90_people.png') no-repeat center center;
+  background: url('./images/728x90_people_v2.png') no-repeat center center;
   width: 107px;
   height: 85px;
   left: 231px;
@@ -604,7 +604,7 @@
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
 }
 .cta {
-  background: url('./images/728x90_cta.png') no-repeat center center;
+  background: url('./images/728x90_cta_v2.png') no-repeat center center;
   width: 145px;
   height: 90px;
   top: 0px;
@@ -615,7 +615,7 @@
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
 }
 .logo {
-  background: url('./images/728x90_logo.png') no-repeat center center;
+  background: url('./images/728x90_logo_v2.png') no-repeat center center;
   width: 198px;
   height: 26px;
   top: 31px;
@@ -626,7 +626,7 @@
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
 }
 .bg2 {
-  background: url('./images/728x90_bg2.png') no-repeat center center;
+  background: url('./images/728x90_bg2_v2.png') no-repeat center center;
   width: 314px;
   height: 90px;
   top: 0px;
@@ -644,7 +644,7 @@
   overflow: hidden;
 }
 .line1 {
-  background: url('./images/728x90_line1.png') no-repeat center center;
+  background: url('./images/728x90_line1_v2.png') no-repeat center center;
   width: 209px;
   height: 2px;
   top: 8px;
@@ -655,7 +655,7 @@
   animation: fadeInRight100 0.75s ease-in-out 3.5s forwards;
 }
 .line2 {
-  background: url('./images/728x90_line2.png') no-repeat center center;
+  background: url('./images/728x90_line2_v2.png') no-repeat center center;
   width: 209px;
   height: 2px;
   top: 81px;
@@ -666,7 +666,7 @@
   animation: fadeInRight100 0.75s ease-in-out 3.5s forwards;
 }
 .call {
-  background: url('./images/728x90_call.png') no-repeat center center;
+  background: url('./images/728x90_call_v2.png') no-repeat center center;
   width: 70px;
   height: 14px;
   top: 61px;
