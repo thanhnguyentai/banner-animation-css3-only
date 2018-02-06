@@ -623,50 +623,26 @@
 .text {
   background: url('./images/320x50_text_v2.png') no-repeat center center;
   background-size: 100% auto;
-  width: 104px;
-  height: 38px;
-  top: 7px;
-  right: 16px;
+  width: 129px;
+  height: 41px;
+  top: 5px;
+  right: 46px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
-.people {
-  background: url('./images/320x50_people_v2.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 59px;
-  height: 49px;
-  left: 126px;
-  bottom: 0px;
-
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-}
 .logo {
   background: url('./images/320x50_logo_v2.png') no-repeat center center;
   background-size: 100% auto;
-  width: 99px;
-  height: 13px;
+  width: 90px;
+  height: 12px;
   top: 18px;
-  left: 15px;
+  left: 11px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-}
-.bg2 {
-  background: url('./images/320x50_bg2_v2.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 105px;
-  height: 50px;
-  top: 0px;
-  right: 0px;
-
-  -webkit-animation: bgSlideIn 0.75s ease-in-out 2.75s forwards;
-  -moz-animation: bgSlideIn 0.75s ease-in-out 2.75s forwards;
-  animation: bgSlideIn 0.75s ease-in-out 2.75s forwards;
 }
 .text-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 4s forwards;
@@ -676,10 +652,10 @@
 .cta {
   background: url('./images/320x50_cta_v2.png') no-repeat center center;
   background-size: 100% auto;
-  width: 97px;
-  height: 20px;
-  top: 16px;
-  right: 15px;
+  width: 118px;
+  height: 24px;
+  top: 14px;
+  right: 51px;
 
   -webkit-animation: fadeInLeft 0.75s ease-in-out 4.5s forwards;
   -moz-animation: fadeInLeft 0.75s ease-in-out 4.5s forwards;
