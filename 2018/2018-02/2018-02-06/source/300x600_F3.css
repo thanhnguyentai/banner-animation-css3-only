@@ -481,14 +481,14 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 .bg {
-  background: url('./images/300x600_bg.jpg') no-repeat center center;
+  background: url('./images/300x600_bg_F3.jpg') no-repeat center center;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .logo {
-  background: url('./images/300x600_logo.png') no-repeat center center;
+  background: url('./images/300x600_logo_F3.png') no-repeat center center;
   width: 137px;
   height: 35px;
   top: 4px;
@@ -499,7 +499,7 @@
   animation: fadeInDown 0.75s ease-in-out 1s forwards;
 }
 .text {
-  background: url('./images/300x600_text.png') no-repeat center center;
+  background: url('./images/300x600_text_F3.png') no-repeat center center;
   width: 243px;
   height: 65px;
   top: 485px;
