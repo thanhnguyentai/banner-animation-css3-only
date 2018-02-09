@@ -623,10 +623,10 @@
 .text {
   background: url('./images/320x50_text_v4.png') no-repeat center center;
   background-size: 100% auto;
-  width: 99px;
-  height: 21px;
-  top: 10px;
-  right: 20px;
+  width: 110px;
+  height: 28px;
+  top: 12px;
+  left: 154px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
@@ -635,22 +635,10 @@
 .logo {
   background: url('./images/320x50_logo_v4.png') no-repeat center center;
   background-size: 100% auto;
-  width: 99px;
-  height: 13px;
+  width: 90px;
+  height: 12px;
   top: 18px;
-  left: 15px;
-
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-}
-.people {
-  background: url('./images/320x50_people_v4.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 59px;
-  height: 49px;
-  left: 126px;
-  bottom: 0px;
+  left: 11px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
@@ -670,11 +658,10 @@
 }
 .call {
   background: url('./images/320x50_call_v4.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 38px;
-  height: 8px;
-  right: 51px;
-  bottom: 10px;
+  width: 53px;
+  height: 11px;
+  top: 28px;
+  left: 212px;
 
   -webkit-animation: blink 1s ease-in-out 4.25s forwards;
   -moz-animation: blink 1s ease-in-out 4.25s forwards;
@@ -688,10 +675,10 @@
 .cta {
   background: url('./images/320x50_cta_v4.png') no-repeat center center;
   background-size: 100% auto;
-  width: 97px;
-  height: 20px;
-  top: 16px;
-  right: 15px;
+  width: 118px;
+  height: 24px;
+  top: 14px;
+  right: 51px;
 
   -webkit-animation: fadeInLeft 0.5s ease-in-out 7s forwards;
   -moz-animation: fadeInLeft 0.5s ease-in-out 7s forwards;
