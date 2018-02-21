@@ -479,8 +479,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 250px;
+  width: 320px;
+  height: 50px;
   display: block;
 }
 
@@ -521,19 +521,19 @@
 }
 
 .bg {
-  background: url('./images/300x250_mobile_bg.jpg') no-repeat center center;
+  background: url('./images/320x50_ver2_bg.jpg') no-repeat center center;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .cta {
-  background: url('./images/300x250_mobile_cta.png') no-repeat center center;
-  width: 210px;
-  height: 37px;
-  left: 44px;
-  bottom: 7px;
+  background: url('./images/320x50_ver2_cta.png') no-repeat center center;
+  width: 118px;
+  height: 20px;
+  top: 16px;
+  right: 5px;
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 1.5s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 1.5s forwards;
-  animation: fadeInUp 0.5s ease-in-out 1.5s forwards;
+  -webkit-animation: fadeInLeft 0.5s ease-in-out 1.5s forwards;
+  -moz-animation: fadeInLeft 0.5s ease-in-out 1.5s forwards;
+  animation: fadeInLeft 0.5s ease-in-out 1.5s forwards;
 }

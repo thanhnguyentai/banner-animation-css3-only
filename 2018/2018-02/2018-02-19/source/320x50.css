@@ -526,23 +526,12 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.logo {
-  background: url('./images/320x50_logo.png') no-repeat center center;
-  width: 87px;
-  height: 50px;
-  top: 0px;
-  left: 0px;
-
-  -webkit-animation: fadeInRight 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeInRight 0.75s ease-in-out 0.5s forwards;
-  animation: fadeInRight 0.75s ease-in-out 0.5s forwards;
-}
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
-  width: 103px;
-  height: 50px;
-  top: 0px;
-  right: 0px;
+  width: 118px;
+  height: 20px;
+  top: 16px;
+  right: 5px;
 
   -webkit-animation: fadeInLeft 0.5s ease-in-out 1.5s forwards;
   -moz-animation: fadeInLeft 0.5s ease-in-out 1.5s forwards;
