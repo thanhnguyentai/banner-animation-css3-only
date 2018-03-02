@@ -495,67 +495,67 @@
   }
 }
 
-/*-- slide right out --*/
-@-webkit-keyframes slideRightOut {
+/*-- slide right dog --*/
+@-webkit-keyframes slideRightDog {
   0%   {
     visibility: visible;
     -webkit-transform: translate(0,0);
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(100%,0);
+    -webkit-transform: translate(397px,0);
   }
 }
-@-moz-keyframes slideRightOut {
+@-moz-keyframes slideRightDog {
   0%   {
     visibility: visible;
     -moz-transform: translate(0,0);
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(100%,0);
+    -moz-transform: translate(397px,0);
   }
 }
-@keyframes slideRightOut {
+@keyframes slideRightDog {
   0%   {
     visibility: visible;
     transform: translate(0,0);
   }
   100% { 
     visibility: visible;
-    transform: translate(100%,0);
+    transform: translate(397px,0);
   }
 }
 
-/*-- slide right in --*/
-@-webkit-keyframes slideRightIn {
+/*-- slide right cat --*/
+@-webkit-keyframes slideRightCat {
   0%   {
-    visibility: visible;
-    -webkit-transform: translate(-100%,0);
-  }
-  100% { 
     visibility: visible;
     -webkit-transform: translate(0,0);
   }
-}
-@-moz-keyframes slideRightIn {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(-100%,0);
-  }
   100% { 
+    visibility: visible;
+    -webkit-transform: translate(380px,0);
+  }
+}
+@-moz-keyframes slideRightCat {
+  0%   {
     visibility: visible;
     -moz-transform: translate(0,0);
   }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(380px,0);
+  }
 }
-@keyframes slideRightIn {
+@keyframes slideRightCat {
   0%   {
     visibility: visible;
-    transform: translate(-100%,0);
+    transform: translate(0,0);
   }
   100% { 
     visibility: visible;
-    transform: translate(0,0);
+    transform: translate(380px,0);
   }
 }
 
@@ -575,8 +575,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 160px;
-  height: 600px;
+  width: 728px;
+  height: 90px;
   display: block;
 }
 
@@ -617,18 +617,19 @@
 }
 
 .bg {
-  background: url('./images/160x600_dog_bg.jpg') no-repeat center center;
+  background: url('./images/728x90_bg.jpg') no-repeat center center;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .header {
-  background: url('./images/160x600_dog_header.png') no-repeat center center;
-  width: 113px;
-  height: 128px;
-  top: 24px;
-  left: 23px;
-
+  background: url('./images/728x90_header.png') no-repeat center center;
+  width: 362px;
+  height: 73px;
+  top: 5px;
+  right: 188px;
+}
+.header1 {
   -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
   animation: fadeInDown 0.75s ease-in-out 1s forwards;
@@ -638,41 +639,78 @@
   -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
   animation: fadeIn 0.75s ease-in-out 1.5s forwards;
 }
-.cta {
-  background: url('./images/160x600_dog_cta.png') no-repeat center center;
-  width: 98px;
-  height: 107px;
-  top: 351px;
-  left: 31px;
-
-  -webkit-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
-  animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+.header1-container {
+  -webkit-animation: fadeOut 0.75s ease-in-out 3.25s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 3.25s forwards;
+  animation: fadeOut 0.75s ease-in-out 3.25s forwards;
+}
+.dog-container {
+  -webkit-animation: slideRightDog 1s linear 3.75s forwards;
+  -moz-animation: slideRightDog 1s linear 3.75s forwards;
+  animation: slideRightDog 1s linear 3.75s forwards;
 }
 .dog {
-  background: url('./images/160x600_dog.png');
-  width: 149px;
-  height: 158px;
-  top: 176px;
-  left: 16px;
+  background: url('./images/728x90_dog.png');
+  width: 111px;
+  height: 118px;
+  top: 1px;
+  left: 41px;
+
+  -webkit-animation: rotate360 1s linear 3.75s forwards;
+  -moz-animation: rotate360 1s linear 3.75s forwards;
+  animation: rotate360 1s linear 3.75s forwards;
 }
-.dog-container1 {
-  -webkit-animation: slideRightOut 1s linear 2.75s forwards;
-  -moz-animation: slideRightOut 1s linear 2.75s forwards;
-  animation: slideRightOut 1s linear 2.75s forwards;
+.cta {
+  background: url('./images/728x90_cta.png') no-repeat center center;
+  width: 265px;
+  height: 62px;
+  top: 14px;
+  left: 112px;
 }
-.dog1 {
-  -webkit-animation: rotate360 1s linear 2.75s forwards;
-  -moz-animation: rotate360 1s linear 2.75s forwards;
-  animation: rotate360 1s linear 2.75s forwards;
+.cta1 {
+  -webkit-animation: fadeInUp 0.5s ease-in-out 5s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 5s forwards;
+  animation: fadeInUp 0.5s ease-in-out 5s forwards;
 }
-.dog-container2 {
-  -webkit-animation: slideRightIn 1s linear 3.5s forwards;
-  -moz-animation: slideRightIn 1s linear 3.5s forwards;
-  animation: slideRightIn 1s linear 3.5s forwards;
+
+.dog-frame {
+  -webkit-animation: fadeOut 0.75s ease-in-out 6.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 6.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 6.5s forwards;
 }
-.dog2 {
-  -webkit-animation: rotate360 1s linear 3.5s forwards;
-  -moz-animation: rotate360 1s linear 3.5s forwards;
-  animation: rotate360 1s linear 3.5s forwards;
+.header2 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 7s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 7s forwards;
+  animation: fadeInDown 0.75s ease-in-out 7s forwards;
+}
+.cat-wrapper {
+  -webkit-animation: fadeIn 0.75s ease-in-out 7.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 7.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 7.5s forwards;
+}
+.header2-container {
+  -webkit-animation: fadeOut 0.75s ease-in-out 9.25s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 9.25s forwards;
+  animation: fadeOut 0.75s ease-in-out 9.25s forwards;
+}
+.cat-container {
+  -webkit-animation: slideRightCat 1s linear 9.75s forwards;
+  -moz-animation: slideRightCat 1s linear 9.75s forwards;
+  animation: slideRightCat 1s linear 9.75s forwards;
+}
+.cat {
+  background: url('./images/728x90_cat.png');
+  width: 66px;
+  height: 99px;
+  top: -2px;
+  left: 67px;
+
+  -webkit-animation: rotate360 1s linear 9.75s forwards;
+  -moz-animation: rotate360 1s linear 9.75s forwards;
+  animation: rotate360 1s linear 9.75s forwards;
+}
+.cta2 {
+  -webkit-animation: fadeInUp 0.5s ease-in-out 11s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 11s forwards;
+  animation: fadeInUp 0.5s ease-in-out 11s forwards;
 }
