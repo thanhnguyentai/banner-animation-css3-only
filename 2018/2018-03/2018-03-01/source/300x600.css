@@ -623,10 +623,10 @@
 }
 .header {
   background: url('./images/300x600_header.png') no-repeat center center;
-  width: 113px;
-  height: 128px;
-  top: 24px;
-  left: 93px;
+  width: 142px;
+  height: 154px;
+  top: 4px;
+  left: 76px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
@@ -639,10 +639,10 @@
 }
 .cta {
   background: url('./images/300x600_cta.png') no-repeat center center;
-  width: 98px;
-  height: 107px;
-  top: 351px;
-  left: 101px;
+  width: 206px;
+  height: 52px;
+  top: 401px;
+  left: 47px;
 
   -webkit-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
   -moz-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
@@ -650,10 +650,10 @@
 }
 .dog {
   background: url('./images/300x600_dog.png');
-  width: 149px;
-  height: 158px;
-  top: 176px;
-  left: 86px;
+  width: 188px;
+  height: 200px;
+  top: 177px;
+  left: 47px;
 }
 .dog-container1 {
   -webkit-animation: slideRightOut 1s linear 2.75s forwards;
@@ -683,10 +683,10 @@
 
 .cat {
   background: url('./images/300x600_cat.png');
-  width: 107px;
-  height: 161px;
-  top: 168px;
-  left: 99px;
+  width: 143px;
+  height: 216px;
+  top: 169px;
+  left: 74px;
 }
 .cat-wrapper {
   -webkit-animation: fadeIn 0.75s ease-in-out 5s forwards;
