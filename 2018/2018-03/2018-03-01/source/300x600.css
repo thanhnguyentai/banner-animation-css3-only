@@ -495,35 +495,67 @@
   }
 }
 
-/*-- slide right --*/
-@-webkit-keyframes slideRight {
+/*-- slide right out --*/
+@-webkit-keyframes slideRightOut {
   0%   {
     visibility: visible;
     -webkit-transform: translate(0,0);
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(397px,0);
+    -webkit-transform: translate(100%,0);
   }
 }
-@-moz-keyframes slideRight {
+@-moz-keyframes slideRightOut {
   0%   {
     visibility: visible;
     -moz-transform: translate(0,0);
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(397px,0);
+    -moz-transform: translate(100%,0);
   }
 }
-@keyframes slideRight {
+@keyframes slideRightOut {
   0%   {
     visibility: visible;
     transform: translate(0,0);
   }
   100% { 
     visibility: visible;
-    transform: translate(397px,0);
+    transform: translate(100%,0);
+  }
+}
+
+/*-- slide right in --*/
+@-webkit-keyframes slideRightIn {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(-100%,0);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+  }
+}
+@-moz-keyframes slideRightIn {
+  0%   {
+    visibility: visible;
+    -moz-transform: translate(-100%,0);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0,0);
+  }
+}
+@keyframes slideRightIn {
+  0%   {
+    visibility: visible;
+    transform: translate(-100%,0);
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0,0);
   }
 }
 
@@ -543,8 +575,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 728px;
-  height: 90px;
+  width: 300px;
+  height: 600px;
   display: block;
 }
 
@@ -575,7 +607,6 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   overflow: hidden;
-  border: 1px solid #7a7873;
 }
 
 .content-wrapper { 
@@ -585,17 +616,17 @@
 }
 
 .bg {
-  background: url('./images/728x90_dog_bg.jpg') no-repeat center center;
+  background: url('./images/300x600_bg.jpg') no-repeat center center;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .header {
-  background: url('./images/728x90_dog_header.png') no-repeat center center;
-  width: 362px;
-  height: 73px;
-  top: 5px;
-  right: 188px;
+  background: url('./images/300x600_header.png') no-repeat center center;
+  width: 113px;
+  height: 128px;
+  top: 24px;
+  left: 93px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
@@ -606,36 +637,79 @@
   -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
   animation: fadeIn 0.75s ease-in-out 1.5s forwards;
 }
-.dog {
-  background: url('./images/728x90_dog.png');
-  width: 111px;
-  height: 118px;
-  top: 1px;
-  left: 41px;
+.cta {
+  background: url('./images/300x600_cta.png') no-repeat center center;
+  width: 98px;
+  height: 107px;
+  top: 351px;
+  left: 101px;
+
+  -webkit-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+  -moz-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+  animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
 }
-.header-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 3.25s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 3.25s forwards;
-  animation: fadeOut 0.75s ease-in-out 3.25s forwards;
+.dog {
+  background: url('./images/300x600_dog.png');
+  width: 149px;
+  height: 158px;
+  top: 176px;
+  left: 86px;
 }
 .dog-container1 {
-  -webkit-animation: slideRight 1s linear 3.75s forwards;
-  -moz-animation: slideRight 1s linear 3.75s forwards;
-  animation: slideRight 1s linear 3.75s forwards;
+  -webkit-animation: slideRightOut 1s linear 2.75s forwards;
+  -moz-animation: slideRightOut 1s linear 2.75s forwards;
+  animation: slideRightOut 1s linear 2.75s forwards;
 }
 .dog1 {
-  -webkit-animation: rotate360 1s linear 3.75s forwards;
-  -moz-animation: rotate360 1s linear 3.75s forwards;
-  animation: rotate360 1s linear 3.75s forwards;
+  -webkit-animation: rotate360 1s linear 2.75s forwards;
+  -moz-animation: rotate360 1s linear 2.75s forwards;
+  animation: rotate360 1s linear 2.75s forwards;
 }
-.cta {
-  background: url('./images/728x90_dog_cta.png') no-repeat center center;
-  width: 265px;
-  height: 62px;
-  top: 14px;
-  left: 112px;
+.dog-container2 {
+  -webkit-animation: slideRightIn 1s linear 3.5s forwards;
+  -moz-animation: slideRightIn 1s linear 3.5s forwards;
+  animation: slideRightIn 1s linear 3.5s forwards;
+}
+.dog2 {
+  -webkit-animation: rotate360 1s linear 3.5s forwards;
+  -moz-animation: rotate360 1s linear 3.5s forwards;
+  animation: rotate360 1s linear 3.5s forwards;
+}
+.dog-wrapper2 {
+  -webkit-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+}
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 5s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 5s forwards;
-  animation: fadeInUp 0.5s ease-in-out 5s forwards;
+.cat {
+  background: url('./images/300x600_cat.png');
+  width: 107px;
+  height: 161px;
+  top: 168px;
+  left: 99px;
+}
+.cat-wrapper {
+  -webkit-animation: fadeIn 0.75s ease-in-out 5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 5s forwards;
+  animation: fadeIn 0.75s ease-in-out 5s forwards;
+}
+.cat-container1 {
+  -webkit-animation: slideRightOut 1s linear 6s forwards;
+  -moz-animation: slideRightOut 1s linear 6s forwards;
+  animation: slideRightOut 1s linear 6s forwards;
+}
+.cat1 {
+  -webkit-animation: rotate360 1s linear 6s forwards;
+  -moz-animation: rotate360 1s linear 6s forwards;
+  animation: rotate360 1s linear 6s forwards;
+}
+.cat-container2 {
+  -webkit-animation: slideRightIn 1s linear 6.75s forwards;
+  -moz-animation: slideRightIn 1s linear 6.75s forwards;
+  animation: slideRightIn 1s linear 6.75s forwards;
+}
+.cat2 {
+  -webkit-animation: rotate360 1s linear 6.75s forwards;
+  -moz-animation: rotate360 1s linear 6.75s forwards;
+  animation: rotate360 1s linear 6.75s forwards;
 }
