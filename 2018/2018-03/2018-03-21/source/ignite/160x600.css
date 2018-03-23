@@ -668,8 +668,8 @@
 .text {
   background: url('./images/160x600_text.png') no-repeat center center;
   width: 160px;
-  height: 28px;
-  top: 314px;
+  height: 47px;
+  top: 306px;
   left: 0px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
@@ -678,10 +678,10 @@
 }
 .slogon {
   background: url('./images/160x600_slogon.png') no-repeat center center;
-  width: 137px;
-  height: 11px;
-  left: 11px;
-  bottom: 70px;
+  width: 119px;
+  height: 10px;
+  left: 20px;
+  bottom: 69px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 2.75s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 2.75s forwards;

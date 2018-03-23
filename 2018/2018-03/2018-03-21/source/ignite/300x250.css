@@ -656,10 +656,10 @@
 }
 .text {
   background: url('./images/300x250_text.png') no-repeat center center;
-  width: 125px;
-  height: 28px;
+  width: 178px;
+  height: 33px;
   right: 0px;
-  bottom: 41px;
+  bottom: 40px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
@@ -667,10 +667,10 @@
 }
 .slogon {
   background: url('./images/300x250_slogon.png') no-repeat center center;
-  width: 298px;
-  height: 64px;
-  top: 99px;
-  left: 0px;
+  width: 39px;
+  height: 147px;
+  top: 0px;
+  right: 0px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 2.25s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 2.25s forwards;
