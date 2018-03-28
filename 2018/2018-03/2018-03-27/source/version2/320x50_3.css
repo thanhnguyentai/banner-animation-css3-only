@@ -575,8 +575,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 600px;
+  width: 320px;
+  height: 50px;
   display: block;
 }
 
@@ -623,44 +623,44 @@
   animation: fadeIn 0.5s ease-in-out 0.5s forwards;
 }
 .logo {
-  background: url('./images/300x600_logo.png') no-repeat center center;
-  width: 73px;
-  height: 87px;
-  top: 15px;
-  left: 19px;
+  background: url('./images/320x50_logo.png') no-repeat center center;
+  width: 32px;
+  height: 39px;
+  top: 6px;
+  left: 6px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 0.75s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 0.75s forwards;
   animation: fadeInDown 0.5s ease-in-out 0.75s forwards;
 }
-.frame1-image {
-  background: url('./images/300x600_frame1_image.png') no-repeat center center;
-  width: 300px;
-  height: 350px;
-  top: 80px;
-  left: 0px;
+.frame3-image {
+  background: url('./images/320x50_frame3_image.png') no-repeat center center;
+  width: 44px;
+  height: 44px;
+  top: 3px;
+  right: 96px;
 
   -webkit-animation: fadeIn 0.5s ease-in-out 1s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 1s forwards;
   animation: fadeIn 0.5s ease-in-out 1s forwards;
 }
-.frame1-cta {
-  background: url('./images/300x600_frame1_cta.png') no-repeat center center;
-  width: 165px;
-  height: 48px;
-  bottom: 20px;
-  right: 67px;
+.frame3-cta {
+  background: url('./images/320x50_frame3_cta.png') no-repeat center center;
+  width: 92px;
+  height: 50px;
+  bottom: 0px;
+  right: 0px;
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 1.25s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 1.25s forwards;
-  animation: fadeInUp 0.5s ease-in-out 1.25s forwards;
+  -webkit-animation: fadeInLeft 0.5s ease-in-out 1.25s forwards;
+  -moz-animation: fadeInLeft 0.5s ease-in-out 1.25s forwards;
+  animation: fadeInLeft 0.5s ease-in-out 1.25s forwards;
 }
-.frame1-text {
-  background: url('./images/300x600_frame1_text.png') no-repeat center center;
-  width: 198px;
-  height: 46px;
-  top: 460px;
-  left: 18px;
+.frame3-text {
+  background: url('./images/320x50_frame3_text.png') no-repeat center center;
+  width: 117px;
+  height: 24px;
+  top: 13px;
+  left: 46px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 1.25s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 1.25s forwards;

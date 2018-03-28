@@ -575,8 +575,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 600px;
+  width: 728px;
+  height: 90px;
   display: block;
 }
 
@@ -623,44 +623,44 @@
   animation: fadeIn 0.5s ease-in-out 0.5s forwards;
 }
 .logo {
-  background: url('./images/300x600_logo.png') no-repeat center center;
-  width: 73px;
-  height: 87px;
-  top: 15px;
-  left: 19px;
+  background: url('./images/728x90_logo.png') no-repeat center center;
+  width: 59px;
+  height: 69px;
+  top: 8px;
+  left: 21px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 0.75s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 0.75s forwards;
   animation: fadeInDown 0.5s ease-in-out 0.75s forwards;
 }
-.frame1-image {
-  background: url('./images/300x600_frame1_image.png') no-repeat center center;
-  width: 300px;
-  height: 350px;
-  top: 80px;
-  left: 0px;
+.frame4-image {
+  background: url('./images/728x90_frame4_image.png') no-repeat center center;
+  width: 82px;
+  height: 82px;
+  top: 2px;
+  right: 202px;
 
   -webkit-animation: fadeIn 0.5s ease-in-out 1s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 1s forwards;
   animation: fadeIn 0.5s ease-in-out 1s forwards;
 }
-.frame1-cta {
-  background: url('./images/300x600_frame1_cta.png') no-repeat center center;
+.frame4-cta {
+  background: url('./images/728x90_frame4_cta.png') no-repeat center center;
   width: 165px;
   height: 48px;
-  bottom: 20px;
-  right: 67px;
+  top: 19px;
+  right: 19px;
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 1.25s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 1.25s forwards;
-  animation: fadeInUp 0.5s ease-in-out 1.25s forwards;
+  -webkit-animation: fadeInLeft 0.5s ease-in-out 1.25s forwards;
+  -moz-animation: fadeInLeft 0.5s ease-in-out 1.25s forwards;
+  animation: fadeInLeft 0.5s ease-in-out 1.25s forwards;
 }
-.frame1-text {
-  background: url('./images/300x600_frame1_text.png') no-repeat center center;
-  width: 198px;
-  height: 46px;
-  top: 460px;
-  left: 18px;
+.frame4-text {
+  background: url('./images/728x90_frame4_text.png') no-repeat center center;
+  width: 334px;
+  height: 13px;
+  top: 37px;
+  left: 113px;
 
   -webkit-animation: fadeInDown 0.5s ease-in-out 1.25s forwards;
   -moz-animation: fadeInDown 0.5s ease-in-out 1.25s forwards;
