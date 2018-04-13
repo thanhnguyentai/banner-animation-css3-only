@@ -762,7 +762,7 @@
   top: 71px;
   left: 20px;
 
-  -webkit-animation: fadeInRight100 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeInRight100 0.75s ease-in-out 2.5s forwards;
-  animation: fadeInRight100 0.75s ease-in-out 2.5s forwards;
+  -webkit-animation: fadeInRight100 0.75s ease-in-out 2s forwards;
+  -moz-animation: fadeInRight100 0.75s ease-in-out 2s forwards;
+  animation: fadeInRight100 0.75s ease-in-out 2s forwards;
 }

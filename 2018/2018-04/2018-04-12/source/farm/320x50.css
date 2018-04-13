@@ -753,7 +753,7 @@
   top: 15px;
   left: 161px;
 
-  -webkit-animation: fadeInRight 0.5s ease-in-out 3s forwards;
-  -moz-animation: fadeInRight 0.5s ease-in-out 3s forwards;
-  animation: fadeInRight 0.5s ease-in-out 3s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 3s forwards;
+  animation: fadeIn 0.5s ease-in-out 3s forwards;
 }

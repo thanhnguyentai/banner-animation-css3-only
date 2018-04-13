@@ -588,26 +588,26 @@
 /*-- show bg --*/
 @-webkit-keyframes showBackground {
   0%   {
-    -webkit-transform: translate(300px, 0);
+    -webkit-transform: translate(66px, 0);
   }
   100% { 
-    -webkit-transform: translate(300px, 0);
+    -webkit-transform: translate(66px, 0);
   }
 }
 @-moz-keyframes showBackground {
   0%   {
-    -moz-transform: translate(300px, 0);
+    -moz-transform: translate(66px, 0);
   }
   100% { 
-    -moz-transform: translate(300px, 0);
+    -moz-transform: translate(66px, 0);
   }
 }
 @keyframes showBackground {
   0%   {
-    transform: translate(300px, 0);
+    transform: translate(66px, 0);
   }
   100% {
-    transform: translate(300px, 0);
+    transform: translate(66px, 0);
   }
 }
 
@@ -620,7 +620,7 @@
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(-300px, 0);
+    -webkit-transform: translate(-66px, 0);
   }
 }
 @-moz-keyframes slideLeftBackground {
@@ -630,7 +630,7 @@
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(-300px, 0);
+    -moz-transform: translate(-66px, 0);
   }
 }
 @keyframes slideLeftBackground {
@@ -640,7 +640,7 @@
   }
   100% { 
     visibility: visible;
-    transform: translate(-300px, 0);
+    transform: translate(-66px, 0);
   }
 }
 
@@ -703,14 +703,19 @@
 
 .image {
   background: url('./images/300x600_image.jpg') no-repeat center center;
-  width: 300px;
-  height: 600px;
+  width: 366px;
+  height: 582px;
   top: 0px;
-  left: 0px;
+  left: -66px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -webkit-animation: showBackground 0.01s ease-in-out 0s forwards;
+  -moz-animation: showBackground 0.01s ease-in-out 0s forwards;
+  animation: showBackground 0.01s ease-in-out 0s forwards;
+}
+.image-wrapper {
+  -webkit-animation: showContent 0.5s ease-in-out 0.75s forwards;
+  -moz-animation: showContent 0.5s ease-in-out 0.75s forwards;
+  animation: showContent 0.5s ease-in-out 0.75s forwards;
 }
 .logo {
   background: url('./images/300x600_logo.png') no-repeat center center;
@@ -724,16 +729,32 @@
   animation: fadeIn 0.5s ease-in-out 0.5s forwards;
 }
 
-.text {
-  background: url('./images/300x600_text.png') no-repeat center center;
+.text1 {
+  background: url('./images/300x600_text1.png') no-repeat center center;
   width: 300px;
-  height: 298px;
+  height: 114px;
   top: 0px;
   left: 0px;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
-  animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  -webkit-animation: fadeInRight100 0.75s ease-in-out 1.25s forwards;
+  -moz-animation: fadeInRight100 0.75s ease-in-out 1.25s forwards;
+  animation: fadeInRight100 0.75s ease-in-out 1.25s forwards;
+}
+.image-container {
+  -webkit-animation: slideLeftBackground 1s ease-in-out 2s forwards;
+  -moz-animation: slideLeftBackground 1s ease-in-out 2s forwards;
+  animation: slideLeftBackground 1s ease-in-out 2s forwards;
+}
+.text2 {
+  background: url('./images/300x600_text2.png') no-repeat center center;
+  width: 300px;
+  height: 184px;
+  top: 114px;
+  left: 0px;
+
+  -webkit-animation: fadeInRight100 0.75s ease-in-out 2s forwards;
+  -moz-animation: fadeInRight100 0.75s ease-in-out 2s forwards;
+  animation: fadeInRight100 0.75s ease-in-out 2s forwards;
 }
 .cta {
   background: url('./images/300x600_cta.png') no-repeat center center;
@@ -742,7 +763,7 @@
   top: 262px;
   left: 28px;
 
-  -webkit-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
-  -moz-animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
-  animation: fadeInUp 0.5s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 3s forwards;
+  animation: fadeIn 0.5s ease-in-out 3s forwards;
 }
