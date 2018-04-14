@@ -588,26 +588,26 @@
 /*-- show bg --*/
 @-webkit-keyframes showBackground {
   0%   {
-    -webkit-transform: translate(160px, 0);
+    -webkit-transform: translate(100px, 0);
   }
   100% { 
-    -webkit-transform: translate(160px, 0);
+    -webkit-transform: translate(100px, 0);
   }
 }
 @-moz-keyframes showBackground {
   0%   {
-    -moz-transform: translate(160px, 0);
+    -moz-transform: translate(100px, 0);
   }
   100% { 
-    -moz-transform: translate(160px, 0);
+    -moz-transform: translate(100px, 0);
   }
 }
 @keyframes showBackground {
   0%   {
-    transform: translate(160px, 0);
+    transform: translate(100px, 0);
   }
   100% {
-    transform: translate(160px, 0);
+    transform: translate(100px, 0);
   }
 }
 
@@ -620,7 +620,7 @@
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(-160px, 0);
+    -webkit-transform: translate(-100px, 0);
   }
 }
 @-moz-keyframes slideLeftBackground {
@@ -630,7 +630,7 @@
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(-160px, 0);
+    -moz-transform: translate(-100px, 0);
   }
 }
 @keyframes slideLeftBackground {
@@ -640,7 +640,7 @@
   }
   100% { 
     visibility: visible;
-    transform: translate(-160px, 0);
+    transform: translate(-100px, 0);
   }
 }
 
