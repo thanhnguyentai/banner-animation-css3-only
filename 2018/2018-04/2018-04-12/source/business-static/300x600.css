@@ -588,26 +588,26 @@
 /*-- show bg --*/
 @-webkit-keyframes showBackground {
   0%   {
-    -webkit-transform: translate(66px, 0);
+    -webkit-transform: translate(18px, 0);
   }
   100% { 
-    -webkit-transform: translate(66px, 0);
+    -webkit-transform: translate(18px, 0);
   }
 }
 @-moz-keyframes showBackground {
   0%   {
-    -moz-transform: translate(66px, 0);
+    -moz-transform: translate(18px, 0);
   }
   100% { 
-    -moz-transform: translate(66px, 0);
+    -moz-transform: translate(18px, 0);
   }
 }
 @keyframes showBackground {
   0%   {
-    transform: translate(66px, 0);
+    transform: translate(18px, 0);
   }
   100% {
-    transform: translate(66px, 0);
+    transform: translate(18px, 0);
   }
 }
 
@@ -620,7 +620,7 @@
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(-66px, 0);
+    -webkit-transform: translate(-18px, 0);
   }
 }
 @-moz-keyframes slideLeftBackground {
@@ -630,7 +630,7 @@
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(-66px, 0);
+    -moz-transform: translate(-18px, 0);
   }
 }
 @keyframes slideLeftBackground {
@@ -640,7 +640,7 @@
   }
   100% { 
     visibility: visible;
-    transform: translate(-66px, 0);
+    transform: translate(-18px, 0);
   }
 }
 
@@ -703,10 +703,10 @@
 
 .image {
   background: url('./images/300x600_image.jpg') no-repeat center center;
-  width: 366px;
-  height: 582px;
+  width: 318px;
+  height: 600px;
   top: 0px;
-  left: -66px;
+  left: -18px;
 
   -webkit-animation: showBackground 0.01s ease-in-out 0s forwards;
   -moz-animation: showBackground 0.01s ease-in-out 0s forwards;
