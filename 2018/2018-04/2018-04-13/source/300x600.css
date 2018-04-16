@@ -585,6 +585,38 @@
   }
 }
 
+/*-- slide out right --*/
+@-webkit-keyframes slideOutRight {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(100%,0);
+  }
+}
+@-moz-keyframes slideOutRight {
+  0%   {
+    visibility: visible;
+    -moz-transform: translate(0,0);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(100%,0);
+  }
+}
+@keyframes slideOutRight {
+  0%   {
+    visibility: visible;
+    transform: translate(0,0);
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(100%,0);
+  }
+}
+
 /*-------------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -682,59 +714,58 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-
 .image1-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 2.5s forwards;
-  animation: fadeOut 0.75s ease-in-out 2.5s forwards;
+  -webkit-animation: slideOutRight 0.75s linear 2.5s forwards;
+  -moz-animation: slideOutRight 0.75s linear 2.5s forwards;
+  animation: slideOutRight 0.75s linear 2.5s forwards;
 }
 
 .image2 {
   background: url('./images/300x600_image2.jpg') no-repeat center center;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
-  animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -webkit-animation: slideInRight 0.75s linear 2.5s forwards;
+  -moz-animation: slideInRight 0.75s linear 2.5s forwards;
+  animation: slideInRight 0.75s linear 2.5s forwards;
 }
 
 .image2-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 5s forwards;
-  animation: fadeOut 0.75s ease-in-out 5s forwards;
+  -webkit-animation: slideOutRight 0.75s linear 4.5s forwards;
+  -moz-animation: slideOutRight 0.75s linear 4.5s forwards;
+  animation: slideOutRight 0.75s linear 4.5s forwards;
 }
 
 .image3 {
   background: url('./images/300x600_image3.jpg') no-repeat center center;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  -webkit-animation: slideInRight 0.75s linear 4.5s forwards;
+  -moz-animation: slideInRight 0.75s linear 4.5s forwards;
+  animation: slideInRight 0.75s linear 4.5s forwards;
 }
 
 .image3-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 7.5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 7.5s forwards;
-  animation: fadeOut 0.75s ease-in-out 7.5s forwards;
+  -webkit-animation: slideOutRight 0.75s linear 6.5s forwards;
+  -moz-animation: slideOutRight 0.75s linear 6.5s forwards;
+  animation: slideOutRight 0.75s linear 6.5s forwards;
 }
 
 .image4 {
   background: url('./images/300x600_image4.jpg') no-repeat center center;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 8s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 8s forwards;
-  animation: fadeIn 0.75s ease-in-out 8s forwards;
+  -webkit-animation: slideInRight 0.75s linear 6.5s forwards;
+  -moz-animation: slideInRight 0.75s linear 6.5s forwards;
+  animation: slideInRight 0.75s linear 6.5s forwards;
 }
 
 .image4-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 10s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 10s forwards;
-  animation: fadeOut 0.75s ease-in-out 10s forwards;
+  -webkit-animation: slideOutRight 0.75s linear 8.5s forwards;
+  -moz-animation: slideOutRight 0.75s linear 8.5s forwards;
+  animation: slideOutRight 0.75s linear 8.5s forwards;
 }
 
 .image5 {
   background: url('./images/300x600_image5.jpg') no-repeat center center;
   
-  -webkit-animation: fadeIn 0.75s ease-in-out 10.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 10.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 10.5s forwards;  
+  -webkit-animation: slideInRight 0.75s linear 8.5s forwards;
+  -moz-animation: slideInRight 0.75s linear 8.5s forwards;
+  animation: slideInRight 0.75s linear 8.5s forwards; 
 }
