@@ -676,7 +676,7 @@
 .logo {
   background: url('./images/728x90_logo.png') no-repeat center center;
   width: 92px;
-  height: 40px;
+  height: 43px;
   right: 15px;
   bottom: 25px;
 
@@ -706,59 +706,11 @@
 .frame1-text {
   background: url('./images/728x90_frame1_text.png') no-repeat center center;
   width: 303px;
-  height: 63px;
+  height: 64px;
   top: 13px;
   left: 283px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
   animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
-}
-.frame1-container {
-  -webkit-animation: fadeOut 0.5s ease-in-out 3s forwards;
-  -moz-animation: fadeOut 0.5s ease-in-out 3s forwards;
-  animation: fadeOut 0.5s ease-in-out 3s forwards;
-}
-
-.frame2-image {
-  background: url('./images/728x90_frame2_image.jpg') no-repeat center center;
-
-  -webkit-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-}
-.frame2-text {
-  background: url('./images/728x90_frame2_text.png') no-repeat center center;
-  width: 308px;
-  height: 59px;
-  top: 17px;
-  left: 283px;
-
-  -webkit-animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
-  animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
-}
-.frame2-container {
-  -webkit-animation: fadeOut 0.5s ease-in-out 5.5s forwards;
-  -moz-animation: fadeOut 0.5s ease-in-out 5.5s forwards;
-  animation: fadeOut 0.5s ease-in-out 5.5s forwards;
-}
-
-.frame3-image {
-  background: url('./images/728x90_frame3_image.jpg') no-repeat center center;
-
-  -webkit-animation: fadeIn 0.75s ease-in-out 5.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 5.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 5.75s forwards;
-}
-.frame3-text {
-  background: url('./images/728x90_frame3_text.png') no-repeat center center;
-  width: 298px;
-  height: 56px;
-  top: 17px;
-  left: 283px;
-
-  -webkit-animation: fadeInDown 0.75s ease-in-out 5.75s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 5.75s forwards;
-  animation: fadeInDown 0.75s ease-in-out 5.75s forwards;
 }
