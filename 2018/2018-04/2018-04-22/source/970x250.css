@@ -497,7 +497,7 @@
   }
   50% { 
     visibility: visible;
-    -webkit-transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.35, 1.35);
   }
   100% { 
     visibility: visible;
@@ -511,7 +511,7 @@
   }
   50%   {
     visibility: visible;
-    -moz-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.35, 1.35);
   }
   100% { 
     visibility: visible;
@@ -525,7 +525,7 @@
   }
   50%   {
     visibility: visible;
-    transform: scale(1.5, 1.5);
+    transform: scale(1.35, 1.35);
   }
   100% { 
     visibility: visible;
@@ -891,6 +891,10 @@
   top: 32px;
   left: 30px;
 
+  -webkit-transform-origin: 50% 80%;
+  -moz-transform-origin: 50% 80%;
+  transform-origin: 50% 80%;
+
   -webkit-animation: zoomInOut 0.75s ease-in-out 8.25s forwards;
   -moz-animation: zoomInOut 0.75s ease-in-out 8.25s forwards;
   animation: zoomInOut 0.75s ease-in-out 8.25s forwards;
@@ -903,6 +907,10 @@
   top: 32px;
   left: 167px;
 
+  -webkit-transform-origin: 50% 80%;
+  -moz-transform-origin: 50% 80%;
+  transform-origin: 50% 80%;
+
   -webkit-animation: zoomInOut 0.75s ease-in-out 9s forwards;
   -moz-animation: zoomInOut 0.75s ease-in-out 9s forwards;
   animation: zoomInOut 0.75s ease-in-out 9s forwards;
@@ -914,6 +922,10 @@
   height: 108px;
   top: 32px;
   left: 298px;
+
+  -webkit-transform-origin: 50% 80%;
+  -moz-transform-origin: 50% 80%;
+  transform-origin: 50% 80%;
 
   -webkit-animation: zoomInOut 0.75s ease-in-out 9.75s forwards;
   -moz-animation: zoomInOut 0.75s ease-in-out 9.75s forwards;

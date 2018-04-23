@@ -497,7 +497,7 @@
   }
   50% { 
     visibility: visible;
-    -webkit-transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.4, 1.4);
   }
   100% { 
     visibility: visible;
@@ -511,7 +511,7 @@
   }
   50%   {
     visibility: visible;
-    -moz-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.4, 1.4);
   }
   100% { 
     visibility: visible;
@@ -525,7 +525,7 @@
   }
   50%   {
     visibility: visible;
-    transform: scale(1.5, 1.5);
+    transform: scale(1.4, 1.4);
   }
   100% { 
     visibility: visible;
