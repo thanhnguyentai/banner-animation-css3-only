@@ -665,6 +665,7 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   overflow: hidden;
+  border: 1px solid #dcdcdc;
 }
 
 .content-wrapper { 
