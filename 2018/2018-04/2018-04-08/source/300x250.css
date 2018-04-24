@@ -701,10 +701,10 @@
 }
 .frame2-cta {
   background: url('./images/300x250_frame2_cta.png') no-repeat center center;
-  width: 213px;
+  width: 230px;
   height: 40px;
   top: 117px;
-  left: 44px;
+  left: 35px;
 
   -webkit-animation: growAndShrink 0.75s linear 7.5s forwards;
   -moz-animation: growAndShrink 0.75s linear 7.5s forwards;
