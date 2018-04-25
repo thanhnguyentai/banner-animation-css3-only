@@ -497,7 +497,7 @@
   }
   50% { 
     visibility: visible;
-    -webkit-transform: scale(1.4, 1.4);
+    -webkit-transform: scale(1.25, 1.25);
   }
   100% { 
     visibility: visible;
@@ -511,7 +511,7 @@
   }
   50%   {
     visibility: visible;
-    -moz-transform: scale(1.4, 1.4);
+    -moz-transform: scale(1.25, 1.25);
   }
   100% { 
     visibility: visible;
@@ -525,7 +525,7 @@
   }
   50%   {
     visibility: visible;
-    transform: scale(1.4, 1.4);
+    transform: scale(1.25, 1.25);
   }
   100% { 
     visibility: visible;
@@ -858,44 +858,22 @@
   animation: slideOutUp 0.75s ease-in-out 4.75s forwards;
 }
 
-.frame2-text1 {
-  background: url('./images/300x600_frame2_text1.png') no-repeat center center;
+.frame2-text {
+  background: url('./images/300x600_frame2_text.png') no-repeat center center;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 4.5s forwards;
   -moz-animation: slideInUp 0.75s ease-in-out 4.5s forwards;
   animation: slideInUp 0.75s ease-in-out 4.5s forwards;
 }
-.frame2-text2 {
-  background: url('./images/300x600_frame2_text2.png') no-repeat center center;
-
-  -webkit-animation: slideInUp 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: slideInUp 0.75s ease-in-out 5.5s forwards;
-  animation: slideInUp 0.75s ease-in-out 5.5s forwards;
+.frame2 {
+  -webkit-animation: slideOutUp 0.75s ease-in-out 6.5s forwards;
+  -moz-animation: slideOutUp 0.75s ease-in-out 6.5s forwards;
+  animation: slideOutUp 0.75s ease-in-out 6.5s forwards;
 }
-.frame2-text3 {
-  background: url('./images/300x600_frame2_text3.png') no-repeat center center;
-
+.frame3-feature {
   -webkit-animation: slideInUp 0.75s ease-in-out 6.5s forwards;
   -moz-animation: slideInUp 0.75s ease-in-out 6.5s forwards;
   animation: slideInUp 0.75s ease-in-out 6.5s forwards;
-}
-.frame2-text4 {
-  background: url('./images/300x600_frame2_text4.png') no-repeat center center;
-
-  -webkit-animation: slideInUp 0.75s ease-in-out 7.5s forwards;
-  -moz-animation: slideInUp 0.75s ease-in-out 7.5s forwards;
-  animation: slideInUp 0.75s ease-in-out 7.5s forwards;
-}
-
-.frame2 {
-  -webkit-animation: slideOutUp 0.75s ease-in-out 9.5s forwards;
-  -moz-animation: slideOutUp 0.75s ease-in-out 9.5s forwards;
-  animation: slideOutUp 0.75s ease-in-out 9.5s forwards;
-}
-.frame3-feature {
-  -webkit-animation: slideInUp 0.75s ease-in-out 9.5s forwards;
-  -moz-animation: slideInUp 0.75s ease-in-out 9.5s forwards;
-  animation: slideInUp 0.75s ease-in-out 9.5s forwards;
 }
 .frame3-feature1 {
   background: url('./images/300x600_frame3_feature1.png') no-repeat center center;
@@ -904,9 +882,9 @@
   top: 15px;
   left: 111px;
 
-  -webkit-animation: zoomInOut 0.75s ease-in-out 10.25s forwards;
-  -moz-animation: zoomInOut 0.75s ease-in-out 10.25s forwards;
-  animation: zoomInOut 0.75s ease-in-out 10.25s forwards;
+  -webkit-animation: zoomInOut 0.75s ease-in-out 7.25s forwards;
+  -moz-animation: zoomInOut 0.75s ease-in-out 7.25s forwards;
+  animation: zoomInOut 0.75s ease-in-out 7.25s forwards;
 }
 .frame3-feature2 {
   background: url('./images/300x600_frame3_feature2.png') no-repeat center center;
@@ -915,9 +893,9 @@
   top: 129px;
   left: 111px;
 
-  -webkit-animation: zoomInOut 0.75s ease-in-out 11s forwards;
-  -moz-animation: zoomInOut 0.75s ease-in-out 11s forwards;
-  animation: zoomInOut 0.75s ease-in-out 11s forwards;
+  -webkit-animation: zoomInOut 0.75s ease-in-out 8s forwards;
+  -moz-animation: zoomInOut 0.75s ease-in-out 8s forwards;
+  animation: zoomInOut 0.75s ease-in-out 8s forwards;
 }
 .frame3-feature3 {
   background: url('./images/300x600_frame3_feature3.png') no-repeat center center;
@@ -926,9 +904,9 @@
   top: 244px;
   left: 101px;
 
-  -webkit-animation: zoomInOut 0.75s ease-in-out 11.75s forwards;
-  -moz-animation: zoomInOut 0.75s ease-in-out 11.75s forwards;
-  animation: zoomInOut 0.75s ease-in-out 11.75s forwards;
+  -webkit-animation: zoomInOut 0.75s ease-in-out 8.75s forwards;
+  -moz-animation: zoomInOut 0.75s ease-in-out 8.75s forwards;
+  animation: zoomInOut 0.75s ease-in-out 8.75s forwards;
 }
 .frame3-button {
   background: url('./images/300x600_frame3_button.png') no-repeat center center;
@@ -944,9 +922,9 @@
   top: 426px;
   left: 40px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 12.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 12.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 12.75s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 9.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 9.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 9.75s forwards;
 }
 .frame3-logo {
   background: url('./images/300x600_frame3_logo.png') no-repeat center center;
@@ -955,7 +933,7 @@
   top: 493px;
   left: 40px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 12.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 12.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 12.75s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 9.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 9.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 9.75s forwards;
 }
