@@ -899,10 +899,10 @@
 }
 .frame3-feature3 {
   background: url('./images/300x600_frame3_feature3.png') no-repeat center center;
-  width: 99px;
-  height: 102px;
+  width: 108px;
+  height: 103px;
   top: 244px;
-  left: 101px;
+  left: 97px;
 
   -webkit-animation: zoomInOut 0.75s ease-in-out 8.75s forwards;
   -moz-animation: zoomInOut 0.75s ease-in-out 8.75s forwards;

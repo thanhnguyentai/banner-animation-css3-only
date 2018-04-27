@@ -902,10 +902,10 @@
 .frame3-feature3 {
   background: url('./images/728x90_frame3_feature3.png') no-repeat center center;
   background-size: auto 100%;
-  width: 69px;
+  width: 67px;
   height: 72px;
   top: 8px;
-  left: 180px;
+  left: 181px;
 
   -webkit-animation: zoomInOut 0.75s ease-in-out 9s forwards;
   -moz-animation: zoomInOut 0.75s ease-in-out 9s forwards;

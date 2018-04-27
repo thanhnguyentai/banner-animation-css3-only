@@ -879,7 +879,7 @@
   background: url('./images/970x250_frame3_feature1.png') no-repeat center center;
   background-size: auto 100%;
   width: 83px;
-  height: 108px;
+  height: 109px;
   top: 32px;
   left: 30px;
 
@@ -910,10 +910,10 @@
 .frame3-feature3 {
   background: url('./images/970x250_frame3_feature3.png') no-repeat center center;
   background-size: auto 100%;
-  width: 105px;
+  width: 108px;
   height: 108px;
   top: 32px;
-  left: 298px;
+  left: 297px;
 
   -webkit-transform-origin: 50% 80%;
   -moz-transform-origin: 50% 80%;
