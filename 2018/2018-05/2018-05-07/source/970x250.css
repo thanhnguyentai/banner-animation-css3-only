@@ -771,9 +771,9 @@
   top: 0px;
   left: 0px;
 
-  -webkit-animation: slideInRight 0.75s ease-in-out 1.25s forwards;
-  -moz-animation: slideInRight 0.75s ease-in-out 1.25s forwards;
-  animation: slideInRight 0.75s ease-in-out 1.25s forwards;
+  -webkit-animation: slideInRight 1s ease-in-out 1.25s forwards;
+  -moz-animation: slideInRight 1s ease-in-out 1.25s forwards;
+  animation: slideInRight 1s ease-in-out 1.25s forwards;
 }
 .text {
   background: url('./images/970x250_text.png') no-repeat center center;
@@ -782,9 +782,9 @@
   top: 47px;
   left: 24px;
 
-  -webkit-animation: slideInRight 0.75s ease-in-out 2s forwards;
-  -moz-animation: slideInRight 0.75s ease-in-out 2s forwards;
-  animation: slideInRight 0.75s ease-in-out 2s forwards;
+  -webkit-animation: slideInRight 1s ease-in-out 2.25s forwards;
+  -moz-animation: slideInRight 1s ease-in-out 2.25s forwards;
+  animation: slideInRight 1s ease-in-out 2.25s forwards;
 }
 .cta-container {
   width: 341px;
@@ -792,9 +792,9 @@
   top: 0px;
   left: -1px;
 
-  -webkit-animation: slideInRight 0.75s ease-in-out 2.75s forwards;
-  -moz-animation: slideInRight 0.75s ease-in-out 2.75s forwards;
-  animation: slideInRight 0.75s ease-in-out 2.75s forwards;
+  -webkit-animation: slideInRight 1s ease-in-out 3.25s forwards;
+  -moz-animation: slideInRight 1s ease-in-out 3.25s forwards;
+  animation: slideInRight 1s ease-in-out 3.25s forwards;
 }
 .cta {
   background: url('./images/970x250_cta.png') no-repeat center center;
@@ -810,7 +810,7 @@
   top: 144px;
   left: 304px;
 
-  -webkit-animation: arrowAnimation 1.5s ease-in-out 3.5s forwards;
-  -moz-animation: arrowAnimation 1.5s ease-in-out 3.5s forwards;
-  animation: arrowAnimation 1.5s ease-in-out 3.5s forwards;
+  -webkit-animation: arrowAnimation 1.5s ease-in-out 4.25s forwards;
+  -moz-animation: arrowAnimation 1.5s ease-in-out 4.25s forwards;
+  animation: arrowAnimation 1.5s ease-in-out 4.25s forwards;
 }
