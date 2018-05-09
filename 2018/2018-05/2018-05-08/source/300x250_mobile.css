@@ -683,7 +683,6 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   overflow: hidden;
-  border: 1px solid #acacac;
 }
 
 .content-wrapper { 
@@ -772,7 +771,7 @@
   bottom: 5px;
   right: 30px;
 
-  -webkit-animation: fadeInUp100 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: fadeInUp100 0.75s ease-in-out 5.5s forwards;
-  animation: fadeInUp100 0.75s ease-in-out 5.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
