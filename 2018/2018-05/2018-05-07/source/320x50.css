@@ -713,7 +713,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
+  width: 320px;
   height: 50px;
   display: block;
 }
@@ -759,13 +759,13 @@
 }
 
 .bg {
-  background: url('./images/300x50_bg.jpg');
+  background: url('./images/320x50_bg.jpg');
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .text-bg {
-  background: url('./images/300x50_text_bg.png') no-repeat center center;
+  background: url('./images/320x50_text_bg.png') no-repeat center center;
   width: 223px;
   height: 44px;
   top: 0px;
@@ -776,7 +776,7 @@
   animation: slideInRight 1s ease-in-out 1.25s forwards;
 }
 .text {
-  background: url('./images/300x50_text.png') no-repeat center center;
+  background: url('./images/320x50_text.png') no-repeat center center;
   width: 149px;
   height: 10px;
   top: 17px;
@@ -797,14 +797,14 @@
   animation: slideInRight 1s ease-in-out 3.25s forwards;
 }
 .cta {
-  background: url('./images/300x50_cta.png') no-repeat center center;
+  background: url('./images/320x50_cta.png') no-repeat center center;
   width: 112px;
   height: 18px;
   bottom: 0px;
   left: 0px;
 }
 .arrow {
-  background: url('./images/300x50_arrows.png') no-repeat center center;
+  background: url('./images/320x50_arrows.png') no-repeat center center;
   width: 5px;
   height: 4px;
   top: 40px;
