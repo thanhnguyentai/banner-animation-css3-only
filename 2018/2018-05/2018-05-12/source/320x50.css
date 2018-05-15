@@ -707,17 +707,33 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.logo {
-  background: url('./images/320x50_logo.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 63px;
-  height: 38px;
-  top: 3px;
-  left: 105px;
+.man {
+  background: url('./images/320x50_man.png') no-repeat center center;
+  background-size: auto 100%;
+  width: 58px;
+  height: 72px;
+  top: -11px;
+  left: -29px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 1.25s forwards;
+  -webkit-transform-origin: 50% 80%;
+  -moz-transform-origin: 50% 80%;
+  transform-origin: 50% 80%;
+
+  -webkit-animation: zoomIn 0.75s ease-in-out 1.25s forwards;
+  -moz-animation: zoomIn 0.75s ease-in-out 1.25s forwards;
+  animation: zoomIn 0.75s ease-in-out 1.25s forwards;
+}
+.text2 {
+  background: url('./images/320x50_text2.png') no-repeat center center;
+  background-size: auto 100%;
+  width: 130px;
+  height: 23px;
+  top: 14px;
+  left: 182px;
+
+  -webkit-animation: zoomIn 0.75s ease-in-out 1.25s forwards;
+  -moz-animation: zoomIn 0.75s ease-in-out 1.25s forwards;
+  animation: zoomIn 0.75s ease-in-out 1.25s forwards;
 }
 .text1 {
   background: url('./images/320x50_text1.png') no-repeat center center;
@@ -731,18 +747,19 @@
   -moz-animation: fadeInDown 0.75s ease-in-out 2s forwards;
   animation: fadeInDown 0.75s ease-in-out 2s forwards;
 }
-.text2 {
-  background: url('./images/320x50_text2.png') no-repeat center center;
-  background-size: auto 100%;
-  width: 130px;
-  height: 23px;
-  top: 14px;
-  left: 182px;
+.logo {
+  background: url('./images/320x50_logo.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 63px;
+  height: 38px;
+  top: 3px;
+  left: 105px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 2.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 2.5s forwards;
   animation: fadeInDown 0.75s ease-in-out 2.5s forwards;
 }
+
 .text-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
   -moz-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
