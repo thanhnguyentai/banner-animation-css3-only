@@ -914,9 +914,9 @@
 .frame2-text {
   background: url('./images/300x250_mobile_frame2_text.png') no-repeat center center;
 
-  -webkit-animation: slideInUp 0.75s ease-in-out 4.5s forwards;
-  -moz-animation: slideInUp 0.75s ease-in-out 4.5s forwards;
-  animation: slideInUp 0.75s ease-in-out 4.5s forwards;
+  -webkit-animation: slideInUp 0.75s ease-in-out 4.6s forwards;
+  -moz-animation: slideInUp 0.75s ease-in-out 4.6s forwards;
+  animation: slideInUp 0.75s ease-in-out 4.6s forwards;
 }
 .frame2 {
   -webkit-animation: slideOutUp 0.75s ease-in-out 7.5s forwards;
