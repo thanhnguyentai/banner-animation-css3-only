@@ -964,27 +964,15 @@
   -moz-animation: zoomInOut 0.75s ease-in-out 10s forwards;
   animation: zoomInOut 0.75s ease-in-out 10s forwards;
 }
-.frame3-button {
-  background: url('./images/728x90_frame3_button.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 139px;
-  height: 36px;
-  top: 10px;
-  left: 325px;
-
-  -webkit-animation: zoomInOutButton 0.75s ease-in-out 10.75s forwards;
-  -moz-animation: zoomInOutButton 0.75s ease-in-out 10.75s forwards;
-  animation: zoomInOutButton 0.75s ease-in-out 10.75s forwards;
-}
 .frame3-logo {
   background: url('./images/728x90_frame3_logo.png') no-repeat center center;
   background-size: 100% auto;
   width: 218px;
   height: 23px;
-  top: 57px;
+  top: 33px;
   left: 281px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 11.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 11.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 11.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 11s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 11s forwards;
+  animation: fadeIn 0.75s ease-in-out 11s forwards;
 }

@@ -932,7 +932,7 @@
   background: url('./images/300x250_mobile_frame3_feature1.png') no-repeat center center;
   width: 66px;
   height: 83px;
-  top: 16px;
+  top: 25px;
   left: 31px;
 
   -webkit-animation: zoomInOut 0.75s ease-in-out 8.25s forwards;
@@ -943,7 +943,7 @@
   background: url('./images/300x250_mobile_frame3_feature2.png') no-repeat center center;
   width: 66px;
   height: 83px;
-  top: 16px;
+  top: 25px;
   left: 111px;
 
   -webkit-animation: zoomInOut 0.75s ease-in-out 9s forwards;
@@ -954,32 +954,21 @@
   background: url('./images/300x250_mobile_frame3_feature3.png') no-repeat center center;
   width: 80px;
   height: 83px;
-  top: 16px;
+  top: 25px;
   left: 189px;
 
   -webkit-animation: zoomInOut 0.75s ease-in-out 9.75s forwards;
   -moz-animation: zoomInOut 0.75s ease-in-out 9.75s forwards;
   animation: zoomInOut 0.75s ease-in-out 9.75s forwards;
 }
-.frame3-button {
-  background: url('./images/300x250_mobile_frame3_button.png') no-repeat center center;
-  width: 139px;
-  height: 36px;
-  top: 115px;
-  left: 80px;
-
-  -webkit-animation: zoomInOutButton 0.75s ease-in-out 10.5s forwards;
-  -moz-animation: zoomInOutButton 0.75s ease-in-out 10.5s forwards;
-  animation: zoomInOutButton 0.75s ease-in-out 10.5s forwards;
-}
 .frame3-logo {
   background: url('./images/300x250_mobile_frame3_logo.png') no-repeat center center;
   width: 276px;
   height: 29px;
-  top: 168px;
+  top: 160px;
   left: 12px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 11.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 11.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 11.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 10.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 10.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 10.75s forwards;
 }
