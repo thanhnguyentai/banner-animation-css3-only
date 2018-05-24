@@ -858,7 +858,7 @@
 }
 
 .cta {
-  background: url('./images/300x250_mobile_cta.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_cta.png') no-repeat center center;
   width: 199px;
   height: 37px;
   bottom: 9px;
@@ -875,7 +875,7 @@
   animation: translateDownDefault 10ms ease-in-out 0s forwards; 
 }
 .frame1-text1 {
-  background: url('./images/300x250_mobile_frame1_text1.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_frame1_text1.png') no-repeat center center;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 1s forwards;
   -moz-animation: slideInUp 0.75s ease-in-out 1s forwards;
@@ -887,7 +887,7 @@
   animation: slideUpText 0.25s ease-in-out 2.5s forwards;
 }
 .frame1-text2 {
-  background: url('./images/300x250_mobile_frame1_text2.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_frame1_text2.png') no-repeat center center;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 2s forwards;
   -moz-animation: slideInUp 0.75s ease-in-out 2s forwards;
@@ -899,7 +899,7 @@
   animation: slideUpText 0.25s ease-in-out 3.5s forwards;
 }
 .frame1-text3 {
-  background: url('./images/300x250_mobile_frame1_text3.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_frame1_text3.png') no-repeat center center;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 3s forwards;
   -moz-animation: slideInUp 0.75s ease-in-out 3s forwards;
@@ -912,7 +912,7 @@
 }
 
 .frame2-text {
-  background: url('./images/300x250_mobile_frame2_text.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_frame2_text.png') no-repeat center center;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 4.6s forwards;
   -moz-animation: slideInUp 0.75s ease-in-out 4.6s forwards;
@@ -929,7 +929,7 @@
   animation: slideInUp 0.75s ease-in-out 7.5s forwards;
 }
 .frame3-feature1 {
-  background: url('./images/300x250_mobile_frame3_feature1.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_frame3_feature1.png') no-repeat center center;
   background-size: 100% auto;
   width: 66px;
   height: 83px;
@@ -941,7 +941,7 @@
   animation: zoomInOut 0.75s ease-in-out 8.25s forwards;
 }
 .frame3-feature2 {
-  background: url('./images/300x250_mobile_frame3_feature2.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_frame3_feature2.png') no-repeat center center;
   background-size: 100% auto;
   width: 66px;
   height: 83px;
@@ -953,7 +953,7 @@
   animation: zoomInOut 0.75s ease-in-out 9s forwards;
 }
 .frame3-feature3 {
-  background: url('./images/300x250_mobile_frame3_feature3.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_frame3_feature3.png') no-repeat center center;
   background-size: 100% auto;
   width: 80px;
   height: 83px;
@@ -965,7 +965,7 @@
   animation: zoomInOut 0.75s ease-in-out 9.75s forwards;
 }
 .frame3-logo {
-  background: url('./images/300x250_mobile_frame3_logo.png') no-repeat center center;
+  background: url('./images_v2/300x250_mobile_frame3_logo.png') no-repeat center center;
   width: 276px;
   height: 29px;
   top: 160px;

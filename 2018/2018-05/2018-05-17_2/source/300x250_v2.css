@@ -497,7 +497,7 @@
   }
   50% { 
     visibility: visible;
-    -webkit-transform: scale(1.25, 1.25);
+    -webkit-transform: scale(1.35, 1.35);
   }
   100% { 
     visibility: visible;
@@ -511,7 +511,7 @@
   }
   50%   {
     visibility: visible;
-    -moz-transform: scale(1.25, 1.25);
+    -moz-transform: scale(1.35, 1.35);
   }
   100% { 
     visibility: visible;
@@ -525,7 +525,7 @@
   }
   50%   {
     visibility: visible;
-    transform: scale(1.25, 1.25);
+    transform: scale(1.35, 1.35);
   }
   100% { 
     visibility: visible;
@@ -632,26 +632,26 @@
 /*-- translate down default --*/
 @-webkit-keyframes translateDownDefault {
   0%   {
-    -webkit-transform: translate(0,19px);
+    -webkit-transform: translate(0,42px);
   }
   100% { 
-    -webkit-transform: translate(0,19px);
+    -webkit-transform: translate(0,42px);
   }
 }
 @-moz-keyframes translateDownDefault {
   0%   {    
-    -moz-transform: translate(0,19px);
+    -moz-transform: translate(0,42px);
   }
   100% {
-    -moz-transform: translate(0,19px);
+    -moz-transform: translate(0,42px);
   }
 }
 @keyframes translateDownDefault {
   0%   {    
-    transform: translate(0,19px);
+    transform: translate(0,42px);
   }
   100% {
-    transform: translate(0,19px);
+    transform: translate(0,42px);
   }
 }
 
@@ -661,7 +661,7 @@
     -webkit-transform: translate(0,0);
   }
   100% { 
-    -webkit-transform: translate(0,-19px);
+    -webkit-transform: translate(0,-42px);
   }
 }
 @-moz-keyframes slideUpText {
@@ -669,7 +669,7 @@
     -moz-transform: translate(0,0);
   }
   100% {
-    -moz-transform: translate(0,-19px);
+    -moz-transform: translate(0,-42px);
   }
 }
 @keyframes slideUpText {
@@ -677,7 +677,7 @@
     transform: translate(0,0);
   }
   100% {
-    transform: translate(0,-19px);
+    transform: translate(0,-42px);
   }
 }
 
@@ -799,7 +799,6 @@
   }
 }
 
-
 /*-------------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -816,8 +815,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 320px;
-  height: 50px;
+  width: 300px;
+  height: 250px;
   display: block;
 }
 
@@ -858,12 +857,11 @@
 }
 
 .cta {
-  background: url('./images/320x50_cta.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 97px;
-  height: 19px;
-  bottom: 15px;
-  right: 10px;
+  background: url('./images_v2/300x250_cta.png') no-repeat center center;
+  width: 300px;
+  height: 40px;
+  bottom: 0px;
+  right: 0px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
@@ -876,16 +874,19 @@
   animation: translateDownDefault 10ms ease-in-out 0s forwards; 
 }
 .frame1-text1 {
-  background: url('./images/320x50_frame1_text1.png') no-repeat center center;
-  background-size: 100% auto;
+  background: url('./images_v2/300x250_frame1_text1.png') no-repeat center center;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 1s forwards;
   -moz-animation: slideInUp 0.75s ease-in-out 1s forwards;
   animation: slideInUp 0.75s ease-in-out 1s forwards;
 }
+.frame1-text1-container {
+  -webkit-animation: slideUpText 0.25s ease-in-out 2.5s forwards;
+  -moz-animation: slideUpText 0.25s ease-in-out 2.5s forwards;
+  animation: slideUpText 0.25s ease-in-out 2.5s forwards;
+}
 .frame1-text2 {
-  background: url('./images/320x50_frame1_text2.png') no-repeat center center;
-  background-size: 100% auto;
+  background: url('./images_v2/300x250_frame1_text2.png') no-repeat center center;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 2s forwards;
   -moz-animation: slideInUp 0.75s ease-in-out 2s forwards;
@@ -897,12 +898,11 @@
   animation: slideUpText 0.25s ease-in-out 3.5s forwards;
 }
 .frame1-text3 {
-  background: url('./images/320x50_frame1_text3.png') no-repeat center center;
-  background-size: 100% auto;
+  background: url('./images_v2/300x250_frame1_text3.png') no-repeat center center;
 
-  -webkit-animation: slideInUp 0.75s ease-in-out 3.05s forwards;
-  -moz-animation: slideInUp 0.75s ease-in-out 3.05s forwards;
-  animation: slideInUp 0.75s ease-in-out 3.05s forwards;
+  -webkit-animation: slideInUp 0.75s ease-in-out 3s forwards;
+  -moz-animation: slideInUp 0.75s ease-in-out 3s forwards;
+  animation: slideInUp 0.75s ease-in-out 3s forwards;
 }
 .frame1 {
   -webkit-animation: slideOutUp 0.75s ease-in-out 4.75s forwards;
@@ -911,68 +911,67 @@
 }
 
 .frame2-text {
-  background: url('./images/320x50_frame2_text.png') no-repeat center center;
-  background-size: 100% auto;
+  background: url('./images_v2/300x250_frame2_text.png') no-repeat center center;
 
-  -webkit-animation: slideInUp 0.75s ease-in-out 4.75s forwards;
-  -moz-animation: slideInUp 0.75s ease-in-out 4.75s forwards;
-  animation: slideInUp 0.75s ease-in-out 4.75s forwards;
+  -webkit-animation: slideInUp 0.75s ease-in-out 4.6s forwards;
+  -moz-animation: slideInUp 0.75s ease-in-out 4.6s forwards;
+  animation: slideInUp 0.75s ease-in-out 4.6s forwards;
 }
+
 .frame2 {
-  -webkit-animation: slideOutUp 0.75s ease-in-out 7.75s forwards;
-  -moz-animation: slideOutUp 0.75s ease-in-out 7.75s forwards;
-  animation: slideOutUp 0.75s ease-in-out 7.75s forwards;
+  -webkit-animation: slideOutUp 0.75s ease-in-out 7.5s forwards;
+  -moz-animation: slideOutUp 0.75s ease-in-out 7.5s forwards;
+  animation: slideOutUp 0.75s ease-in-out 7.5s forwards;
 }
 .frame3-feature {
-  -webkit-animation: slideInUp 0.75s ease-in-out 7.75s forwards;
-  -moz-animation: slideInUp 0.75s ease-in-out 7.75s forwards;
-  animation: slideInUp 0.75s ease-in-out 7.75s forwards;
+  -webkit-animation: slideInUp 0.75s ease-in-out 7.5s forwards;
+  -moz-animation: slideInUp 0.75s ease-in-out 7.5s forwards;
+  animation: slideInUp 0.75s ease-in-out 7.5s forwards;
 }
 .frame3-feature1 {
-  background: url('./images/320x50_frame3_feature1.png') no-repeat center center;
+  background: url('./images_v2/300x250_frame3_feature1.png') no-repeat center center;
   background-size: 100% auto;
-  width: 28px;
-  height: 36px;
-  top: 7px;
-  left: 10px;
+  width: 66px;
+  height: 83px;
+  top: 20px;
+  left: 31px;
 
-  -webkit-animation: zoomInOut 0.75s ease-in-out 8.5s forwards;
-  -moz-animation: zoomInOut 0.75s ease-in-out 8.5s forwards;
-  animation: zoomInOut 0.75s ease-in-out 8.5s forwards;
+  -webkit-animation: zoomInOut 0.75s ease-in-out 8.25s forwards;
+  -moz-animation: zoomInOut 0.75s ease-in-out 8.25s forwards;
+  animation: zoomInOut 0.75s ease-in-out 8.25s forwards;
 }
 .frame3-feature2 {
-  background: url('./images/320x50_frame3_feature2.png') no-repeat center center;
+  background: url('./images_v2/300x250_frame3_feature2.png') no-repeat center center;
   background-size: 100% auto;
-  width: 28px;
-  height: 36px;
-  top: 7px;
-  left: 44px;
+  width: 66px;
+  height: 83px;
+  top: 20px;
+  left: 111px;
 
-  -webkit-animation: zoomInOut 0.75s ease-in-out 9.25s forwards;
-  -moz-animation: zoomInOut 0.75s ease-in-out 9.25s forwards;
-  animation: zoomInOut 0.75s ease-in-out 9.25s forwards;
+  -webkit-animation: zoomInOut 0.75s ease-in-out 9s forwards;
+  -moz-animation: zoomInOut 0.75s ease-in-out 9s forwards;
+  animation: zoomInOut 0.75s ease-in-out 9s forwards;
 }
 .frame3-feature3 {
-  background: url('./images/320x50_frame3_feature3.png') no-repeat center center;
+  background: url('./images_v2/300x250_frame3_feature3.png') no-repeat center center;
   background-size: 100% auto;
-  width: 35px;
-  height: 36px;
-  top: 7px;
-  left: 79px;
+  width: 80px;
+  height: 83px;
+  top: 20px;
+  left: 189px;
 
-  -webkit-animation: zoomInOut 0.75s ease-in-out 10s forwards;
-  -moz-animation: zoomInOut 0.75s ease-in-out 10s forwards;
-  animation: zoomInOut 0.75s ease-in-out 10s forwards;
+  -webkit-animation: zoomInOut 0.75s ease-in-out 9.75s forwards;
+  -moz-animation: zoomInOut 0.75s ease-in-out 9.75s forwards;
+  animation: zoomInOut 0.75s ease-in-out 9.75s forwards;
 }
 .frame3-logo {
-  background: url('./images/320x50_frame3_logo.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 74px;
-  height: 16px;
-  top: 17px;
-  left: 126px;
+  background: url('./images_v2/300x250_frame3_logo.png') no-repeat center center;
+  width: 276px;
+  height: 29px;
+  top: 165px;
+  left: 12px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 11s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 11s forwards;
-  animation: fadeIn 0.75s ease-in-out 11s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 10.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 10.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 10.75s forwards;
 }

@@ -857,7 +857,7 @@
 }
 
 .cta {
-  background: url('./images/970x250_cta.png') no-repeat center center;
+  background: url('./images_v2/970x250_cta.png') no-repeat center center;
   background-size: 100% auto;
   width: 264px;
   height: 250px;
@@ -875,7 +875,7 @@
   animation: translateDownDefault 10ms ease-in-out 0s forwards; 
 }
 .frame1-text1 {
-  background: url('./images/970x250_frame1_text1.png') no-repeat center center;
+  background: url('./images_v2/970x250_frame1_text1.png') no-repeat center center;
   background-size: 100% auto;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 1s forwards;
@@ -883,7 +883,7 @@
   animation: slideInUp 0.75s ease-in-out 1s forwards;
 }
 .frame1-text2 {
-  background: url('./images/970x250_frame1_text2.png') no-repeat center center;
+  background: url('./images_v2/970x250_frame1_text2.png') no-repeat center center;
   background-size: 100% auto;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 2s forwards;
@@ -896,7 +896,7 @@
   animation: slideUpText 0.25s ease-in-out 3.5s forwards;
 }
 .frame1-text3 {
-  background: url('./images/970x250_frame1_text3.png') no-repeat center center;
+  background: url('./images_v2/970x250_frame1_text3.png') no-repeat center center;
   background-size: 100% auto;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 3.05s forwards;
@@ -910,7 +910,7 @@
 }
 
 .frame2-text {
-  background: url('./images/970x250_frame2_text.png') no-repeat center center;
+  background: url('./images_v2/970x250_frame2_text.png') no-repeat center center;
   background-size: 100% auto;
 
   -webkit-animation: slideInUp 0.75s ease-in-out 4.75s forwards;
@@ -929,7 +929,7 @@
   left: 76px;
 }
 .frame3-feature1 {
-  background: url('./images/970x250_frame3_feature1.png') no-repeat center center;
+  background: url('./images_v2/970x250_frame3_feature1.png') no-repeat center center;
   background-size: auto 100%;
   width: 105px;
   height: 139px;
@@ -945,7 +945,7 @@
   animation: zoomInOut 0.75s ease-in-out 8.5s forwards;
 }
 .frame3-feature2 {
-  background: url('./images/970x250_frame3_feature2.png') no-repeat center center;
+  background: url('./images_v2/970x250_frame3_feature2.png') no-repeat center center;
   background-size: 100% auto;
   width: 105px;
   height: 138px;
@@ -961,7 +961,7 @@
   animation: zoomInOut 0.75s ease-in-out 9.25s forwards;
 }
 .frame3-feature3 {
-  background: url('./images/970x250_frame3_feature3.png') no-repeat center center;
+  background: url('./images_v2/970x250_frame3_feature3.png') no-repeat center center;
   background-size: auto 100%;
   width: 125px;
   height: 138px;
@@ -977,7 +977,7 @@
   animation: zoomInOut 0.75s ease-in-out 10s forwards;
 }
 .frame3-logo {
-  background: url('./images/970x250_frame3_logo.png') no-repeat center center;
+  background: url('./images_v2/970x250_frame3_logo.png') no-repeat center center;
   background-size: 100% auto;
   width: 371px;
   height: 24px;
