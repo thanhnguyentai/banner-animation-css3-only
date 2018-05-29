@@ -930,7 +930,7 @@
 }
 .frame3-feature1 {
   background: url('./images_v2/728x90_frame3_feature1.png') no-repeat center center;
-  background-size: auto 100%;
+  background-size: 100% auto;
   width: 55px;
   height: 73px;
   top: 8px;

@@ -966,6 +966,7 @@
 }
 .frame3-logo {
   background: url('./images_v2/300x250_frame3_logo.png') no-repeat center center;
+  background-size: 100% auto;
   width: 276px;
   height: 29px;
   top: 165px;

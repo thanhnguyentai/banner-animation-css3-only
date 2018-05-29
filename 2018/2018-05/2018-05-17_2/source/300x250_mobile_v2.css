@@ -857,18 +857,6 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 
-.cta {
-  background: url('./images_v2/300x250_mobile_cta.png') no-repeat center center;
-  width: 199px;
-  height: 37px;
-  bottom: 9px;
-  right: 50px;
-
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-}
-
 .frame1-text-translate-default {
   -webkit-animation: translateDownDefault 10ms ease-in-out 0s forwards;
   -moz-animation: translateDownDefault 10ms ease-in-out 0s forwards;
@@ -966,12 +954,25 @@
 }
 .frame3-logo {
   background: url('./images_v2/300x250_mobile_frame3_logo.png') no-repeat center center;
+  background-size: 100% auto;
   width: 276px;
   height: 29px;
-  top: 160px;
+  top: 200px;
   left: 12px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 10.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 10.75s forwards;
   animation: fadeIn 0.75s ease-in-out 10.75s forwards;
+}
+
+.cta {
+  background: url('./images_v2/300x250_mobile_cta.png') no-repeat center center;
+  width: 199px;
+  height: 37px;
+  bottom: 70px;
+  right: 50px;
+
+  -webkit-animation: fadeIn 0.75s ease-in-out 11.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 11.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 11.5s forwards;
 }
