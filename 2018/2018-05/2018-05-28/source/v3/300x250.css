@@ -773,9 +773,9 @@
 }
 .text {
   background: url('./images/300x250_text.png') no-repeat center center;
-  width: 132px;
-  height: 73px;
-  top: 46px;
+  width: 141px;
+  height: 74px;
+  top: 45px;
   left: 25px;
 
   -webkit-animation: slideInRight 0.75s ease-in-out 2s forwards;
