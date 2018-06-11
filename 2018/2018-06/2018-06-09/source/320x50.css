@@ -696,10 +696,6 @@
 .text1 {
   background: url('./images/320x50_text1.png') no-repeat center center;
   background-size: 100% auto;
-  width: 135px;
-  height: 12px;
-  top: 11px;
-  right: 10px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
@@ -709,10 +705,6 @@
 .text2 {
   background: url('./images/320x50_text2.png') no-repeat center center;
   background-size: 100% auto;
-  width: 99px;
-  height: 10px;
-  top: 29px;
-  right: 27px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1.5s forwards;
@@ -727,10 +719,6 @@
 .cta {
   background: url('./images/320x50_cta.png') no-repeat center center;
   background-size: auto 100%;
-  width: 132px;
-  height: 20px;
-  bottom: 15px;
-  right: 14px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 4s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 4s forwards;
