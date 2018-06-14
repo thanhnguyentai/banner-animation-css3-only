@@ -683,7 +683,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 160px;
+  width: 300px;
   height: 600px;
   display: block;
 }
@@ -724,16 +724,16 @@
 }
 
 .bg {
-  background: url('./images/160x600_bg.jpg');
+  background: url('./images/300x600_bg.jpg');
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 
 .cta {
-  background: url('./images/160x600_cta.png') no-repeat center center;
-  width: 160px;
-  height: 100px;
+  background: url('./images/300x600_cta.png') no-repeat center center;
+  width: 300px;
+  height: 60px;
   bottom: 0px;
   right: 0px;
 
@@ -743,9 +743,9 @@
 }
 
 .image1 {
-  background: url('./images/160x600_image1.png') no-repeat center center;
-  width: 160px;
-  height: 321px;
+  background: url('./images/300x600_image1.png') no-repeat center center;
+  width: 300px;
+  height: 354px;
   top: 0px;
   left: 0px;
 
@@ -754,22 +754,22 @@
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .logo {
-  background: url('./images/160x600_logo.png') no-repeat center center;
-  width: 102px;
-  height: 26px;
-  top: 271px;
-  left: 25px;
+  background: url('./images/300x600_logo.png') no-repeat center center;
+  width: 149px;
+  height: 37px;
+  top: 323px;
+  left: 75px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .text1 {
-  background: url('./images/160x600_text1.png') no-repeat center center;
-  width: 149px;
-  height: 136px;
-  top: 336px;
-  left: 6px;
+  background: url('./images/300x600_text1.png') no-repeat center center;
+  width: 253px;
+  height: 122px;
+  top: 398px;
+  left: 25px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
@@ -786,9 +786,9 @@
   animation: zoomOutAndFadeOut 0.5s ease-in-out 2.75s forwards;
 }
 .image2 {
-  background: url('./images/160x600_image2.png') no-repeat center center;
-  width: 160px;
-  height: 281px;
+  background: url('./images/300x600_image2.png') no-repeat center center;
+  width: 300px;
+  height: 355px;
   top: 0px;
   left: 0px;
 
@@ -802,11 +802,11 @@
   animation: fadeOut 0.75s ease-in-out 2.75s forwards;
 }
 .text2 {
-  background: url('./images/160x600_text2.png') no-repeat center center;
-  width: 136px;
-  height: 94px;
-  top: 348px;
-  left: 12px;
+  background: url('./images/300x600_text2.png') no-repeat center center;
+  width: 184px;
+  height: 120px;
+  top: 402px;
+  left: 58px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 3s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 3s forwards;
@@ -819,10 +819,10 @@
   animation: fadeOut 0.75s ease-in-out 5s forwards;
 }
 .image3 {
-  background: url('./images/160x600_image3.png') no-repeat center center;
-  width: 160px;
-  height: 347px;
-  top: 26px;
+  background: url('./images/300x600_image3.png') no-repeat center center;
+  width: 299px;
+  height: 365px;
+  top: 25px;
   left: 0px;
 
   -webkit-animation: fadeIn 0.5s ease-in-out 5.5s forwards;
@@ -830,22 +830,22 @@
   animation: fadeIn 0.5s ease-in-out 5.5s forwards;
 }
 .text3 {
-  background: url('./images/160x600_text3.png') no-repeat center center;
-  width: 157px;
-  height: 106px;
-  top: 336px;
-  left: 2px;
+  background: url('./images/300x600_text3.png') no-repeat center center;
+  width: 285px;
+  height: 102px;
+  top: 384px;
+  left: 6px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
   animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
 }
 .copyright {
-  background: url('./images/160x600_copyright.png') no-repeat center center;
-  width: 111px;
-  height: 9px;
-  top: 482px;
-  left: 25px;
+  background: url('./images/300x600_copyright.png') no-repeat center center;
+  width: 89px;
+  height: 10px;
+  top: 526px;
+  left: 105px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
@@ -858,11 +858,11 @@
   animation: fadeOut 0.75s ease-in-out 7.5s forwards;
 }
 .text4 {
-  background: url('./images/160x600_text4.png') no-repeat center center;
-  width: 151px;
-  height: 78px;
-  top: 373px;
-  left: 5px;
+  background: url('./images/300x600_text4.png') no-repeat center center;
+  width: 283px;
+  height: 67px;
+  top: 391px;
+  left: 9px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 8s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 8s forwards;

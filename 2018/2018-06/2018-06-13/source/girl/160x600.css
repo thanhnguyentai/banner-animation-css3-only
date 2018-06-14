@@ -745,7 +745,7 @@
 .image1 {
   background: url('./images/160x600_image1.png') no-repeat center center;
   width: 160px;
-  height: 321px;
+  height: 320px;
   top: 0px;
   left: 0px;
 
@@ -757,8 +757,8 @@
   background: url('./images/160x600_logo.png') no-repeat center center;
   width: 102px;
   height: 26px;
-  top: 271px;
-  left: 25px;
+  top: 298px;
+  left: 29px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
@@ -768,8 +768,8 @@
   background: url('./images/160x600_text1.png') no-repeat center center;
   width: 149px;
   height: 136px;
-  top: 336px;
-  left: 6px;
+  top: 348px;
+  left: 7px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
@@ -788,7 +788,7 @@
 .image2 {
   background: url('./images/160x600_image2.png') no-repeat center center;
   width: 160px;
-  height: 281px;
+  height: 306px;
   top: 0px;
   left: 0px;
 
@@ -805,7 +805,7 @@
   background: url('./images/160x600_text2.png') no-repeat center center;
   width: 136px;
   height: 94px;
-  top: 348px;
+  top: 361px;
   left: 12px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 3s forwards;
@@ -821,8 +821,8 @@
 .image3 {
   background: url('./images/160x600_image3.png') no-repeat center center;
   width: 160px;
-  height: 347px;
-  top: 26px;
+  height: 360px;
+  top: 25px;
   left: 0px;
 
   -webkit-animation: fadeIn 0.5s ease-in-out 5.5s forwards;
@@ -842,10 +842,10 @@
 }
 .copyright {
   background: url('./images/160x600_copyright.png') no-repeat center center;
-  width: 111px;
+  width: 81px;
   height: 9px;
   top: 482px;
-  left: 25px;
+  left: 40px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;

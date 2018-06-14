@@ -683,8 +683,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 160px;
-  height: 600px;
+  width: 300px;
+  height: 250px;
   display: block;
 }
 
@@ -722,18 +722,18 @@
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
-
+/*
 .bg {
-  background: url('./images/160x600_bg.jpg');
+  background: url('./images/300x250_bg.jpg');
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-
+*/
 .cta {
-  background: url('./images/160x600_cta.png') no-repeat center center;
-  width: 160px;
-  height: 100px;
+  background: url('./images/300x250_cta.png') no-repeat center center;
+  width: 300px;
+  height: 40px;
   bottom: 0px;
   right: 0px;
 
@@ -743,9 +743,9 @@
 }
 
 .image1 {
-  background: url('./images/160x600_image1.png') no-repeat center center;
-  width: 160px;
-  height: 321px;
+  background: url('./images/300x250_image1.jpg') no-repeat center center;
+  width: 300px;
+  height: 250px;
   top: 0px;
   left: 0px;
 
@@ -754,22 +754,22 @@
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .logo {
-  background: url('./images/160x600_logo.png') no-repeat center center;
-  width: 102px;
-  height: 26px;
-  top: 271px;
-  left: 25px;
+  background: url('./images/300x250_logo.png') no-repeat center center;
+  width: 111px;
+  height: 28px;
+  top: 12px;
+  left: 12px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .text1 {
-  background: url('./images/160x600_text1.png') no-repeat center center;
-  width: 149px;
-  height: 136px;
-  top: 336px;
-  left: 6px;
+  background: url('./images/300x250_text1.png') no-repeat center center;
+  width: 264px;
+  height: 49px;
+  top: 153px;
+  left: 18px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
@@ -786,9 +786,9 @@
   animation: zoomOutAndFadeOut 0.5s ease-in-out 2.75s forwards;
 }
 .image2 {
-  background: url('./images/160x600_image2.png') no-repeat center center;
-  width: 160px;
-  height: 281px;
+  background: url('./images/300x250_image2.jpg') no-repeat center center;
+  width: 300px;
+  height: 250px;
   top: 0px;
   left: 0px;
 
@@ -802,11 +802,11 @@
   animation: fadeOut 0.75s ease-in-out 2.75s forwards;
 }
 .text2 {
-  background: url('./images/160x600_text2.png') no-repeat center center;
-  width: 136px;
-  height: 94px;
-  top: 348px;
-  left: 12px;
+  background: url('./images/300x250_text2.png') no-repeat center center;
+  width: 162px;
+  height: 49px;
+  top: 153px;
+  left: 69px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 3s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 3s forwards;
@@ -819,10 +819,10 @@
   animation: fadeOut 0.75s ease-in-out 5s forwards;
 }
 .image3 {
-  background: url('./images/160x600_image3.png') no-repeat center center;
-  width: 160px;
-  height: 347px;
-  top: 26px;
+  background: url('./images/300x250_image3.jpg') no-repeat center center;
+  width: 300px;
+  height: 250px;
+  top: 0px;
   left: 0px;
 
   -webkit-animation: fadeIn 0.5s ease-in-out 5.5s forwards;
@@ -830,22 +830,22 @@
   animation: fadeIn 0.5s ease-in-out 5.5s forwards;
 }
 .text3 {
-  background: url('./images/160x600_text3.png') no-repeat center center;
-  width: 157px;
-  height: 106px;
-  top: 336px;
-  left: 2px;
+  background: url('./images/300x250_text3.png') no-repeat center center;
+  width: 146px;
+  height: 96px;
+  top: 70px;
+  left: 13px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
   animation: fadeInDown 0.75s ease-in-out 5.5s forwards;
 }
 .copyright {
-  background: url('./images/160x600_copyright.png') no-repeat center center;
+  background: url('./images/300x250_copyright.png') no-repeat center center;
   width: 111px;
   height: 9px;
-  top: 482px;
-  left: 25px;
+  top: 195px;
+  left: 15px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
@@ -858,11 +858,11 @@
   animation: fadeOut 0.75s ease-in-out 7.5s forwards;
 }
 .text4 {
-  background: url('./images/160x600_text4.png') no-repeat center center;
+  background: url('./images/300x250_text4.png') no-repeat center center;
   width: 151px;
-  height: 78px;
-  top: 373px;
-  left: 5px;
+  height: 84px;
+  top: 67px;
+  left: 15px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 8s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 8s forwards;
