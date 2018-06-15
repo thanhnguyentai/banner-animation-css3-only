@@ -715,8 +715,8 @@
   background: url('./images/300x250_logo.png') no-repeat center center;
   width: 77px;
   height: 38px;
-  top: 24px;
-  left: 170px;
+  top: 19px;
+  left: 164px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
@@ -727,8 +727,8 @@
   background: url('./images/300x250_text.png') no-repeat center center;
   width: 160px;
   height: 34px;
-  top: 71px;
-  left: 128px;
+  top: 61px;
+  left: 123px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;

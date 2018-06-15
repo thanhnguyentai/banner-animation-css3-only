@@ -716,7 +716,7 @@
   width: 134px;
   height: 67px;
   top: 92px;
-  left: 20px;
+  left: 52px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
@@ -725,10 +725,10 @@
 
 .text {
   background: url('./images/970x250_text.png') no-repeat center center;
-  width: 219px;
-  height: 110px;
-  top: 42px;
-  left: 504px;
+  width: 287px;
+  height: 61px;
+  top: 27px;
+  left: 441px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;

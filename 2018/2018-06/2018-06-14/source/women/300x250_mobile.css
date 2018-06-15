@@ -715,7 +715,7 @@
   background: url('./images/300x250_mobile_logo.png') no-repeat center center;
   width: 77px;
   height: 38px;
-  top: 24px;
+  top: 19px;
   left: 170px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
@@ -727,7 +727,7 @@
   background: url('./images/300x250_mobile_text.png') no-repeat center center;
   width: 160px;
   height: 34px;
-  top: 71px;
+  top: 61px;
   left: 128px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
