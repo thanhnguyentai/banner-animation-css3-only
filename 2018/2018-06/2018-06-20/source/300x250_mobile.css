@@ -775,10 +775,10 @@
 }
 .line {
   background: url('./images/300x250_mobile_line.png') no-repeat center center;
-  width: 248px;
-  height: 81px;
+  width: 250px;
+  height: 80px;
   top: 135px;
-  left: 28px;
+  left: 26px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
@@ -786,10 +786,10 @@
 }
 .text1 {
   background: url('./images/300x250_mobile_text1.png') no-repeat center center;
-  width: 248px;
-  height: 81px;
+  width: 250px;
+  height: 80px;
   top: 135px;
-  left: 28px;
+  left: 26px;
 
   -webkit-animation: slideInRight 0.75s ease-in-out 1.25s forwards;
   -moz-animation: slideInRight 0.75s ease-in-out 1.25s forwards;
@@ -797,10 +797,10 @@
 }
 .text2 {
   background: url('./images/300x250_mobile_text2.png') no-repeat center center;
-  width: 248px;
-  height: 81px;
+  width: 250px;
+  height: 80px;
   top: 135px;
-  left: 28px;
+  left: 26px;
 
   -webkit-animation: slideInLeft 0.75s ease-in-out 1.25s forwards;
   -moz-animation: slideInLeft 0.75s ease-in-out 1.25s forwards;
