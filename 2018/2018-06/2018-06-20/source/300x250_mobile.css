@@ -764,10 +764,10 @@
 
 .logo {
   background: url('./images/300x250_mobile_logo.png') no-repeat center center;
-  width: 250px;
-  height: 132px;
-  top: 45px;
-  left: 28px;
+  width: 182px;
+  height: 85px;
+  top: 42px;
+  left: 59px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
@@ -775,10 +775,10 @@
 }
 .line {
   background: url('./images/300x250_mobile_line.png') no-repeat center center;
-  width: 250px;
-  height: 80px;
-  top: 135px;
-  left: 26px;
+  width: 182px;
+  height: 38px;
+  top: 137px;
+  left: 59px;
 
   -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
@@ -786,10 +786,10 @@
 }
 .text1 {
   background: url('./images/300x250_mobile_text1.png') no-repeat center center;
-  width: 250px;
-  height: 80px;
-  top: 135px;
-  left: 26px;
+  width: 182px;
+  height: 38px;
+  top: 137px;
+  left: 59px;
 
   -webkit-animation: slideInRight 0.75s ease-in-out 1.25s forwards;
   -moz-animation: slideInRight 0.75s ease-in-out 1.25s forwards;
@@ -797,10 +797,10 @@
 }
 .text2 {
   background: url('./images/300x250_mobile_text2.png') no-repeat center center;
-  width: 250px;
-  height: 80px;
-  top: 135px;
-  left: 26px;
+  width: 182px;
+  height: 38px;
+  top: 137px;
+  left: 59px;
 
   -webkit-animation: slideInLeft 0.75s ease-in-out 1.25s forwards;
   -moz-animation: slideInLeft 0.75s ease-in-out 1.25s forwards;
