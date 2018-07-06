@@ -992,10 +992,10 @@
 }
 .bottle3 {
   background: url('./images/300x250_bottle3.png') no-repeat center center;
-  width: 41px;
-  height: 117px;
+  width: 40px;
+  height: 119px;
   top: 60px;
-  left: 129px;
+  left: 130px;
 
   -webkit-animation: fadeInUp 0.75s ease-in-out 9.5s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 9.5s forwards;
@@ -1003,10 +1003,10 @@
 }
 .bottle2 {
   background: url('./images/300x250_bottle2.png') no-repeat center center;
-  width: 40px;
-  height: 117px;
+  width: 39px;
+  height: 119px;
   top: 60px;
-  left: 74px;
+  left: 75px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 10.25s forwards;
   -moz-animation: fadeInRight 0.5s ease-in-out 10.25s forwards;
@@ -1015,9 +1015,9 @@
 .bottle4 {
   background: url('./images/300x250_bottle4.png') no-repeat center center;
   width: 40px;
-  height: 117px;
+  height: 119px;
   top: 60px;
-  left: 182px;
+  left: 184px;
 
   -webkit-animation: fadeInLeft 0.5s ease-in-out 10.25s forwards;
   -moz-animation: fadeInLeft 0.5s ease-in-out 10.25s forwards;
@@ -1026,9 +1026,9 @@
 .bottle1 {
   background: url('./images/300x250_bottle1.png') no-repeat center center;
   width: 40px;
-  height: 117px;
-  top: 60px;
-  left: 19px;
+  height: 118px;
+  top: 61px;
+  left: 21px;
 
   -webkit-animation: fadeInRight 0.5s ease-in-out 10.75s forwards;
   -moz-animation: fadeInRight 0.5s ease-in-out 10.75s forwards;
@@ -1036,10 +1036,10 @@
 }
 .bottle5 {
   background: url('./images/300x250_bottle5.png') no-repeat center center;
-  width: 48px;
-  height: 117px;
+  width: 40px;
+  height: 119px;
   top: 60px;
-  left: 236px;
+  left: 238px;
 
   -webkit-animation: fadeInLeft 0.5s ease-in-out 10.75s forwards;
   -moz-animation: fadeInLeft 0.5s ease-in-out 10.75s forwards;
@@ -1066,4 +1066,20 @@
   -webkit-animation: fadeIn 0.5s ease-in-out 11.75s forwards;
   -moz-animation: fadeIn 0.5s ease-in-out 11.75s forwards;
   animation: fadeIn 0.5s ease-in-out 11.75s forwards;
+}
+.header-container {
+  -webkit-animation: fadeOut 0.75s ease-in-out 13.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 13.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 13.5s forwards;
+}
+.cta {
+  background: url('./images/300x250_cta.png') no-repeat center center;
+  width: 164px;
+  left: 15px;
+  top: 12px;
+  left: 68px;
+
+  -webkit-animation: fadeIn 0.75s ease-in-out 14s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 14s forwards;
+  animation: fadeIn 0.75s ease-in-out 14s forwards;
 }
