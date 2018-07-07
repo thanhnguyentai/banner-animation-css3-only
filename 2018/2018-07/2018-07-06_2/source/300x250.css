@@ -822,6 +822,159 @@
   }
 }
 
+
+/*-- bottle 1 fadein  --*/
+@-webkit-keyframes bottle1FadeIn {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(109px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes bottle1FadeIn {
+  0%   {
+    visibility: visible;    
+    -moz-transform: translate(109px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@keyframes bottle1FadeIn {
+  0%   {
+    visibility: visible;
+    transform: translate(109px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+/*-- bottle 2 fadein  --*/
+@-webkit-keyframes bottle2FadeIn {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(55px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes bottle2FadeIn {
+  0%   {
+    visibility: visible;    
+    -moz-transform: translate(55px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@keyframes bottle2FadeIn {
+  0%   {
+    visibility: visible;
+    transform: translate(55px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+/*-- bottle 4 fadein  --*/
+@-webkit-keyframes bottle4FadeIn {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(-54px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes bottle4FadeIn {
+  0%   {
+    visibility: visible;    
+    -moz-transform: translate(-54px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@keyframes bottle4FadeIn {
+  0%   {
+    visibility: visible;
+    transform: translate(-54px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+/*-- bottle 5 fadein  --*/
+@-webkit-keyframes bottle5FadeIn {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(-108px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes bottle5FadeIn {
+  0%   {
+    visibility: visible;    
+    -moz-transform: translate(-108px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@keyframes bottle5FadeIn {
+  0%   {
+    visibility: visible;
+    transform: translate(-108px,0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
 /*-------------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -1008,9 +1161,9 @@
   top: 60px;
   left: 75px;
 
-  -webkit-animation: fadeInRight 0.5s ease-in-out 10.25s forwards;
-  -moz-animation: fadeInRight 0.5s ease-in-out 10.25s forwards;
-  animation: fadeInRight 0.5s ease-in-out 10.25s forwards;
+  -webkit-animation: bottle2FadeIn 0.5s ease-in-out 10.25s forwards;
+  -moz-animation: bottle2FadeIn 0.5s ease-in-out 10.25s forwards;
+  animation: bottle2FadeIn 0.5s ease-in-out 10.25s forwards;
 }
 .bottle4 {
   background: url('./images/300x250_bottle4.png') no-repeat center center;
@@ -1019,9 +1172,9 @@
   top: 60px;
   left: 184px;
 
-  -webkit-animation: fadeInLeft 0.5s ease-in-out 10.25s forwards;
-  -moz-animation: fadeInLeft 0.5s ease-in-out 10.25s forwards;
-  animation: fadeInLeft 0.5s ease-in-out 10.25s forwards;
+  -webkit-animation: bottle4FadeIn 0.5s ease-in-out 10.25s forwards;
+  -moz-animation: bottle4FadeIn 0.5s ease-in-out 10.25s forwards;
+  animation: bottle4FadeIn 0.5s ease-in-out 10.25s forwards;
 }
 .bottle1 {
   background: url('./images/300x250_bottle1.png') no-repeat center center;
@@ -1030,9 +1183,9 @@
   top: 61px;
   left: 21px;
 
-  -webkit-animation: fadeInRight 0.5s ease-in-out 10.75s forwards;
-  -moz-animation: fadeInRight 0.5s ease-in-out 10.75s forwards;
-  animation: fadeInRight 0.5s ease-in-out 10.75s forwards;
+  -webkit-animation: bottle1FadeIn 0.5s ease-in-out 10.5s forwards;
+  -moz-animation: bottle1FadeIn 0.5s ease-in-out 10.5s forwards;
+  animation: bottle1FadeIn 0.5s ease-in-out 10.5s forwards;
 }
 .bottle5 {
   background: url('./images/300x250_bottle5.png') no-repeat center center;
@@ -1041,9 +1194,9 @@
   top: 60px;
   left: 238px;
 
-  -webkit-animation: fadeInLeft 0.5s ease-in-out 10.75s forwards;
-  -moz-animation: fadeInLeft 0.5s ease-in-out 10.75s forwards;
-  animation: fadeInLeft 0.5s ease-in-out 10.75s forwards;
+  -webkit-animation: bottle5FadeIn 0.5s ease-in-out 10.5s forwards;
+  -moz-animation: bottle5FadeIn 0.5s ease-in-out 10.5s forwards;
+  animation: bottle5FadeIn 0.5s ease-in-out 10.5s forwards;
 }
 .header-bg {
   background: url('./images/300x250_header_bg.png') no-repeat center center;
@@ -1052,9 +1205,9 @@
   top: 0px;
   left: 0px;
 
-  -webkit-animation: fadeInDown 0.5s ease-in-out 11.25s forwards;
-  -moz-animation: fadeInDown 0.5s ease-in-out 11.25s forwards;
-  animation: fadeInDown 0.5s ease-in-out 11.25s forwards;
+  -webkit-animation: fadeInDown 0.5s ease-in-out 11s forwards;
+  -moz-animation: fadeInDown 0.5s ease-in-out 11s forwards;
+  animation: fadeInDown 0.5s ease-in-out 11s forwards;
 }
 .header-text {
   background: url('./images/300x250_header_text.png') no-repeat center center;
@@ -1063,14 +1216,14 @@
   top: 15px;
   left: 59px;
 
-  -webkit-animation: fadeIn 0.5s ease-in-out 11.75s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 11.75s forwards;
-  animation: fadeIn 0.5s ease-in-out 11.75s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 11.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 11.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 11.5s forwards;
 }
 .header-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 13.5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 13.5s forwards;
-  animation: fadeOut 0.75s ease-in-out 13.5s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 13.25s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 13.25s forwards;
+  animation: fadeOut 0.75s ease-in-out 13.25s forwards;
 }
 .cta {
   background: url('./images/300x250_cta.png') no-repeat center center;
@@ -1079,7 +1232,7 @@
   top: 12px;
   left: 68px;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 14s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 14s forwards;
-  animation: fadeIn 0.75s ease-in-out 14s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 13.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 13.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 13.75s forwards;
 }
