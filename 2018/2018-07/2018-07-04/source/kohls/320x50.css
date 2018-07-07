@@ -835,20 +835,6 @@
   -moz-animation: zoomOut 0.5s ease-in-out 0.75s forwards;
   animation: zoomOut 0.5s ease-in-out 0.75s forwards;
 }
-.image2 {
-  background: url('./images/320x50_image2.jpg') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: zoomOut 0.5s ease-in-out 2.5s forwards;
-  -moz-animation: zoomOut 0.5s ease-in-out 2.5s forwards;
-  animation: zoomOut 0.5s ease-in-out 2.5s forwards;
-}
-.image3 {
-  background: url('./images/320x50_image3.jpg') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: zoomOut 0.5s ease-in-out 4.25s forwards;
-  -moz-animation: zoomOut 0.5s ease-in-out 4.25s forwards;
-  animation: zoomOut 0.5s ease-in-out 4.25s forwards;
-}
 .logo1 {
   background: url('./images/320x50_logo1.png') no-repeat center center;
   background-size: 100% auto;
