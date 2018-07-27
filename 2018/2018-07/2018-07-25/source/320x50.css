@@ -704,68 +704,47 @@
     opacity: 1;
   }
 }
-
-/*-- slide up --*/
-@-webkit-keyframes slideUp {
+/*-- dragon fly --*/
+@-webkit-keyframes dragonFly {
   0%   {
     visibility: visible;
-    -webkit-transform: translate(0,0);
+    -webkit-transform: translate(0px, 0);
+  }
+  50% {
+    visibility: visible;
+    -webkit-transform: translate(0px, -40%);
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(0,-80%);
+    -webkit-transform: translate(40px, 0);
   }
 }
-@-moz-keyframes slideUp {
+@-moz-keyframes dragonFly {
   0%   {
     visibility: visible;
-    -moz-transform: translate(0,0);
+    -moz-transform: translate(0px, 0);
+  }
+  50% {
+    visibility: visible;
+    -moz-transform: translate(0px, -40%);
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(0,-80%);
+    -moz-transform: translate(40px, 0);
   }
 }
-@keyframes slideUp {
+@keyframes dragonFly {
   0%   {
     visibility: visible;
-    transform: translate(0,0);
+    transform: translate(0px, 0);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(0px, -40%);
   }
   100% { 
     visibility: visible;
-    transform: translate(0,-80%);
-  }
-}
-
-/*-- slide down --*/
-@-webkit-keyframes slideDown {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(40px,70%);
-  }
-}
-@-moz-keyframes slideDown {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(40px,70%);
-  }
-}
-@keyframes slideDown {
-  0%   {
-    visibility: visible;
-    transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(40px,70%);
+    transform: translate(40px, 0);
   }
 }
 /*-------------------------------------------*/
@@ -855,14 +834,9 @@
   animation: fadeIn 0.75s ease-in-out 1s forwards;
 }
 .dragon-top {
-  -webkit-animation: slideUp 0.35s ease-in-out 2.5s forwards;
-  -moz-animation: slideUp 0.35s ease-in-out 2.5s forwards;
-  animation: slideUp 0.35s ease-in-out 2.5s forwards;
-}
-.dragon-down {
-  -webkit-animation: slideDown 0.35s ease-in-out 3.5s forwards;
-  -moz-animation: slideDown 0.35s ease-in-out 3.5s forwards;
-  animation: slideDown 0.35s ease-in-out 3.5s forwards; 
+  -webkit-animation: dragonFly 1.5s linear 2.5s forwards;
+  -moz-animation: dragonFly 1.5s linear 2.5s forwards;
+  animation: dragonFly 1.5s linear 2.5s forwards;
 }
 .frame1 {
   -webkit-animation: fadeOut 0.75s ease-in-out 4s forwards;
