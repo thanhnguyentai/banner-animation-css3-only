@@ -711,6 +711,10 @@
     visibility: visible;
     -webkit-transform: translate(0px, 0px);
   }
+  50% {
+    visibility: visible;
+    -webkit-transform: translate(40px, -15px);
+  }
   100% { 
     visibility: visible;
     -webkit-transform: translate(80px, 0px);
@@ -721,6 +725,10 @@
     visibility: visible;
     -moz-transform: translate(0px, 0px);
   }
+  50% {
+    visibility: visible;
+    -moz-transform: translate(40px, -15px);
+  }
   100% { 
     visibility: visible;
     -moz-transform: translate(80px, 0px);
@@ -730,6 +738,10 @@
   0%   {
     visibility: visible;
     transform: translate(0px, 0px);
+  }
+  50% {
+    visibility: visible;
+    transform: translate(40px, -15px);
   }
   100% { 
     visibility: visible;

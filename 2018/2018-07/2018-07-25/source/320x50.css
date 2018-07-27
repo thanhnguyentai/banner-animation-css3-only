@@ -705,38 +705,6 @@
   }
 }
 
-/*-- dragon fly --*/
-@-webkit-keyframes dragonFly {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(0px, 0px);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(80px, 0px);
-  }
-}
-@-moz-keyframes dragonFly {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(0px, 0px);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(80px, 0px);
-  }
-}
-@keyframes dragonFly {
-  0%   {
-    visibility: visible;
-    transform: translate(0px, 0px);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(80px, 0px);
-  }
-}
-
 /*-- slide up --*/
 @-webkit-keyframes slideUp {
   0%   {
@@ -745,7 +713,7 @@
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(0,-150%);
+    -webkit-transform: translate(0,-80%);
   }
 }
 @-moz-keyframes slideUp {
@@ -755,7 +723,7 @@
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(0,-150%);
+    -moz-transform: translate(0,-80%);
   }
 }
 @keyframes slideUp {
@@ -765,7 +733,7 @@
   }
   100% { 
     visibility: visible;
-    transform: translate(0,-150%);
+    transform: translate(0,-80%);
   }
 }
 
@@ -777,7 +745,7 @@
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(0,150%);
+    -webkit-transform: translate(40px,70%);
   }
 }
 @-moz-keyframes slideDown {
@@ -787,7 +755,7 @@
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(0,150%);
+    -moz-transform: translate(40px,70%);
   }
 }
 @keyframes slideDown {
@@ -797,7 +765,7 @@
   }
   100% { 
     visibility: visible;
-    transform: translate(0,150%);
+    transform: translate(40px,70%);
   }
 }
 /*-------------------------------------------*/
@@ -897,30 +865,30 @@
   animation: slideDown 0.35s ease-in-out 3.5s forwards; 
 }
 .frame1 {
-  -webkit-animation: fadeOut 0.75s ease-in-out 5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 5s forwards;
-  animation: fadeOut 0.75s ease-in-out 5s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 4s forwards;
+  animation: fadeOut 0.75s ease-in-out 4s forwards;
 }
 .text {
   background: url('./images/320x50_text.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 4.5s forwards;
 }
 .text-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 7.75s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 7.75s forwards;
-  animation: fadeOut 0.75s ease-in-out 7.75s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 6.75s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 6.75s forwards;
+  animation: fadeOut 0.75s ease-in-out 6.75s forwards;
 }
 .bg2 {
   background: url('./images/320x50_bg2.jpg');
-  -webkit-animation: fadeIn 0.1s ease-in-out 8.25s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 8.25s forwards;
-  animation: fadeIn 0.1s ease-in-out 8.25s forwards;
+  -webkit-animation: fadeIn 0.1s ease-in-out 7.25s forwards;
+  -moz-animation: fadeIn 0.1s ease-in-out 7.25s forwards;
+  animation: fadeIn 0.1s ease-in-out 7.25s forwards;
 }
 .cta {
   background: url('./images/320x50_cta.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 8.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 8.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 8.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 7.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 7.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 7.25s forwards;
 }
