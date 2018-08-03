@@ -754,7 +754,7 @@
   top: 0px;
   left: 0px;
   width: 300px;
-  height: 500px;
+  height: 600px;
   display: block;
 }
 
@@ -816,7 +816,7 @@
   background: url('./images/300x600_title.png') no-repeat center center;
   width: 219px;
   height: 104px;
-  top: 19px;
+  top: 26px;
   left: 37px;
 
   -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
@@ -828,7 +828,7 @@
   background: url('./images/300x600_text1.png') no-repeat center center;
   width: 98px;
   height: 38px;
-  top: 186px;
+  top: 276px;
   left: 24px;
 
   -webkit-animation: slideInRight 0.5s ease-in-out 1.75s forwards;
@@ -840,7 +840,7 @@
   background: url('./images/300x600_text2.png') no-repeat center center;
   width: 135px;
   height: 38px;
-  top: 186px;
+  top: 276px;
   right: 4px;
 
   -webkit-animation: slideInLeft 0.5s ease-in-out 2.5s forwards;
