@@ -833,32 +833,32 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.image1 {
-  background: url('./images/728x90_image1.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  animation: fadeIn 0.75s ease-in-out 1s forwards;
-}
-.image2 {
-  background: url('./images/728x90_image2.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  animation: fadeIn 0.75s ease-in-out 1s forwards;
-}
 
 .logo1 {
   background: url('./images/728x90_logo1.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2s forwards;
-  animation: fadeIn 0.75s ease-in-out 2s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
+  animation: fadeIn 0.75s ease-in-out 1s forwards;
 }
 .logo2 {
   background: url('./images/728x90_logo2.png') no-repeat center center;
   background-size: 100% auto;
 
+  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
+  animation: fadeIn 0.75s ease-in-out 1s forwards;
+}
+.image1 {
+  background: url('./images/728x90_image1.png') no-repeat center center;
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 2s forwards;
+  animation: fadeIn 0.75s ease-in-out 2s forwards;
+}
+.image2 {
+  background: url('./images/728x90_image2.png') no-repeat center center;
+  background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 2s forwards;
   animation: fadeIn 0.75s ease-in-out 2s forwards;
