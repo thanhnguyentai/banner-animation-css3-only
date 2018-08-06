@@ -918,16 +918,20 @@
   background: url('./images/320x50_cake.png');
   background-size: 100% auto;
 
-  -webkit-animation: cakeSlide 0.75s ease-in-out 2.25s forwards;
-  -moz-animation: cakeSlide 0.75s ease-in-out 2.25s forwards;
-  animation: cakeSlide 0.75s ease-in-out 2.25s forwards; 
+  -webkit-animation: cakeSlide 0.75s linear 2.25s forwards;
+  -moz-animation: cakeSlide 0.75s linear 2.25s forwards;
+  animation: cakeSlide 0.75s linear 2.25s forwards; 
 }
 
 .cta {
-  background: url('./images/320x50_cta.png');
+  background: url('./images/320x50_cta.png') no-repeat center center;
   background-size: 100% auto;
+  width: 101px;
+  height: 19px;
+  top: 16px;
+  right: 3px;
 
-  -webkit-animation: fadeInLeft 0.5s ease-in-out 2.5s forwards;
-  -moz-animation: fadeInLeft 0.5s ease-in-out 2.5s forwards;
-  animation: fadeInLeft 0.5s ease-in-out 2.5s forwards;  
+  -webkit-animation: slideInLeft 0.75s linear 2.25s forwards;
+  -moz-animation: slideInLeft 0.75s linear 2.25s forwards;
+  animation: slideInLeft 0.75s linear 2.25s forwards;  
 }
