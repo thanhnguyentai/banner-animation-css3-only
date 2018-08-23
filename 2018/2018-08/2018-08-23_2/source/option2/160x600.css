@@ -661,39 +661,6 @@
   }
 }
 
-
-/*-- slide out left --*/
-@-webkit-keyframes slideOutLeft {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(-100%,0);
-  }
-}
-@-moz-keyframes slideOutLeft {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(-100%,0);
-  }
-}
-@keyframes slideOutLeft {
-  0%   {
-    visibility: visible;
-    transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(-100%,0);
-  }
-}
-
 /*-- zoom out and fade out --*/
 @-webkit-keyframes zoomOutAndFadeOut {
   0%   {
@@ -770,6 +737,59 @@
   }
 }
 
+/*-- arrow animation --*/
+@-webkit-keyframes arrowAnimation {
+  0%   {
+    -webkit-transform: translate(0,0);
+  }
+  25%   {
+    -webkit-transform: translate(10px,0);
+  }
+  50%   {
+    -webkit-transform: translate(0,0);
+  }
+  75%   {
+    -webkit-transform: translate(10px,0);
+  }
+  100% { 
+    -webkit-transform: translate(0,0);
+  }
+}
+@-moz-keyframes arrowAnimation {
+  0%   {
+    -moz-transform: translate(0,0);
+  }
+  25%   {
+    -moz-transform: translate(10px,0);
+  }
+  50%   {
+    -moz-transform: translate(0,0);
+  }
+  75%   {
+    -moz-transform: translate(10px,0);
+  }
+  100% { 
+    -moz-transform: translate(0,0);
+  }
+}
+@keyframes arrowAnimation {
+  0%   {
+    transform: translate(0,0);
+  }
+  25%   {
+    transform: translate(10px,0);
+  }
+  50%   {
+    transform: translate(0,0);
+  }
+  75%   {
+    transform: translate(10px,0);
+  }
+  100% { 
+    transform: translate(0,0);
+  }
+}
+
 /*-------------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -786,8 +806,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 320px;
-  height: 50px;
+  width: 160px;
+  height: 600px;
   display: block;
 }
 
@@ -814,10 +834,11 @@
 
 .content{
   background-color: #ffffff;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
   overflow: hidden;
+  border: 1px solid #acacac;
 }
 
 .content-wrapper { 
@@ -825,32 +846,121 @@
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
-.bg {
-  background: url('./images/320x50_bg.jpg');
+
+.frame1-bg {
+  background: url('./images/160x600_frame1_bg.png');
+
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.logo {
-  background: url('./images/320x50_logo.png');
-  -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
-  animation: fadeInDown 0.75s ease-in-out 1s forwards;
+.frame1-text {
+  background: url('./images/160x600_frame1_text.png');
+  -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
 }
-.text {
-  background: url('./images/320x50_text.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 1.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 1.75s forwards;
+.frame1 {
+  -webkit-animation: fadeOut 0.75s ease-in-out 2.75s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 2.75s forwards;
+  animation: fadeOut 0.75s ease-in-out 2.75s forwards;
 }
-.text-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 4s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 4s forwards;
-  animation: fadeOut 0.75s ease-in-out 4s forwards;
+
+.frame2-bg {
+  background: url('./images/160x600_frame2_bg.png');
+  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  animation: fadeIn 0.75s ease-in-out 3s forwards;
 }
-.cta {
-  background: url('./images/320x50_cta.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.5s forwards;
+.frame2-text {
+  background: url('./images/160x600_frame2_text.png');
+  -webkit-animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
+  animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
+}
+.frame2 {
+  -webkit-animation: fadeOut 0.75s ease-in-out 5.25s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 5.25s forwards;
+  animation: fadeOut 0.75s ease-in-out 5.25s forwards;
+}
+
+.frame3-bg {
+  background: url('./images/160x600_frame3_bg.png');
+  -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+}
+.frame3-image2 {
+  background: url('./images/160x600_frame3_image2.png');
+  -webkit-animation: fadeIn 0.75s ease-in-out 5.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 5.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 5.75s forwards;
+}
+.frame3-image1 {
+  background: url('./images/160x600_frame3_image1.png');
+
+  -webkit-animation: fadeInRight 0.75s ease-in-out 5.75s forwards;
+  -moz-animation: fadeInRight 0.75s ease-in-out 5.75s forwards;
+  animation: fadeInRight 0.75s ease-in-out 5.75s forwards;
+}
+.frame3-image3 {
+  background: url('./images/160x600_frame3_image3.png');
+
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 5.75s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 5.75s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 5.75s forwards;
+}
+.frame3 {
+  -webkit-animation: fadeOut 0.75s ease-in-out 7.75s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 7.75s forwards;
+  animation: fadeOut 0.75s ease-in-out 7.75s forwards;
+}
+
+.frame4-text {
+  background: url('./images/160x600_frame4_text.png');
+
+  -webkit-animation: fadeInDown 0.75s ease-in-out 8s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 8s forwards;
+  animation: fadeInDown 0.75s ease-in-out 8s forwards;
+}
+.frame4-image {
+  background: url('./images/160x600_frame4_image.png');
+
+  -webkit-animation: fadeIn 0.75s ease-in-out 8s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 8s forwards;
+  animation: fadeIn 0.75s ease-in-out 8s forwards;
+}
+.frame4 {
+  -webkit-animation: fadeOut 0.75s ease-in-out 10s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 10s forwards;
+  animation: fadeOut 0.75s ease-in-out 10s forwards;
+}
+
+.frame5-bg {
+  background: url('./images/160x600_frame5_bg.png');
+
+  -webkit-animation: fadeIn 0.75s ease-in-out 10.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 10.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 10.5s forwards;
+}
+.frame5-text {
+  background: url('./images/160x600_frame5_text.png');
+
+  -webkit-animation: fadeInDown 0.75s ease-in-out 10.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 10.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 10.75s forwards;
+}
+.frame5-cta {
+  background: url('./images/160x600_frame5_cta.png');
+
+  -webkit-animation: fadeInRight 0.5s ease-in-out 11.5s forwards;
+  -moz-animation: fadeInRight 0.5s ease-in-out 11.5s forwards;
+  animation: fadeInRight 0.5s ease-in-out 11.5s forwards;
+}
+.frame5-arrow {
+  background: url('./images/160x600_frame5_arrow.png');
+
+  -webkit-animation: arrowAnimation 0.75s ease-in-out 12s forwards;
+  -moz-animation: arrowAnimation 0.75s ease-in-out 12s forwards;
+  animation: arrowAnimation 0.75s ease-in-out 12s forwards;
 }
