@@ -976,6 +976,16 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
+.logo {
+  background: url('./images/728x90_logo.png');
+  width: 157px;
+  height: 90px;
+  top: 0px;
+  left: 0px;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
 .robot-without-eyes {
   background: url('./images/728x90_robot_without_eyes.png');
   width: 179px;
