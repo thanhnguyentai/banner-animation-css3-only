@@ -914,17 +914,17 @@
 }
 .robot-without-eyes {
   background: url('./images/160x600_robot_without_eyes.png');
-  width: 210px;
-  height: 316px;
-  top: 168px;
-  left: -7px;
+  width: 154px;
+  height: 234px;
+  top: 224px;
+  right: 0px;
 }
 .robot {
   background: url('./images/160x600_robot.png');
-  width: 210px;
-  height: 316px;
-  top: 168px;
-  left: -7px;
+  width: 154px;
+  height: 234px;
+  top: 224px;
+  right: 0px;
   -webkit-animation: slideInLeft 0.75s ease-in-out 1s forwards;
   -moz-animation: slideInLeft 0.75s ease-in-out 1s forwards;
   animation: slideInLeft 0.75s ease-in-out 1s forwards;
