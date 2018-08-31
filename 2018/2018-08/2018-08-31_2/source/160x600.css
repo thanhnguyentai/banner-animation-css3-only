@@ -479,7 +479,7 @@
 @-webkit-keyframes zoomIn {
   0%   {
     visibility: visible;
-    -webkit-transform: scale(0.25, 0.25);    
+    -webkit-transform: scale(0.75, 0.75);    
   }
   100% { 
     visibility: visible;
@@ -489,7 +489,7 @@
 @-moz-keyframes zoomIn {
   0%   {
     visibility: visible;
-    -moz-transform: scale(0.25, 0.25);
+    -moz-transform: scale(0.75, 0.75);
   }
   100% { 
     visibility: visible;
@@ -499,13 +499,14 @@
 @keyframes zoomIn {
   0%   {
     visibility: visible;
-    transform: scale(0.25, 0.25);
+    transform: scale(0.75, 0.75);
   }
   100% { 
     visibility: visible;
     transform: scale(1, 1);
   }
 }
+
 
 /*-- rotate 360 --*/
 @-webkit-keyframes rotate360 {
@@ -887,9 +888,9 @@
   top: 0px;
   left: 0px;
 
-  -webkit-animation: zoomIn 2s ease-in-out 0.5s forwards;
-  -moz-animation: zoomIn 2s ease-in-out 0.5s forwards;
-  animation: zoomIn 2s ease-in-out 0.5s forwards;
+  -webkit-animation: zoomOut 2s ease-in-out 0.5s forwards;
+  -moz-animation: zoomOut 2s ease-in-out 0.5s forwards;
+  animation: zoomOut 2s ease-in-out 0.5s forwards;
 }
 .text1-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 3.5s forwards;
