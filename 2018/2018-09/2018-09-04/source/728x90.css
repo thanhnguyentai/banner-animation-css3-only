@@ -802,6 +802,38 @@
   }
 }
 
+/*-- pan down--*/
+@-webkit-keyframes panDown {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(0, -54px);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+  }
+}
+@-moz-keyframes panDown {
+  0%   {
+    visibility: visible;
+    -moz-transform: translate(0, -54px);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0, 0);
+  }
+}
+@keyframes panDown {
+  0%   {
+    visibility: visible;
+    transform: translate(0, -54px);
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+}
+
 /*-------------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -870,25 +902,37 @@
   animation: slideInDown 0.75s ease-in-out 0.5s forwards;
 }
 
-.logo1 {
-  background: url('./images/728x90_logo1.png');
-  width: 133px;
-  height: 45px;
-  top: 21px;
-  left: 26px;
-  -webkit-animation: slideInTopLogo 0.75s ease-in-out 1.25s forwards;
-  -moz-animation: slideInTopLogo 0.75s ease-in-out 1.25s forwards;
-  animation: slideInTopLogo 0.75s ease-in-out 1.25s forwards;
+.image {
+  background: url('./images/728x90_image.jpg');
+  width: 317px;
+  height: 144px;
+  top: 0px;
+  left: 0px;
+  -webkit-animation: panDown 1s linear 0.75s forwards;
+  -moz-animation: panDown 1s linear 0.75s forwards;
+  animation: panDown 1s linear 0.75s forwards;
 }
+
 .footer {
   background: url('./images/728x90_footer.png');
   width: 411px;
   height: 90px;
   right: 0px;
   bottom: 0px;
-  -webkit-animation: fadeInLeft100 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeInLeft100 0.75s ease-in-out 2s forwards;
-  animation: fadeInLeft100 0.75s ease-in-out 2s forwards;
+  -webkit-animation: zoomOut 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: zoomOut 0.75s ease-in-out 0.75s forwards;
+  animation: zoomOut 0.75s ease-in-out 0.75s forwards;
+}
+
+.logo1 {
+  background: url('./images/728x90_logo1.png');
+  width: 133px;
+  height: 45px;
+  top: 21px;
+  left: 26px;
+  -webkit-animation: slideInTopLogo 0.75s ease-in-out 1.75s forwards;
+  -moz-animation: slideInTopLogo 0.75s ease-in-out 1.75s forwards;
+  animation: slideInTopLogo 0.75s ease-in-out 1.75s forwards;
 }
 
 .text {

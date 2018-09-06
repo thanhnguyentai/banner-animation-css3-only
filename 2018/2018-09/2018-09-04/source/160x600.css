@@ -802,6 +802,70 @@
   }
 }
 
+/*-- zoom out bg--*/
+@-webkit-keyframes zoomOutBg {
+  0%   {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: scale(0.585, 0.585);
+  }
+}
+@-moz-keyframes zoomOutBg {
+  0%   {
+    visibility: visible;
+    -moz-transform: scale(1, 1);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: scale(0.585, 0.585);
+  }
+}
+@keyframes zoomOutBg {
+  0%   {
+    visibility: visible;
+    transform: scale(1, 1);
+  }
+  100% { 
+    visibility: visible;
+    transform: scale(0.585, 0.585);
+  }
+}
+
+/*-- pan left--*/
+@-webkit-keyframes panLeft {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(240px, 0);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+  }
+}
+@-moz-keyframes panLeft {
+  0%   {
+    visibility: visible;
+    -moz-transform: translate(240px, 0);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0, 0);
+  }
+}
+@keyframes panLeft {
+  0%   {
+    visibility: visible;
+    transform: translate(240px, 0);
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0, 0);
+  }
+}
+
 /*-------------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -864,21 +928,29 @@
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .bg {
-  background: url('./images/160x600_bg.jpg');
-  -webkit-animation: slideInLeft 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: slideInLeft 0.75s ease-in-out 0.5s forwards;
-  animation: slideInLeft 0.75s ease-in-out 0.5s forwards;
+  background: #fff;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
+.image {
+  background: url('./images/160x600_image.jpg');
+  width: 400px;
+  height: 600px;
+  left: auto;
+  right: 0px;
+  -webkit-animation: panLeft 1.75s linear 0.75s forwards;
+  -moz-animation: panLeft 1.75s linear 0.75s forwards;
+  animation: panLeft 1.75s linear 0.75s forwards;
+}
+.image-container {
+  -moz-transform-origin: 100% 0;
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
 
-.logo1 {
-  background: url('./images/160x600_logo1.png');
-  width: 130px;
-  height: 45px;
-  top: 49px;
-  left: 15px;
-  -webkit-animation: slideInTopLogo 0.75s ease-in-out 1.25s forwards;
-  -moz-animation: slideInTopLogo 0.75s ease-in-out 1.25s forwards;
-  animation: slideInTopLogo 0.75s ease-in-out 1.25s forwards;
+  -webkit-animation: zoomOutBg 0.75s linear 2.75s forwards;
+  -moz-animation: zoomOutBg 0.75s linear 2.75s forwards;
+  animation: zoomOutBg 0.75s linear 2.75s forwards;
 }
 .footer {
   background: url('./images/160x600_footer.png');
@@ -886,9 +958,19 @@
   height: 249px;
   right: 0px;
   bottom: 0px;
-  -webkit-animation: fadeInUp100 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeInUp100 0.75s ease-in-out 2s forwards;
-  animation: fadeInUp100 0.75s ease-in-out 2s forwards;
+  -webkit-animation: slideInUp 1s ease-in-out 2.5s forwards;
+  -moz-animation: slideInUp 1s ease-in-out 2.5s forwards;
+  animation: slideInUp 1s ease-in-out 2.5s forwards;
+}
+.logo1 {
+  background: url('./images/160x600_logo1.png');
+  width: 130px;
+  height: 45px;
+  top: 49px;
+  left: 15px;
+  -webkit-animation: slideInTopLogo 0.75s ease-in-out 3.5s forwards;
+  -moz-animation: slideInTopLogo 0.75s ease-in-out 3.5s forwards;
+  animation: slideInTopLogo 0.75s ease-in-out 3.5s forwards;
 }
 
 .text {
@@ -897,9 +979,9 @@
   height: 53px;
   top: 383px;
   left: 14px;
-  -webkit-animation: fadeInUp100 0.75s ease-in-out 2.75s forwards;
-  -moz-animation: fadeInUp100 0.75s ease-in-out 2.75s forwards;
-  animation: fadeInUp100 0.75s ease-in-out 2.75s forwards;
+  -webkit-animation: fadeInUp100 0.75s ease-in-out 4.25s forwards;
+  -moz-animation: fadeInUp100 0.75s ease-in-out 4.25s forwards;
+  animation: fadeInUp100 0.75s ease-in-out 4.25s forwards;
 }
 .logo2 {
   background: url('./images/160x600_logo2.png');
@@ -908,9 +990,9 @@
   top: 462px;
   left: 14px;
 
-  -webkit-animation: fadeInUp100 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeInUp100 0.75s ease-in-out 3s forwards;
-  animation: fadeInUp100 0.75s ease-in-out 3s forwards;
+  -webkit-animation: fadeInUp100 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeInUp100 0.75s ease-in-out 4.5s forwards;
+  animation: fadeInUp100 0.75s ease-in-out 4.5s forwards;
 }
 .cta {
   background: url('./images/160x600_cta.png');
@@ -918,7 +1000,7 @@
   height: 21px;
   right: 9px;
   bottom: 29px;
-  -webkit-animation: fadeInUp100 0.75s ease-in-out 3.25s forwards;
-  -moz-animation: fadeInUp100 0.75s ease-in-out 3.25s forwards;
-  animation: fadeInUp100 0.75s ease-in-out 3.25s forwards;
+  -webkit-animation: fadeInUp100 0.75s ease-in-out 4.75s forwards;
+  -moz-animation: fadeInUp100 0.75s ease-in-out 4.75s forwards;
+  animation: fadeInUp100 0.75s ease-in-out 4.75s forwards;
 }
