@@ -694,38 +694,6 @@
   }
 }
 
-/*-- slide out up --*/
-@-webkit-keyframes slideOutUp {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(0,-170%);
-  }
-}
-@-moz-keyframes slideOutUp {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(0,-170%);
-  }
-}
-@keyframes slideOutUp {
-  0%   {
-    visibility: visible;
-    transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(0,-170%);
-  }
-}
-
 /*-- slide out right --*/
 @-webkit-keyframes slideOutRight {
   0%   {
@@ -755,38 +723,6 @@
   100% { 
     visibility: visible;
     transform: translate(100%,0);
-  }
-}
-
-/*-- slide out down --*/
-@-webkit-keyframes slideOutDown {
-  0%   {
-    visibility: visible;
-    -webkit-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -webkit-transform: translate(0,170%);
-  }
-}
-@-moz-keyframes slideOutDown {
-  0%   {
-    visibility: visible;
-    -moz-transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    -moz-transform: translate(0,170%);
-  }
-}
-@keyframes slideOutDown {
-  0%   {
-    visibility: visible;
-    transform: translate(0,0);
-  }
-  100% { 
-    visibility: visible;
-    transform: translate(0,170%);
   }
 }
 
@@ -866,35 +802,56 @@
   }
 }
 
-/*-- show left to right--*/
-@-webkit-keyframes gradualShow {
+/*-- arrow animation --*/
+@-webkit-keyframes arrowAnimation {
   0%   {
-    visibility: visible;
-    width: 0px;
+    -webkit-transform: translate(0,0);
+  }
+  25%   {
+    -webkit-transform: translate(10px,0);
+  }
+  50%   {
+    -webkit-transform: translate(0,0);
+  }
+  75%   {
+    -webkit-transform: translate(10px,0);
   }
   100% { 
-    visibility: visible;
-    width: 300px;
+    -webkit-transform: translate(0,0);
   }
 }
-@-moz-keyframes gradualShow {
+@-moz-keyframes arrowAnimation {
   0%   {
-    visibility: visible;
-    width: 0px;
+    -moz-transform: translate(0,0);
+  }
+  25%   {
+    -moz-transform: translate(10px,0);
+  }
+  50%   {
+    -moz-transform: translate(0,0);
+  }
+  75%   {
+    -moz-transform: translate(10px,0);
   }
   100% { 
-    visibility: visible;
-    width: 300px;
+    -moz-transform: translate(0,0);
   }
 }
-@keyframes gradualShow {
+@keyframes arrowAnimation {
   0%   {
-    visibility: visible;
-    width: 0px;
+    transform: translate(0,0);
+  }
+  25%   {
+    transform: translate(10px,0);
+  }
+  50%   {
+    transform: translate(0,0);
+  }
+  75%   {
+    transform: translate(10px,0);
   }
   100% { 
-    visibility: visible;
-    width: 300px;
+    transform: translate(0,0);
   }
 }
 
@@ -914,7 +871,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
+  width: 970px;
   height: 250px;
   display: block;
 }
@@ -953,105 +910,30 @@
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
-.frame1 {
-  background: url('./images/300x250_frame1.jpg');
-  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-}
-.mask {
-  background: url('./images/300x250_mask.png');
-  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-}
-.shadow {
-  background: url('./images/300x250_bubble_shadow.png');
-  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-}
-.cta {
-  background: url('./images/300x250_cta.png');
-  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
-}
-
-.frame1-container {
-  -webkit-animation: fadeOut 0.25s ease-in-out 2.5s forwards;
-  -moz-animation: fadeOut 0.25s ease-in-out 2.5s forwards;
-  animation: fadeOut 0.25s ease-in-out 2.5s forwards;
-}
-.mask-green {
-  background: url('./images/300x250_mask_green.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2s forwards;
-  animation: fadeIn 0.75s ease-in-out 2s forwards;
-}
-.mask-red {
-  background: url('./images/300x250_mask_red.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2s forwards;
-  animation: fadeIn 0.75s ease-in-out 2s forwards;
-}
-
-.frame2 {
-  background: url('./images/300x250_frame2.png');
-  -webkit-animation: fadeIn 0.25s ease-in-out 2.75s forwards;
-  -moz-animation: fadeIn 0.25s ease-in-out 2.75s forwards;
-  animation: fadeIn 0.25s ease-in-out 2.75s forwards;
-}
-.mask-green-in {
-  -webkit-animation: slideOutLeft 1.5s ease-in-out 2.75s forwards;
-  -moz-animation: slideOutLeft 1.5s ease-in-out 2.75s forwards;
-  animation: slideOutLeft 1.5s ease-in-out 2.75s forwards;
-}
-.mask-green-out {
-  -webkit-animation: slideOutUp 1.5s ease-in-out 2.75s forwards;
-  -moz-animation: slideOutUp 1.5s ease-in-out 2.75s forwards;
-  animation: slideOutUp 1.5s ease-in-out 2.75s forwards;
-}
-
-.mask-red-in {
-  -webkit-animation: slideOutRight 1.5s ease-in-out 2.75s forwards;
-  -moz-animation: slideOutRight 1.5s ease-in-out 2.75s forwards;
-  animation: slideOutRight 1.5s ease-in-out 2.75s forwards;
-}
-.mask-red-out {
-  -webkit-animation: slideOutDown 1.5s ease-in-out 2.75s forwards;
-  -moz-animation: slideOutDown 1.5s ease-in-out 2.75s forwards;
-  animation: slideOutDown 1.5s ease-in-out 2.75s forwards;
-}
-
-.frame3 {
-  background: url('./images/300x250_frame3.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-}
-
 .bg {
-  background: url('./images/300x250_bg.jpg');
-  -webkit-animation: fadeIn 0.75s ease-in-out 6.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 6.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 6.75s forwards;
+  background: url('./images/970x250_bg.jpg');
+  -webkit-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 0.5s forwards;
 }
-.logo {
-  background: url('./images/300x250_logo.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 6.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 6.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 6.75s forwards;
-}
-.bubble {
-  background: url('./images/300x250_bubble.png');
-  -webkit-animation: fadeInDown 0.5s ease-in-out 7.25s forwards;
-  -moz-animation: fadeInDown 0.5s ease-in-out 7.25s forwards;
-  animation: fadeInDown 0.5s ease-in-out 7.25s forwards;
-}
+
 .text {
-  background: url('./images/300x250_text.png');
-  -webkit-animation: fadeInUp 0.75s ease-in-out 7.75s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 7.75s forwards;
-  animation: fadeInUp 0.75s ease-in-out 7.75s forwards;
+  background: url('./images/970x250_text.png');
+  -webkit-animation: slideInDown 1s ease-in-out 1s forwards;
+  -moz-animation: slideInDown 1s ease-in-out 1s forwards;
+  animation: slideInDown 1s ease-in-out 1s forwards;
+}
+
+.cta {
+  background: url('./images/970x250_cta.png');
+  -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 2s forwards;
+  animation: fadeIn 0.75s ease-in-out 2s forwards;
+}
+
+.arrow {
+  background: url('./images/970x250_arrow.png');
+  -webkit-animation: arrowAnimation 0.75s ease-in-out 2.75s forwards;
+  -moz-animation: arrowAnimation 0.75s ease-in-out 2.75s forwards;
+  animation: arrowAnimation 0.75s ease-in-out 2.75s forwards;
 }
