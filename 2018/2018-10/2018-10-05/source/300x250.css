@@ -850,14 +850,14 @@
 .text {
   background: url('./images/300x250_text.png') no-repeat center center;
 
-  -webkit-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
-  -moz-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
-  animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 2s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 2s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 2s forwards;
 }
 .cta{
   background: url('./images/300x250_cta.png') no-repeat center center;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 3.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  animation: fadeIn 0.75s ease-in-out 3s forwards;
 }
