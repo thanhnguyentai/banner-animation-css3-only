@@ -858,24 +858,24 @@
 .text {
   background: url('./images/160x600_text.png') no-repeat center center;
 
-  -webkit-animation: fadeInUp 0.75s ease-in-out 2.25s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 2.25s forwards;
-  animation: fadeInUp 0.75s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 2.75s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 2.75s forwards;
+  animation: fadeInUp 0.75s ease-in-out 2.75s forwards;
 }
 
 .cta-bg{
   background: url('./images/160x600_cta_bg.png') no-repeat center center;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
-  animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 3.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 3.5s forwards;
 }
 .cta-btn{
   background: url('./images/160x600_cta_btn.png') no-repeat center center;
 
-  -webkit-animation: fadeInRight 0.75s ease-in-out 3.5s forwards;
-  -moz-animation: fadeInRight 0.75s ease-in-out 3.5s forwards;
-  animation: fadeInRight 0.75s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 4s forwards;
+  animation: fadeIn 0.75s ease-in-out 4s forwards;
 }
 .cta-text{
   background: url('./images/160x600_cta_text.png') no-repeat center center;
