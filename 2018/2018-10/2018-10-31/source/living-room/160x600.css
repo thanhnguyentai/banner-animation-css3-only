@@ -868,21 +868,21 @@
 .logo {
   background: url('./images/160x600_logo.png') no-repeat center center;
 
-  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  animation: fadeIn 0.75s ease-in-out 1s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .text {
   background: url('./images/160x600_text.png') no-repeat center center;
 
-  -webkit-animation: fadeInDown 0.75s ease-in-out 1.75s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 1.75s forwards;
-  animation: fadeInDown 0.75s ease-in-out 1.75s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
 }
 .cta {
   background: url('./images/160x600_cta.png') no-repeat center center;
 
-  -webkit-animation: fadeInUp100 1s ease-in-out 2.25s forwards;
-  -moz-animation: fadeInUp100 1s ease-in-out 2.25s forwards;
-  animation: fadeInUp100 1s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeInUp100 1.25s ease-in-out 1.5s forwards;
+  -moz-animation: fadeInUp100 1.25s ease-in-out 1.5s forwards;
+  animation: fadeInUp100 1.25s ease-in-out 1.5s forwards;
 }
