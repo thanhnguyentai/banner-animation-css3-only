@@ -887,7 +887,7 @@
   background: url('./images/300x600_cta.png') no-repeat center center;
   background-size: 100% auto;
 
-  -webkit-animation: fadeInUp100 1.25s ease-in-out 1.5s forwards;
-  -moz-animation: fadeInUp100 1.25s ease-in-out 1.5s forwards;
-  animation: fadeInUp100 1.25s ease-in-out 1.5s forwards;
+  -webkit-animation: fadeInUp100 1.75s ease-in-out 1s forwards;
+  -moz-animation: fadeInUp100 1.75s ease-in-out 1s forwards;
+  animation: fadeInUp100 1.75s ease-in-out 1s forwards;
 }
