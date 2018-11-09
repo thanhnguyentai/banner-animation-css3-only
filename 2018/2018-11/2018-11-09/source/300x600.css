@@ -808,6 +808,7 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+  backface-visibility: hidden;
 }
 
 .absolute {
