@@ -1007,33 +1007,33 @@
 }
 
 .logo1-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 4s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 4s forwards;
-  animation: fadeOut 0.75s ease-in-out 4s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 4.5s forwards;
 }
 .logo2-bg {
   background: url('./images/300x600_logo2_bg.png');
   background-size: 100% auto;
 
-  -webkit-animation: fadeIn 0.1s ease-in-out 4.75s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 4.75s forwards;
-  animation: fadeIn 0.1s ease-in-out 4.75s forwards;
+  -webkit-animation: fadeIn 0.1s ease-in-out 5.25s forwards;
+  -moz-animation: fadeIn 0.1s ease-in-out 5.25s forwards;
+  animation: fadeIn 0.1s ease-in-out 5.25s forwards;
 }
 .logo2-down {
   background: url('./images/300x600_logo2_down.png');
   background-size: 100% auto;
   
-  -webkit-animation: fadeIn 0.1s ease-in-out 4.75s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 4.75s forwards;
-  animation: fadeIn 0.1s ease-in-out 4.75s forwards;
+  -webkit-animation: fadeIn 0.1s ease-in-out 5.25s forwards;
+  -moz-animation: fadeIn 0.1s ease-in-out 5.25s forwards;
+  animation: fadeIn 0.1s ease-in-out 5.25s forwards;
 }
 .logo2-up {
   background: url('./images/300x600_logo2_up.png');
   background-size: 100% auto;
   
-  -webkit-animation: fadeIn 0.1s ease-in-out 4.85s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 4.85s forwards;
-  animation: fadeIn 0.1s ease-in-out 4.85s forwards;
+  -webkit-animation: fadeIn 0.1s ease-in-out 5.35s forwards;
+  -moz-animation: fadeIn 0.1s ease-in-out 5.35s forwards;
+  animation: fadeIn 0.1s ease-in-out 5.35s forwards;
 }
 .mask {
   background: url('./images/300x600_mask.png') no-repeat center center;
@@ -1042,9 +1042,9 @@
   height: 31px;
   top: 0px;
   left: 0px;
-  -webkit-animation: fadeIn 0.1s ease-in-out 4.75s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 4.75s forwards;
-  animation: fadeIn 0.1s ease-in-out 4.75s forwards;
+  -webkit-animation: fadeIn 0.1s ease-in-out 5.25s forwards;
+  -moz-animation: fadeIn 0.1s ease-in-out 5.25s forwards;
+  animation: fadeIn 0.1s ease-in-out 5.25s forwards;
 }
 .mask-container {
   width: 62px;
@@ -1055,23 +1055,23 @@
   -moz-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
 
-  -webkit-animation: rotate180 0.75s ease-in-out 4.85s forwards;
-  -moz-animation: rotate180 0.75s ease-in-out 4.85s forwards;
-  animation: rotate180 0.75s ease-in-out 4.85s forwards;
+  -webkit-animation: rotate180 0.75s ease-in-out 5.35s forwards;
+  -moz-animation: rotate180 0.75s ease-in-out 5.35s forwards;
+  animation: rotate180 0.75s ease-in-out 5.35s forwards;
 }
 .text2-1 {
   background: url('./images/300x600_text2_1.png');
   background-size: 100% auto;
   
-  -webkit-animation: fadeIn 0.75s ease-in-out 6s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 6s forwards;
-  animation: fadeIn 0.75s ease-in-out 6s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 6.5s forwards;
 }
 .text2-2 {
   background: url('./images/300x600_text2_2.png');
   background-size: 100% auto;
   
-  -webkit-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 7s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 7s forwards;
+  animation: fadeIn 0.75s ease-in-out 7s forwards;
 }
