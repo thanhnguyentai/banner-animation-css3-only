@@ -980,9 +980,9 @@
   animation: rotate90AndScaleDown 1.25s ease-in-out 0.5s forwards;
 }
 .bg-wrapper {
-  -webkit-animation: rotateLoop 250s linear 2s infinite;
-  -moz-animation: rotateLoop 250s linear 2s infinite;
-  animation: rotateLoop 250s linear 2s infinite;
+  -webkit-animation: rotateLoop 400s linear 2s infinite;
+  -moz-animation: rotateLoop 400s linear 2s infinite;
+  animation: rotateLoop 400s linear 2s infinite;
 }
 .text1 {
   background: url('./images/300x600_text1.png');

@@ -1025,14 +1025,6 @@
   animation: fadeIn 0.75s ease-in-out 3s forwards;
 }
 
-.logo2-bg {
-  background: url('./images/728x90_logo2_bg.png');
-  background-size: 100% auto;
-
-  -webkit-animation: fadeIn 0.1s ease-in-out 4.25s forwards;
-  -moz-animation: fadeIn 0.1s ease-in-out 4.25s forwards;
-  animation: fadeIn 0.1s ease-in-out 4.25s forwards;
-}
 .logo2-down {
   background: url('./images/728x90_logo2_down.png');
   background-size: 100% auto;
@@ -1049,11 +1041,22 @@
   -moz-animation: fadeIn 0.1s ease-in-out 4.35s forwards;
   animation: fadeIn 0.1s ease-in-out 4.35s forwards;
 }
+.mask-wrapper {
+  width: 52px;
+  height: 25px;
+  top: 20px;
+  left: 96px;
+  overflow: hidden;
+
+  -webkit-animation: fadeIn 0.1s ease-in-out 4.25s forwards;
+  -moz-animation: fadeIn 0.1s ease-in-out 4.25s forwards;
+  animation: fadeIn 0.1s ease-in-out 4.25s forwards;
+}
 .mask {
   background: url('./images/728x90_mask.png') no-repeat center center;
   background-size: 100% auto;
-  width: 46px;
-  height: 23px;
+  width: 52px;
+  height: 25px;
   top: 0px;
   left: 0px;
   -webkit-animation: fadeIn 0.1s ease-in-out 4.25s forwards;
@@ -1061,10 +1064,10 @@
   animation: fadeIn 0.1s ease-in-out 4.25s forwards;
 }
 .mask-container {
-  width: 46px;
-  height: 23px;
-  top: 22px;
-  left: 173px;
+  width: 52px;
+  height: 25px;
+  top: 0px;
+  left: 0px;
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
   transform-origin: 50% 100%;

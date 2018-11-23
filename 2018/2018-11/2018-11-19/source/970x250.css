@@ -1049,11 +1049,22 @@
   -moz-animation: fadeIn 0.1s ease-in-out 4.35s forwards;
   animation: fadeIn 0.1s ease-in-out 4.35s forwards;
 }
+.mask-wrapper {
+  width: 74px;
+  height: 38px;
+  top: 88px;
+  left: 111px;
+  overflow: hidden;
+
+  -webkit-animation: fadeIn 0.1s ease-in-out 4.25s forwards;
+  -moz-animation: fadeIn 0.1s ease-in-out 4.25s forwards;
+  animation: fadeIn 0.1s ease-in-out 4.25s forwards;
+}
 .mask {
   background: url('./images/970x250_mask.png') no-repeat center center;
   background-size: 100% auto;
-  width: 59px;
-  height: 28px;
+  width: 74px;
+  height: 38px;
   top: 0px;
   left: 0px;
   -webkit-animation: fadeIn 0.1s ease-in-out 4.25s forwards;
@@ -1061,10 +1072,10 @@
   animation: fadeIn 0.1s ease-in-out 4.25s forwards;
 }
 .mask-container {
-  width: 59px;
-  height: 28px;
-  top: 28px;
-  left: 456px;
+  width: 74px;
+  height: 38px;
+  top: 0px;
+  left: 0px;
   -webkit-transform-origin: 50% 100%;
   -moz-transform-origin: 50% 100%;
   transform-origin: 50% 100%;
