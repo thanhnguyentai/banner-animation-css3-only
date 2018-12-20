@@ -1024,7 +1024,14 @@
   -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
   animation: fadeIn 0.75s ease-in-out 3s forwards;
 }
-
+.text2-2 {
+  background: url('./images/970x250_text2_2.png');
+  background-size: 100% auto;
+  
+  -webkit-animation: fadeIn 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 4s forwards;
+  animation: fadeIn 0.75s ease-in-out 4s forwards;
+}
 .logo2-bg {
   background: url('./images/970x250_logo2_bg.png');
   background-size: 100% auto;
@@ -1096,12 +1103,4 @@
   -webkit-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
   animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-}
-.text2-2 {
-  background: url('./images/970x250_text2_2.png');
-  background-size: 100% auto;
-  
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.75s forwards;
 }
