@@ -837,12 +837,6 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
-.cta {
-  background: url('./images/300x250_d_cta.png') no-repeat center center;
-  -webkit-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 1.5s forwards;
-}
 .bg {
   background: url('./images/300x250_d_bg.jpg') no-repeat center center;
   -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
@@ -854,4 +848,10 @@
   -webkit-animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
   animation: fadeInDown 0.75s ease-in-out 3.25s forwards;
+}
+.cta {
+  background: url('./images/300x250_d_cta.png') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 4s forwards;
+  animation: fadeIn 0.75s ease-in-out 4s forwards;
 }

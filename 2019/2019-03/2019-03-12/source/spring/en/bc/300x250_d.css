@@ -881,23 +881,23 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
-.cta {
-  background: url('./images/300x250_d_cta.png') no-repeat center center;
-  -webkit-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 1.5s forwards;
-}
 .stick-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 3.5s forwards;
   -moz-animation: fadeOut 0.75s ease-in-out 3.5s forwards;
   animation: fadeOut 0.75s ease-in-out 3.5s forwards;
 }
-
 .text {
   background: url('./images/300x250_d_text.png') no-repeat center center;
   -webkit-animation: fadeInDown 0.75s ease-in-out 4s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 4s forwards;
   animation: fadeInDown 0.75s ease-in-out 4s forwards; 
+}
+
+.cta {
+  background: url('./images/300x250_d_cta.png') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 4.75s forwards;
 }
 
 .flashing {
