@@ -29,11 +29,11 @@
 			//get the cancvas and context and store in vars
 			var canvas = document.getElementById("snow");
 			var ctx = canvas.getContext("2d");
-			var W = ctx.canvas.width
+			var W = ctx.canvas.width+300
 			var H = ctx.canvas.height;
 
 			//generate the snowflakes and apply attributes
-			var mf = 455; //max flakes
+			var mf = 300; //max flakes
 			var flakes = [];
 
 			//loop throught the empty flakes and apply attributes
@@ -42,7 +42,7 @@
 				flakes.push({
 					  x: Math.random() * (W + 2*W) - 2*W,
 					  y: Math.random()*H,
-					  r: Math.random()*4+1, //min of 1px and max of 5px
+					  r: Math.random()*3+1, //min of 1px and max of 5px
 					  d: Math.random() + 1 //density of the flake
 				})
 			}
@@ -72,8 +72,8 @@
 					var f = flakes[i];
 
 					//update X and Y coordinates of each snowflakes
-					f.y += Math.pow(f.d, 2) + 2;
-					f.x += Math.abs(Math.sin(angle)) + 1.5;
+					f.y += Math.pow(f.d, 2) + 3;
+					f.x += Math.abs(Math.sin(angle)) + 10;
 
 					//if the snowflake reaches the bottom, send a new one to the top
 					if(f.y > H) {
