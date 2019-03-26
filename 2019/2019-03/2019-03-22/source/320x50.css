@@ -913,8 +913,8 @@
   animation: fadeInLeft 0.75s ease-in-out 0.75s forwards;
 }
 .frame3.animation {
-  -webkit-animation: fadeOut 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 3s forwards;
-  animation: fadeOut 0.75s ease-in-out 3s forwards;
+  -webkit-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 4.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 4.5s forwards;
 }
 
