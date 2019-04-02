@@ -1004,21 +1004,21 @@ a {
 
 .text1 {
   background: url('./images/300x250_2_text1.png');
-  -webkit-animation: fadeInLeft 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeInLeft 0.75s ease-in-out 3s forwards;
-  animation: fadeInLeft 0.75s ease-in-out 3s forwards;
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 4.25s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 4.25s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 4.25s forwards;
 }
 
 .text2 {
   background: url('./images/300x250_2_text2.png');
-  -webkit-animation: fadeInLeft 0.75s ease-in-out 3.5s forwards;
-  -moz-animation: fadeInLeft 0.75s ease-in-out 3.5s forwards;
-  animation: fadeInLeft 0.75s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 6s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 6s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 6s forwards;
 }
 
 .product {
   background: url('./images/300x250_2_product.png');
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 7.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 7.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 7.25s forwards;
 }
