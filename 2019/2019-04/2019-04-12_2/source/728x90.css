@@ -768,13 +768,9 @@
     visibility: visible;
     -webkit-transform:translateX(-100%);
   }
-  50% {
-    visibility: visible;
-    -webkit-transform:translateX(100%);
-  }
   100% {
     visibility: visible;
-    -webkit-transform:translateX(-100%);
+    -webkit-transform:translateX(100%);
   }
 }
 @-moz-keyframes shine {
@@ -782,13 +778,9 @@
     visibility: visible;
     -moz-transform:translateX(-100%);
   }
-  50% {
-    visibility: visible;
-    -moz-transform:translateX(100%);
-  }
   100% {
     visibility: visible;
-    -moz-transform:translateX(-100%);
+    -moz-transform:translateX(100%);
   }
 }
 @keyframes shine {
@@ -796,13 +788,9 @@
     visibility: visible;
     transform:translateX(-100%);
   }
-  50% {
-    visibility: visible;
-    transform:translateX(100%);
-  }
   100% {
     visibility: visible;
-    transform:translateX(-100%);
+    transform:translateX(100%);
   }
 }
 
@@ -955,9 +943,9 @@
   animation: slideInUp 0.5s ease-in-out 1s forwards;
 }
 .frame.animation .cta-container:after {
-  -webkit-animation: shine 1.5s ease-in-out 1.75s;
-  -moz-animation: shine 1.5s ease-in-out 1.75s;
-  animation: shine 1.5s ease-in-out 1.75s;
+  -webkit-animation: shine 1s ease-in-out 1.75s;
+  -moz-animation: shine 1s ease-in-out 1.75s;
+  animation: shine 1s ease-in-out 1.75s;
 }
 .frame.animation {
   -webkit-animation: fadeOut 0.75s ease-in-out 3s forwards;
