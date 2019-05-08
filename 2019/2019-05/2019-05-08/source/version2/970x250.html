@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>
+			Banner Animation
+		</title>
+		<link rel="stylesheet" type="text/css" href="970x250.css">
+	</head>
+	<body>
+		<div class="banner-container container">
+			<div class="content-container container">
+				<div class="content container">
+					<div id="ads" class="content-wrapper container">
+						<div class="bg container">&nbsp;</div>
+						<div class="number-container container">
+							<div id="number" class="number absolute">00000</div>
+						</div>
+						<div class="text container">&nbsp;</div>
+						<div class="yes-container absolute">
+							<div class="yes absolute">&nbsp;</div>
+							<div class="btn-sheen absolute">&nbsp;</div>
+						</div>
+						<div class="no-container absolute">
+							<div class="no absolute">&nbsp;</div>
+							<div class="btn-sheen absolute">&nbsp;</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var TIMEOUT = 1000;
+			var MAX_NUMBER = 75000;
+			var numberContainer = document.getElementById('number');
+			var adsContainer = document.getElementById('ads');
+
+			function activeNextAnimation() {
+				adsContainer.className = adsContainer.className + ' animation';
+			}
+
+			function increaseNumberFromTo(current, max) {
+				if(current == max) {
+					activeNextAnimation();
+					return;
+				}
+
+				current += 129;
+				if(current > max) {
+					current = max;
+				}
+
+				var currentStr = current + '';
+				var maxLength = (max + '').length;
+
+				if(currentStr.length < maxLength) {
+					while(currentStr.length < maxLength) {
+						currentStr = '0' + currentStr;
+					}
+				}
+
+				numberContainer.textContent = currentStr;
+
+				setTimeout(function() {
+					increaseNumberFromTo(current, max);
+				}, 0)
+			}
+
+			setTimeout(function() {
+				increaseNumberFromTo(0, MAX_NUMBER);
+			}, TIMEOUT);
+		</script>
+	</body>
+</html>
