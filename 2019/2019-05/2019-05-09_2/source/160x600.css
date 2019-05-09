@@ -833,13 +833,6 @@
   -moz-animation: scaleUpSmall 5s ease-in-out 0.75s forwards;
   animation: scaleUpSmall 5s ease-in-out 0.75s forwards;
 }
-.cta {
-  background: url("./images/160x600_cta.png");
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-
-}
 .text {
   background: url("./images/160x600_text.png");
   -webkit-animation: fadeIn 1s ease-in-out 1.25s forwards;
@@ -851,4 +844,10 @@
   -webkit-animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
   animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
+}
+.cta {
+  background: url("./images/160x600_cta.png");
+  -webkit-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 3.75s forwards;
 }
