@@ -817,7 +817,7 @@
   left: 0px;
   bottom: 0px;
   background: url("./images/160x600_cta.png");
-  -webkit-animation: slideInUp 0.5s ease-in-out 4.5s forwards;
-  -moz-animation: slideInUp 0.5s ease-in-out 4.5s forwards;
-  animation: slideInUp 0.5s ease-in-out 4.5s forwards;
+  -webkit-animation: fadeIn 0.5s ease-in-out 4.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 4.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 4.5s forwards;
 }
