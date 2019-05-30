@@ -869,8 +869,9 @@
   animation: fadeIn 0.75s ease-in-out 4.25s forwards;
 }
 .frame2_cta {
-  background: url("./images/300x50_frame2_cta.png");
+  display: none;
+  /* background: url("./images/300x50_frame2_cta.png");
   -webkit-animation: fadeInLeft 0.75s ease-in-out 5s forwards;
   -moz-animation: fadeInLeft 0.75s ease-in-out 5s forwards;
-  animation: fadeInLeft 0.75s ease-in-out 5s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 5s forwards; */
 }
