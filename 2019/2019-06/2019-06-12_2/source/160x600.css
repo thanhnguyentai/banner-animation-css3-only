@@ -865,8 +865,8 @@
   top: 0px;
   left: -179px;
   background: url("./images/160x600_image.jpg");
-  -webkit-animation: slideImage 5s linear 1s forwards;
-  -moz-animation: slideImage 5s linear 1s forwards;
-  animation: slideImage 5s linear 1s forwards;
+  -webkit-animation: slideImage 5s linear 2s forwards;
+  -moz-animation: slideImage 5s linear 2s forwards;
+  animation: slideImage 5s linear 2s forwards;
 }
 

@@ -865,8 +865,8 @@
   top: 0px;
   left: 0px;
   background: url("./images/300x250_m_image.png");
-  -webkit-animation: slideImage 5s linear 1s forwards;
-  -moz-animation: slideImage 5s linear 1s forwards;
-  animation: slideImage 5s linear 1s forwards;
+  -webkit-animation: slideImage 5s linear 2s forwards;
+  -moz-animation: slideImage 5s linear 2s forwards;
+  animation: slideImage 5s linear 2s forwards;
 }
 

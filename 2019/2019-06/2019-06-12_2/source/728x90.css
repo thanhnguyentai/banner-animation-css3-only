@@ -865,8 +865,8 @@
   top: -19px;
   left: 0px;
   background: url("./images/728x90_image.jpg");
-  -webkit-animation: slideImage 5s linear 1s forwards;
-  -moz-animation: slideImage 5s linear 1s forwards;
-  animation: slideImage 5s linear 1s forwards;
+  -webkit-animation: slideImage 5s linear 2s forwards;
+  -moz-animation: slideImage 5s linear 2s forwards;
+  animation: slideImage 5s linear 2s forwards;
 }
 
