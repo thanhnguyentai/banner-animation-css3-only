@@ -862,44 +862,44 @@
 .product1 {
   background: url("./images/300x250_product1.png");
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 2.25s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 2.25s forwards;
+  animation: fadeInUp 0.75s ease-in-out 2.25s forwards;
 }
 .product2 {
   background: url("./images/300x250_product2.png");
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.75s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 2.75s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 2.75s forwards;
+  animation: fadeInUp 0.75s ease-in-out 2.75s forwards;
 }
 .product3 {
   background: url("./images/300x250_product3.png");
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 3.25s forwards;
+  -webkit-animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
+  -moz-animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
+  animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
 }
 .product4 {
   background: url("./images/300x250_product4.png");
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 3.75s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 3.75s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 3.75s forwards;
 }
 .product5 {
   background: url("./images/300x250_product5.png");
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.25s forwards;
+  -webkit-animation: fadeInRight 0.75s ease-in-out 4.25s forwards;
+  -moz-animation: fadeInRight 0.75s ease-in-out 4.25s forwards;
+  animation: fadeInRight 0.75s ease-in-out 4.25s forwards;
 }
 .product6 {
   background: url("./images/300x250_product6.png");
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.75s forwards;
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 4.75s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 4.75s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 4.75s forwards;
 }
 .delivery {
   background: url("./images/300x250_delivery.png");
