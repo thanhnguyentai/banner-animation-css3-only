@@ -791,8 +791,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 160px;
-  height: 600px;
+  width: 970px;
+  height: 250px;
   display: block;
 }
 
@@ -832,32 +832,80 @@
 }
 
 .bg {
-  background: url("./images/160x600_bg.jpg");
+  background: url("./images/970x250_bg.jpg");
   background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .logo {
-  background: url("./images/160x600_logo.png");
+  background: url("./images/970x250_logo.png");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
+.cta {
+  background: url("./images/970x250_cta.png");
   background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .text {
-  background: url("./images/160x600_text.png");
+  background: url("./images/970x250_text.png");
   background-size: 100% auto;
   -webkit-animation: fadeInDown 0.75s ease-in-out 1.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 1.5s forwards;
   animation: fadeInDown 0.75s ease-in-out 1.5s forwards;
 }
-.cta {
-  background: url("./images/160x600_cta.png");
+.product1 {
+  background: url("./images/970x250_product1.png");
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 2.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 2.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 2.25s forwards;
 }
-
+.product2 {
+  background: url("./images/970x250_product2.png");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 2.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 2.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 2.75s forwards;
+}
+.product3 {
+  background: url("./images/970x250_product3.png");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 3.25s forwards;
+}
+.product4 {
+  background: url("./images/970x250_product4.png");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+}
+.product5 {
+  background: url("./images/970x250_product5.png");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 4.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 4.25s forwards;
+}
+.product6 {
+  background: url("./images/970x250_product6.png");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 4.75s forwards;
+}
+.delivery {
+  background: url("./images/970x250_delivery.png");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+}
 
