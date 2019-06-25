@@ -893,9 +893,9 @@
   left: 245px;
   background: url("./images/320x50_cta.png");
   background-size: 100% auto;
-  -webkit-animation: pulse 0.5s ease-in-out 2.25s forwards;
-  -moz-animation: pulse 0.5s ease-in-out 2.25s forwards;
-  animation: pulse 0.5s ease-in-out 2.25s forwards;
+  -webkit-animation: pulse 0.5s ease-in-out 2.25s infinite;
+  -moz-animation: pulse 0.5s ease-in-out 2.25s infinite;
+  animation: pulse 0.5s ease-in-out 2.25s infinite;
 }
 
 
