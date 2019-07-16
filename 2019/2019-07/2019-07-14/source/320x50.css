@@ -989,45 +989,45 @@
 .ship1 {
   background: url("./images/320x50_ship1.png");
   background-size: 100% auto;
-  -webkit-animation: transformLeft2 20s linear 1.5s infinite;
-  -moz-animation: transformLeft2 20s linear 1.5s infinite;
-  animation: transformLeft2 20s linear 1.5s infinite;
+  -webkit-animation: transformLeft2 20s linear 0.01s infinite;
+  -moz-animation: transformLeft2 20s linear 0.01s infinite;
+  animation: transformLeft2 20s linear 0.01s infinite;
 }
 .ship2 {
   background: url("./images/320x50_ship2.png");
   background-size: 100% auto;
-  -webkit-animation: transformRight2 30s linear 1.75s infinite;
-  -moz-animation: transformRight2 30s linear 1.75s infinite;
-  animation: transformRight2 30s linear 1.75s infinite;
+  -webkit-animation: transformRight2 30s linear 0.01s infinite;
+  -moz-animation: transformRight2 30s linear 0.01s infinite;
+  animation: transformRight2 30s linear 0.01s infinite;
 }
 .ship3 {
   background: url("./images/320x50_ship3.png");
   background-size: 100% auto;
-  -webkit-animation: transformRight2 40s linear 1.75s infinite;
-  -moz-animation: transformRight2 40s linear 1.75s infinite;
-  animation: transformRight2 40s linear 1.75s infinite;
+  -webkit-animation: transformRight2 40s linear 0.01s infinite;
+  -moz-animation: transformRight2 40s linear 0.01s infinite;
+  animation: transformRight2 40s linear 0.01s infinite;
 }
 
 .cloud1 {
   background: url("./images/320x50_cloud1.png");
   background-size: 100% auto;
-  -webkit-animation: transformLeft 20s linear 1.5s alternate infinite;
-  -moz-animation: transformLeft 20s linear 1.5s alternate infinite;
-  animation: transformLeft 20s linear 1.5s alternate infinite;
+  -webkit-animation: transformLeft 20s linear 0.01s alternate infinite;
+  -moz-animation: transformLeft 20s linear 0.01s alternate infinite;
+  animation: transformLeft 20s linear 0.01s alternate infinite;
 }
 .cloud2 {
   background: url("./images/320x50_cloud2.png");
   background-size: 100% auto;
-  -webkit-animation: transformLeft 30s linear 1.75s alternate infinite;
-  -moz-animation: transformLeft 30s linear 1.75s alternate infinite;
-  animation: transformLeft 30s linear 1.75s alternate infinite;
+  -webkit-animation: transformLeft 30s linear 0.01s alternate infinite;
+  -moz-animation: transformLeft 30s linear 0.01s alternate infinite;
+  animation: transformLeft 30s linear 0.01s alternate infinite;
 }
 .cloud3 {
   background: url("./images/320x50_cloud3.png");
   background-size: 100% auto;
-  -webkit-animation: transformRight 35s linear 1.5s alternate infinite;
-  -moz-animation: transformRight 35s linear 1.5s alternate infinite;
-  animation: transformRight 35s linear 1.5s alternate infinite;
+  -webkit-animation: transformRight 35s linear 0.01s alternate infinite;
+  -moz-animation: transformRight 35s linear 0.01s alternate infinite;
+  animation: transformRight 35s linear 0.01s alternate infinite;
 }
 
 
