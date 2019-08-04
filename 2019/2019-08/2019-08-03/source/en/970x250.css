@@ -854,22 +854,22 @@
 .text {
   background: url("./images/970x250_text.png");
   background-size: 100% auto;
-  -webkit-animation: fadeInUp 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 2s forwards;
-  animation: fadeInUp 0.75s ease-in-out 2s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
+  animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
 }
 .price {
   background: url("./images/970x250_price.png");
   background-size: 100% auto;
-  -webkit-animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
-  animation: fadeInUp 0.75s ease-in-out 2.5s forwards;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 1.65s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 1.65s forwards;
+  animation: fadeInUp 0.75s ease-in-out 1.65s forwards;
 }
 .cta {
   background: url("./images/970x250_cta.png");
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 3.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  animation: fadeIn 0.75s ease-in-out 3s forwards;
 }
 
