@@ -865,3 +865,17 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
+.image2 {
+  background: url("./images/300x600_image2.jpg");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
+  animation: fadeIn 0.75s ease-in-out 3s forwards;
+}
+.image3 {
+  background: url("./images/300x600_image3.jpg");
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+}
