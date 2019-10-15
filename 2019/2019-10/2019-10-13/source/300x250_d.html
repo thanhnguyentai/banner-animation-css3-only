@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>
+			Banner Animation
+		</title>
+		<link rel="stylesheet" type="text/css" href="300x250_d.css">
+	</head>
+	<body>
+		<div class="banner-container container">
+			<div class="content-container container">
+				<div class="content container">
+					<div class="content-wrapper container">
+						<div class="bg container">&nbsp;</div>
+						<div class="text container">&nbsp;</div>
+						<div id="text1" class="text1 absolute">&nbsp;</div>
+						<div id="text2" class="text2 absolute">&nbsp;</div>
+						<div class="card container">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			var delay = 1250;
+
+			var arrTexts = [];
+			arrTexts.push('Discover the card that');
+			arrTexts.push('changes everything.');
+			var arrElements = [];
+			arrElements.push(document.getElementById('text1'));
+			arrElements.push(document.getElementById('text2'));
+
+			var propText = ('innerText' in arrElements[0])? 'innerText' : 'textContent';
+			var textIndex = 0;
+			var charIndex = 0;
+			var delayNextChar = 75;
+
+			function fillText(textIndex, charIndex) {
+				var text = arrTexts[textIndex];
+				if(charIndex < arrTexts[textIndex].length - 1) {
+					text = arrTexts[textIndex].substring(0, charIndex + 1) + '|';
+				}
+				arrElements[textIndex][propText] = text;
+
+				charIndex++;
+				if(charIndex >= arrTexts[textIndex].length) {
+					charIndex = 0;
+					textIndex++;
+				}
+
+				if(textIndex < arrTexts.length) {
+					setTimeout(function(){
+						fillText(textIndex, charIndex);
+					}, delayNextChar);
+				}
+			}
+
+			function startAnimation() {
+				fillText(textIndex, charIndex);
+			}
+
+			setTimeout(function() {
+				startAnimation();
+			}, delay);
+		</script>
+	</body>
+</html>
