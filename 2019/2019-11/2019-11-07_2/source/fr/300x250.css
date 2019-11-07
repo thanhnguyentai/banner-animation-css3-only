@@ -891,14 +891,14 @@
 .string {
   background: url('./images/300x250_string.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.5s ease-in-out 2s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 2s forwards;
-  animation: fadeIn 0.5s ease-in-out 2s forwards;
+  -webkit-animation: fadeInDown 0.5s ease-in-out 1.5s forwards;
+  -moz-animation: fadeInDown 0.5s ease-in-out 1.5s forwards;
+  animation: fadeInDown 0.5s ease-in-out 1.5s forwards;
 }
 .cta {
   background: url('./images/300x250_cta.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeInLeft 0.75s ease-in-out 2.75s forwards;
-  -moz-animation: fadeInLeft 0.75s ease-in-out 2.75s forwards;
-  animation: fadeInLeft 0.75s ease-in-out 2.75s forwards;
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
 }
