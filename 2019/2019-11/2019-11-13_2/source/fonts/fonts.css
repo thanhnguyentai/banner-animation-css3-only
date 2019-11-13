@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Verizon NHG TX';
+    src: url('VerizonNHGTX-Bold.eot');
+    src: url('VerizonNHGTX-Bold.eot?#iefix') format('embedded-opentype'),
+        url('VerizonNHGTX-Bold.woff2') format('woff2'),
+        url('VerizonNHGTX-Bold.woff') format('woff'),
+        url('VerizonNHGTX-Bold.ttf') format('truetype'),
+        url('VerizonNHGTX-Bold.svg#VerizonNHGTX-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
