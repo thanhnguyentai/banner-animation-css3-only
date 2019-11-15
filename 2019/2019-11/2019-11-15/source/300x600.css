@@ -814,6 +814,62 @@
   }
 }
 
+/*-- zoom in out repeate--*/
+@-webkit-keyframes zoomInOutRepeat {
+  0%   {
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+  }
+  10%   {
+    visibility: visible;
+    -webkit-transform: scale(1.15, 1.15);
+  }
+  20% { 
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: scale(1, 1);
+  }
+}
+@-moz-keyframes zoomInOutRepeat {
+  0%   {
+    visibility: visible;
+    -moz-transform: scale(1, 1);
+  }
+  10%   {
+    visibility: visible;
+    -moz-transform: scale(1.15, 1.15);
+  }
+  20% { 
+    visibility: visible;
+    -moz-transform: scale(1, 1);
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: scale(1, 1);
+  }
+}
+@keyframes zoomInOutRepeat {
+  0%   {
+    visibility: visible;
+    transform: scale(1, 1);
+  }
+  10%   {
+    visibility: visible;
+    transform: scale(1.15, 1.15);
+  }
+  20% { 
+    visibility: visible;
+    transform: scale(1, 1);
+  }
+  100% { 
+    visibility: visible;
+    transform: scale(1, 1);
+  }
+}
+
 /*-------------------------------------------*/
 * {
   -webkit-box-sizing: border-box;
@@ -901,6 +957,14 @@
   -moz-animation: zoomInOut 0.75s ease-in-out 2.5s forwards;
   animation: zoomInOut 0.75s ease-in-out 2.5s forwards;
 
+  -webkit-transform-origin: 50% 522px;
+  -moz-transform-origin: 50% 522px;
+  transform-origin: 50% 522px;
+}
+.cta-container {
+  -webkit-animation: zoomInOutRepeat 3.75s ease-in-out 6.25s infinite;
+  -moz-animation: zoomInOutRepeat 3.75s ease-in-out 6.25s infinite;
+  animation: zoomInOutRepeat 3.75s ease-in-out 6.25s infinite;
   -webkit-transform-origin: 50% 522px;
   -moz-transform-origin: 50% 522px;
   transform-origin: 50% 522px;
