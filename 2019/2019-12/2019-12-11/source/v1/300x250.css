@@ -1016,22 +1016,10 @@
   -moz-animation: zoomOutText 0.75s ease-in-out 2.5s forwards;
   animation: zoomOutText 0.75s ease-in-out 2.5s forwards;
 }
-.cta1 {
-  background: url('./images/300x250_cta1.png') no-repeat center center;
+.cta {
+  background: url('./images/300x250_cta.png') no-repeat center center;
   background-size: 100% auto;
   -webkit-animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
   -moz-animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
   animation: fadeInRight 0.75s ease-in-out 3.25s forwards;
-}
-.cta1-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 5.5s forwards;
-  animation: fadeOut 0.75s ease-in-out 5.5s forwards;
-}
-.cta2 {
-  background: url('./images/300x250_cta2.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: fadeInRight 0.75s ease-in-out 6s forwards;
-  -moz-animation: fadeInRight 0.75s ease-in-out 6s forwards;
-  animation: fadeInRight 0.75s ease-in-out 6s forwards;
 }
