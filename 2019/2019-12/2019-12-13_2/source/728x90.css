@@ -891,10 +891,22 @@
 .cta {
   background: url('./images/728x90_cta.png') no-repeat center center;
 }
+.mask {
+  background: url('./images/728x90_mask.png') no-repeat center center;
+  width: 218px;
+  height: 90px;
+  top: 0px;
+  left: 157px;
+}
 .content-wrapper.animation .logo, .content-wrapper.animation .cta {
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
+.content-wrapper.animation .mask {
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .content-wrapper.animation .text {
   -webkit-animation: fadeInUp 0.75s ease-in-out 1s forwards;
