@@ -894,13 +894,31 @@
 .bg {
   background: url('./images/728x90_bg.jpg') no-repeat center center;
 }
-.content-wrapper .bg, .content-wrapper .logo, .content-wrapper .cta {
+.bg, .logo, .cta {
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.content-wrapper .text {
-  -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
-  animation: fadeInDown 0.75s ease-in-out 1s forwards;
+.image2 {
+  background: url('./images/728x90_image2.png') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
+  animation: fadeIn 0.75s ease-in-out 1s forwards;
+}
+.image1 {
+  background: url('./images/728x90_image1.png') no-repeat center center;
+  -webkit-animation: slideInUp 0.75s ease-in-out 1.5s forwards;
+  -moz-animation: slideInUp 0.75s ease-in-out 1.5s forwards;
+  animation: slideInUp 0.75s ease-in-out 1.5s forwards;
+}
+.image3 {
+  background: url('./images/728x90_image3.png') no-repeat center center;
+  -webkit-animation: slideInDown 0.75s ease-in-out 1.75s forwards;
+  -moz-animation: slideInDown 0.75s ease-in-out 1.75s forwards;
+  animation: slideInDown 0.75s ease-in-out 1.75s forwards;
+}
+.text {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 2.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 2.5s forwards;
+  animation: fadeInDown 0.75s ease-in-out 2.5s forwards;
 }
