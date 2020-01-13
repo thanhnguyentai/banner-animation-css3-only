@@ -925,6 +925,12 @@
   -moz-animation: hideContent 10ms ease-in-out 0s forwards;
   animation: hideContent 10ms ease-in-out 0s forwards;
 }
+.border {
+  border: 1px solid #000;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
 .bg {
   background: url('./images/728x90_bg.jpg') no-repeat center center;
   background-size: 100% auto;
