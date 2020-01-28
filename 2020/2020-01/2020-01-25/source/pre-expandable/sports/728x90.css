@@ -918,7 +918,7 @@
   animation: slideInDown 0.75s ease-in-out 1.5s forwards;
 }
 .text {
-  -webkit-animation: fadeInDown 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 2s forwards;
-  animation: fadeInDown 0.75s ease-in-out 2s forwards;
+  -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
 }
