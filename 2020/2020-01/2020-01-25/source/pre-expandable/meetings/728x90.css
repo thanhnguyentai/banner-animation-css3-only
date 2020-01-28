@@ -900,9 +900,9 @@
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .text {
-  -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
-  animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .image1 {
   background: url('./images/728x90_image1.png') no-repeat center center;
