@@ -970,7 +970,7 @@ a {
   background: url('./images/300x250_d_cta.png') no-repeat center center;
   background-size: 100% auto;
 }
-.frame1-logo, .frame1-cta {
+.frame1-logo, .cta {
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
@@ -992,7 +992,7 @@ a {
 }
 
 /* frame1 out */
-.frame1-logo-container, .frame1-cta-container {
+.frame1-logo-container {
   -webkit-animation: fadeOut 0.5s ease-in-out 3.75s forwards;
   -moz-animation: fadeOut 0.5s ease-in-out 3.75s forwards;
   animation: fadeOut 0.5s ease-in-out 3.75s forwards;
@@ -1023,11 +1023,6 @@ a {
   -moz-animation: slideInUp 1s ease-in-out 3.75s forwards;
   animation: slideInUp 1s ease-in-out 3.75s forwards;
 }
-.frame2-cta {
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.5s forwards;
-}
 .frame2-text {
   background: url('./images/300x250_d_frame2_text.png') no-repeat center center;
   background-size: 100% auto;
@@ -1037,11 +1032,6 @@ a {
 }
 
 /* frame2 out */
-.frame2-cta-container {
-  -webkit-animation: fadeOut 0.5s ease-in-out 7.75s forwards;
-  -moz-animation: fadeOut 0.5s ease-in-out 7.75s forwards;
-  animation: fadeOut 0.5s ease-in-out 7.75s forwards;
-}
 .frame2-text-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 7.75s forwards;
   -moz-animation: fadeOut 0.75s ease-in-out 7.75s forwards;
@@ -1060,7 +1050,7 @@ a {
   -moz-animation: slideInLeft 0.75s ease-in-out 7.75s forwards;
   animation: slideInLeft 0.75s ease-in-out 7.75s forwards;
 }
-.frame3-logo, .frame3-cta {
+.frame3-logo{
   -webkit-animation: fadeIn 0.75s ease-in-out 8.25s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 8.25s forwards;
   animation: fadeIn 0.75s ease-in-out 8.25s forwards;
@@ -1074,7 +1064,7 @@ a {
 }
 
 /* frame3 out */
-.frame3-logo-container, .frame3-cta-container {
+.frame3-logo-container {
   -webkit-animation: fadeOut 0.5s ease-in-out 11.5s forwards;
   -moz-animation: fadeOut 0.5s ease-in-out 11.5s forwards;
   animation: fadeOut 0.5s ease-in-out 11.5s forwards;
@@ -1096,7 +1086,7 @@ a {
   background: url('./images/300x250_d_frame4_logo.png') no-repeat center center;
   background-size: 100% auto;
 }
-.frame4-logo, .frame4-cta {
+.frame4-logo {
   -webkit-animation: fadeIn 0.75s ease-in-out 12.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 12.5s forwards;
   animation: fadeIn 0.75s ease-in-out 12.5s forwards;
