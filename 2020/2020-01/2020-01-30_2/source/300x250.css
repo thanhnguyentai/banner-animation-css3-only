@@ -904,14 +904,14 @@ a {
 }
 
 .pen-container {
-  -webkit-animation: fadeOutRight 0.75s ease-in-out 4.5s forwards;
-  -moz-animation: fadeOutRight 0.75s ease-in-out 4.5s forwards;
-  animation: fadeOutRight 0.75s ease-in-out 4.5s forwards;
+  -webkit-animation: fadeOutRight 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeOutRight 0.75s ease-in-out 4s forwards;
+  animation: fadeOutRight 0.75s ease-in-out 4s forwards;
 }
 .cart {
   background: url('./images/300x250_cart.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeInRight 0.75s ease-in-out 5s forwards;
-  -moz-animation: fadeInRight 0.75s ease-in-out 5s forwards;
-  animation: fadeInRight 0.75s ease-in-out 5s forwards;
+  -webkit-animation: fadeInRight 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeInRight 0.75s ease-in-out 4.5s forwards;
+  animation: fadeInRight 0.75s ease-in-out 4.5s forwards;
 }

@@ -832,7 +832,7 @@ a {
   display: block;
 }
 
-.banner-container {
+.banner-container{
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -895,24 +895,23 @@ a {
   -moz-animation: fadeInRight 0.75s ease-in-out 1.5s forwards;
   animation: fadeInRight 0.75s ease-in-out 1.5s forwards;
 }
+.cta {
+  background: url('./images/320x50_cta.png') no-repeat center center;
+  background-size: 100% auto;
+  -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 2.5s forwards;
+}
 
 .pen-container {
-  -webkit-animation: fadeOutRight 0.75s ease-in-out 4.25s forwards;
-  -moz-animation: fadeOutRight 0.75s ease-in-out 4.25s forwards;
-  animation: fadeOutRight 0.75s ease-in-out 4.25s forwards;
+  -webkit-animation: fadeOutRight 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeOutRight 0.75s ease-in-out 4s forwards;
+  animation: fadeOutRight 0.75s ease-in-out 4.5s forwards;
 }
 .cart {
   background: url('./images/320x50_cart.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeInRight 0.75s ease-in-out 4.75s forwards;
-  -moz-animation: fadeInRight 0.75s ease-in-out 4.75s forwards;
-  animation: fadeInRight 0.75s ease-in-out 4.75s forwards;
-}
-
-.cta {
-  background: url('./images/320x50_cta.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 5.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 5.5s forwards;
+  -webkit-animation: fadeInRight 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeInRight 0.75s ease-in-out 4.5s forwards;
+  animation: fadeInRight 0.75s ease-in-out 4.5s forwards;
 }
