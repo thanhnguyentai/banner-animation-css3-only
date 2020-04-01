@@ -968,7 +968,7 @@
 .bottle {
   background: url('./images/300x250_m_bottle.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: slideInLeft 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: slideInLeft 0.75s ease-in-out 2.5s forwards;
-  animation: slideInLeft 0.75s ease-in-out 2.5s forwards;
+  -webkit-animation: slideInLeft 0.75s ease-in-out 1.75s forwards;
+  -moz-animation: slideInLeft 0.75s ease-in-out 1.75s forwards;
+  animation: slideInLeft 0.75s ease-in-out 1.75s forwards;
 }
