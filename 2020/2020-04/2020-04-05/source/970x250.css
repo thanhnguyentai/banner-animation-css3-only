@@ -954,9 +954,9 @@
 }
 
 .frame.animation .frame-image {
-  -webkit-animation: slideInUp 0.75s ease-in-out 0s forwards;
-  -moz-animation: slideInUp 0.75s ease-in-out 0s forwards;
-  animation: slideInUp 0.75s ease-in-out 0s forwards;
+  -webkit-animation: slideInUp 0.5s ease-in-out 0s forwards;
+  -moz-animation: slideInUp 0.5s ease-in-out 0s forwards;
+  animation: slideInUp 0.5s ease-in-out 0s forwards;
 }
 #frame1.frame.animation.first-round .frame-image {
   -webkit-animation: fadeIn 0.75s ease-in-out 0s forwards;
@@ -965,7 +965,7 @@
 }
 
 .frame.animation {
-  -webkit-animation: slideOutUp 0.95s ease-in-out 2.5s forwards;
-  -moz-animation: slideOutUp 0.95s ease-in-out 2.5s forwards;
-  animation: slideOutUp 0.95s ease-in-out 2.5s forwards;
+  -webkit-animation: slideOutUp 0.65s ease-in-out 2.5s forwards;
+  -moz-animation: slideOutUp 0.65s ease-in-out 2.5s forwards;
+  animation: slideOutUp 0.65s ease-in-out 2.5s forwards;
 }
