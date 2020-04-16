@@ -854,16 +854,16 @@
 .logo {
   background: url('./images/805x1200_logo.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .text{
   background: url('./images/805x1200_text.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeInUp 0.75s ease-in-out 1.25s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 1.25s forwards;
-  animation: fadeInUp 0.75s ease-in-out 1.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 
 .age-image1 {
@@ -874,16 +874,16 @@
   left: 0px;
 
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2s forwards;
-  animation: fadeIn 0.75s ease-in-out 2s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .age-text1 {
   background: url('./images/805x1200_age_text1.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .age-image2 {
   background: url('./images/805x1200_age_image2.jpg') no-repeat center center;
@@ -893,16 +893,16 @@
   right: 0px;
 
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .age-text2 {
   background: url('./images/805x1200_age_text2.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.75s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .age-image3 {
   background: url('./images/805x1200_age_image3.jpg') no-repeat center center;
@@ -912,16 +912,16 @@
   left: 0px;
 
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3s forwards;
-  animation: fadeIn 0.75s ease-in-out 3s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .age-text3 {
   background: url('./images/805x1200_age_text3.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 3.25s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .age-image4 {
   background: url('./images/805x1200_age_image4.jpg') no-repeat center center;
@@ -931,34 +931,34 @@
   right: 0px;
 
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 3.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 3.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .age-text4 {
   background: url('./images/805x1200_age_text4.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 
 .cta-text {
   background: url('./images/805x1200_cta_text.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 4.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 4.75s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .cta-icon {
   background: url('./images/805x1200_cta_icon.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 5s forwards;
-  animation: fadeIn 0.75s ease-in-out 5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
 .cta-icon-container {
-  -webkit-animation: moveUpAndDown 1.5s ease-in-out 5.5s infinite;
-  -moz-animation: moveUpAndDown 1.5s ease-in-out 5.5s infinite;
-  animation: moveUpAndDown 1.5s ease-in-out 5.5s infinite;
+  -webkit-animation: moveUpAndDown 1.5s ease-in-out 1.5s infinite;
+  -moz-animation: moveUpAndDown 1.5s ease-in-out 1.5s infinite;
+  animation: moveUpAndDown 1.5s ease-in-out 1.5s infinite;
 }
