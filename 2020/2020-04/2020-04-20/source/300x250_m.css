@@ -827,21 +827,6 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
-.image1 {
-  background: url('./images/300x250_m_image1.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-}
-.image2 {
-  background: url('./images/300x250_m_image2.png') no-repeat center center;
-  background-size: 100% auto;
-  left: -300px;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-}
 .cta {
   background: url('./images/300x250_m_cta.png') no-repeat center center;
   background-size: 100% auto;
@@ -849,83 +834,123 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
+
+.image1 {
+  background: url('./images/300x250_m_image1.png') no-repeat center center;
+  background-size: 100% auto;
+}
+.image2 {
+  background: url('./images/300x250_m_image2.png') no-repeat center center;
+  background-size: 100% auto;
+  left: -300px;
+}
 .logo1 {
   background: url('./images/300x250_m_logo1.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
-  animation: fadeIn 0.75s ease-in-out 1s forwards;
 }
 .text1 {
   background: url('./images/300x250_m_text1.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
-  -moz-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
-  animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
 }
 .car {
   background: url('./images/300x250_m_car.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
-  -moz-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
-  animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
 }
-
-
-.image-container {
-  -webkit-animation: slideOutRight 1.5s ease-in-out 3s forwards;
-  -moz-animation: slideOutRight 1.5s ease-in-out 3s forwards;
-  animation: slideOutRight 1.5s ease-in-out 3s forwards;
-}
-.logo1-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 3s forwards;
-  animation: fadeOut 0.75s ease-in-out 3s forwards;
-}
-.text1-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 3s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 3s forwards;
-  animation: fadeOut 0.75s ease-in-out 3s forwards;
-}
-
 .logo2 {
   background: url('./images/300x250_m_logo2.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
-  animation: fadeIn 0.5s ease-in-out 3.5s forwards;
-}
-.cta2 {
-  background: url('./images/300x250_m_cta2.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
-  animation: fadeIn 0.5s ease-in-out 3.5s forwards;
 }
 .text2 {
   background: url('./images/300x250_m_text2.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.5s ease-in-out 4s forwards;
-  -moz-animation: fadeIn 0.5s ease-in-out 4s forwards;
-  animation: fadeIn 0.5s ease-in-out 4s forwards;
-}
-
-.image-wrapper, .text2-container, .logo2-container, .car-container, .cta2-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 6s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 6s forwards;
-  animation: fadeOut 0.75s ease-in-out 6s forwards;
 }
 .logo3 {
   background: url('./images/300x250_m_logo1.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 6.5s forwards;
 }
 .text3 {
   background: url('./images/300x250_m_text3.png') no-repeat center center;
   background-size: 100% auto;
+}
+.cta2 {
+  background: url('./images/300x250_m_cta2.png') no-repeat center center;
+  background-size: 100% auto;
+}
+
+
+#frame1.animation .image1 {
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+}
+#frame1.animation .image2 {
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+}
+#frame1.animation .logo1 {
+  -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
+  animation: fadeIn 0.75s ease-in-out 1s forwards;
+}
+#frame1.animation .text1 {
+  -webkit-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
+  animation: fadeInUp 0.75s ease-in-out 1.5s forwards;
+}
+#frame1.animation .car {
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 2.25s forwards;
+}
+#frame1.animation .image-container {
+  -webkit-animation: slideOutRight 1.5s ease-in-out 3s forwards;
+  -moz-animation: slideOutRight 1.5s ease-in-out 3s forwards;
+  animation: slideOutRight 1.5s ease-in-out 3s forwards;
+}
+#frame1.animation .logo1-container {
+  -webkit-animation: fadeOut 0.75s ease-in-out 3s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 3s forwards;
+  animation: fadeOut 0.75s ease-in-out 3s forwards;
+}
+#frame1.animation .text1-container {
+  -webkit-animation: fadeOut 0.75s ease-in-out 3s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 3s forwards;
+  animation: fadeOut 0.75s ease-in-out 3s forwards;
+}
+#frame1.animation ~ .cta2-container .cta2 {
+  -webkit-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 3.5s forwards;
+}
+#frame1.animation .logo2 {
+  -webkit-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 3.5s forwards;
+  animation: fadeIn 0.5s ease-in-out 3.5s forwards;
+}
+#frame1.animation .text2 {
+  -webkit-animation: fadeIn 0.5s ease-in-out 4s forwards;
+  -moz-animation: fadeIn 0.5s ease-in-out 4s forwards;
+  animation: fadeIn 0.5s ease-in-out 4s forwards;
+}
+#frame1.animation .image-wrapper, #frame1.animation .text2-container, #frame1.animation .logo2-container, 
+#frame1.animation .car-container, #frame1.animation ~ .cta2-container {
+  -webkit-animation: fadeOut 0.75s ease-in-out 6s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 6s forwards;
+  animation: fadeOut 0.75s ease-in-out 6s forwards;
+}
+#frame1.animation .logo3 {
+  -webkit-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+}
+#frame1.animation .text3 {
   -webkit-animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
   animation: fadeInUp 0.75s ease-in-out 6.75s forwards;
+}
+#frame1.animation {
+  -webkit-animation: fadeOut 0.75s ease-in-out 9.5s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 9.5s forwards;
+  animation: fadeOut 0.75s ease-in-out 9.5s forwards;
 }
