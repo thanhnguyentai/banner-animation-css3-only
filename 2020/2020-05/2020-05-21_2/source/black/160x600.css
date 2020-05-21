@@ -842,8 +842,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 970px;
-  height: 250px;
+  width: 160px;
+  height: 600px;
   display: block;
 }
 
@@ -883,28 +883,28 @@
 }
 
 .logo {
-  background: url('./images/970x250_logo.png') no-repeat center center;
+  background: url('./images/160x600_logo.png') no-repeat center center;
   background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
 .bg {
-  background: url('./images/970x250_bg.jpg') no-repeat center center;
+  background: url('./images/160x600_bg.jpg') no-repeat center center;
   background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
-.product {
-  background: url('./images/970x250_product.png') no-repeat center center;
+.text {
+  background: url('./images/160x600_text.png') no-repeat center center;
   background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
   animation: fadeIn 0.75s ease-in-out 1.25s forwards;
 }
-.text {
-  background: url('./images/970x250_text.png') no-repeat center center;
+.product {
+  background: url('./images/160x600_product.png') no-repeat center center;
   background-size: 100% auto;
   -webkit-animation: fadeIn 0.75s ease-in-out 1.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 1.75s forwards;
@@ -916,14 +916,16 @@
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
 }
 .cta {
-  background: url('./images/970x250_cta.png') no-repeat center center;
+  background: url('./images/160x600_cta.png') no-repeat center center;
   background-size: 100% auto;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+}
+.cta-text {
+  background: url('./images/160x600_cta_text.png') no-repeat center center;
+  background-size: 100% auto;
   
-  -webkit-transform-origin: 685px 187px;
-  -moz-transform-origin: 685px 187px;
-  transform-origin: 685px 187px;
+  -webkit-transform-origin: 80px 551px;
+  -moz-transform-origin: 80px 551px;
+  transform-origin: 80px 551px;
 
   -webkit-animation: zoomInOut 1.75s ease-in-out 4s infinite;
   -moz-animation: zoomInOut 1.75s ease-in-out 4s infinite;

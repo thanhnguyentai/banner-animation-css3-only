@@ -842,8 +842,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 160px;
-  height: 600px;
+  width: 320px;
+  height: 50px;
   display: block;
 }
 
@@ -883,49 +883,63 @@
 }
 
 .logo {
-  background: url('./images/160x600_logo.png') no-repeat center center;
+  background: url('./images/320x50_logo.png') no-repeat center center;
   background-size: 100% auto;
+}
+.bg {
+  background: url('./images/320x50_bg.jpg') no-repeat center center;
+  background-size: 100% auto;
+}
+.cta {
+  background: url('./images/320x50_cta.png') no-repeat center center;
+  background-size: 100% auto;
+}
+.cta-text {
+  background: url('./images/320x50_cta_text.png') no-repeat center center;
+  background-size: 100% auto;
+  
+  -webkit-transform-origin: 262px 25px;
+  -moz-transform-origin: 262px 25px;
+  transform-origin: 262px 25px;
+}
+
+.content-wrapper.animation .logo {
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.bg {
-  background: url('./images/160x600_bg.jpg') no-repeat center center;
-  background-size: 100% auto;
+.content-wrapper.animation .bg {
   -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
   animation: fadeIn 0.75s ease-in-out 0.75s forwards;
 }
-.product {
-  background: url('./images/160x600_product.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1.25s forwards;
-  animation: fadeIn 0.75s ease-in-out 1.25s forwards;
+.content-wrapper.animation .cta-container {
+  -webkit-animation: fadeIn 0.75s ease-in-out 2s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 2s forwards;
+  animation: fadeIn 0.75s ease-in-out 2s forwards;
 }
-.text {
-  background: url('./images/160x600_text.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 1.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 1.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 1.75s forwards;
+.content-wrapper.animation .cta-text {
+  -webkit-animation: zoomInOut 1.75s ease-in-out 5s infinite;
+  -moz-animation: zoomInOut 1.75s ease-in-out 5s infinite;
+  animation: zoomInOut 1.75s ease-in-out 5s infinite;
 }
-.cta-container {
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-}
-.cta {
-  background: url('./images/160x600_cta.png') no-repeat center center;
-  background-size: 100% auto;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  
-  -webkit-transform-origin: 80px 551px;
-  -moz-transform-origin: 80px 551px;
-  transform-origin: 80px 551px;
 
-  -webkit-animation: zoomInOut 1.75s ease-in-out 4s infinite;
-  -moz-animation: zoomInOut 1.75s ease-in-out 4s infinite;
-  animation: zoomInOut 1.75s ease-in-out 4s infinite;
+.text {
+  background: url('./images/320x50_text.png') no-repeat center center;
+  background-size: 100% auto;
+}
+.product {
+  background: url('./images/320x50_product.png') no-repeat center center;
+  background-size: 100% auto;
+}
+.frame.animation .text, .frame.animation .product {
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
+
+.frame.animation {
+  -webkit-animation: fadeOut 0.75s ease-in-out 2.75s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 2.75s forwards;
+  animation: fadeOut 0.75s ease-in-out 2.75s forwards; 
 }
