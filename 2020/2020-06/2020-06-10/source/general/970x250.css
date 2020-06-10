@@ -827,6 +827,10 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 
+.bg {
+  background: url('./images/970x250_bg.png') no-repeat center center;
+  background-size: 100% auto;
+}
 .footer {
   background: url('./images/970x250_footer.png') no-repeat center center;
   background-size: 100% auto;
@@ -835,7 +839,7 @@
   background: url('./images/970x250_logo.png') no-repeat center center;
   background-size: 100% auto;
 }
-.content-wrapper.animation .footer, .content-wrapper.animation .logo {
+.content-wrapper.animation .footer, .content-wrapper.animation .logo, .content-wrapper.animation .bg {
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
@@ -845,16 +849,34 @@
   background: url('./images/970x250_frame1_image.jpg') no-repeat center center;
   background-size: 100% auto;
 }
+.frame1-cta-text {
+  background: url('./images/970x250_frame1_cta_text.png') no-repeat center center;
+  background-size: 100% auto;
+}
 .frame2-image {
   background: url('./images/970x250_frame2_image.jpg') no-repeat center center;
+  background-size: 100% auto;
+}
+.frame2-cta-text {
+  background: url('./images/970x250_frame2_cta_text.png') no-repeat center center;
   background-size: 100% auto;
 }
 .frame3-image {
   background: url('./images/970x250_frame3_image.jpg') no-repeat center center;
   background-size: 100% auto;
 }
+.frame3-cta-text {
+  background: url('./images/970x250_frame3_cta_text.png') no-repeat center center;
+  background-size: 100% auto;
+}
+.image {
+  top: 0px;
+  left: 0px;
+  width: 825px;
+  height: 250px;
+}
 
-.frame.animation .image {
+.frame.animation .image, .frame.animation .cta-text {
   -webkit-animation: fadeIn 0.75s ease-in-out 0.25s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 0.25s forwards;
   animation: fadeIn 0.75s ease-in-out 0.25s forwards;
