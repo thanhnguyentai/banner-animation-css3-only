@@ -787,7 +787,7 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 919px;
+  width: 970px;
   height: 250px;
   display: block;
 }
@@ -872,8 +872,8 @@
 .image {
   width: 748px;
   height: 185px;
-  top: 19px;
-  left: 20px;
+  top: 11px;
+  left: 16px;
 }
 
 .frame.animation .image {
