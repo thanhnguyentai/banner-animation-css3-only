@@ -868,9 +868,16 @@
 .bg {
   background: url('./images/970x250_bg.jpg') no-repeat center center;
   background-size: 100% auto;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
+.ticket {
+  background: url('./images/970x250_ticket.png') no-repeat center center;
+  background-size: 100% auto;
+  -webkit-animation: fadeInUp 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeInUp 0.75s ease-in-out 0.75s forwards;
+  animation: fadeInUp 0.75s ease-in-out 0.75s forwards;
 }
 .head1 {
   background: url('./images/970x250_head1.png') no-repeat center center;
