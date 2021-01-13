@@ -851,9 +851,9 @@
   height: 46px;
   top: 494px;
   left: 232px;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 1.5s forwards;
 }
 .text1 {
   background: url('./images/300x600_text1.png') no-repeat center center;
