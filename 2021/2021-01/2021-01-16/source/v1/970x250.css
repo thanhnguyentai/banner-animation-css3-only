@@ -787,8 +787,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 600px;
+  width: 970px;
+  height: 250px;
   display: block;
 }
 
@@ -827,24 +827,28 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 .bg {
-  background: url('./images/300x600_bg.jpg') no-repeat center center;
+  background: url('./images/970x250_bg.jpg') no-repeat center center;
   background-size: 100% auto;
 }
 .border {
-  background: url('./images/300x600_border.png') no-repeat center center;
+  background: url('./images/970x250_border.png') no-repeat center center;
   background-size: 100% auto;
+}
+.logo1 {
+  background: url('./images/970x250_logo.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 67px;
+  height: 67px;
+  top: 92px;
+  left: 22px;
 }
 .cta {
-  background: url('./images/300x600_cta.png') no-repeat center center;
+  background: url('./images/970x250_cta.png') no-repeat center center;
   background-size: 100% auto;
-  width: 280px;
-  height: 60px;
-  top: 527px;
-  left: 10px;
-}
-.mask {
-  background: url('./images/300x600_mask.png') no-repeat center center;
-  background-size: 100% auto;
+  width: 178px;
+  height: 89px;
+  top: 81px;
+  left: 776px;
 }
 
 .content-wrapper.animation .bg, .content-wrapper.animation .border, .content-wrapper.animation .mask {
@@ -852,53 +856,53 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.content-wrapper.animation .cta {
+.content-wrapper.animation .cta, .content-wrapper.animation .logo1 {
   -webkit-animation: fadeIn 0.75s ease-in-out 1s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 1s forwards;
   animation: fadeIn 0.75s ease-in-out 1s forwards;
 }
 
 .image {
-  width: 300px;
-  height: 485px;
-  left: 0px;
+  width: 695px;
+  height: 250px;
+  right: 0px;
   bottom: 0px;
 }
 .frame1-image {
-  background: url('./images/300x600_image1.jpg') no-repeat center center;
+  background: url('./images/970x250_image1.jpg') no-repeat center center;
   background-size: 100% auto;
 }
 .frame2-image {
-  background: url('./images/300x600_image2.jpg') no-repeat center center;
+  background: url('./images/970x250_image2.jpg') no-repeat center center;
   background-size: 100% auto;
 }
 .frame3-image {
-  background: url('./images/300x600_image3.jpg') no-repeat center center;
+  background: url('./images/970x250_image3.jpg') no-repeat center center;
   background-size: 100% auto;
 }
 .frame1-logo {
-  background: url('./images/300x600_logo1.png') no-repeat center center;
+  background: url('./images/970x250_logo1.png') no-repeat center center;
   background-size: 100% auto;
-  width: 179px;
-  height: 61px;
-  top: 27px;
-  left: 61px;
+  width: 112px;
+  height: 63px;
+  top: 94px;
+  left: 101px;
 }
 .frame2-logo {
-  background: url('./images/300x600_logo2.png') no-repeat center center;
+  background: url('./images/970x250_logo2.png') no-repeat center center;
   background-size: 100% auto;
-  width: 211px;
-  height: 61px;
-  top: 27px;
-  left: 45px;
+  width: 147px;
+  height: 63px;
+  top: 95px;
+  left: 100px;
 }
 .frame3-logo {
-  background: url('./images/300x600_logo3.png') no-repeat center center;
+  background: url('./images/970x250_logo3.png') no-repeat center center;
   background-size: 100% auto;
-  width: 220px;
-  height: 61px;
-  top: 27px;
-  left: 40px;
+  width: 158px;
+  height: 63px;
+  top: 94px;
+  left: 98px;
 }
 
 .frame.animation .image {

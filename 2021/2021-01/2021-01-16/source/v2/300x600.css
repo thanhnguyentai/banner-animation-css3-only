@@ -842,10 +842,6 @@
   top: 527px;
   left: 10px;
 }
-.mask {
-  background: url('./images/300x600_mask.png') no-repeat center center;
-  background-size: 100% auto;
-}
 
 .content-wrapper.animation .bg, .content-wrapper.animation .border, .content-wrapper.animation .mask {
   -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
@@ -879,26 +875,26 @@
 .frame1-logo {
   background: url('./images/300x600_logo1.png') no-repeat center center;
   background-size: 100% auto;
-  width: 179px;
-  height: 61px;
-  top: 27px;
-  left: 61px;
-}
-.frame2-logo {
-  background: url('./images/300x600_logo2.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 211px;
-  height: 61px;
-  top: 27px;
-  left: 45px;
-}
-.frame3-logo {
-  background: url('./images/300x600_logo3.png') no-repeat center center;
-  background-size: 100% auto;
   width: 220px;
   height: 61px;
   top: 27px;
   left: 40px;
+}
+.frame2-logo {
+  background: url('./images/300x600_logo2.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 212px;
+  height: 61px;
+  top: 27px;
+  left: 44px;
+}
+.frame3-logo {
+  background: url('./images/300x600_logo3.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 185px;
+  height: 61px;
+  top: 27px;
+  left: 58px;
 }
 
 .frame.animation .image {

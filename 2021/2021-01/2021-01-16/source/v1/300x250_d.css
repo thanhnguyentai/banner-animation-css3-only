@@ -788,7 +788,7 @@
   top: 0px;
   left: 0px;
   width: 300px;
-  height: 600px;
+  height: 250px;
   display: block;
 }
 
@@ -827,24 +827,20 @@
   animation: hideContent 10ms ease-in-out 0s forwards; 
 }
 .bg {
-  background: url('./images/300x600_bg.jpg') no-repeat center center;
+  background: url('./images/300x250_d_bg.jpg') no-repeat center center;
   background-size: 100% auto;
 }
 .border {
-  background: url('./images/300x600_border.png') no-repeat center center;
+  background: url('./images/300x250_d_border.png') no-repeat center center;
   background-size: 100% auto;
 }
 .cta {
-  background: url('./images/300x600_cta.png') no-repeat center center;
+  background: url('./images/300x250_d_cta.png') no-repeat center center;
   background-size: 100% auto;
-  width: 280px;
-  height: 60px;
-  top: 527px;
-  left: 10px;
-}
-.mask {
-  background: url('./images/300x600_mask.png') no-repeat center center;
-  background-size: 100% auto;
+  width: 242px;
+  height: 33px;
+  top: 208px;
+  left: 29px;
 }
 
 .content-wrapper.animation .bg, .content-wrapper.animation .border, .content-wrapper.animation .mask {
@@ -860,45 +856,45 @@
 
 .image {
   width: 300px;
-  height: 485px;
+  height: 191px;
   left: 0px;
   bottom: 0px;
 }
 .frame1-image {
-  background: url('./images/300x600_image1.jpg') no-repeat center center;
+  background: url('./images/300x250_d_image1.jpg') no-repeat center center;
   background-size: 100% auto;
 }
 .frame2-image {
-  background: url('./images/300x600_image2.jpg') no-repeat center center;
+  background: url('./images/300x250_d_image2.jpg') no-repeat center center;
   background-size: 100% auto;
 }
 .frame3-image {
-  background: url('./images/300x600_image3.jpg') no-repeat center center;
+  background: url('./images/300x250_d_image3.jpg') no-repeat center center;
   background-size: 100% auto;
 }
 .frame1-logo {
-  background: url('./images/300x600_logo1.png') no-repeat center center;
+  background: url('./images/300x250_d_logo1.png') no-repeat center center;
   background-size: 100% auto;
-  width: 179px;
-  height: 61px;
-  top: 27px;
-  left: 61px;
+  width: 123px;
+  height: 44px;
+  top: 6px;
+  left: 89px;
 }
 .frame2-logo {
-  background: url('./images/300x600_logo2.png') no-repeat center center;
+  background: url('./images/300x250_d_logo2.png') no-repeat center center;
   background-size: 100% auto;
-  width: 211px;
-  height: 61px;
-  top: 27px;
-  left: 45px;
+  width: 146px;
+  height: 44px;
+  top: 6px;
+  left: 77px;
 }
 .frame3-logo {
-  background: url('./images/300x600_logo3.png') no-repeat center center;
+  background: url('./images/300x250_d_logo3.png') no-repeat center center;
   background-size: 100% auto;
-  width: 220px;
-  height: 61px;
-  top: 27px;
-  left: 40px;
+  width: 152px;
+  height: 44px;
+  top: 6px;
+  left: 74px;
 }
 
 .frame.animation .image {
