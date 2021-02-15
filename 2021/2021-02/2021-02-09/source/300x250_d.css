@@ -833,14 +833,14 @@
   background: url('./images/300x250_d_image5.jpg') no-repeat center center;
   background-size: 100% auto;
 }
-.discount1 {
+/*.discount1 {
   background: url('./images/300x250_d_discount1.png') no-repeat center center;
   background-size: 100% auto;
   width: 56px;
   height: 55px;
   top: 8px;
   left: 140px;
-}
+}*/
 .logo1 {
   background: url('./images/300x250_d_logo1.png') no-repeat center center;
   background-size: 100% auto;
@@ -893,11 +893,11 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-#frame1.animation .discount1 {
+/*#frame1.animation .discount1 {
   -webkit-animation: zoomOutFadeIn 0.5s ease-in-out 1s forwards;
   -moz-animation: zoomOutFadeIn 0.5s ease-in-out 1s forwards;
   animation: zoomOutFadeIn 0.5s ease-in-out 1s forwards;
-}
+}*/
 #frame1.animation .image1-container {
   -webkit-animation: fadeOut 0.5s ease-in-out 3s forwards;
   -moz-animation: fadeOut 0.5s ease-in-out 3s forwards;
