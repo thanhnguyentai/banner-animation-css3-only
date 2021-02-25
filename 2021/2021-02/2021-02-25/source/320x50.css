@@ -848,21 +848,11 @@
   -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
   animation: fadeIn 0.75s ease-in-out 0.5s forwards;
 }
-.cta {
-  background: url('./images/320x50_cta.png') no-repeat center center;
-  width: 90px;
-  height: 31px;
-  top: 10px;
-  left: 222px;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
-}
 .text-bg {
   background: url('./images/320x50_text_bg.png') no-repeat center center;
-  -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 2.5s forwards;
+  -webkit-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 1.5s forwards;
 }
 .text {
   background: url('./images/320x50_text.png') no-repeat center center;
@@ -870,6 +860,16 @@
   height: 50px;
   top: 0px;
   left: 56px;
+  -webkit-animation: fadeIn 0.75s ease-in-out 1.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 1.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 1.75s forwards;
+}
+.cta {
+  background: url('./images/320x50_cta.png') no-repeat center center;
+  width: 90px;
+  height: 31px;
+  top: 10px;
+  left: 222px;
   -webkit-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 2.5s forwards;
   animation: fadeIn 0.75s ease-in-out 2.5s forwards;
