@@ -215,12 +215,12 @@
     height: 6px;
   }
   50% {
-    width: 251px;
+    width: 264px;
     height: 6px;
   }
   100% { 
-    width: 251px;
-    height: 180px; 
+    width: 264px;
+    height: 226px; 
   }
 }
 @-moz-keyframes revealHalfImage {
@@ -229,12 +229,12 @@
     height: 6px;
   }
   50% {
-    width: 251px;
+    width: 264px;
     height: 6px;
   }
   100% { 
-    width: 251px;
-    height: 180px; 
+    width: 264px;
+    height: 226px; 
   }
 }
 @keyframes revealHalfImage {
@@ -243,12 +243,12 @@
     height: 6px;
   }
   50% {
-    width: 251px;
+    width: 264px;
     height: 6px;
   }
   100% { 
-    width: 251px;
-    height: 180px; 
+    width: 264px;
+    height: 226px; 
   }
 }
 
@@ -393,12 +393,12 @@
 }
 .image-top-container {
   overflow: hidden;
-  bottom: 331px;
+  bottom: 367px;
   height: 6px;
   width: 12px;
   border: 6px solid #e31837;
   border-bottom: 0;
-  left: 50%;
+  left: 149px;
   -moz-transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
@@ -409,8 +409,8 @@
 }
 .image-top {
   background: url('./images/300x600_image.jpg') no-repeat center center;
-  width: 251px;
-  height: 360px;
+  width: 264px;
+  height: 452px;
   left: -6px;
   bottom: 0;
   -moz-transform: translate(0, 50%);
@@ -419,12 +419,12 @@
 }
 .image-bottom-container {
   overflow: hidden;
-  top: 269px;
+  top: 233px;
   height: 6px;
   width: 12px;
   border: 6px solid #e31837;
   border-top: 0;
-  left: 50%;
+  left: 149px;
   -moz-transform: translate(-50%, 0);
   -webkit-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
@@ -435,8 +435,8 @@
 }
 .image-bottom {
   background: url('./images/300x600_image.jpg') no-repeat center center;
-  width: 251px;
-  height: 360px;
+  width: 264px;
+  height: 452px;
   left: -6px;
   top: 0;
   -moz-transform: translate(0, -50%);
@@ -445,35 +445,45 @@
 }
 .logo {
   background: url('./images/300x600_logo.png') no-repeat center center;
-  width: 131px;
-  height: 29px;
-  top: 399px;
-  left: 122px;
+  width: 110px;
+  height: 24px;
+  top: 415px;
+  left: 152px;
   -webkit-animation: fadeIn 0.75s ease-in-out 3.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 3.5s forwards;
   animation: fadeIn 0.75s ease-in-out 3.5s forwards;
 }
+.image2 {
+  background: url('./images/300x600_image2.jpg') no-repeat center center;
+  width: 252px;
+  height: 440px;
+  top: 13px;
+  left: 23px;
+  -webkit-animation: fadeIn 0.25s ease-in-out 3.75s forwards;
+  -moz-animation: fadeIn 0.25s ease-in-out 3.75s forwards;
+  animation: fadeIn 0.25s ease-in-out 3.75s forwards;
+}
 .text1 {
   background: url('./images/300x600_text1.png') no-repeat center center;
-  width: 146px;
-  height: 116px;
-  top: 120px;
-  left: 58px;
+  width: 122px;
+  height: 97px;
+  top: 288px;
+  left: 139px;
   -webkit-animation: fadeInUp 0.75s ease-in-out 3.75s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 3.75s forwards;
   animation: fadeInUp 0.75s ease-in-out 3.75s forwards;
 }
-.text1-container {
+.text1-container, .image2-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 6s forwards;
   -moz-animation: fadeOut 0.75s ease-in-out 6s forwards;
   animation: fadeOut 0.75s ease-in-out 6s forwards;
 }
 .text2 {
   background: url('./images/300x600_text2.png') no-repeat center center;
-  width: 161px;
-  height: 78px;
-  top: 115px;
-  left: 52px;
+  width: 172px;
+  height: 69px;
+  top: 296px;
+  left: 101px;
   -webkit-animation: fadeInUp 0.75s ease-in-out 6.5s forwards;
   -moz-animation: fadeInUp 0.75s ease-in-out 6.5s forwards;
   animation: fadeInUp 0.75s ease-in-out 6.5s forwards;
@@ -485,10 +495,10 @@
 }
 .arrow {
   background: url('./images/300x600_arrow.png') no-repeat center center;
-  width: 24px;
-  height: 21px;
-  top: 195px;
-  left: 59px;
+  width: 20px;
+  height: 17px;
+  top: 368px;
+  left: 242px;
   -webkit-animation: arrowAnimation 1.25s ease-in-out 7s forwards;
   -moz-animation: arrowAnimation 1.25s ease-in-out 7s forwards;
   animation: arrowAnimation 1.25s ease-in-out 7s forwards;
