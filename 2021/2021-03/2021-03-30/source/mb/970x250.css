@@ -217,7 +217,7 @@
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(2560px, 0);
+    -webkit-transform: translate(3200px, 0);
   }
 }
 @-moz-keyframes slideRight {
@@ -227,7 +227,7 @@
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(2560px, 0);
+    -moz-transform: translate(3200px, 0);
   }
 }
 @keyframes slideRight {
@@ -237,7 +237,7 @@
   }
   100% { 
     visibility: visible;
-    transform: translate(2560px, 0);
+    transform: translate(3200px, 0);
   }
 }
 
@@ -249,7 +249,7 @@
   }
   100% { 
     visibility: visible;
-    -webkit-transform: translate(-3460px, 0);
+    -webkit-transform: translate(-3140px, 0);
   }
 }
 @-moz-keyframes slideLeft {
@@ -259,7 +259,7 @@
   }
   100% { 
     visibility: visible;
-    -moz-transform: translate(-3460px, 0);
+    -moz-transform: translate(-3140px, 0);
   }
 }
 @keyframes slideLeft {
@@ -269,7 +269,7 @@
   }
   100% { 
     visibility: visible;
-    transform: translate(-3460px, 0);
+    transform: translate(-3140px, 0);
   }
 }
 
@@ -324,8 +324,8 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 300px;
-  height: 600px;
+  width: 970px;
+  height: 250px;
   display: block;
 }
 
@@ -365,89 +365,93 @@
 }
 
 .bg {
-  background: url('./images/300x600_bg.jpg') no-repeat center center;
+  background: url('./images/970x250_bg.jpg') no-repeat center center;
   -webkit-animation: fadeIn 1s ease-in-out 0.75s forwards;
   -moz-animation: fadeIn 1s ease-in-out 0.75s forwards;
   animation: fadeIn 1s ease-in-out 0.75s forwards;
 }
+.header {
+  background: url('./images/970x250_header.png') no-repeat center center;
+  width: 264px;
+  height: 250px;
+  top: 0px;
+  left: 0px;
+  -webkit-animation: fadeIn 0.25s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.25s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.25s ease-in-out 0.5s forwards;
+}
 .footer {
-  background: url('./images/300x600_footer.png') no-repeat center center;
-  width: 300px;
-  height: 65px;
+  background: url('./images/970x250_footer.png') no-repeat center center;
+  width: 177px;
+  height: 250px;
   bottom: 0px;
   right: 0px;
-  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
-  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -webkit-animation: fadeIn 0.25s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.25s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.25s ease-in-out 0.5s forwards;
+}
+.light {
+  width: 227px;
+  height: 170px;
 }
 .light-container {
-  width: 200px;
-  height: 149px;
-  top: 2px;
-  left: 51px;
+  top: 42px;
+  left: 17px;
 }
 .light1 {
-  background: url('./images/300x600_light1.png') no-repeat center center;
-  width: 200px;
-  height: 149px;
+  background: url('./images/970x250_light1.png') no-repeat center center;
   -webkit-animation: lightAnimation 0.8s ease-in-out 0.8s infinite;
   -moz-animation: lightAnimation 0.8s ease-in-out 0.8s infinite;
   animation: lightAnimation 0.8s ease-in-out 0.8s infinite;
 }
 .light2 {
-  background: url('./images/300x600_light2.png') no-repeat center center;
-  width: 200px;
-  height: 149px;
+  background: url('./images/970x250_light2.png') no-repeat center center;
   -webkit-animation: lightAnimation 0.8s ease-in-out 1s infinite;
   -moz-animation: lightAnimation 0.8s ease-in-out 1s infinite;
   animation: lightAnimation 0.8s ease-in-out 1s infinite;
 }
 .light3 {
-  background: url('./images/300x600_light3.png') no-repeat center center;
-  width: 200px;
-  height: 149px;
+  background: url('./images/970x250_light3.png') no-repeat center center;
   -webkit-animation: lightAnimation 0.8s ease-in-out 1.2s infinite;
   -moz-animation: lightAnimation 0.8s ease-in-out 1.2s infinite;
   animation: lightAnimation 0.8s ease-in-out 1.2s infinite;
 }
 .light4 {
-  background: url('./images/300x600_light4.png') no-repeat center center;
-  width: 200px;
-  height: 149px;
+  background: url('./images/970x250_light4.png') no-repeat center center;
   -webkit-animation: lightAnimation 0.8s ease-in-out 1.4s infinite;
   -moz-animation: lightAnimation 0.8s ease-in-out 1.4s infinite;
   animation: lightAnimation 0.8s ease-in-out 1.4s infinite;
 }
 .objects {
-  background: url('./images/300x600_objects.png') no-repeat center center;
+  background: url('./images/970x250_objects.png') no-repeat center center;
   background-repeat: repeat-x;
   background-position: 0 0;
-  width: 2880px;
-  height: 128px;
-  top: 155px;
-  right: 0px;
+  width: 3780px;
+  height: 118px;
+  bottom: 147px;
+  right: 174px;
   -webkit-animation: slideRight 5s cubic-bezier(0.065, 0.765, 0.445, 1.000) 0.75s forwards;
   -moz-animation: slideRight 5s cubic-bezier(0.065, 0.765, 0.445, 1.000) 0.75s forwards;
   animation: slideRight 5s cubic-bezier(0.065, 0.765, 0.445, 1.000) 0.75s forwards; 
 }
 .tickets {
-  background: url('./images/300x600_tickets.png') no-repeat center center;
+  background: url('./images/970x250_tickets.png') no-repeat center center;
   background-repeat: repeat-x;
   background-position: 0 0;
-  width: 3780px;
-  height: 206px;
-  top: 379px;
-  left: 0px;
+  width: 3700px;
+  height: 150px;
+  top: 148px;
+  left: 264px;
   -webkit-animation: slideLeft 5.5s cubic-bezier(0.065, 0.765, 0.445, 1.000) 0.75s forwards;
   -moz-animation: slideLeft 5.5s cubic-bezier(0.065, 0.765, 0.445, 1.000) 0.75s forwards;
   animation: slideLeft 5.5s cubic-bezier(0.065, 0.765, 0.445, 1.000) 0.75s forwards; 
 }
 .cta {
-  background: url('./images/300x600_cta.png') no-repeat center center;
-  width: 300px;
-  height: 58px;
-  top: 301px;
-  left: 0px;
+  background: url('./images/970x250_cta.png') no-repeat center center;
+  width: 539px;
+  height: 35px;
+  top: 108px;
+  left: 256px;
   -webkit-animation: zoomOutFadeIn 0.75s ease-in-out 3s forwards;
   -moz-animation: zoomOutFadeIn 0.75s ease-in-out 3s forwards;
   animation: zoomOutFadeIn 0.75s ease-in-out 3s forwards;
