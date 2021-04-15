@@ -309,46 +309,52 @@
 }
 .text1 {
   background: url('./images/300x600_text1.png') no-repeat center center;
-  width: 215px;
-  height: 88px;
-  top: 61px;
-  left: 43px;
+  width: 218px;
+  height: 141px;
+  top: 33px;
+  left: 44px;
   -webkit-animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
   animation: fadeInDown 0.75s ease-in-out 3.5s forwards;
 }
-.text1-container {
+.text1-container, .footer1-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 6s forwards;
   -moz-animation: fadeOut 0.75s ease-in-out 6s forwards;
   animation: fadeOut 0.75s ease-in-out 6s forwards;
 }
 .text2 {
   background: url('./images/300x600_text2.png') no-repeat center center;
-  width: 218px;
-  height: 141px;
-  top: 33px;
-  left: 44px;
+  width: 186px;
+  height: 168px;
+  top: 13px;
+  left: 58px;
   -webkit-animation: fadeInDown 0.75s ease-in-out 6.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 6.5s forwards;
   animation: fadeInDown 0.75s ease-in-out 6.5s forwards;
 }
-.text2-container, .footer1-container {
+.footer2 {
+  background: url('./images/300x600_footer2.png') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 6.5s forwards;
+}
+.text2-container, .footer2-container {
   -webkit-animation: fadeOut 0.75s ease-in-out 9s forwards;
   -moz-animation: fadeOut 0.75s ease-in-out 9s forwards;
   animation: fadeOut 0.75s ease-in-out 9s forwards;
 }
-.footer2 {
-  background: url('./images/300x600_footer2.png') no-repeat center center;
+.footer3 {
+  background: url('./images/300x600_footer1.png') no-repeat center center;
   -webkit-animation: fadeIn 0.75s ease-in-out 9.5s forwards;
   -moz-animation: fadeIn 0.75s ease-in-out 9.5s forwards;
   animation: fadeIn 0.75s ease-in-out 9.5s forwards;
 }
 .text3 {
   background: url('./images/300x600_text3.png') no-repeat center center;
-  width: 186px;
-  height: 168px;
-  top: 13px;
-  left: 58px;
+  width: 215px;
+  height: 88px;
+  top: 61px;
+  left: 43px;
   -webkit-animation: fadeInDown 0.75s ease-in-out 9.5s forwards;
   -moz-animation: fadeInDown 0.75s ease-in-out 9.5s forwards;
   animation: fadeInDown 0.75s ease-in-out 9.5s forwards;
