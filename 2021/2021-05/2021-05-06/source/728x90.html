@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>
+			Banner Animation
+		</title>
+		<link rel="stylesheet" type="text/css" href="728x90.css">
+	</head>
+	<body>
+		<div class="banner-container container">
+			<div class="content-container container">
+				<div class="content container">
+					<div id="ads" class="content-wrapper container">
+						<div class="bg container">&nbsp;</div>
+						<div class="frame1 frame container">
+							<div class="frame1-image image absolute">&nbsp;</div>
+						</div>
+						<div class="frame2 frame container">
+							<div class="frame2-image image absolute">&nbsp;</div>
+						</div>
+						<div class="frame3 frame container">
+							<div class="frame3-image image absolute">&nbsp;</div>
+						</div>
+						<div class="frame4 frame container">
+							<div class="frame4-image image absolute">&nbsp;</div>
+						</div>
+						
+						<div class="mask absolute">&nbsp;</div>
+						<div class="logo absolute">&nbsp;</div>
+
+						<div class="frame1 frame container">
+							<div class="frame1-text text absolute">&nbsp;</div>
+						</div>
+						<div class="frame2 frame container">
+							<div class="frame2-text text absolute">&nbsp;</div>
+						</div>
+						<div class="frame3 frame container">
+							<div class="frame3-text text absolute">&nbsp;</div>
+						</div>
+						<div class="frame4 frame container">
+							<div class="frame4-text text absolute">&nbsp;</div>
+						</div>
+						<div class="header absolute">&nbsp;</div>
+						<div class="header-text absolute">&nbsp;</div>
+						<div class="cta absolute">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var animationEndKeyframeEvents = ["webkitAnimationEnd", "animationend", "MSAnimationEnd"];
+			var animationStartKeyframeEvents = ["webkitAnimationStart", "animationstart", "MSAnimationStart"];
+
+			var delay = 500;
+			var ads = document.getElementById('ads');
+
+			var listFrames = new Array();
+			listFrames.push(document.getElementsByClassName('frame1'));
+			listFrames.push(document.getElementsByClassName('frame2'));
+			listFrames.push(document.getElementsByClassName('frame3'));
+			listFrames.push(document.getElementsByClassName('frame4'));
+
+			var current = 0;
+			var isFirstRound = true;
+
+			function forEach(elements, callback) {
+				for(var i=0; i < elements.length; i++) {
+					if(callback) {
+						callback(elements[i], i);
+					}
+				}
+			}
+
+			function registerEvent(element, event, callback) {
+				if(element.addEventListener) { // normal browser
+	                element.addEventListener(event, callback);
+	            }
+	            else if(element.attachEvent) { // IE 10
+	                element.attachEvent(event, callback);
+	            }
+			}
+
+			function unregisterEvent(element, event, callback) {
+				if(element.removeEventListener) { // normal browser
+	                element.removeEventListener(event, callback);
+	            }
+	            else if(element.detachEvent) { // IE 10
+	                element.detachEvent(event, callback);
+	            }
+			}
+
+			var callbackEndAnimation = function(event) {
+				if(this == event.target) {
+					for(var i=0;i<animationEndKeyframeEvents.length; i++) {
+			            unregisterEvent(this, animationEndKeyframeEvents[i], callbackEndAnimation);
+			        }
+
+					var className = this.className;
+					if(className.indexOf('animation') >= 0) {
+						var split = className.split(' ');
+						var join = "";
+						for(var i=0;i<split.length; i++) {
+							if(split[i] != "animation" && split[i] != "first-round") {
+								if(i > 0)
+									join += " ";
+								join += split[i];
+							}
+						}
+
+						this.className = join;
+					}
+				}
+			}
+
+			var callbackStartAnimation = function(event) {
+				if(this == event.target) {
+					for(var i=0;i<animationStartKeyframeEvents.length; i++) {
+						unregisterEvent(this, animationStartKeyframeEvents[i], callbackStartAnimation);
+			        }
+
+					if(current < listFrames.length - 1) {
+						current++;
+					} else {
+						current = 0;
+						isFirstRound = false;
+					}
+
+
+					nextFrame();
+				}
+			}
+
+			var callbackStartAnimationWithoutChangeFrame = function(event) {
+				if(this == event.target) {
+					for(var i=0;i<animationStartKeyframeEvents.length; i++) {
+						unregisterEvent(this, animationStartKeyframeEvents[i], callbackStartAnimationWithoutChangeFrame);
+			        }
+				}
+			}
+
+			function nextFrame() {
+				for(var i=0;i<animationEndKeyframeEvents.length; i++) {
+					forEach(listFrames[current], function(element) {
+						registerEvent(element, animationEndKeyframeEvents[i], callbackEndAnimation);
+					});
+		        }
+		        
+		        for(var i=0;i<animationStartKeyframeEvents.length; i++) {
+		        	forEach(listFrames[current], function(element, index) {
+		        		if(index === 0) {
+		        			registerEvent(element, animationStartKeyframeEvents[i], callbackStartAnimation);
+		        		} else {
+		        			registerEvent(element, animationStartKeyframeEvents[i], callbackStartAnimationWithoutChangeFrame);
+		        		}
+					});
+		        }
+				
+				forEach(listFrames[current], function(element) {
+					element.className += " animation";
+				});
+				if(isFirstRound) {
+					forEach(listFrames[current], function(element) {
+						element.className += " first-round";
+					});
+				}
+			}
+
+
+			ads.className += " animation";
+
+			setTimeout(function() {
+				nextFrame();
+			}, delay);
+		</script>
+	</body>
+</html>
