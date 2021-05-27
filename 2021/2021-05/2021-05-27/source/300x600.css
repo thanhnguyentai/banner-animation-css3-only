@@ -1,0 +1,638 @@
+/*-- fade in only animation--*/
+@-webkit-keyframes fadeInOnly {
+  0%   { 
+    opacity: 0; 
+    -webkit-transform: translate(0,0);
+  }
+  100% { 
+    opacity: 1; 
+    -webkit-transform: translate(0,0);
+  }
+}
+@-moz-keyframes fadeInOnly {
+  0%   { 
+    opacity: 0; 
+    -moz-transform: translate(0,0);
+  }
+  100% { 
+    opacity: 1; 
+    -moz-transform: translate(0,0);
+  }
+}
+@keyframes fadeInOnly {
+  0%   { 
+    opacity: 0; 
+    transform: translate(0,0);
+  }
+  100% { 
+    opacity: 1; 
+    transform: translate(0,0);
+  }
+}
+
+/*-- fade in animation--*/
+@-webkit-keyframes fadeIn {
+  0%   { 
+    opacity: 0; 
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+  }
+  100% { 
+    opacity: 1; 
+    -webkit-transform: translate(0,0);
+    visibility: visible;
+  }
+}
+@-moz-keyframes fadeIn {
+  0%   { 
+    opacity: 0; 
+    -moz-transform: translate(0,0);
+    visibility: visible;
+  }
+  100% { 
+    opacity: 1; 
+    -moz-transform: translate(0,0);
+    visibility: visible;
+  }
+}
+@keyframes fadeIn {
+  0%   { 
+    opacity: 0; 
+    transform: translate(0,0);
+    visibility: visible;
+  }
+  100% { 
+    opacity: 1; 
+    transform: translate(0,0);
+    visibility: visible;
+  }
+}
+
+/*-- fade out animation--*/
+@-webkit-keyframes fadeOut {
+  0%   { 
+    opacity: 1; 
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+  }
+  100% { 
+    opacity: 0; 
+    -webkit-transform: translate(0,0);
+    visibility: visible;
+  }
+}
+@-moz-keyframes fadeOut {
+  0%   { 
+    opacity: 1; 
+    -moz-transform: translate(0,0);
+    visibility: visible;
+  }
+  100% { 
+    opacity: 0; 
+    -moz-transform: translate(0,0);
+    visibility: visible;
+  }
+}
+@keyframes fadeOut {
+  0%   { 
+    opacity: 1; 
+    transform: translate(0,0);
+    visibility: visible;
+  }
+  100% { 
+    opacity: 0; 
+    transform: translate(0,0);
+    visibility: visible;
+  }
+}
+
+
+/*-- hide content--*/
+@-webkit-keyframes hideContent {
+  0%   {
+    visibility: hidden;
+  }
+  100% { 
+    visibility: hidden;
+  }
+}
+@-moz-keyframes hideContent {
+  0%   {
+    visibility: hidden;
+  }
+  100% { 
+    visibility: hidden;
+  }
+}
+@keyframes hideContent {
+  0%   {
+    visibility: hidden;
+  }
+  100% { 
+    visibility: hidden;
+  }
+}
+
+
+/*-- fade in left --*/
+@-webkit-keyframes fadeInLeft {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(30px, 0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeInLeft {
+  0%   {
+    visibility: visible;
+    -moz-transform: translate(30px, 0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes fadeInLeft {
+  0%   {
+    visibility: visible;
+    transform: translate(30px, 0);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+/*-- fade in down --*/
+@-webkit-keyframes fadeInDown {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeInDown {
+  0%   {
+    visibility: visible;
+    -moz-transform: translate(0, -20px);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes fadeInDown {
+  0%   {
+    visibility: visible;
+    transform: translate(0, -20px);
+    opacity: 0;
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+
+/*-- fade out left --*/
+@-webkit-keyframes fadeOutLeft {
+  0%   {
+    visibility: visible;
+    -webkit-transform: translate(0,0);
+    opacity: 1;
+  }
+  100% { 
+    visibility: visible;
+    -webkit-transform: translate(-30px,0);
+    opacity: 0;
+  }
+}
+@-moz-keyframes fadeOutLeft {
+  0%   {
+    visibility: visible;    
+    -moz-transform: translate(0,0);
+    opacity: 1;
+  }
+  100% { 
+    visibility: visible;
+    -moz-transform: translate(-30px,0);
+    opacity: 0;
+  }
+}
+@keyframes fadeOutLeft {
+  0%   {
+    visibility: visible;
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  100% { 
+    visibility: visible;
+    transform: translate(-30px,0);
+    opacity: 0;
+  }
+}
+
+
+/*-------------------------------------------*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.container{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 600px;
+  display: block;
+}
+
+.banner-container{
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.content-hide-ie {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  z-index: 0;
+
+  -webkit-animation: fadeInOnly 10ms ease-in-out 0s forwards;
+  -moz-animation: fadeInOnly 10ms ease-in-out 0s forwards;
+  animation: fadeInOnly 10ms ease-in-out 0s forwards;
+}
+
+.content-container{
+  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
+  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
+  animation: hideContent 10ms ease-in-out 0s forwards;
+}
+
+.content{
+  background-color: #ffffff;
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  overflow: hidden;
+}
+
+.content-wrapper { 
+  -webkit-animation: hideContent 10ms ease-in-out 0s forwards;
+  -moz-animation: hideContent 10ms ease-in-out 0s forwards;
+  animation: hideContent 10ms ease-in-out 0s forwards; 
+}
+.bg {
+  background: url('./images/300x600_bg.jpg') no-repeat center center;
+  background-size: 100% auto;
+}
+.logo {
+  background: url('./images/300x600_logo.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 145px;
+  height: 118px;
+  top: 16px;
+  left: 20px;
+}
+.cta {
+  background: url('./images/300x600_cta.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 300px;
+  height: 60px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.content-wrapper.animation .bg, .content-wrapper.animation .logo {
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.75s forwards;
+}
+.content-wrapper.animation .cta {
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.5s forwards;
+}
+
+.text1 {
+  background: url('./images/300x600_text1.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 170px;
+  height: 43px;
+  top: 148px;
+  left: 20px;
+}
+.leaf1 {
+  background: url('./images/300x600_leaf1.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 94px;
+  height: 102px;
+  top: 435px;
+  left: 0px;
+}
+.product1-1 {
+  background: url('./images/300x600_product1_1.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 124px;
+  height: 183px;
+  top: 342px;
+  left: 176px;
+}
+.product1-2 {
+  background: url('./images/300x600_product1_2.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 164px;
+  height: 93px;
+  top: 382px;
+  left: 72px;
+}
+.product1-3 {
+  background: url('./images/300x600_product1_3.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 143px;
+  height: 95px;
+  top: 252px;
+  left: 12px;
+}
+.product1-4 {
+  background: url('./images/300x600_product1_4.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 100px;
+  height: 251px;
+  top: 26px;
+  left: 200px;
+}
+
+#frame1.animation .text1 {
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 0.25s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 0.25s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 0.25s forwards;
+}
+#frame1.animation .leaf1 {
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.25s forwards;
+}
+#frame1.animation .product1-1 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 0.5s forwards;
+  animation: fadeInDown 0.75s ease-in-out 0.5s forwards;
+}
+#frame1.animation .product1-2 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+}
+#frame1.animation .product1-3 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
+  animation: fadeInDown 0.75s ease-in-out 1s forwards;
+}
+#frame1.animation .product1-4 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+}
+
+#frame1.animation {
+  -webkit-animation: fadeOutLeft 0.75s ease-in-out 3.5s forwards;
+  -moz-animation: fadeOutLeft 0.75s ease-in-out 3.5s forwards;
+  animation: fadeOutLeft 0.75s ease-in-out 3.5s forwards;
+}
+
+.text2 {
+  background: url('./images/300x600_text2.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 173px;
+  height: 43px;
+  top: 148px;
+  left: 20px;
+}
+.leaf2-1 {
+  background: url('./images/300x600_leaf2_1.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 75px;
+  height: 75px;
+  top: 468px;
+  left: 0px;
+}
+.product2-1 {
+  background: url('./images/300x600_product2_1.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 97px;
+  height: 152px;
+  top: 375px;
+  left: 203px;
+}
+.product2-2 {
+  background: url('./images/300x600_product2_2.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 207px;
+  height: 220px;
+  top: 252px;
+  left: 34px;
+}
+.product2-3 {
+  background: url('./images/300x600_product2_3.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 142px;
+  height: 50px;
+  top: 297px;
+  left: 16px;
+}
+.product2-4 {
+  background: url('./images/300x600_product2_4.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 100px;
+  height: 237px;
+  top: 40px;
+  left: 200px;
+}
+
+#frame2.animation .text2 {
+  -webkit-animation: fadeInLeft 0.75s ease-in-out 0.25s forwards;
+  -moz-animation: fadeInLeft 0.75s ease-in-out 0.25s forwards;
+  animation: fadeInLeft 0.75s ease-in-out 0.25s forwards;
+}
+#frame2.animation .leaf2-1 {
+  -webkit-animation: fadeIn 0.75s ease-in-out 0.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 0.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 0.25s forwards;
+}
+#frame2.animation .product2-1 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 0.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 0.5s forwards;
+  animation: fadeInDown 0.75s ease-in-out 0.5s forwards;
+}
+#frame2.animation .product2-2 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 0.75s forwards;
+}
+#frame2.animation .product2-3 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 1s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 1s forwards;
+  animation: fadeInDown 0.75s ease-in-out 1s forwards;
+}
+#frame2.animation .product2-4 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+  animation: fadeInDown 0.75s ease-in-out 1.25s forwards;
+}
+#frame2.animation .frame2-1 {
+  -webkit-animation: fadeOutLeft 0.75s ease-in-out 3.5s forwards;
+  -moz-animation: fadeOutLeft 0.75s ease-in-out 3.5s forwards;
+  animation: fadeOutLeft 0.75s ease-in-out 3.5s forwards;
+}
+
+.leaf2-2 {
+  background: url('./images/300x600_leaf2_2.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 82px;
+  height: 103px;
+  top: 448px;
+  left: 12px;
+}
+.product3-1 {
+  background: url('./images/300x600_product3_1.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 104px;
+  height: 168px;
+  top: 363px;
+  left: 196px;
+}
+.product3-2 {
+  background: url('./images/300x600_product3_2.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 102px;
+  height: 203px;
+  top: 274px;
+  left: 96px;
+}
+.product3-3 {
+  background: url('./images/300x600_product3_3.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 105px;
+  height: 127px;
+  top: 221px;
+  left: 28px;
+}
+.product3-4 {
+  background: url('./images/300x600_product3_4.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 84px;
+  height: 152px;
+  top: 124px;
+  left: 216px;
+}
+#frame2.animation .leaf2-2 {
+  -webkit-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+  animation: fadeIn 0.75s ease-in-out 3.75s forwards;
+}
+#frame2.animation .product3-1 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 4s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 4s forwards;
+  animation: fadeInDown 0.75s ease-in-out 4s forwards;
+}
+#frame2.animation .product3-2 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 4.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 4.25s forwards;
+  animation: fadeInDown 0.75s ease-in-out 4.25s forwards;
+}
+#frame2.animation .product3-3 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 4.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 4.5s forwards;
+  animation: fadeInDown 0.75s ease-in-out 4.5s forwards;
+}
+#frame2.animation .product3-4 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 4.75s forwards;
+}
+#frame2.animation .frame2-2 {
+  -webkit-animation: fadeOutLeft 0.75s ease-in-out 7s forwards;
+  -moz-animation: fadeOutLeft 0.75s ease-in-out 7s forwards;
+  animation: fadeOutLeft 0.75s ease-in-out 7s forwards;
+}
+.product4-1 {
+  background: url('./images/300x600_product4_1.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 88px;
+  height: 239px;
+  top: 289px;
+  left: 212px;
+}
+.product4-2 {
+  background: url('./images/300x600_product4_2.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 127px;
+  height: 259px;
+  top: 220px;
+  left: 90px;
+}
+.product4-3 {
+  background: url('./images/300x600_product4_3.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 138px;
+  height: 138px;
+  top: 207px;
+  left: 14px;
+}
+.product4-4 {
+  background: url('./images/300x600_product4_4.png') no-repeat center center;
+  background-size: 100% auto;
+  width: 113px;
+  height: 165px;
+  top: 111px;
+  left: 187px;
+}
+#frame2.animation .product4-1 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 7.25s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 7.25s forwards;
+  animation: fadeInDown 0.75s ease-in-out 7.25s forwards;
+}
+#frame2.animation .product4-2 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 7.5s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 7.5s forwards;
+  animation: fadeInDown 0.75s ease-in-out 7.5s forwards;
+}
+#frame2.animation .product4-3 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 7.75s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 7.75s forwards;
+  animation: fadeInDown 0.75s ease-in-out 7.75s forwards;
+}
+#frame2.animation .product4-4 {
+  -webkit-animation: fadeInDown 0.75s ease-in-out 8s forwards;
+  -moz-animation: fadeInDown 0.75s ease-in-out 8s forwards;
+  animation: fadeInDown 0.75s ease-in-out 8s forwards;
+}
+
+#frame2.animation {
+  -webkit-animation: fadeOutLeft 0.75s ease-in-out 10.25s forwards;
+  -moz-animation: fadeOutLeft 0.75s ease-in-out 10.25s forwards;
+  animation: fadeOutLeft 0.75s ease-in-out 10.25s forwards;
+}
