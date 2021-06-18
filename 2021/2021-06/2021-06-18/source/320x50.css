@@ -311,21 +311,13 @@
   top: 8px;
   left: 152px;
 }
-.frame5-text1 {
+.frame5-text {
   background: url('./images/320x50_text5.png') no-repeat center center;
   background-size: 100% auto;
   width: 153px;
   height: 12px;
   top: 8px;
   left: 158px;
-}
-.frame5-text2 {
-  background: url('./images/320x50_text6.png') no-repeat center center;
-  background-size: 100% auto;
-  width: 210px;
-  height: 12px;
-  top: 8px;
-  left: 101px;
 }
 
 .frame.animation .image {
@@ -338,23 +330,8 @@
   -moz-animation: fadeInDown 0.75s ease-in-out 0.5s forwards;
   animation: fadeInDown 0.75s ease-in-out 0.5s forwards;
 }
-#frame5.animation .frame5-text1-container {
-  -webkit-animation: fadeOut 0.75s ease-in-out 2.25s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 2.25s forwards;
-  animation: fadeOut 0.75s ease-in-out 2.25s forwards;
-}
-#frame5.animation .frame5-text2 {
-  -webkit-animation: fadeInDown 0.75s ease-in-out 2.75s forwards;
-  -moz-animation: fadeInDown 0.75s ease-in-out 2.75s forwards;
-  animation: fadeInDown 0.75s ease-in-out 2.75s forwards;
-}
 .frame.animation {
   -webkit-animation: fadeOut 0.75s ease-in-out 3.25s forwards;
   -moz-animation: fadeOut 0.75s ease-in-out 3.25s forwards;
   animation: fadeOut 0.75s ease-in-out 3.25s forwards;
-}
-#frame5.animation {
-  -webkit-animation: fadeOut 0.75s ease-in-out 5.5s forwards;
-  -moz-animation: fadeOut 0.75s ease-in-out 5.5s forwards;
-  animation: fadeOut 0.75s ease-in-out 5.5s forwards;
 }
