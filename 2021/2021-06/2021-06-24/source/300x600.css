@@ -319,12 +319,12 @@
   animation: fadeInUp 0.75s ease-in-out 0.35s forwards;
 }
 .frame.animation {
-  -webkit-animation: fadeOut 0.35s ease-in-out 2.8s forwards;
-  -moz-animation: fadeOut 0.35s ease-in-out 2.8s forwards;
-  animation: fadeOut 0.35s ease-in-out 2.8s forwards;
+  -webkit-animation: fadeOut 0.35s ease-in-out 3.1s forwards;
+  -moz-animation: fadeOut 0.35s ease-in-out 3.1s forwards;
+  animation: fadeOut 0.35s ease-in-out 3.1s forwards;
 }
 #frame1.frame.first-round.animation {
-  -webkit-animation: fadeOut 0.35s ease-in-out 3.15s forwards;
-  -moz-animation: fadeOut 0.35s ease-in-out 3.15s forwards;
-  animation: fadeOut 0.35s ease-in-out 3.15s forwards;
+  -webkit-animation: fadeOut 0.35s ease-in-out 3.4s forwards;
+  -moz-animation: fadeOut 0.35s ease-in-out 3.4s forwards;
+  animation: fadeOut 0.35s ease-in-out 3.4s forwards;
 }
