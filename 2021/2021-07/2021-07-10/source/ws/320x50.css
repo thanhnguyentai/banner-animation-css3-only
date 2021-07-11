@@ -378,3 +378,14 @@
   -moz-animation: fadeIn 0.75s ease-in-out 11.15s forwards;
   animation: fadeIn 0.75s ease-in-out 11.15s forwards;
 }
+.date-range-container {
+  -webkit-animation: fadeOut 0.75s ease-in-out 12.75s forwards;
+  -moz-animation: fadeOut 0.75s ease-in-out 12.75s forwards;
+  animation: fadeOut 0.75s ease-in-out 12.75s forwards;
+}
+.text4 {
+  background: url('./images/320x50_text4.png') no-repeat center center;
+  -webkit-animation: fadeIn 0.75s ease-in-out 13.25s forwards;
+  -moz-animation: fadeIn 0.75s ease-in-out 13.25s forwards;
+  animation: fadeIn 0.75s ease-in-out 13.25s forwards;
+}
