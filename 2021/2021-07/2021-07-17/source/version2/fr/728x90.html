@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>
+			Banner Animation
+		</title>
+		<link rel="stylesheet" type="text/css" href="728x90.css">
+	</head>
+	<body>
+		<div class="banner-container container">
+			<div class="content-container container">
+				<div class="content container">
+					<a id="ads" class="content-wrapper container" href="javascript:openLink()">
+						<div class="bg container">&nbsp;</div>
+						<div id="frame1" class="frame container">
+							<div class="text1 absolute">&nbsp;</div>
+							<div class="text1-blue-container container">
+								<div class="text1-blue absolute">&nbsp;</div>
+							</div>
+						</div>
+						<div id="frame2" class="frame container">
+							<div class="text1 absolute">&nbsp;</div>
+						</div>
+						<div id="frame3" class="frame container">
+							<div class="text1 absolute">&nbsp;</div>
+						</div>
+						<div class="text2 absolute">&nbsp;</div>
+						<div class="logo absolute">&nbsp;</div>
+						<div class="cta absolute">&nbsp;</div>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var link = "http://www.clearing.fidelity.ca/unifide/fr?utm_source=gg&utm_medium=display&utm_campaign=adv-brnd-0718&utm_content=fr-ba-cpm-728x90";
+			function openLink() {
+				window.open(link);
+			}
+
+			var animationEndKeyframeEvents = ["webkitAnimationEnd", "animationend", "MSAnimationEnd"];
+			var animationStartKeyframeEvents = ["webkitAnimationStart", "animationstart", "MSAnimationStart"];
+
+			var delay = 250;
+			var ads = document.getElementById('ads');
+
+			var listFrames = new Array();
+			listFrames.push(document.getElementById('frame1'));
+			listFrames.push(document.getElementById('frame2'));
+			listFrames.push(document.getElementById('frame3'));
+
+			var current = 0;
+			var isFirstRound = true;
+
+			function registerEvent(element, event, callback) {
+				if(element.addEventListener) { // normal browser
+	                element.addEventListener(event, callback);
+	            }
+	            else if(element.attachEvent) { // IE 10
+	                element.attachEvent(event, callback);
+	            }
+			}
+
+			function unregisterEvent(element, event, callback) {
+				if(element.removeEventListener) { // normal browser
+	                element.removeEventListener(event, callback);
+	            }
+	            else if(element.detachEvent) { // IE 10
+	                element.detachEvent(event, callback);
+	            }
+			}
+
+			var callbackEndAnimation = function(event) {
+				if(this == event.target) {
+					for(var i=0;i<animationEndKeyframeEvents.length; i++) {
+			            unregisterEvent(this, animationEndKeyframeEvents[i], callbackEndAnimation);
+			        }
+
+					var className = this.className;
+					if(className.indexOf('animation') >= 0) {
+						var split = className.split(' ');
+						var join = "";
+						for(var i=0;i<split.length; i++) {
+							if(split[i] != "animation" && split[i] != "first-round") {
+								if(i > 0)
+									join += " ";
+								join += split[i];
+							}
+						}
+
+						this.className = join;
+					}
+				}
+			}
+
+			var callbackStartAnimation = function(event) {
+				if(this == event.target) {
+					for(var i=0;i<animationStartKeyframeEvents.length; i++) {
+						unregisterEvent(this, animationStartKeyframeEvents[i], callbackStartAnimation);
+			        }
+
+					if(current < listFrames.length - 1) {
+						current++;
+					} else {
+						current = 0;
+						isFirstRound = false;
+					}
+
+					nextFrame();
+				}
+			}
+
+			function nextFrame() {
+				for(var i=0;i<animationEndKeyframeEvents.length; i++) {
+					registerEvent(listFrames[current], animationEndKeyframeEvents[i], callbackEndAnimation);
+		        }
+		        
+		        for(var i=0;i<animationStartKeyframeEvents.length; i++) {
+		        	registerEvent(listFrames[current], animationStartKeyframeEvents[i], callbackStartAnimation);
+		        }
+				
+				listFrames[current].className += " animation";
+				if(isFirstRound) {
+					listFrames[current].className += " first-round";
+				}
+			}
+
+
+			ads.className += " animation";
+
+			setTimeout(function() {
+				nextFrame();
+			}, delay);
+		</script>
+	</body>
+</html>
